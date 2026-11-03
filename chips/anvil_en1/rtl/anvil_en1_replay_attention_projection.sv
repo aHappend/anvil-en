@@ -328,7 +328,9 @@ module anvil_en1_replay_attention_projection #(
         (own_work ? slot_hold : executor_work_slot);
     assign work_req_bank = rst_n && (own_work ? output_bank_hold : executor_work_bank);
     assign work_req_scalar_index = !rst_n ? 8'd0 :
-        (own_work ? {5'd0, word_index} + 8'd15 : executor_work_scalar_index);
+        (own_work ? (state == PAIR_SEND || state == PAIR_WAIT ||
+            state == PAIR_REGISTER ? 8'd0 : {5'd0, word_index} + 8'd15) :
+            executor_work_scalar_index);
     assign work_req_data = !rst_n ? 32'd0 : (own_work ?
         (state == PAIR_SEND || state == PAIR_WAIT || state == PAIR_REGISTER ?
             pair_hold : checkpoint_word) : executor_work_data);

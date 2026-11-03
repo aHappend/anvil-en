@@ -6930,6 +6930,11 @@ completed row once. It recomputes heads for each H output row rather than
 retaining an 8192-byte global attention vector outside the frame budget.
 It writes ascending completed BF16 output pairs to the opposite frame bank
 through operation-6 target-2 assembly. The raw input bank remains immutable.
+In `PAIR_SEND`, `PAIR_WAIT` and `PAIR_REGISTER`, the projection drives
+`work_req_scalar_index=0` for text vector slice 0, independently of the
+checkpoint word counter. Scalar save/restore retains indices 15..19;
+delegated executor requests retain the executor's scalar index. The pair
+descriptor and payload remain stable while request acceptance is stalled.
 This is the attention branch before post-attention norm and residual, not
 a completed text layer. Recomputation counts as real work and real traffic.
 

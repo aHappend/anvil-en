@@ -4277,6 +4277,12 @@ acknowledged into scalar words 15..19 before yield, supplementing the existing
 sum or a precomputed answer. Actual additional owner/Q projections and weight
 transactions remain genuine work, not avoided traffic.
 
+Text output-pair assembly selects vector slice 0: the projection's
+`PAIR_SEND`/`PAIR_WAIT`/`PAIR_REGISTER` descriptors carry scalar index zero,
+not the checkpoint word index plus 15. Scalar checkpoint save/restore still
+uses words 15..19, and delegated executor descriptors pass through unchanged.
+No workspace validation, request/response timing or storage allocation changes.
+
 The workspace's operation-6 pair assembly/patch additions are guarded by the
 current frame tag. An unfinished assembled bank is unreadable until its final
 acknowledged pair. Inter-pair transaction release permits raw-input reads and

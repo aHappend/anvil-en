@@ -1,6 +1,6 @@
 {
   "gate": "rtl-timing-lint",
-  "timestamp_utc": "2026-11-03T14:46:26.631859+00:00",
+  "timestamp_utc": "2026-11-03T15:31:27.531035+00:00",
   "root": "/data/sufeng/anvil-en1-line/workspace/project",
   "status": "passed",
   "max_comb_div_width": 0,
@@ -62,7 +62,7 @@
     "rtl/anvil_en1_projection.sv": "c3d504d15a42deb8a7dfddebf51db6f55f65a9dc1e8222a095fcd9bd9320dfe0",
     "rtl/anvil_en1_replay_attention.sv": "3548138310f81f96e8cefa733b79954dc2579071f7ef93ab1e20e24544adfda7",
     "rtl/anvil_en1_replay_attention_execute.sv": "61f0ff4ea168a4be25adeb02065b47920a202c2a92fc1f30254d85d4f6d09256",
-    "rtl/anvil_en1_replay_attention_projection.sv": "adc60d2197acd40a3722a187319f96156b3a26284b6a5e61b524301a6299c8b1",
+    "rtl/anvil_en1_replay_attention_projection.sv": "fc6c1d865ff86eba6122d75f3b791cccd3069ca8d70403a2136ea2ed57053bfc",
     "rtl/anvil_en1_replay_audio_attention.sv": "3a980795308b5b84db638fb37414f62d5ef531fa5ec911e85b9bec55ae635ddc",
     "rtl/anvil_en1_replay_audio_feature.sv": "4a54f3527a447e4bcdc69a334bfe1c59f4165be85d8a8bfcca3f41c7fbbc1297",
     "rtl/anvil_en1_replay_audio_heads.sv": "1acf730e78e8a00dd1407854ba2034bec04de8da416276c98c6fbc0651e304de",
