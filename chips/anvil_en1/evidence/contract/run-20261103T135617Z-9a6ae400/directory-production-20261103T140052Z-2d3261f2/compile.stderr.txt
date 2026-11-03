@@ -1,0 +1,42 @@
+%Warning-WIDTHEXPAND: rtl/anvil_en1_tensor_image.sv:31:24: Operator VAR 'LEGAL' expects 32 bits on the Initial value, but Initial value's LOGOR generates 1 bits.
+                                                         : ... note: In instance 'anvil_en1_tensor_image'
+   31 |     localparam integer LEGAL = COMPACT == 0 || COMPACT == 1;
+      |                        ^~~~~
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.020
+                      ... Use "/* verilator lint_off WIDTHEXPAND */" and lint_on around source to disable this message.
+%Warning-WIDTHTRUNC: rtl/anvil_en1_tensor_image.sv:32:18: Logical operator LOGNOT expects 1 bit on the LHS, but LHS's VARREF 'LEGAL' generates 32 bits.
+                                                        : ... note: In instance 'anvil_en1_tensor_image'
+   32 |     generate if (!LEGAL) begin : invalid_parameters
+      |                  ^
+%Warning-WIDTHTRUNC: rtl/anvil_en1_tensor_shape.sv:41:33: Logical operator COND expects 1 bit on the Conditional Test, but Conditional Test's VARREF 'COMPACT' generates 32 bits.
+                                                        : ... note: In instance 'anvil_en1_tensor_image.reader.current_shape'
+   41 |         wire [31:0] h = COMPACT ? 32'd8 : {20'd0, production_hidden};
+      |                                 ^
+%Warning-WIDTHTRUNC: rtl/anvil_en1_tensor_shape.sv:42:33: Logical operator COND expects 1 bit on the Conditional Test, but Conditional Test's VARREF 'COMPACT' generates 32 bits.
+                                                        : ... note: In instance 'anvil_en1_tensor_image.reader.current_shape'
+   42 |         wire [31:0] p = COMPACT ? 32'd4 : 32'd256;
+      |                                 ^
+%Warning-WIDTHTRUNC: rtl/anvil_en1_tensor_shape.sv:43:42: Logical operator COND expects 1 bit on the Conditional Test, but Conditional Test's VARREF 'COMPACT' generates 32 bits.
+                                                        : ... note: In instance 'anvil_en1_tensor_image.reader.current_shape'
+   43 |         wire [31:0] vocabulary = COMPACT ? 32'd32 : 32'd262144;
+      |                                          ^
+%Warning-WIDTHTRUNC: rtl/anvil_en1_tensor_shape.sv:44:33: Logical operator COND expects 1 bit on the Conditional Test, but Conditional Test's VARREF 'COMPACT' generates 32 bits.
+                                                        : ... note: In instance 'anvil_en1_tensor_image.reader.current_shape'
+   44 |         wire [31:0] q = COMPACT ? 32'd2 : 32'd8;
+      |                                 ^
+%Warning-WIDTHTRUNC: rtl/anvil_en1_tensor_shape.sv:45:33: Logical operator LOGOR expects 1 bit on the LHS, but LHS's VARREF 'COMPACT' generates 32 bits.
+                                                        : ... note: In instance 'anvil_en1_tensor_image.reader.current_shape'
+   45 |         wire [31:0] k = COMPACT || model == 1 ? 32'd1 : 32'd2;
+      |                                 ^~
+%Warning-WIDTHTRUNC: rtl/anvil_en1_tensor_shape.sv:46:33: Logical operator COND expects 1 bit on the Conditional Test, but Conditional Test's VARREF 'COMPACT' generates 32 bits.
+                                                        : ... note: In instance 'anvil_en1_tensor_image.reader.current_shape'
+   46 |         wire [31:0] d = COMPACT ? (is_global ? 32'd8 : 32'd4) :
+      |                                 ^
+%Warning-WIDTHTRUNC: rtl/anvil_en1_tensor_shape.sv:48:44: Logical operator COND expects 1 bit on the Conditional Test, but Conditional Test's VARREF 'COMPACT' generates 32 bits.
+                                                        : ... note: In instance 'anvil_en1_tensor_image.reader.current_shape'
+   48 |         wire [31:0] intermediate = COMPACT ?
+      |                                            ^
+%Warning-WIDTHEXPAND: rtl/anvil_en1_tensor_image.sv:145:63: Operator ADD expects 64 bits on the LHS, but LHS's VARREF 'CONTROLLER_BITS' generates 32 bits.
+                                                          : ... note: In instance 'anvil_en1_tensor_image'
+  145 |         assign controller_bytes = rst_n ? 64'((CONTROLLER_BITS+7) >> 3) : 64'd0;
+      |                                                               ^

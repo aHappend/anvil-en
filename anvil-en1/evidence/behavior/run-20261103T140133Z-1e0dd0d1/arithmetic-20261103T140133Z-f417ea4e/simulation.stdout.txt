@@ -1,0 +1,2 @@
+SUMMARY arithmetic comparisons=134848 stalled=136736 cycles=725505
+- tests/arithmetic_tb.sv:135: Verilog $finish

@@ -1,0 +1,54 @@
+%Warning-WIDTHEXPAND: rtl/anvil_en1_fp32_divsqrt.sv:43:59: Operator ADD expects 64 bits on the LHS, but LHS's VARREF 'CONTROLLER_BITS' generates 32 bits.
+                                                         : ... note: In instance 'norm_tb.norm.root_divider'
+   43 |     assign controller_bytes = rst_n ? 64'((CONTROLLER_BITS+7) >> 3) : 64'd0;
+      |                                                           ^
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.020
+                      ... Use "/* verilator lint_off WIDTHEXPAND */" and lint_on around source to disable this message.
+%Warning-WIDTHEXPAND: rtl/anvil_en1_fp32.sv:37:59: Operator ADD expects 64 bits on the LHS, but LHS's VARREF 'CONTROLLER_BITS' generates 32 bits.
+                                                 : ... note: In instance 'norm_tb.norm.internal_arithmetic.fp_unit'
+   37 |     assign controller_bytes = rst_n ? 64'((CONTROLLER_BITS+7) >> 3) : 64'd0;
+      |                                                           ^
+%Warning-WIDTHEXPAND: rtl/anvil_en1_uint_to_fp32.sv:20:59: Operator ADD expects 64 bits on the LHS, but LHS's VARREF 'CONTROLLER_BITS' generates 32 bits.
+                                                         : ... note: In instance 'norm_tb.norm.length_converter'
+   20 |     assign controller_bytes = rst_n ? 64'((CONTROLLER_BITS+7) >> 3) : 64'd0;
+      |                                                           ^
+%Warning-WIDTHEXPAND: rtl/anvil_en1_norm.sv:73:29: Operator ADD expects 64 bits on the LHS, but LHS's VARREF 'CONTROLLER_BITS' generates 32 bits.
+                                                 : ... note: In instance 'norm_tb.norm'
+   73 |         64'((CONTROLLER_BITS+7) >> 3) + convert_controller_bytes +
+      |                             ^
+%Warning-WIDTHEXPAND: tests/norm_tb.sv:56:60: Operator NEQCASE expects 220 bits on the LHS, but LHS's REPLICATE generates 188 bits.
+                                            : ... note: In instance 'norm_tb'
+   56 |                  done_valid, done_error, controller_bytes} !== 220'd0)
+      |                                                            ^~~
+%Warning-WIDTHTRUNC: tests/norm_tb.sv:96:49: Logical operator LOGNOT expects 1 bit on the LHS, but LHS's VARREF 'learned' generates 32 bits.
+                                           : ... note: In instance 'norm_tb'
+   96 |                 if (!active || scale_pending || !learned || scale_index >= length ||
+      |                                                 ^
+%Warning-WIDTHTRUNC: tests/norm_tb.sv:141:13: Logical operator LOGNOT expects 1 bit on the LHS, but LHS's VARREF 'fd' generates 32 bits.
+                                            : ... note: In instance 'norm_tb'
+  141 |         if (!fd)
+      |             ^
+%Warning-WIDTHTRUNC: tests/norm_tb.sv:161:24: Operator ASSIGN expects 1 bits on the Assign RHS, but Assign RHS's VARREF 'ln' generates 32 bits.
+                                            : ... note: In instance 'norm_tb'
+  161 |             layer_norm = ln;
+      |                        ^
+%Warning-WIDTHTRUNC: tests/norm_tb.sv:162:27: Operator ASSIGN expects 1 bits on the Assign RHS, but Assign RHS's VARREF 'learned' generates 32 bits.
+                                            : ... note: In instance 'norm_tb'
+  162 |             learned_scale = learned;
+      |                           ^
+%Warning-WIDTHTRUNC: tests/norm_tb.sv:171:26: Logical operator LOGNOT expects 1 bit on the LHS, but LHS's VARREF 'ln' generates 32 bits.
+                                            : ... note: In instance 'norm_tb'
+  171 |             layer_norm = !ln;
+      |                          ^
+%Warning-WIDTHTRUNC: tests/norm_tb.sv:172:29: Logical operator LOGNOT expects 1 bit on the LHS, but LHS's VARREF 'learned' generates 32 bits.
+                                            : ... note: In instance 'norm_tb'
+  172 |             learned_scale = !learned;
+      |                             ^
+%Warning-WIDTHTRUNC: tests/norm_tb.sv:180:40: Logical operator COND expects 1 bit on the Conditional Test, but Conditional Test's VARREF 'ln' generates 32 bits.
+                                            : ... note: In instance 'norm_tb'
+  180 |                 source_commands != (ln ? 3 : 2)*length ||
+      |                                        ^
+%Warning-WIDTHTRUNC: tests/norm_tb.sv:182:44: Logical operator COND expects 1 bit on the Conditional Test, but Conditional Test's VARREF 'learned' generates 32 bits.
+                                            : ... note: In instance 'norm_tb'
+  182 |                 scale_commands != (learned ? length : 0) || scale_commands != scale_returns)
+      |                                            ^

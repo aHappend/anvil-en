@@ -1,0 +1,38 @@
+%Warning-WIDTHEXPAND: rtl/anvil_en1_fp32_divsqrt.sv:43:59: Operator ADD expects 64 bits on the LHS, but LHS's VARREF 'CONTROLLER_BITS' generates 32 bits.
+                                                         : ... note: In instance 'anvil_en1_rotary_pair.trig_unit.coefficient_divider'
+   43 |     assign controller_bytes = rst_n ? 64'((CONTROLLER_BITS+7) >> 3) : 64'd0;
+      |                                                           ^
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.020
+                      ... Use "/* verilator lint_off WIDTHEXPAND */" and lint_on around source to disable this message.
+%Warning-WIDTHEXPAND: rtl/anvil_en1_fp32.sv:37:59: Operator ADD expects 64 bits on the LHS, but LHS's VARREF 'CONTROLLER_BITS' generates 32 bits.
+                                                 : ... note: In instance 'anvil_en1_rotary_pair.internal_arithmetic.fp_unit'
+   37 |     assign controller_bytes = rst_n ? 64'((CONTROLLER_BITS+7) >> 3) : 64'd0;
+      |                                                           ^
+%Warning-WIDTHEXPAND: rtl/anvil_en1_uint_to_fp32.sv:20:59: Operator ADD expects 64 bits on the LHS, but LHS's VARREF 'CONTROLLER_BITS' generates 32 bits.
+                                                         : ... note: In instance 'anvil_en1_rotary_pair.trig_unit.factorial_converter'
+   20 |     assign controller_bytes = rst_n ? 64'((CONTROLLER_BITS+7) >> 3) : 64'd0;
+      |                                                           ^
+%Warning-WIDTHEXPAND: rtl/anvil_en1_sincos.sv:93:29: Operator ADD expects 64 bits on the LHS, but LHS's VARREF 'CONTROLLER_BITS' generates 32 bits.
+                                                   : ... note: In instance 'anvil_en1_rotary_pair.trig_unit'
+   93 |         64'((CONTROLLER_BITS+7) >> 3) + fp_controller_bytes +
+      |                             ^
+%Warning-WIDTHEXPAND: rtl/anvil_en1_sincos.sv:317:42: Operator SUB expects 4 bits on the RHS, but RHS's CONST '2'h2' generates 2 bits.
+                                                    : ... note: In instance 'anvil_en1_rotary_pair.trig_unit'
+  317 |                         degree <= degree - 2'd2;
+      |                                          ^
+%Warning-WIDTHEXPAND: rtl/anvil_en1_sincos.sv:348:42: Operator SUB expects 4 bits on the RHS, but RHS's CONST '2'h2' generates 2 bits.
+                                                    : ... note: In instance 'anvil_en1_rotary_pair.trig_unit'
+  348 |                         degree <= degree - 2'd2;
+      |                                          ^
+%Warning-WIDTHEXPAND: rtl/anvil_en1_rope_frequency.sv:39:29: Operator ADD expects 64 bits on the LHS, but LHS's VARREF 'CONTROLLER_BITS' generates 32 bits.
+                                                           : ... note: In instance 'anvil_en1_rotary_pair.frequency_unit'
+   39 |         64'((CONTROLLER_BITS+7) >> 3) + div_controller_bytes + fp_controller_bytes;
+      |                             ^
+%Warning-WIDTHEXPAND: rtl/anvil_en1_rope_frequency.sv:111:30: Operator ASSIGNDLY expects 9 bits on the Assign RHS, but Assign RHS's SEL generates 8 bits.
+                                                            : ... note: In instance 'anvil_en1_rotary_pair.frequency_unit'
+  111 |                     bit_hold <= dimension[9:2];
+      |                              ^~
+%Warning-WIDTHEXPAND: rtl/anvil_en1_rotary_pair.sv:55:29: Operator ADD expects 64 bits on the LHS, but LHS's VARREF 'CONTROLLER_BITS' generates 32 bits.
+                                                        : ... note: In instance 'anvil_en1_rotary_pair'
+   55 |         64'((CONTROLLER_BITS+7) >> 3) + frequency_controller_bytes +
+      |                             ^

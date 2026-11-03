@@ -1,0 +1,10 @@
+%Warning-WIDTHEXPAND: rtl/anvil_en1_csr_perf.sv:48:59: Operator ADD expects 64 bits on the LHS, but LHS's VARREF 'CONTROLLER_BITS' generates 32 bits.
+                                                     : ... note: In instance 'anvil_en1_csr_perf'
+   48 |     assign controller_bytes = rst_n ? 64'((CONTROLLER_BITS+7) >> 3) : 64'd0;
+      |                                                           ^
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.020
+                      ... Use "/* verilator lint_off WIDTHEXPAND */" and lint_on around source to disable this message.
+%Warning-WIDTHEXPAND: rtl/anvil_en1_csr_perf.sv:61:44: Operator LT expects 32 bits on the LHS, but LHS's VARREF 'metric_wide' generates 9 bits.
+                                                     : ... note: In instance 'anvil_en1_csr_perf'
+   61 |         addr_hold[1:0] == 0 && metric_wide < METRICS;
+      |                                            ^

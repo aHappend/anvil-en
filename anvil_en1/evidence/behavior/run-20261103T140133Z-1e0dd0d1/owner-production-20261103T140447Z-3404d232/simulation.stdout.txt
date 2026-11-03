@@ -1,0 +1,16 @@
+PROGRESS owner_tile comparisons=2 cycles=49944110
+PROGRESS owner_tile comparisons=3 cycles=99652848
+PROGRESS owner_tile comparisons=4 cycles=149331645
+PROGRESS owner_tile comparisons=5 cycles=182204097
+PROGRESS owner_tile comparisons=6 cycles=215057000
+PROGRESS owner_tile comparisons=7 cycles=280544265
+PROGRESS owner_tile comparisons=8 cycles=346007328
+PROGRESS owner_tile comparisons=9 cycles=387578013
+PROGRESS owner_tile comparisons=10 cycles=429123631
+PROGRESS owner_tile comparisons=11 cycles=511873845
+PROGRESS owner_tile comparisons=12 cycles=594588519
+PROGRESS owner_tile comparisons=13 cycles=649324616
+PROGRESS owner_tile comparisons=14 cycles=704035188
+PROGRESS owner_tile comparisons=15 cycles=813104192
+PROGRESS owner_tile comparisons=16 cycles=922143649
+SUMMARY owner_tile comparisons=16 rejected=0 projections=6144 reads=19072672 responses=19072672 reset_checks=80 cycles=922143649

@@ -1,0 +1,22 @@
+%Warning-WIDTHEXPAND: rtl/anvil_en1_fp32_divsqrt.sv:43:59: Operator ADD expects 64 bits on the LHS, but LHS's VARREF 'CONTROLLER_BITS' generates 32 bits.
+                                                         : ... note: In instance 'arithmetic_tb.division'
+   43 |     assign controller_bytes = rst_n ? 64'((CONTROLLER_BITS+7) >> 3) : 64'd0;
+      |                                                           ^
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.020
+                      ... Use "/* verilator lint_off WIDTHEXPAND */" and lint_on around source to disable this message.
+%Warning-WIDTHEXPAND: rtl/anvil_en1_fp32.sv:37:59: Operator ADD expects 64 bits on the LHS, but LHS's VARREF 'CONTROLLER_BITS' generates 32 bits.
+                                                 : ... note: In instance 'arithmetic_tb.basic'
+   37 |     assign controller_bytes = rst_n ? 64'((CONTROLLER_BITS+7) >> 3) : 64'd0;
+      |                                                           ^
+%Warning-WIDTHTRUNC: tests/arithmetic_tb.sv:67:13: Logical operator LOGNOT expects 1 bit on the LHS, but LHS's VARREF 'fd' generates 32 bits.
+                                                 : ... note: In instance 'arithmetic_tb'
+   67 |         if (!fd)
+      |             ^
+%Warning-WIDTHTRUNC: tests/arithmetic_tb.sv:75:20: Operator ASSIGN expects 1 bits on the Assign RHS, but Assign RHS's VARREF 'unit_id' generates 32 bits.
+                                                 : ... note: In instance 'arithmetic_tb'
+   75 |             engine = unit_id;
+      |                    ^
+%Warning-WIDTHTRUNC: tests/arithmetic_tb.sv:76:23: Operator ASSIGN expects 3 bits on the Assign RHS, but Assign RHS's VARREF 'op_id' generates 32 bits.
+                                                 : ... note: In instance 'arithmetic_tb'
+   76 |             operation = op_id;
+      |                       ^

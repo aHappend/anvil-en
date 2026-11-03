@@ -1,0 +1,6723 @@
+// Verilated -*- C++ -*-
+// DESCRIPTION: Verilator output: Design implementation internals
+// See Vanvil_en1_top.h for the primary calling header
+
+#include "Vanvil_en1_top__pch.h"
+#include "Vanvil_en1_top___024root.h"
+
+VL_INLINE_OPT void Vanvil_en1_top___024root___nba_sequent__TOP__64(Vanvil_en1_top___024root* vlSelf) {
+    if (false && vlSelf) {}  // Prevent unused
+    Vanvil_en1_top__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vanvil_en1_top___024root___nba_sequent__TOP__64\n"); );
+    // Init
+    CData/*0:0*/ anvil_en1_top__DOT____Vcellinp__performance__event_valid;
+    anvil_en1_top__DOT____Vcellinp__performance__event_valid = 0;
+    IData/*23:0*/ anvil_en1_top__DOT__allocations__DOT__stages__BRA__0__KET____DOT__metrics__BRA__1__KET____DOT__nodes__BRA__11__KET____DOT__registered_node__DOT__left_node;
+    anvil_en1_top__DOT__allocations__DOT__stages__BRA__0__KET____DOT__metrics__BRA__1__KET____DOT__nodes__BRA__11__KET____DOT__registered_node__DOT__left_node = 0;
+    IData/*23:0*/ anvil_en1_top__DOT__allocations__DOT__stages__BRA__0__KET____DOT__metrics__BRA__3__KET____DOT__nodes__BRA__13__KET____DOT__registered_node__DOT__left_node;
+    anvil_en1_top__DOT__allocations__DOT__stages__BRA__0__KET____DOT__metrics__BRA__3__KET____DOT__nodes__BRA__13__KET____DOT__registered_node__DOT__left_node = 0;
+    CData/*0:0*/ anvil_en1_top__DOT__native__DOT__core_idle;
+    anvil_en1_top__DOT__native__DOT__core_idle = 0;
+    CData/*0:0*/ anvil_en1_top__DOT__native__DOT____Vcellinp__frontier__image_invalidate;
+    anvil_en1_top__DOT__native__DOT____Vcellinp__frontier__image_invalidate = 0;
+    QData/*63:0*/ anvil_en1_top__DOT__native__DOT__binding__DOT__replay_controller_bytes;
+    anvil_en1_top__DOT__native__DOT__binding__DOT__replay_controller_bytes = 0;
+    QData/*63:0*/ anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature_nested_controller_bytes;
+    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature_nested_controller_bytes = 0;
+    CData/*0:0*/ anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature_work_valid;
+    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature_work_valid = 0;
+    QData/*63:0*/ anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT____VdfgTmp_h66b0d7b1__0;
+    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT____VdfgTmp_h66b0d7b1__0 = 0;
+    CData/*0:0*/ anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT____Vcellinp__post_attention__result_valid;
+    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT____Vcellinp__post_attention__result_valid = 0;
+    CData/*0:0*/ anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT____Vcellinp__post_attention__cmd_ready;
+    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT____Vcellinp__post_attention__cmd_ready = 0;
+    CData/*0:0*/ anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT____Vcellinp__attention__result_valid;
+    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT____Vcellinp__attention__result_valid = 0;
+    CData/*0:0*/ anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT____Vcellinp__attention__cmd_ready;
+    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT____Vcellinp__attention__cmd_ready = 0;
+    CData/*0:0*/ anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT____Vcellinp__pre_attention__result_valid;
+    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT____Vcellinp__pre_attention__result_valid = 0;
+    CData/*0:0*/ anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT____Vcellinp__pre_attention__cmd_ready;
+    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT____Vcellinp__pre_attention__cmd_ready = 0;
+    CData/*0:0*/ anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT____Vcellinp__executor__result_valid;
+    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT____Vcellinp__executor__result_valid = 0;
+    CData/*0:0*/ anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT____Vcellinp__executor__cmd_ready;
+    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT____Vcellinp__executor__cmd_ready = 0;
+    CData/*0:0*/ anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT____Vcellinp__mlp__result_valid;
+    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT____Vcellinp__mlp__result_valid = 0;
+    CData/*0:0*/ anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT____Vcellinp__mlp__cmd_ready;
+    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT____Vcellinp__mlp__cmd_ready = 0;
+    CData/*0:0*/ anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT____Vcellinp__gated_input__result_valid;
+    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT____Vcellinp__gated_input__result_valid = 0;
+    CData/*0:0*/ anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT____Vcellinp__gated_input__cmd_ready;
+    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT____Vcellinp__gated_input__cmd_ready = 0;
+    QData/*63:0*/ anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__pool_control;
+    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__pool_control = 0;
+    QData/*63:0*/ anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__projection_control;
+    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__projection_control = 0;
+    CData/*0:0*/ anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__matrix_type;
+    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__matrix_type = 0;
+    CData/*0:0*/ anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__clipped;
+    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__clipped = 0;
+    CData/*0:0*/ anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__clip_scalar;
+    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__clip_scalar = 0;
+    CData/*7:0*/ anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__rank_hold;
+    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__rank_hold = 0;
+    IData/*31:0*/ anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d0;
+    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d0 = 0;
+    IData/*31:0*/ anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d1;
+    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d1 = 0;
+    IData/*31:0*/ anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d2;
+    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d2 = 0;
+    IData/*31:0*/ anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d3;
+    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d3 = 0;
+    SData/*15:0*/ anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__base_kind;
+    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__base_kind = 0;
+    CData/*0:0*/ anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__matrix_type;
+    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__matrix_type = 0;
+    CData/*0:0*/ anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__clipped;
+    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__clipped = 0;
+    CData/*0:0*/ anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__clip_scalar;
+    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__clip_scalar = 0;
+    SData/*15:0*/ anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__base_kind;
+    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__base_kind = 0;
+    QData/*63:0*/ anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__projection__DOT__primitive_norm_bytes;
+    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__projection__DOT__primitive_norm_bytes = 0;
+    CData/*0:0*/ anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__4__KET____DOT__traffic_class;
+    anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__4__KET____DOT__traffic_class = 0;
+    CData/*0:0*/ anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__5__KET____DOT__traffic_class;
+    anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__5__KET____DOT__traffic_class = 0;
+    CData/*0:0*/ anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__25__KET____DOT__traffic_class;
+    anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__25__KET____DOT__traffic_class = 0;
+    CData/*0:0*/ anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__26__KET____DOT__traffic_class;
+    anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__26__KET____DOT__traffic_class = 0;
+    CData/*0:0*/ __VdfgTmp_h349ecc70__0;
+    __VdfgTmp_h349ecc70__0 = 0;
+    CData/*0:0*/ __VdfgTmp_h56b2389c__0;
+    __VdfgTmp_h56b2389c__0 = 0;
+    CData/*0:0*/ __VdfgTmp_h63afe554__0;
+    __VdfgTmp_h63afe554__0 = 0;
+    CData/*0:0*/ __VdfgTmp_haf6908d9__0;
+    __VdfgTmp_haf6908d9__0 = 0;
+    CData/*0:0*/ __VdfgTmp_hcbfbada7__0;
+    __VdfgTmp_hcbfbada7__0 = 0;
+    QData/*63:0*/ __VdfgTmp_h2f934d06__0;
+    __VdfgTmp_h2f934d06__0 = 0;
+    QData/*63:0*/ __VdfgTmp_h90466ea5__0;
+    __VdfgTmp_h90466ea5__0 = 0;
+    QData/*63:0*/ __VdfgTmp_hdc868057__0;
+    __VdfgTmp_hdc868057__0 = 0;
+    QData/*63:0*/ __VdfgTmp_hfb573698__0;
+    __VdfgTmp_hfb573698__0 = 0;
+    QData/*63:0*/ __VdfgTmp_hb66f361b__0;
+    __VdfgTmp_hb66f361b__0 = 0;
+    QData/*63:0*/ __VdfgTmp_hc18ad684__0;
+    __VdfgTmp_hc18ad684__0 = 0;
+    QData/*63:0*/ __VdfgTmp_hcb11453e__0;
+    __VdfgTmp_hcb11453e__0 = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__388__Vfuncout;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__388__Vfuncout = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__388__left;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__388__left = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__388__right;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__388__right = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__388__sum;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__388__sum = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__394__Vfuncout;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__394__Vfuncout = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__394__left;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__394__left = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__394__sum;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__394__sum = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__397__Vfuncout;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__397__Vfuncout = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__397__left;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__397__left = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__397__right;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__397__right = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__397__sum;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__397__sum = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__406__Vfuncout;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__406__Vfuncout = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__406__left;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__406__left = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__406__sum;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__406__sum = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__408__Vfuncout;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__408__Vfuncout = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__408__left;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__408__left = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__408__right;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__408__right = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__408__sum;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__408__sum = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__410__Vfuncout;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__410__Vfuncout = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__413__Vfuncout;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__413__Vfuncout = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__413__left;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__413__left = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__413__right;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__413__right = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__413__sum;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__413__sum = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__418__Vfuncout;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__418__Vfuncout = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__418__left;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__418__left = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__418__right;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__418__right = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__418__sum;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__418__sum = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__422__Vfuncout;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__422__Vfuncout = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__422__right;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__422__right = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__422__sum;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__422__sum = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__427__Vfuncout;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__427__Vfuncout = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__427__left;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__427__left = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__427__right;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__427__right = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__427__sum;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__427__sum = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__428__Vfuncout;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__428__Vfuncout = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__428__left;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__428__left = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__428__right;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__428__right = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__428__sum;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__428__sum = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__429__Vfuncout;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__429__Vfuncout = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__429__left;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__429__left = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__429__right;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__429__right = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__429__sum;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__429__sum = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__430__Vfuncout;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__430__Vfuncout = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__430__left;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__430__left = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__430__right;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__430__right = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__430__sum;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__430__sum = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__431__Vfuncout;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__431__Vfuncout = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__431__left;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__431__left = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__431__right;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__431__right = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__431__sum;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__431__sum = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__432__Vfuncout;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__432__Vfuncout = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__432__left;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__432__left = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__432__right;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__432__right = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__432__sum;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__432__sum = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__558__Vfuncout;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__558__Vfuncout = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__558__left;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__558__left = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__558__right;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__558__right = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__558__sum;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__558__sum = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__563__Vfuncout;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__563__Vfuncout = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__563__left;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__563__left = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__563__right;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__563__right = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__563__sum;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__563__sum = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__572__Vfuncout;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__572__Vfuncout = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__572__left;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__572__left = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__572__sum;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__572__sum = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__574__Vfuncout;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__574__Vfuncout = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__574__left;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__574__left = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__574__right;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__574__right = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__574__sum;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__574__sum = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__576__Vfuncout;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__576__Vfuncout = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__576__left;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__576__left = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__576__right;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__576__right = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__576__sum;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__576__sum = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__579__Vfuncout;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__579__Vfuncout = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__579__left;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__579__left = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__579__right;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__579__right = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__579__sum;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__579__sum = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__584__Vfuncout;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__584__Vfuncout = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__584__left;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__584__left = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__584__right;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__584__right = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__584__sum;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__584__sum = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__588__Vfuncout;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__588__Vfuncout = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__588__right;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__588__right = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__588__sum;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__588__sum = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__593__Vfuncout;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__593__Vfuncout = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__593__left;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__593__left = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__593__right;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__593__right = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__593__sum;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__593__sum = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__594__Vfuncout;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__594__Vfuncout = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__594__left;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__594__left = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__594__right;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__594__right = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__594__sum;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__594__sum = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__595__Vfuncout;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__595__Vfuncout = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__595__left;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__595__left = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__595__right;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__595__right = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__595__sum;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__595__sum = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__596__Vfuncout;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__596__Vfuncout = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__596__left;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__596__left = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__596__right;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__596__right = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__596__sum;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__596__sum = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__597__Vfuncout;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__597__Vfuncout = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__597__left;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__597__left = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__597__right;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__597__right = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__597__sum;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__597__sum = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__598__Vfuncout;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__598__Vfuncout = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__598__left;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__598__left = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__598__right;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__598__right = 0;
+    IData/*23:0*/ __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__598__sum;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__598__sum = 0;
+    QData/*63:0*/ __Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__tensor_stride__2698__Vfuncout;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__tensor_stride__2698__Vfuncout = 0;
+    CData/*7:0*/ __Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__tensor_stride__2698__tensor_type;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__tensor_stride__2698__tensor_type = 0;
+    IData/*31:0*/ __Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__tensor_stride__2698__columns;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__tensor_stride__2698__columns = 0;
+    QData/*63:0*/ __Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__tensor_stride__2698__columns_wide;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__tensor_stride__2698__columns_wide = 0;
+    QData/*63:0*/ __Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__tensor_stride__2698__q4_blocks;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__tensor_stride__2698__q4_blocks = 0;
+    QData/*63:0*/ __Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__tensor_stride__2698__q4_bytes;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__tensor_stride__2698__q4_bytes = 0;
+    QData/*63:0*/ __Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__tensor_stride__2699__Vfuncout;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__tensor_stride__2699__Vfuncout = 0;
+    CData/*7:0*/ __Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__tensor_stride__2699__tensor_type;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__tensor_stride__2699__tensor_type = 0;
+    IData/*31:0*/ __Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__tensor_stride__2699__columns;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__tensor_stride__2699__columns = 0;
+    QData/*63:0*/ __Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__tensor_stride__2699__columns_wide;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__tensor_stride__2699__columns_wide = 0;
+    QData/*63:0*/ __Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__tensor_stride__2699__q4_blocks;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__tensor_stride__2699__q4_blocks = 0;
+    QData/*63:0*/ __Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__tensor_stride__2699__q4_bytes;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__tensor_stride__2699__q4_bytes = 0;
+    VlWide<3>/*95:0*/ __Vtemp_2;
+    VlWide<3>/*95:0*/ __Vtemp_3;
+    VlWide<3>/*95:0*/ __Vtemp_4;
+    VlWide<3>/*95:0*/ __Vtemp_8;
+    VlWide<3>/*95:0*/ __Vtemp_9;
+    VlWide<3>/*95:0*/ __Vtemp_10;
+    VlWide<3>/*95:0*/ __Vtemp_11;
+    VlWide<3>/*95:0*/ __Vtemp_12;
+    VlWide<3>/*95:0*/ __Vtemp_14;
+    VlWide<3>/*95:0*/ __Vtemp_15;
+    VlWide<3>/*95:0*/ __Vtemp_16;
+    VlWide<3>/*95:0*/ __Vtemp_17;
+    VlWide<3>/*95:0*/ __Vtemp_18;
+    VlWide<3>/*95:0*/ __Vtemp_26;
+    VlWide<3>/*95:0*/ __Vtemp_27;
+    VlWide<3>/*95:0*/ __Vtemp_28;
+    VlWide<3>/*95:0*/ __Vtemp_30;
+    VlWide<3>/*95:0*/ __Vtemp_31;
+    VlWide<3>/*95:0*/ __Vtemp_32;
+    VlWide<3>/*95:0*/ __Vtemp_34;
+    VlWide<3>/*95:0*/ __Vtemp_35;
+    VlWide<3>/*95:0*/ __Vtemp_36;
+    VlWide<3>/*95:0*/ __Vtemp_38;
+    VlWide<3>/*95:0*/ __Vtemp_39;
+    VlWide<3>/*95:0*/ __Vtemp_40;
+    VlWide<3>/*95:0*/ __Vtemp_42;
+    VlWide<3>/*95:0*/ __Vtemp_43;
+    VlWide<3>/*95:0*/ __Vtemp_44;
+    VlWide<3>/*95:0*/ __Vtemp_46;
+    VlWide<3>/*95:0*/ __Vtemp_47;
+    VlWide<3>/*95:0*/ __Vtemp_48;
+    VlWide<3>/*95:0*/ __Vtemp_50;
+    VlWide<3>/*95:0*/ __Vtemp_51;
+    VlWide<3>/*95:0*/ __Vtemp_52;
+    VlWide<3>/*95:0*/ __Vtemp_54;
+    VlWide<3>/*95:0*/ __Vtemp_55;
+    VlWide<3>/*95:0*/ __Vtemp_56;
+    VlWide<3>/*95:0*/ __Vtemp_58;
+    VlWide<3>/*95:0*/ __Vtemp_59;
+    VlWide<3>/*95:0*/ __Vtemp_60;
+    VlWide<3>/*95:0*/ __Vtemp_61;
+    VlWide<3>/*95:0*/ __Vtemp_62;
+    VlWide<3>/*95:0*/ __Vtemp_65;
+    VlWide<3>/*95:0*/ __Vtemp_66;
+    VlWide<3>/*95:0*/ __Vtemp_67;
+    VlWide<3>/*95:0*/ __Vtemp_68;
+    VlWide<3>/*95:0*/ __Vtemp_69;
+    VlWide<3>/*95:0*/ __Vtemp_72;
+    VlWide<3>/*95:0*/ __Vtemp_73;
+    VlWide<3>/*95:0*/ __Vtemp_74;
+    VlWide<3>/*95:0*/ __Vtemp_75;
+    VlWide<3>/*95:0*/ __Vtemp_76;
+    VlWide<3>/*95:0*/ __Vtemp_79;
+    VlWide<3>/*95:0*/ __Vtemp_80;
+    VlWide<3>/*95:0*/ __Vtemp_81;
+    VlWide<3>/*95:0*/ __Vtemp_96;
+    VlWide<3>/*95:0*/ __Vtemp_97;
+    VlWide<3>/*95:0*/ __Vtemp_98;
+    VlWide<3>/*95:0*/ __Vtemp_103;
+    VlWide<3>/*95:0*/ __Vtemp_104;
+    VlWide<3>/*95:0*/ __Vtemp_105;
+    VlWide<3>/*95:0*/ __Vtemp_107;
+    VlWide<3>/*95:0*/ __Vtemp_108;
+    VlWide<3>/*95:0*/ __Vtemp_109;
+    VlWide<3>/*95:0*/ __Vtemp_111;
+    VlWide<3>/*95:0*/ __Vtemp_112;
+    VlWide<3>/*95:0*/ __Vtemp_113;
+    VlWide<3>/*95:0*/ __Vtemp_115;
+    VlWide<3>/*95:0*/ __Vtemp_116;
+    VlWide<3>/*95:0*/ __Vtemp_117;
+    VlWide<3>/*95:0*/ __Vtemp_119;
+    VlWide<3>/*95:0*/ __Vtemp_120;
+    VlWide<3>/*95:0*/ __Vtemp_121;
+    VlWide<3>/*95:0*/ __Vtemp_123;
+    VlWide<3>/*95:0*/ __Vtemp_124;
+    VlWide<3>/*95:0*/ __Vtemp_125;
+    VlWide<3>/*95:0*/ __Vtemp_127;
+    VlWide<3>/*95:0*/ __Vtemp_128;
+    VlWide<3>/*95:0*/ __Vtemp_129;
+    VlWide<3>/*95:0*/ __Vtemp_131;
+    VlWide<3>/*95:0*/ __Vtemp_132;
+    VlWide<3>/*95:0*/ __Vtemp_133;
+    VlWide<3>/*95:0*/ __Vtemp_135;
+    VlWide<3>/*95:0*/ __Vtemp_136;
+    VlWide<3>/*95:0*/ __Vtemp_137;
+    VlWide<3>/*95:0*/ __Vtemp_139;
+    VlWide<3>/*95:0*/ __Vtemp_140;
+    VlWide<3>/*95:0*/ __Vtemp_141;
+    VlWide<3>/*95:0*/ __Vtemp_143;
+    VlWide<3>/*95:0*/ __Vtemp_144;
+    VlWide<3>/*95:0*/ __Vtemp_145;
+    // Body
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__return_state 
+        = vlSelf->__Vdly__anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__return_state;
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__certified 
+        = vlSelf->__Vdly__anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__certified;
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry_index 
+        = vlSelf->__Vdly__anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry_index;
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__prior_index 
+        = vlSelf->__Vdly__anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__prior_index;
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__word_index 
+        = vlSelf->__Vdly__anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__word_index;
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__kind_hold 
+        = vlSelf->__Vdly__anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__kind_hold;
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__model_hold 
+        = vlSelf->__Vdly__anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__model_hold;
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__audio_hold 
+        = vlSelf->__Vdly__anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__audio_hold;
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__error_hold 
+        = vlSelf->__Vdly__anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__error_hold;
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__frames_hold 
+        = vlSelf->__Vdly__anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__frames_hold;
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__address_hold 
+        = vlSelf->__Vdly__anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__address_hold;
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__state 
+        = vlSelf->__Vdly__anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__state;
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U] 
+        = vlSelf->__Vdly__anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U];
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[1U] 
+        = vlSelf->__Vdly__anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[1U];
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[2U] 
+        = vlSelf->__Vdly__anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[2U];
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[3U] 
+        = vlSelf->__Vdly__anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[3U];
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[4U] 
+        = vlSelf->__Vdly__anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[4U];
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[5U] 
+        = vlSelf->__Vdly__anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[5U];
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[6U] 
+        = vlSelf->__Vdly__anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[6U];
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[7U] 
+        = vlSelf->__Vdly__anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[7U];
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[8U] 
+        = vlSelf->__Vdly__anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[8U];
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[9U] 
+        = vlSelf->__Vdly__anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[9U];
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0xaU] 
+        = vlSelf->__Vdly__anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0xaU];
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__state 
+        = vlSelf->__Vdly__anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__state;
+    if (vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__replay__result_valid) {
+        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__replay__result_data 
+            = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__memory__DOT__arbiter__DOT__read_data_hold;
+        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__replay__result_error 
+            = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__memory__DOT__arbiter__DOT__error_hold;
+    } else {
+        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__replay__result_data = 0U;
+        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__replay__result_error = 0U;
+    }
+    if ((0xdU == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__grant_component))) {
+        __VdfgTmp_hfb573698__0 = vlSelf->anvil_en1_top__DOT__native__DOT__grant_payload_bytes;
+        __VdfgTmp_hc18ad684__0 = vlSelf->anvil_en1_top__DOT__native__DOT__grant_shadow_bytes;
+    } else {
+        __VdfgTmp_hfb573698__0 = vlSelf->anvil_en1_top__DOT__native__DOT____Vcellout__binding__audio_live_bytes;
+        __VdfgTmp_hc18ad684__0 = vlSelf->anvil_en1_top__DOT__native__DOT____Vcellout__binding__audio_live_bytes;
+    }
+    if ((0xeU == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__grant_component))) {
+        vlSelf->__VdfgTmp_hd929e4fd__0 = vlSelf->anvil_en1_top__DOT__native__DOT__grant_payload_bytes;
+        vlSelf->__VdfgTmp_h5335226f__0 = vlSelf->anvil_en1_top__DOT__native__DOT__grant_shadow_bytes;
+    } else {
+        vlSelf->__VdfgTmp_hd929e4fd__0 = vlSelf->anvil_en1_top__DOT__native__DOT____Vcellout__binding__audio_feature_live_bytes;
+        vlSelf->__VdfgTmp_h5335226f__0 = vlSelf->anvil_en1_top__DOT__native__DOT____Vcellout__binding__audio_feature_live_bytes;
+    }
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__388__right 
+        = vlSelf->anvil_en1_top__DOT__allocations__DOT__stages__BRA__0__KET____DOT__metrics__BRA__0__KET____DOT__nodes__BRA__6__KET____DOT__registered_node__DOT__right_node;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__388__left 
+        = vlSelf->anvil_en1_top__DOT__allocations__DOT__stages__BRA__0__KET____DOT__metrics__BRA__0__KET____DOT__nodes__BRA__6__KET____DOT__registered_node__DOT__left_node;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__388__sum 
+        = (0xffffffU & ((0x7fffffU & __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__388__left) 
+                        + (0x7fffffU & __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__388__right)));
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__388__Vfuncout 
+        = ((0x800000U & ((__Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__388__left 
+                          | __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__388__right) 
+                         | __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__388__sum)) 
+           | (0x7fffffU & __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__388__sum));
+    vlSelf->anvil_en1_top__DOT__allocations__DOT__stages__BRA__0__KET____DOT__metrics__BRA__0__KET____DOT__nodes__BRA__6__KET____DOT__registered_node__DOT__next_value 
+        = __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__388__Vfuncout;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__413__right 
+        = vlSelf->anvil_en1_top__DOT__allocations__DOT__stages__BRA__0__KET____DOT__metrics__BRA__0__KET____DOT__nodes__BRA__6__KET____DOT__registered_node__DOT__right_node;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__413__left 
+        = vlSelf->anvil_en1_top__DOT__allocations__DOT__stages__BRA__0__KET____DOT__metrics__BRA__0__KET____DOT__nodes__BRA__6__KET____DOT__registered_node__DOT__left_node;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__413__sum 
+        = (0xffffffU & ((0x7fffffU & __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__413__left) 
+                        + (0x7fffffU & __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__413__right)));
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__413__Vfuncout 
+        = ((0x800000U & ((__Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__413__left 
+                          | __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__413__right) 
+                         | __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__413__sum)) 
+           | (0x7fffffU & __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__413__sum));
+    vlSelf->anvil_en1_top__DOT__allocations__DOT__stages__BRA__0__KET____DOT__metrics__BRA__4__KET____DOT__nodes__BRA__6__KET____DOT__registered_node__DOT__next_value 
+        = __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__413__Vfuncout;
+    if ((0xcU == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__grant_component))) {
+        vlSelf->__VdfgTmp_he5cfc23e__0 = vlSelf->anvil_en1_top__DOT__native__DOT__grant_payload_bytes;
+        vlSelf->__VdfgTmp_h32a8d6a2__0 = vlSelf->anvil_en1_top__DOT__native__DOT__grant_shadow_bytes;
+    } else {
+        vlSelf->__VdfgTmp_he5cfc23e__0 = vlSelf->anvil_en1_top__DOT__native__DOT____Vcellout__binding__vision_live_bytes;
+        vlSelf->__VdfgTmp_h32a8d6a2__0 = vlSelf->anvil_en1_top__DOT__native__DOT____Vcellout__binding__vision_live_bytes;
+    }
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__attention_branch__DOT__executor__DOT____Vcellinp__attention__work_rsp_valid 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__attention_branch__DOT__executor__DOT____VdfgTmp_h9e85d5ff__0) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__attention_branch__DOT____Vcellinp__executor__work_rsp_valid));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_one__DOT__point__DOT____Vcellinp__convolution__cmd_ready 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_one__DOT__point__DOT__conv_selected) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_one__DOT____Vcellinp__point__cmd_ready));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_one__DOT__point__DOT____Vcellinp__channel_norm__cmd_ready 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_one__DOT__point__DOT__norm_selected) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_one__DOT____Vcellinp__point__cmd_ready));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_zero__DOT__point__DOT____Vcellinp__convolution__cmd_ready 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_zero__DOT__point__DOT__conv_selected) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_zero__DOT____Vcellinp__point__cmd_ready));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_zero__DOT__point__DOT____Vcellinp__channel_norm__cmd_ready 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_zero__DOT__point__DOT__norm_selected) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_zero__DOT____Vcellinp__point__cmd_ready));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_one__DOT__point__DOT____Vcellinp__convolution__result_valid 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_one__DOT__point__DOT__conv_selected) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_one__DOT____Vcellinp__point__result_valid));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_one__DOT__point__DOT____Vcellinp__channel_norm__result_valid 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_one__DOT__point__DOT__norm_selected) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_one__DOT____Vcellinp__point__result_valid));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_zero__DOT__point__DOT____Vcellinp__convolution__result_valid 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_zero__DOT__point__DOT__conv_selected) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_zero__DOT____Vcellinp__point__result_valid));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_zero__DOT__point__DOT____Vcellinp__channel_norm__result_valid 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_zero__DOT__point__DOT__norm_selected) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_zero__DOT____Vcellinp__point__result_valid));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__attention__DOT__executor__DOT__tile__DOT____Vcellinp__projection__cmd_ready 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__attention__DOT__executor__DOT__tile__DOT__projection_selected) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__attention__DOT__executor__DOT____Vcellinp__tile__cmd_ready));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT__mlp__DOT____Vcellinp__down__cmd_ready 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT__mlp__DOT__down_selected) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT____Vcellinp__mlp__cmd_ready));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT__mlp__DOT____Vcellinp__inner__cmd_ready 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT__mlp__DOT__inner_selected) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT____Vcellinp__mlp__cmd_ready));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__attention__DOT__executor__DOT__tile__DOT____Vcellinp__projection__result_valid 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__attention__DOT__executor__DOT__tile__DOT__projection_selected) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__attention__DOT__executor__DOT____Vcellinp__tile__result_valid));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT__mlp__DOT____Vcellinp__down__result_valid 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT__mlp__DOT__down_selected) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT____Vcellinp__mlp__result_valid));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT__mlp__DOT____Vcellinp__inner__result_valid 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT__mlp__DOT__inner_selected) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT____Vcellinp__mlp__result_valid));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT____Vcellinp__heads__work_rsp_valid 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads_selected) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT____Vcellinp__residual__work_rsp_valid));
+    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT____Vcellinp__gated_input__cmd_ready 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT__glu_selected) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT____Vcellinp__fold__cmd_ready));
+    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT____Vcellinp__post_attention__cmd_ready 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__post_selected) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT____Vcellinp__residual__cmd_ready));
+    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT____Vcellinp__attention__cmd_ready 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__head_selected) 
+           & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads_selected) 
+              & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT____Vcellinp__residual__cmd_ready)));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__feed_forward2__DOT__mlp__DOT____Vcellinp__down__cmd_ready 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__feed_forward2__DOT__mlp__DOT__down_selected) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__feed_forward2__DOT____Vcellinp__mlp__cmd_ready));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__feed_forward2__DOT__mlp__DOT____Vcellinp__inner__cmd_ready 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__feed_forward2__DOT__mlp__DOT__inner_selected) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__feed_forward2__DOT____Vcellinp__mlp__cmd_ready));
+    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT____Vcellinp__gated_input__result_valid 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT__glu_selected) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT____Vcellinp__fold__result_valid));
+    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT____Vcellinp__post_attention__result_valid 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__post_selected) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT____Vcellinp__residual__result_valid));
+    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT____Vcellinp__attention__result_valid 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__head_selected) 
+           & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads_selected) 
+              & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT____Vcellinp__residual__result_valid)));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__feed_forward2__DOT__mlp__DOT____Vcellinp__down__result_valid 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__feed_forward2__DOT__mlp__DOT__down_selected) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__feed_forward2__DOT____Vcellinp__mlp__result_valid));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__feed_forward2__DOT__mlp__DOT____Vcellinp__inner__result_valid 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__feed_forward2__DOT__mlp__DOT__inner_selected) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__feed_forward2__DOT____Vcellinp__mlp__result_valid));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__native_vectors__BRA__0__KET____DOT__wdata 
+        = (0xffffU & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_branch_write)
+                       ? ((IData)(vlSelf->rst_n) ? 
+                          ((0x19U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__state))
+                            ? vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__projected_hold
+                            : ((IData)(vlSelf->rst_n)
+                                ? ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT____VdfgTmp_h4823f0b0__0)
+                                    ? (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT__load_hold)
+                                    : (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT__norm_output_data))
+                                : 0U)) : 0U) : (IData)(vlSelf->__VdfgTmp_h2b624c4f__0)));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__native_vector_access_fault 
+        = ((IData)(vlSelf->rst_n) & (((((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_branch_read) 
+                                        | (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_branch_write)) 
+                                       & ((~ ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_selected) 
+                                              & (1U 
+                                                 == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__native_vector_owner)))) 
+                                          | (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_vector_access))) 
+                                      | (((~ ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer_selected) 
+                                              & (2U 
+                                                 == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__native_vector_owner)))) 
+                                          & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_vector_access)) 
+                                         | ((IData)(vlSelf->rst_n) 
+                                            & ((0U 
+                                                != vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT____VdfgTmp_hbb7cc6c3__0) 
+                                               & (0U 
+                                                  != vlSelf->__VdfgTmp_hbf1cb3e7__0))))) 
+                                     | ((((IData)(vlSelf->__VdfgTmp_h24a907e4__0) 
+                                          & (0x400U 
+                                             <= vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__native_vectors__BRA__2__KET____DOT__waddr)) 
+                                         | ((IData)(vlSelf->__VdfgTmp_h32d1b1e7__0) 
+                                            & (0x400U 
+                                               <= vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__native_vectors__BRA__2__KET____DOT__raddr))) 
+                                        | ((((IData)(vlSelf->__VdfgTmp_h9b9e9976__0) 
+                                             & (0x400U 
+                                                <= vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__native_vectors__BRA__1__KET____DOT__waddr)) 
+                                            | ((IData)(vlSelf->__VdfgTmp_h487032da__0) 
+                                               & (0x400U 
+                                                  <= vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__native_vectors__BRA__1__KET____DOT__raddr))) 
+                                           | (((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_branch_write) 
+                                               & (0x300U 
+                                                  <= vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_branch_waddr)) 
+                                              | ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_branch_read) 
+                                                 & (0x300U 
+                                                    <= vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_branch_raddr)))))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__owner_replay__DOT__replay__DOT__owner_tile__DOT__tile__DOT__norm_source_ready 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__owner_replay__DOT__replay__DOT__owner_tile__DOT__tile__DOT__input_norm)
+            ? (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__owner_replay__DOT____Vcellinp__replay__DOT__owner_tile__source_ready)
+            : ((IData)(vlSelf->rst_n) & ((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__owner_replay__DOT__replay__DOT__owner_tile__DOT__tile__DOT__src_state)) 
+                                         & (6U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__owner_replay__DOT__replay__DOT__owner_tile__DOT__tile__DOT__state)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__grant_rsp_ready 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT____VdfgTmp_h6916e450__0) 
+           & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__grant_owner)
+               ? (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding_grant_rsp_ready)
+               : (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier_grant_rsp_ready)));
+    vlSelf->anvil_en1_top__DOT__native__DOT__grant_valid 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT____VdfgTmp_h690ad7f1__0) 
+           & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__grant_owner)
+               ? (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding_grant_valid)
+               : (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier_grant_valid)));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__owner_replay__DOT__replay__DOT__vector_bad_now 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__owner_replay__DOT__replay__DOT__vector_bad) 
+           | ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__owner_replay__DOT__replay__DOT__vector_beat_valid)) 
+              & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__owner_replay__DOT____VdfgTmp_he1099d53__0)));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__owner_replay__DOT__replay__DOT__vector_complete_now 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__owner_replay__DOT__replay__DOT__vector_complete) 
+           | ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__owner_replay__DOT____VdfgTmp_he1099d53__0) 
+              & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__owner_replay__DOT__replay__DOT__vector_beat_valid) 
+                 & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__eval_output_last))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__replay__done_ready 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____VdfgTmp_h67d688b5__0) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__selected_done_ready));
+    __Vtemp_2[0U] = (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__mask_base_hold);
+    __Vtemp_2[1U] = (IData)((vlSelf->anvil_en1_top__DOT__native__DOT__mask_base_hold 
+                             >> 0x20U));
+    __Vtemp_2[2U] = 0U;
+    __Vtemp_3[0U] = (IData)(((QData)((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__mask_token_hold)) 
+                             << 2U));
+    __Vtemp_3[1U] = (IData)((((QData)((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__mask_token_hold)) 
+                              << 2U) >> 0x20U));
+    __Vtemp_3[2U] = 0U;
+    VL_ADD_W(3, __Vtemp_4, __Vtemp_2, __Vtemp_3);
+    vlSelf->anvil_en1_top__DOT__native__DOT__mask_sum[0U] 
+        = __Vtemp_4[0U];
+    vlSelf->anvil_en1_top__DOT__native__DOT__mask_sum[1U] 
+        = __Vtemp_4[1U];
+    vlSelf->anvil_en1_top__DOT__native__DOT__mask_sum[2U] 
+        = (1U & __Vtemp_4[2U]);
+    vlSelf->anvil_en1_top__DOT__remaining_queries = 
+        (vlSelf->anvil_en1_top__DOT__tokens_hold - vlSelf->anvil_en1_top__DOT__scan_index);
+    vlSelf->anvil_en1_top__DOT____Vcellinp__native_memory__cmd_addr 
+        = ((0xdU == (IData)(vlSelf->anvil_en1_top__DOT__state))
+            ? (vlSelf->anvil_en1_top__DOT__masks_hold 
+               + (((QData)((IData)((((QData)((IData)(vlSelf->anvil_en1_top__DOT__scan_index)) 
+                                     << 2U) >> 0x20U))) 
+                   << 0x20U) | (QData)((IData)(((QData)((IData)(vlSelf->anvil_en1_top__DOT__scan_index)) 
+                                                << 2U)))))
+            : ((IData)(vlSelf->anvil_en1_top__DOT__scan_send)
+                ? (vlSelf->anvil_en1_top__DOT__positions_hold 
+                   + (((QData)((IData)((((QData)((IData)(vlSelf->anvil_en1_top__DOT__scan_index)) 
+                                         << 2U) >> 0x20U))) 
+                       << 0x20U) | (QData)((IData)(
+                                                   ((QData)((IData)(vlSelf->anvil_en1_top__DOT__scan_index)) 
+                                                    << 2U)))))
+                : ((IData)(vlSelf->rst_n) ? vlSelf->anvil_en1_top__DOT__native__DOT__memory__DOT__arbiter__DOT__address_hold
+                    : 0ULL)));
+    vlSelf->anvil_en1_top__DOT__patch_count = ((QData)((IData)(vlSelf->anvil_en1_top__DOT__rows_hold)) 
+                                               * (QData)((IData)(vlSelf->anvil_en1_top__DOT__columns_hold)));
+    vlSelf->anvil_en1_top__DOT__native__DOT__drain_ready 
+        = ((IData)(vlSelf->rst_n) & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__memory__DOT__arbiter__DOT__draining)) 
+                                     & (~ ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__memory__DOT__arbiter__DOT__fault_hold) 
+                                           | (4U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__memory__DOT__arbiter__DOT__state))))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__memory__DOT____VdfgTmp_hc99991bc__0 
+        = ((IData)(vlSelf->rst_n) & (3U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__memory__DOT__arbiter__DOT__state)));
+    __Vtemp_8[0U] = (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__tokens_base_hold);
+    __Vtemp_8[1U] = (IData)((vlSelf->anvil_en1_top__DOT__native__DOT__tokens_base_hold 
+                             >> 0x20U));
+    __Vtemp_8[2U] = 0U;
+    __Vtemp_9[0U] = (IData)(((QData)((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__tokens_hold)) 
+                             << 2U));
+    __Vtemp_9[1U] = (IData)((((QData)((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__tokens_hold)) 
+                              << 2U) >> 0x20U));
+    __Vtemp_9[2U] = 0U;
+    VL_ADD_W(3, __Vtemp_10, __Vtemp_8, __Vtemp_9);
+    __Vtemp_11[0U] = 1U;
+    __Vtemp_11[1U] = 0U;
+    __Vtemp_11[2U] = 0U;
+    VL_SUB_W(3, __Vtemp_12, __Vtemp_10, __Vtemp_11);
+    vlSelf->anvil_en1_top__DOT__native__DOT__tokens_end[0U] 
+        = __Vtemp_12[0U];
+    vlSelf->anvil_en1_top__DOT__native__DOT__tokens_end[1U] 
+        = __Vtemp_12[1U];
+    vlSelf->anvil_en1_top__DOT__native__DOT__tokens_end[2U] 
+        = (1U & __Vtemp_12[2U]);
+    __Vtemp_14[0U] = (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__mask_base_hold);
+    __Vtemp_14[1U] = (IData)((vlSelf->anvil_en1_top__DOT__native__DOT__mask_base_hold 
+                              >> 0x20U));
+    __Vtemp_14[2U] = 0U;
+    __Vtemp_15[0U] = (IData)(((QData)((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__tokens_hold)) 
+                              << 2U));
+    __Vtemp_15[1U] = (IData)((((QData)((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__tokens_hold)) 
+                               << 2U) >> 0x20U));
+    __Vtemp_15[2U] = 0U;
+    VL_ADD_W(3, __Vtemp_16, __Vtemp_14, __Vtemp_15);
+    __Vtemp_17[0U] = 1U;
+    __Vtemp_17[1U] = 0U;
+    __Vtemp_17[2U] = 0U;
+    VL_SUB_W(3, __Vtemp_18, __Vtemp_16, __Vtemp_17);
+    vlSelf->anvil_en1_top__DOT__native__DOT__masks_end[0U] 
+        = __Vtemp_18[0U];
+    vlSelf->anvil_en1_top__DOT__native__DOT__masks_end[1U] 
+        = __Vtemp_18[1U];
+    vlSelf->anvil_en1_top__DOT__native__DOT__masks_end[2U] 
+        = (1U & __Vtemp_18[2U]);
+    vlSelf->anvil_en1_top__DOT__native__DOT__selected_fallback 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__forced_hold) 
+           | (0x2000ULL < VL_SHIFTL_QQI(64,64,32, (QData)((IData)(
+                                                                  (0xfffffff0U 
+                                                                   & ((IData)(0xfU) 
+                                                                      + vlSelf->anvil_en1_top__DOT__native__DOT__tokens_hold)))), 4U)));
+    vlSelf->anvil_en1_top__DOT__native_session_bad 
+        = (1U & ((IData)(vlSelf->anvil_en1_top__DOT__decode_hold)
+                  ? ((~ ((IData)(vlSelf->anvil_en1_top__DOT__session_valid) 
+                         & (((IData)(vlSelf->anvil_en1_top__DOT__model_hold) 
+                             == (IData)(vlSelf->anvil_en1_top__DOT__session_model)) 
+                            & (((IData)(vlSelf->anvil_en1_top__DOT__precision_hold) 
+                                == (IData)(vlSelf->anvil_en1_top__DOT__session_precision)) 
+                               & (((IData)(vlSelf->anvil_en1_top__DOT__mode_hold) 
+                                   == (IData)(vlSelf->anvil_en1_top__DOT__session_mode)) 
+                                  & ((vlSelf->anvil_en1_top__DOT__session_weights 
+                                      == vlSelf->anvil_en1_top__DOT__weights_hold) 
+                                     & ((vlSelf->anvil_en1_top__DOT__session_vision_weights 
+                                         == vlSelf->anvil_en1_top__DOT__vision_weights_hold) 
+                                        & ((vlSelf->anvil_en1_top__DOT__audio_weights_hold 
+                                            == vlSelf->anvil_en1_top__DOT__session_audio_weights) 
+                                           & ((vlSelf->anvil_en1_top__DOT__image_hold 
+                                               == vlSelf->anvil_en1_top__DOT__session_image) 
+                                              & ((vlSelf->anvil_en1_top__DOT__audio_hold 
+                                                  == vlSelf->anvil_en1_top__DOT__session_audio) 
+                                                 & ((vlSelf->anvil_en1_top__DOT__ids_hold 
+                                                     == vlSelf->anvil_en1_top__DOT__session_ids) 
+                                                    & ((vlSelf->anvil_en1_top__DOT__positions_hold 
+                                                        == vlSelf->anvil_en1_top__DOT__session_positions) 
+                                                       & ((vlSelf->anvil_en1_top__DOT__masks_hold 
+                                                           == vlSelf->anvil_en1_top__DOT__session_masks) 
+                                                          & ((vlSelf->anvil_en1_top__DOT__rows_hold 
+                                                              == vlSelf->anvil_en1_top__DOT__session_rows) 
+                                                             & ((vlSelf->anvil_en1_top__DOT__columns_hold 
+                                                                 == vlSelf->anvil_en1_top__DOT__session_columns) 
+                                                                & (vlSelf->anvil_en1_top__DOT__frames_hold 
+                                                                   == vlSelf->anvil_en1_top__DOT__session_frames)))))))))))))))) 
+                     | ((vlSelf->anvil_en1_top__DOT__position_hold 
+                         != vlSelf->anvil_en1_top__DOT__session_tokens) 
+                        | (vlSelf->anvil_en1_top__DOT__tokens_hold 
+                           != ((IData)(1U) + vlSelf->anvil_en1_top__DOT__session_tokens))))
+                  : (0U != vlSelf->anvil_en1_top__DOT__position_hold)));
+    vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__0__KET____DOT__metric_words__BRA__28__KET____DOT__traffic_event 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__accepted_memory) 
+           & (0U == (IData)(vlSelf->anvil_en1_top__DOT__model_hold)));
+    vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__0__KET____DOT__traffic_bank 
+        = ((1U == (IData)(vlSelf->anvil_en1_top__DOT__model_hold)) 
+           | (2U == (IData)(vlSelf->anvil_en1_top__DOT__model_hold)));
+    if (vlSelf->anvil_en1_top__DOT__native_selected) {
+        vlSelf->logit_valid = vlSelf->anvil_en1_top__DOT__native_logit_valid;
+        if (vlSelf->rst_n) {
+            vlSelf->logit_data = vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__logits__DOT__final_head__DOT__logit_hold;
+            vlSelf->logit_index = vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__logits__DOT__final_head__DOT__row_hold;
+            vlSelf->anvil_en1_top__DOT____Vcellinp__native_memory__cmd_wdata 
+                = vlSelf->anvil_en1_top__DOT__native__DOT__memory__DOT__arbiter__DOT__write_data_hold;
+        } else {
+            vlSelf->logit_data = 0U;
+            vlSelf->logit_index = 0U;
+            vlSelf->anvil_en1_top__DOT____Vcellinp__native_memory__cmd_wdata = 0U;
+        }
+        vlSelf->logit_last = ((IData)(vlSelf->anvil_en1_top__DOT__native_logit_valid) 
+                              & (0x1fU == vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__logits__DOT__final_head__DOT__row_hold));
+        vlSelf->anvil_en1_top__DOT____Vcellinp__native_memory__cmd_write 
+            = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__memory__DOT__arbiter__DOT__write_hold) 
+               & (IData)(vlSelf->rst_n));
+    } else {
+        vlSelf->logit_valid = 0U;
+        vlSelf->logit_data = 0U;
+        vlSelf->logit_index = 0U;
+        vlSelf->anvil_en1_top__DOT____Vcellinp__native_memory__cmd_wdata = 0U;
+        vlSelf->logit_last = 0U;
+        vlSelf->anvil_en1_top__DOT____Vcellinp__native_memory__cmd_write = 0U;
+    }
+    vlSelf->anvil_en1_top__DOT__bridge_command = ((IData)(vlSelf->anvil_en1_top__DOT__scan_send) 
+                                                  | ((IData)(vlSelf->anvil_en1_top__DOT__native_selected) 
+                                                     & ((IData)(vlSelf->rst_n) 
+                                                        & (1U 
+                                                           == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__memory__DOT__arbiter__DOT__state)))));
+    vlSelf->anvil_en1_top__DOT____Vcellinp__native_memory__result_ready 
+        = (((IData)(vlSelf->rst_n) & ((5U == (IData)(vlSelf->anvil_en1_top__DOT__state)) 
+                                      | (0xeU == (IData)(vlSelf->anvil_en1_top__DOT__state)))) 
+           | ((IData)(vlSelf->anvil_en1_top__DOT__native_selected) 
+              & ((IData)(vlSelf->rst_n) & (2U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__memory__DOT__arbiter__DOT__state)))));
+    vlSelf->__VdfgTmp_ha3f10df9__0 = ((IData)(vlSelf->anvil_en1_top__DOT__native_selected) 
+                                      & (0U != (IData)(vlSelf->anvil_en1_top__DOT____VdfgTmp_h89ee314e__0)));
+    vlSelf->__VdfgTmp_h0bb94bb7__0 = ((IData)(vlSelf->anvil_en1_top__DOT__native_selected) 
+                                      & (0U != (IData)(vlSelf->anvil_en1_top__DOT____VdfgTmp_h89179394__0)));
+    __VdfgTmp_haf6908d9__0 = ((IData)(vlSelf->anvil_en1_top__DOT__native_selected) 
+                              & (0U != (IData)(vlSelf->anvil_en1_top__DOT____VdfgTmp_h891e41ac__0)));
+    __VdfgTmp_hcbfbada7__0 = ((IData)(vlSelf->anvil_en1_top__DOT__native_selected) 
+                              & (0U != (IData)(vlSelf->anvil_en1_top__DOT____VdfgTmp_h8941e1f6__0)));
+    vlSelf->__VdfgTmp_hed4fa09b__0 = ((IData)(vlSelf->anvil_en1_top__DOT__native_selected) 
+                                      & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__scheduler__DOT__workspace__DOT__workspace__DOT__eviction_pulse) 
+                                         & (IData)(vlSelf->rst_n)));
+    vlSelf->__VdfgTmp_h5e9fb576__0 = ((IData)(vlSelf->anvil_en1_top__DOT__native_selected) 
+                                      & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__scheduler__DOT__workspace__DOT__workspace__DOT__hit_pulse) 
+                                         & (IData)(vlSelf->rst_n)));
+    vlSelf->__VdfgTmp_h0d4e560b__0 = ((IData)(vlSelf->anvil_en1_top__DOT__native_selected) 
+                                      & ((IData)(vlSelf->anvil_en1_top__DOT__owner_event) 
+                                         | (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_owner_event)));
+    vlSelf->__VdfgTmp_h4d8e6622__0 = ((IData)(vlSelf->anvil_en1_top__DOT__native_selected) 
+                                      & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding_avoided_event) 
+                                         | (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__executor_avoided_event)));
+    vlSelf->anvil_en1_top__DOT____VdfgTmp_h231c22f1__0 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native_selected) 
+           & ((IData)(vlSelf->anvil_en1_top__DOT__accepted_memory) 
+              & ((~ (IData)(vlSelf->mem_req_write)) 
+                 & (IData)(vlSelf->anvil_en1_top__DOT__bridge_replay))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__schedule_ready 
+        = ((IData)(vlSelf->rst_n) & (0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__schedule__DOT__schedule__DOT__state)));
+    vlSelf->anvil_en1_top__DOT__native__DOT__task_done_ready 
+        = ((IData)(vlSelf->rst_n) & (4U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__schedule__DOT__schedule__DOT__state)));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____VdfgTmp_heafcf40e__0 
+        = ((IData)(vlSelf->rst_n) & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__active) 
+                                     & (0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__control_state))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__control_valid 
+        = ((IData)(vlSelf->rst_n) & (2U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__control_state)));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding_control_ready 
+        = ((IData)(vlSelf->rst_n) & ((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__control_state)) 
+                                     & ((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__root_state)) 
+                                        & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__owner_busy)) 
+                                           & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay_busy)) 
+                                              & (0U 
+                                                 == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__grant_state)))))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding_busy 
+        = ((IData)(vlSelf->rst_n) & ((0U != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__control_state)) 
+                                     | ((0U != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__root_state)) 
+                                        | ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__owner_busy) 
+                                           | ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay_busy) 
+                                              | (0U 
+                                                 != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__grant_state)))))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__work_ready 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__scheduler__DOT____VdfgTmp_h60be914a__0) 
+           & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__scheduler__DOT__work_operation_valid)) 
+              | (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__scheduler__DOT__ws_ready)));
+    __Vtemp_26[0U] = (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__directory_base);
+    __Vtemp_26[1U] = (IData)((vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__directory_base 
+                              >> 0x20U));
+    __Vtemp_26[2U] = 0U;
+    __Vtemp_27[0U] = (IData)(((QData)((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry_index)) 
+                              << 6U));
+    __Vtemp_27[1U] = (IData)((((QData)((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry_index)) 
+                               << 6U) >> 0x20U));
+    __Vtemp_27[2U] = 0U;
+    VL_ADD_W(3, __Vtemp_28, __Vtemp_26, __Vtemp_27);
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry_address[0U] 
+        = __Vtemp_28[0U];
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry_address[1U] 
+        = __Vtemp_28[1U];
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry_address[2U] 
+        = (1U & __Vtemp_28[2U]);
+    __Vtemp_30[0U] = (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__directory_base);
+    __Vtemp_30[1U] = (IData)((vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__directory_base 
+                              >> 0x20U));
+    __Vtemp_30[2U] = 0U;
+    __Vtemp_31[0U] = (IData)(((QData)((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__prior_index)) 
+                              << 6U));
+    __Vtemp_31[1U] = (IData)((((QData)((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__prior_index)) 
+                               << 6U) >> 0x20U));
+    __Vtemp_31[2U] = 0U;
+    VL_ADD_W(3, __Vtemp_32, __Vtemp_30, __Vtemp_31);
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__prior_address[0U] 
+        = __Vtemp_32[0U];
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__prior_address[1U] 
+        = __Vtemp_32[1U];
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__prior_address[2U] 
+        = (1U & __Vtemp_32[2U]);
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__product_total 
+        = (vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__required_bytes 
+           + ((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__product_index))
+               ? (QData)((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__partial_product))
+               : ((3U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__product_index))
+                   ? ((QData)((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__partial_product)) 
+                      << 0x20U) : ((QData)((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__partial_product)) 
+                                   << 0x10U))));
+    __Vtemp_34[0U] = (IData)((((QData)((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__prior_entry[2U])) 
+                               << 0x20U) | (QData)((IData)(
+                                                           vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__prior_entry[1U]))));
+    __Vtemp_34[1U] = (IData)(((((QData)((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__prior_entry[2U])) 
+                                << 0x20U) | (QData)((IData)(
+                                                            vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__prior_entry[1U]))) 
+                              >> 0x20U));
+    __Vtemp_34[2U] = 0U;
+    __Vtemp_35[0U] = (IData)((((QData)((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__prior_entry[4U])) 
+                               << 0x20U) | (QData)((IData)(
+                                                           vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__prior_entry[3U]))));
+    __Vtemp_35[1U] = (IData)(((((QData)((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__prior_entry[4U])) 
+                                << 0x20U) | (QData)((IData)(
+                                                            vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__prior_entry[3U]))) 
+                              >> 0x20U));
+    __Vtemp_35[2U] = 0U;
+    VL_ADD_W(3, __Vtemp_36, __Vtemp_34, __Vtemp_35);
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__prior_end[0U] 
+        = __Vtemp_36[0U];
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__prior_end[1U] 
+        = __Vtemp_36[1U];
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__prior_end[2U] 
+        = (1U & __Vtemp_36[2U]);
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__directory_count 
+        = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__header[2U];
+    __Vtemp_38[0U] = (IData)((((QData)((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__header[4U])) 
+                               << 0x20U) | (QData)((IData)(
+                                                           vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__header[3U]))));
+    __Vtemp_38[1U] = (IData)(((((QData)((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__header[4U])) 
+                                << 0x20U) | (QData)((IData)(
+                                                            vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__header[3U]))) 
+                              >> 0x20U));
+    __Vtemp_38[2U] = 0U;
+    __Vtemp_39[0U] = (IData)(((QData)((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__header[2U])) 
+                              << 6U));
+    __Vtemp_39[1U] = (IData)((((QData)((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__header[2U])) 
+                               << 6U) >> 0x20U));
+    __Vtemp_39[2U] = 0U;
+    VL_ADD_W(3, __Vtemp_40, __Vtemp_38, __Vtemp_39);
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__directory_end[0U] 
+        = __Vtemp_40[0U];
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__directory_end[1U] 
+        = __Vtemp_40[1U];
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__directory_end[2U] 
+        = (1U & __Vtemp_40[2U]);
+    __Vtemp_42[0U] = 0x40U;
+    __Vtemp_42[1U] = 0U;
+    __Vtemp_42[2U] = 0U;
+    __Vtemp_43[0U] = (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__base_hold);
+    __Vtemp_43[1U] = (IData)((vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__base_hold 
+                              >> 0x20U));
+    __Vtemp_43[2U] = 0U;
+    VL_ADD_W(3, __Vtemp_44, __Vtemp_42, __Vtemp_43);
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__base_header_end[0U] 
+        = __Vtemp_44[0U];
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__base_header_end[1U] 
+        = __Vtemp_44[1U];
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__base_header_end[2U] 
+        = (1U & __Vtemp_44[2U]);
+    __Vtemp_46[0U] = (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__base_hold);
+    __Vtemp_46[1U] = (IData)((vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__base_hold 
+                              >> 0x20U));
+    __Vtemp_46[2U] = 0U;
+    __Vtemp_47[0U] = (IData)((((QData)((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__header[4U])) 
+                               << 0x20U) | (QData)((IData)(
+                                                           vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__header[3U]))));
+    __Vtemp_47[1U] = (IData)(((((QData)((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__header[4U])) 
+                                << 0x20U) | (QData)((IData)(
+                                                            vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__header[3U]))) 
+                              >> 0x20U));
+    __Vtemp_47[2U] = 0U;
+    VL_ADD_W(3, __Vtemp_48, __Vtemp_46, __Vtemp_47);
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__directory_sum[0U] 
+        = __Vtemp_48[0U];
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__directory_sum[1U] 
+        = __Vtemp_48[1U];
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__directory_sum[2U] 
+        = (1U & __Vtemp_48[2U]);
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__lookup_result_ready 
+        = ((IData)(vlSelf->rst_n) & (3U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__state)));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__descriptor_key 
+        = ((((0xffffU == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__layer_hold))
+              ? 0x3fU : (0x3fU & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__layer_hold))) 
+            << 0x10U) | (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__kind_hold));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry_bytes 
+        = (((QData)((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[5U])) 
+            << 0x20U) | (QData)((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[4U])));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry_offset 
+        = (((QData)((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[3U])) 
+            << 0x20U) | (QData)((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[2U])));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__hit_product_high 
+        = (((QData)((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[6U])) 
+            << 0x10U) + ((QData)((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[7U])) 
+                         << 0x20U));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__hit_product_low 
+        = ((QData)((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[4U])) 
+           + ((QData)((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[5U])) 
+              << 0x10U));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__hit_bytes 
+        = ((((QData)((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[5U])) 
+             << 0x20U) | (QData)((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[4U]))) 
+           + (((QData)((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[7U])) 
+               << 0x20U) | (QData)((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[6U]))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__product_b 
+        = (0xffffU & ((1U & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__product_index))
+                       ? ((vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0xaU] 
+                           << 0x10U) | (vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0xaU] 
+                                        >> 0x10U)) : 
+                      vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0xaU]));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry_order_key 
+        = ((((IData)(1U) + ((vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U] 
+                             << 0x10U) | (vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U] 
+                                          >> 0x10U))) 
+            << 0x10U) | (0xffffU & vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U]));
+    __Vtemp_50[0U] = (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__base_hold);
+    __Vtemp_50[1U] = (IData)((vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__base_hold 
+                              >> 0x20U));
+    __Vtemp_50[2U] = 0U;
+    __Vtemp_51[0U] = (IData)((((QData)((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[3U])) 
+                               << 0x20U) | (QData)((IData)(
+                                                           vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[2U]))));
+    __Vtemp_51[1U] = (IData)(((((QData)((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[3U])) 
+                                << 0x20U) | (QData)((IData)(
+                                                            vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[2U]))) 
+                              >> 0x20U));
+    __Vtemp_51[2U] = 0U;
+    VL_ADD_W(3, __Vtemp_52, __Vtemp_50, __Vtemp_51);
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__payload_sum[0U] 
+        = __Vtemp_52[0U];
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__payload_sum[1U] 
+        = __Vtemp_52[1U];
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__payload_sum[2U] 
+        = (1U & __Vtemp_52[2U]);
+    __Vtemp_54[0U] = (IData)((((QData)((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[3U])) 
+                               << 0x20U) | (QData)((IData)(
+                                                           vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[2U]))));
+    __Vtemp_54[1U] = (IData)(((((QData)((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[3U])) 
+                                << 0x20U) | (QData)((IData)(
+                                                            vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[2U]))) 
+                              >> 0x20U));
+    __Vtemp_54[2U] = 0U;
+    __Vtemp_55[0U] = (IData)((((QData)((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[5U])) 
+                               << 0x20U) | (QData)((IData)(
+                                                           vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[4U]))));
+    __Vtemp_55[1U] = (IData)(((((QData)((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[5U])) 
+                                << 0x20U) | (QData)((IData)(
+                                                            vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[4U]))) 
+                              >> 0x20U));
+    __Vtemp_55[2U] = 0U;
+    VL_ADD_W(3, __Vtemp_56, __Vtemp_54, __Vtemp_55);
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry_end[0U] 
+        = __Vtemp_56[0U];
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry_end[1U] 
+        = __Vtemp_56[1U];
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry_end[2U] 
+        = (1U & __Vtemp_56[2U]);
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__mask_ready 
+        = ((IData)(vlSelf->rst_n) & (0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__state)));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT____Vcellinp__directory__start_valid 
+        = ((IData)(vlSelf->rst_n) & (2U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__state)));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__lookup_selected 
+        = ((IData)(vlSelf->rst_n) & ((2U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__state)) 
+                                     | (3U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__state))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__header_word_bad 
+        = (((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__word_index)) 
+            & (vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__word_hold 
+               != ((3U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__class_hold))
+                    ? 0x31494e41U : 0x31564e41U))) 
+           | (((1U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__word_index)) 
+               & (0x10000U != vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__word_hold)) 
+              | (((2U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__word_index)) 
+                  & (vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__word_hold 
+                     != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__model_hold))) 
+                 | (((3U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__word_index)) 
+                     & (vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__word_hold 
+                        != ((3U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__class_hold))
+                             ? 0U : (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__precision_hold)))) 
+                    | (((7U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__word_index)) 
+                        & (0x40U != vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__word_hold)) 
+                       | ((0xaU <= (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__word_index)) 
+                          & (0U != vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__word_hold)))))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__count_hold = 0U;
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__same_image 
+        = (((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__model_hold) 
+            == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__model_hold)) 
+           & ((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__precision_hold)) 
+              & ((3U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__class_hold)) 
+                 & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__audio_hold) 
+                    & ((vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__items_hold 
+                        == vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__frames_hold) 
+                       & (vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__audio_hold 
+                          == vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__base_hold))))));
+    if ((((IData)(vlSelf->rst_n) & ((1U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__model_hold)) 
+                                    | (2U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__model_hold)))) 
+         & (1U >= (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__precision_hold)))) {
+        if ((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__class_hold))) {
+            vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__count_hold 
+                = ((1U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__model_hold))
+                    ? 0x21cU : 0x299U);
+        } else if ((1U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__class_hold))) {
+            vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__count_hold = 0x293U;
+        } else if ((2U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__class_hold))) {
+            vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__count_hold = 0x2f0U;
+        } else if ((3U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__class_hold))) {
+            vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__count_hold = 2U;
+        }
+    }
+    if (vlSelf->rst_n) {
+        vlSelf->anvil_en1_top__DOT__native_error = vlSelf->anvil_en1_top__DOT__native__DOT__error_hold;
+        if ((4U & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__meta_state))) {
+            vlSelf->anvil_en1_top__DOT__native__DOT__meta_response[0U] = 0x1fU;
+            vlSelf->anvil_en1_top__DOT__native__DOT__meta_response[1U] = 0U;
+            vlSelf->anvil_en1_top__DOT__native__DOT__meta_response[2U] = 0U;
+            vlSelf->__Vdly__anvil_en1_top__DOT__native__DOT__meta_state = 3U;
+        } else if ((2U & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__meta_state))) {
+            if ((1U & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__meta_state))) {
+                if (vlSelf->anvil_en1_top__DOT__native__DOT__meta_retire) {
+                    vlSelf->__Vdly__anvil_en1_top__DOT__native__DOT__meta_state = 0U;
+                }
+            } else if (vlSelf->anvil_en1_top__DOT__native__DOT__cache_valid) {
+                vlSelf->anvil_en1_top__DOT__native__DOT__meta_response[0U] 
+                    = vlSelf->anvil_en1_top__DOT__native__DOT__cache_response[0U];
+                vlSelf->anvil_en1_top__DOT__native__DOT__meta_response[1U] 
+                    = vlSelf->anvil_en1_top__DOT__native__DOT__cache_response[1U];
+                vlSelf->anvil_en1_top__DOT__native__DOT__meta_response[2U] 
+                    = vlSelf->anvil_en1_top__DOT__native__DOT__cache_response[2U];
+                vlSelf->__Vdly__anvil_en1_top__DOT__native__DOT__meta_state = 3U;
+            }
+        } else if ((1U & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__meta_state))) {
+            if (vlSelf->anvil_en1_top__DOT__native__DOT__cache_ready) {
+                vlSelf->__Vdly__anvil_en1_top__DOT__native__DOT__meta_state = 2U;
+            }
+        } else if (((2U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__state)) 
+                    & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__cache_control_ready))) {
+            vlSelf->anvil_en1_top__DOT__native__DOT__meta_owner = 2U;
+            vlSelf->anvil_en1_top__DOT__native__DOT__meta_request[0U] = 0U;
+            vlSelf->anvil_en1_top__DOT__native__DOT__meta_request[1U] = 0U;
+            vlSelf->anvil_en1_top__DOT__native__DOT__meta_request[2U] = 0U;
+            vlSelf->anvil_en1_top__DOT__native__DOT__meta_request[3U] 
+                = (0x1000000U | ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__model_hold) 
+                                 << 0x15U));
+            vlSelf->__Vdly__anvil_en1_top__DOT__native__DOT__meta_state = 1U;
+        } else if ((2U & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__meta_valid) 
+                          & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__meta_ready)))) {
+            vlSelf->anvil_en1_top__DOT__native__DOT__meta_owner = 1U;
+            vlSelf->anvil_en1_top__DOT__native__DOT__meta_request[0U] 
+                = ((vlSelf->anvil_en1_top__DOT__native__DOT__meta_payload[4U] 
+                    << 6U) | (vlSelf->anvil_en1_top__DOT__native__DOT__meta_payload[3U] 
+                              >> 0x1aU));
+            vlSelf->anvil_en1_top__DOT__native__DOT__meta_request[1U] 
+                = ((vlSelf->anvil_en1_top__DOT__native__DOT__meta_payload[5U] 
+                    << 6U) | (vlSelf->anvil_en1_top__DOT__native__DOT__meta_payload[4U] 
+                              >> 0x1aU));
+            vlSelf->anvil_en1_top__DOT__native__DOT__meta_request[2U] 
+                = ((vlSelf->anvil_en1_top__DOT__native__DOT__meta_payload[6U] 
+                    << 6U) | (vlSelf->anvil_en1_top__DOT__native__DOT__meta_payload[5U] 
+                              >> 0x1aU));
+            vlSelf->anvil_en1_top__DOT__native__DOT__meta_request[3U] 
+                = (0x3ffffffU & ((vlSelf->anvil_en1_top__DOT__native__DOT__meta_payload[7U] 
+                                  << 6U) | (vlSelf->anvil_en1_top__DOT__native__DOT__meta_payload[6U] 
+                                            >> 0x1aU)));
+            vlSelf->__Vdly__anvil_en1_top__DOT__native__DOT__meta_state = 1U;
+        } else if ((1U & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__meta_valid) 
+                          & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__meta_ready)))) {
+            vlSelf->anvil_en1_top__DOT__native__DOT__meta_owner = 0U;
+            vlSelf->anvil_en1_top__DOT__native__DOT__meta_request[0U] 
+                = vlSelf->anvil_en1_top__DOT__native__DOT__meta_payload[0U];
+            vlSelf->anvil_en1_top__DOT__native__DOT__meta_request[1U] 
+                = vlSelf->anvil_en1_top__DOT__native__DOT__meta_payload[1U];
+            vlSelf->anvil_en1_top__DOT__native__DOT__meta_request[2U] 
+                = vlSelf->anvil_en1_top__DOT__native__DOT__meta_payload[2U];
+            vlSelf->anvil_en1_top__DOT__native__DOT__meta_request[3U] 
+                = (0x3ffffffU & vlSelf->anvil_en1_top__DOT__native__DOT__meta_payload[3U]);
+            vlSelf->__Vdly__anvil_en1_top__DOT__native__DOT__meta_state = 1U;
+        }
+        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__lookup_error 
+            = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__error_hold;
+    } else {
+        vlSelf->anvil_en1_top__DOT__native_error = 0U;
+        vlSelf->__Vdly__anvil_en1_top__DOT__native__DOT__meta_state = 0U;
+        vlSelf->anvil_en1_top__DOT__native__DOT__meta_owner = 0U;
+        vlSelf->anvil_en1_top__DOT__native__DOT__meta_request[0U] = 0U;
+        vlSelf->anvil_en1_top__DOT__native__DOT__meta_request[1U] = 0U;
+        vlSelf->anvil_en1_top__DOT__native__DOT__meta_request[2U] = 0U;
+        vlSelf->anvil_en1_top__DOT__native__DOT__meta_request[3U] = 0U;
+        vlSelf->anvil_en1_top__DOT__native__DOT__meta_response[0U] = 0U;
+        vlSelf->anvil_en1_top__DOT__native__DOT__meta_response[1U] = 0U;
+        vlSelf->anvil_en1_top__DOT__native__DOT__meta_response[2U] = 0U;
+        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__lookup_error = 0U;
+    }
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__layers 
+        = ((IData)(vlSelf->rst_n) ? ([&]() {
+                vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__geometry__DOT__layer_count__2701__model 
+                    = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__model_hold;
+                vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__geometry__DOT__layer_count__2701__Vfuncout 
+                    = ((1U == (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__geometry__DOT__layer_count__2701__model))
+                        ? 0x23U : ((2U == (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__geometry__DOT__layer_count__2701__model))
+                                    ? 0x2aU : 0U));
+            }(), (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__geometry__DOT__layer_count__2701__Vfuncout))
+            : 0U);
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__owners 
+        = ((IData)(vlSelf->rst_n) ? ([&]() {
+                vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__geometry__DOT__owner_count__2702__model 
+                    = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__model_hold;
+                vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__geometry__DOT__owner_count__2702__Vfuncout 
+                    = ((1U == (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__geometry__DOT__owner_count__2702__model))
+                        ? 0xfU : ((2U == (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__geometry__DOT__owner_count__2702__model))
+                                   ? 0x18U : 0U));
+            }(), (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__geometry__DOT__owner_count__2702__Vfuncout))
+            : 0U);
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__production_hidden 
+        = ((IData)(vlSelf->rst_n) ? ([&]() {
+                vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__geometry__DOT__hidden_size__2710__model 
+                    = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__model_hold;
+                vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__geometry__DOT__hidden_size__2710__Vfuncout 
+                    = ((1U == (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__geometry__DOT__hidden_size__2710__model))
+                        ? 0x600U : ((2U == (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__geometry__DOT__hidden_size__2710__model))
+                                     ? 0xa00U : 0U));
+            }(), (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__geometry__DOT__hidden_size__2710__Vfuncout))
+            : 0U);
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__is_global 
+        = ((IData)(vlSelf->rst_n) & ([&]() {
+                vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__geometry__DOT__global_layer__2709__layer 
+                    = (0xffU & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__layer_hold));
+                vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__geometry__DOT__global_layer__2709__model 
+                    = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__model_hold;
+                vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__geometry__DOT__global_layer__2709__Vfuncout 
+                    = ((1U == (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__geometry__DOT__global_layer__2709__model))
+                        ? (((((((4U == (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__geometry__DOT__global_layer__2709__layer)) 
+                                || (9U == (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__geometry__DOT__global_layer__2709__layer))) 
+                               || (0xeU == (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__geometry__DOT__global_layer__2709__layer))) 
+                              || (0x13U == (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__geometry__DOT__global_layer__2709__layer))) 
+                             || (0x18U == (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__geometry__DOT__global_layer__2709__layer))) 
+                            || (0x1dU == (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__geometry__DOT__global_layer__2709__layer))) 
+                           || (0x22U == (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__geometry__DOT__global_layer__2709__layer)))
+                        : ((2U == (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__geometry__DOT__global_layer__2709__model)) 
+                           && (((((((5U == (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__geometry__DOT__global_layer__2709__layer)) 
+                                    || (0xbU == (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__geometry__DOT__global_layer__2709__layer))) 
+                                   || (0x11U == (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__geometry__DOT__global_layer__2709__layer))) 
+                                  || (0x17U == (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__geometry__DOT__global_layer__2709__layer))) 
+                                 || (0x1dU == (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__geometry__DOT__global_layer__2709__layer))) 
+                                || (0x23U == (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__geometry__DOT__global_layer__2709__layer))) 
+                               || (0x29U == (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__geometry__DOT__global_layer__2709__layer)))));
+            }(), (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__geometry__DOT__global_layer__2709__Vfuncout)));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__production_intermediate 
+        = ((IData)(vlSelf->rst_n) ? ([&]() {
+                vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__geometry__DOT__intermediate_size__2711__layer 
+                    = (0xffU & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__layer_hold));
+                vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__geometry__DOT__intermediate_size__2711__model 
+                    = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__model_hold;
+                vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__geometry__DOT__intermediate_size__2711__Vfuncout 
+                    = ((1U == (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__geometry__DOT__intermediate_size__2711__model))
+                        ? ((0xfU <= (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__geometry__DOT__intermediate_size__2711__layer))
+                            ? 0x3000U : 0x1800U) : 
+                       ((2U == (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__geometry__DOT__intermediate_size__2711__model))
+                         ? 0x2800U : 0U));
+            }(), (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__geometry__DOT__intermediate_size__2711__Vfuncout))
+            : 0U);
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__layers 
+        = ((IData)(vlSelf->rst_n) ? ([&]() {
+                vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__geometry__DOT__layer_count__2713__model 
+                    = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__model_hold;
+                vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__geometry__DOT__layer_count__2713__Vfuncout 
+                    = ((1U == (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__geometry__DOT__layer_count__2713__model))
+                        ? 0x23U : ((2U == (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__geometry__DOT__layer_count__2713__model))
+                                    ? 0x2aU : 0U));
+            }(), (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__geometry__DOT__layer_count__2713__Vfuncout))
+            : 0U);
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__owners 
+        = ((IData)(vlSelf->rst_n) ? ([&]() {
+                vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__geometry__DOT__owner_count__2714__model 
+                    = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__model_hold;
+                vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__geometry__DOT__owner_count__2714__Vfuncout 
+                    = ((1U == (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__geometry__DOT__owner_count__2714__model))
+                        ? 0xfU : ((2U == (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__geometry__DOT__owner_count__2714__model))
+                                   ? 0x18U : 0U));
+            }(), (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__geometry__DOT__owner_count__2714__Vfuncout))
+            : 0U);
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__production_hidden 
+        = ((IData)(vlSelf->rst_n) ? ([&]() {
+                vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__geometry__DOT__hidden_size__2722__model 
+                    = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__model_hold;
+                vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__geometry__DOT__hidden_size__2722__Vfuncout 
+                    = ((1U == (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__geometry__DOT__hidden_size__2722__model))
+                        ? 0x600U : ((2U == (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__geometry__DOT__hidden_size__2722__model))
+                                     ? 0xa00U : 0U));
+            }(), (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__geometry__DOT__hidden_size__2722__Vfuncout))
+            : 0U);
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__is_global 
+        = ((IData)(vlSelf->rst_n) & ([&]() {
+                vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__geometry__DOT__global_layer__2721__layer 
+                    = (0xffU & (vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U] 
+                                >> 0x10U));
+                vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__geometry__DOT__global_layer__2721__model 
+                    = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__model_hold;
+                vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__geometry__DOT__global_layer__2721__Vfuncout 
+                    = ((1U == (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__geometry__DOT__global_layer__2721__model))
+                        ? (((((((4U == (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__geometry__DOT__global_layer__2721__layer)) 
+                                || (9U == (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__geometry__DOT__global_layer__2721__layer))) 
+                               || (0xeU == (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__geometry__DOT__global_layer__2721__layer))) 
+                              || (0x13U == (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__geometry__DOT__global_layer__2721__layer))) 
+                             || (0x18U == (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__geometry__DOT__global_layer__2721__layer))) 
+                            || (0x1dU == (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__geometry__DOT__global_layer__2721__layer))) 
+                           || (0x22U == (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__geometry__DOT__global_layer__2721__layer)))
+                        : ((2U == (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__geometry__DOT__global_layer__2721__model)) 
+                           && (((((((5U == (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__geometry__DOT__global_layer__2721__layer)) 
+                                    || (0xbU == (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__geometry__DOT__global_layer__2721__layer))) 
+                                   || (0x11U == (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__geometry__DOT__global_layer__2721__layer))) 
+                                  || (0x17U == (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__geometry__DOT__global_layer__2721__layer))) 
+                                 || (0x1dU == (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__geometry__DOT__global_layer__2721__layer))) 
+                                || (0x23U == (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__geometry__DOT__global_layer__2721__layer))) 
+                               || (0x29U == (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__geometry__DOT__global_layer__2721__layer)))));
+            }(), (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__geometry__DOT__global_layer__2721__Vfuncout)));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__production_intermediate 
+        = ((IData)(vlSelf->rst_n) ? ([&]() {
+                vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__geometry__DOT__intermediate_size__2723__layer 
+                    = (0xffU & (vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U] 
+                                >> 0x10U));
+                vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__geometry__DOT__intermediate_size__2723__model 
+                    = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__model_hold;
+                vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__geometry__DOT__intermediate_size__2723__Vfuncout 
+                    = ((1U == (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__geometry__DOT__intermediate_size__2723__model))
+                        ? ((0xfU <= (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__geometry__DOT__intermediate_size__2723__layer))
+                            ? 0x3000U : 0x1800U) : 
+                       ((2U == (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__geometry__DOT__intermediate_size__2723__model))
+                         ? 0x2800U : 0U));
+            }(), (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__geometry__DOT__intermediate_size__2723__Vfuncout))
+            : 0U);
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__558__right 
+        = (((IData)((0U != (__VdfgTmp_hfb573698__0 
+                            >> 0x17U))) << 0x17U) | 
+           (0x7fffffU & (IData)(__VdfgTmp_hfb573698__0)));
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__558__left 
+        = (((IData)((0U != (vlSelf->__VdfgTmp_he5cfc23e__0 
+                            >> 0x17U))) << 0x17U) | 
+           (0x7fffffU & (IData)(vlSelf->__VdfgTmp_he5cfc23e__0)));
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__558__sum 
+        = (0xffffffU & ((0x7fffffU & __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__558__left) 
+                        + (0x7fffffU & __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__558__right)));
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__558__Vfuncout 
+        = ((0x800000U & ((__Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__558__left 
+                          | __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__558__right) 
+                         | __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__558__sum)) 
+           | (0x7fffffU & __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__558__sum));
+    vlSelf->anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__stages__BRA__0__KET____DOT__metrics__BRA__2__KET____DOT__nodes__BRA__6__KET____DOT__registered_node__DOT__next_value 
+        = __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__558__Vfuncout;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__579__right 
+        = (((IData)((0U != (__VdfgTmp_hc18ad684__0 
+                            >> 0x17U))) << 0x17U) | 
+           (0x7fffffU & (IData)(__VdfgTmp_hc18ad684__0)));
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__579__left 
+        = (((IData)((0U != (vlSelf->__VdfgTmp_h32a8d6a2__0 
+                            >> 0x17U))) << 0x17U) | 
+           (0x7fffffU & (IData)(vlSelf->__VdfgTmp_h32a8d6a2__0)));
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__579__sum 
+        = (0xffffffU & ((0x7fffffU & __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__579__left) 
+                        + (0x7fffffU & __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__579__right)));
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__579__Vfuncout 
+        = ((0x800000U & ((__Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__579__left 
+                          | __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__579__right) 
+                         | __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__579__sum)) 
+           | (0x7fffffU & __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__579__sum));
+    vlSelf->anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__stages__BRA__0__KET____DOT__metrics__BRA__4__KET____DOT__nodes__BRA__6__KET____DOT__registered_node__DOT__next_value 
+        = __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__579__Vfuncout;
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT____Vcellinp__attention__work_rsp_valid 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT____Vcellinp__attention__need_ready) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT____Vcellinp__heads__work_rsp_valid));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT__gated_input__DOT____Vcellinp__norm__cmd_ready 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT__gated_input__DOT__norm_selected) 
+           & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT____Vcellinp__gated_input__cmd_ready));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT__gated_input__DOT____Vcellinp__projection__cmd_ready 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT__gated_input__DOT__projection_selected) 
+           & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT____Vcellinp__gated_input__cmd_ready));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__post_attention__DOT____Vcellinp__post_projection__cmd_ready 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__post_attention__DOT__projection_selected) 
+           & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT____Vcellinp__post_attention__cmd_ready));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__post_attention__DOT____Vcellinp__norm__cmd_ready 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__post_attention__DOT__norm_selected) 
+           & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT____Vcellinp__post_attention__cmd_ready));
+    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT____Vcellinp__executor__cmd_ready 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__engine_selected) 
+           & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT____Vcellinp__attention__cmd_ready));
+    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT____Vcellinp__pre_attention__cmd_ready 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_selected) 
+           & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT____Vcellinp__attention__cmd_ready));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT__gated_input__DOT____Vcellinp__norm__result_valid 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT__gated_input__DOT__norm_selected) 
+           & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT____Vcellinp__gated_input__result_valid));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT__gated_input__DOT____Vcellinp__projection__result_valid 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT__gated_input__DOT__projection_selected) 
+           & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT____Vcellinp__gated_input__result_valid));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__post_attention__DOT____Vcellinp__post_projection__result_valid 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__post_attention__DOT__projection_selected) 
+           & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT____Vcellinp__post_attention__result_valid));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__post_attention__DOT____Vcellinp__norm__result_valid 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__post_attention__DOT__norm_selected) 
+           & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT____Vcellinp__post_attention__result_valid));
+    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT____Vcellinp__executor__result_valid 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__engine_selected) 
+           & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT____Vcellinp__attention__result_valid));
+    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT____Vcellinp__pre_attention__result_valid 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_selected) 
+           & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT____Vcellinp__attention__result_valid));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT____Vcellinp__image_feature__cancel 
+        = (((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__engine_ready) 
+            & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__replay__start_valid)) 
+           | ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__replay__done_ready) 
+              & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__engine_done_valid)));
+    __Vtemp_58[0U] = (IData)(vlSelf->anvil_en1_top__DOT__ids_hold);
+    __Vtemp_58[1U] = (IData)((vlSelf->anvil_en1_top__DOT__ids_hold 
+                              >> 0x20U));
+    __Vtemp_58[2U] = 0U;
+    __Vtemp_59[0U] = (IData)(((QData)((IData)(vlSelf->anvil_en1_top__DOT__tokens_hold)) 
+                              << 2U));
+    __Vtemp_59[1U] = (IData)((((QData)((IData)(vlSelf->anvil_en1_top__DOT__tokens_hold)) 
+                               << 2U) >> 0x20U));
+    __Vtemp_59[2U] = 0U;
+    VL_ADD_W(3, __Vtemp_60, __Vtemp_58, __Vtemp_59);
+    __Vtemp_61[0U] = 1U;
+    __Vtemp_61[1U] = 0U;
+    __Vtemp_61[2U] = 0U;
+    VL_SUB_W(3, __Vtemp_62, __Vtemp_60, __Vtemp_61);
+    __Vtemp_65[0U] = (IData)(vlSelf->anvil_en1_top__DOT__positions_hold);
+    __Vtemp_65[1U] = (IData)((vlSelf->anvil_en1_top__DOT__positions_hold 
+                              >> 0x20U));
+    __Vtemp_65[2U] = 0U;
+    __Vtemp_66[0U] = (IData)(((QData)((IData)(vlSelf->anvil_en1_top__DOT__tokens_hold)) 
+                              << 2U));
+    __Vtemp_66[1U] = (IData)((((QData)((IData)(vlSelf->anvil_en1_top__DOT__tokens_hold)) 
+                               << 2U) >> 0x20U));
+    __Vtemp_66[2U] = 0U;
+    VL_ADD_W(3, __Vtemp_67, __Vtemp_65, __Vtemp_66);
+    __Vtemp_68[0U] = 1U;
+    __Vtemp_68[1U] = 0U;
+    __Vtemp_68[2U] = 0U;
+    VL_SUB_W(3, __Vtemp_69, __Vtemp_67, __Vtemp_68);
+    __Vtemp_72[0U] = (IData)(vlSelf->anvil_en1_top__DOT__masks_hold);
+    __Vtemp_72[1U] = (IData)((vlSelf->anvil_en1_top__DOT__masks_hold 
+                              >> 0x20U));
+    __Vtemp_72[2U] = 0U;
+    __Vtemp_73[0U] = (IData)(((QData)((IData)(vlSelf->anvil_en1_top__DOT__tokens_hold)) 
+                              << 2U));
+    __Vtemp_73[1U] = (IData)((((QData)((IData)(vlSelf->anvil_en1_top__DOT__tokens_hold)) 
+                               << 2U) >> 0x20U));
+    __Vtemp_73[2U] = 0U;
+    VL_ADD_W(3, __Vtemp_74, __Vtemp_72, __Vtemp_73);
+    __Vtemp_75[0U] = 1U;
+    __Vtemp_75[1U] = 0U;
+    __Vtemp_75[2U] = 0U;
+    VL_SUB_W(3, __Vtemp_76, __Vtemp_74, __Vtemp_75);
+    vlSelf->anvil_en1_top__DOT__native_descriptor_bad 
+        = (1U & ((((((((0ULL != (3ULL & vlSelf->anvil_en1_top__DOT__ids_hold)) 
+                       | (0ULL != (3ULL & vlSelf->anvil_en1_top__DOT__positions_hold))) 
+                      | (0ULL != (3ULL & vlSelf->anvil_en1_top__DOT__masks_hold))) 
+                     | (0ULL != (3ULL & vlSelf->anvil_en1_top__DOT__weights_hold))) 
+                    | __Vtemp_62[2U]) | __Vtemp_69[2U]) 
+                  | __Vtemp_76[2U]) | ((((((7U == (IData)(vlSelf->anvil_en1_top__DOT__mode_hold)) 
+                                           | (0U == vlSelf->anvil_en1_top__DOT__tokens_hold)) 
+                                          | (0x20000U 
+                                             < vlSelf->anvil_en1_top__DOT__tokens_hold)) 
+                                         | (0x1ffffU 
+                                            < vlSelf->anvil_en1_top__DOT__position_hold)) 
+                                        | ((IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__job_image_mode) 
+                                           & ((0U == vlSelf->anvil_en1_top__DOT__rows_hold) 
+                                              | ((0U 
+                                                  == vlSelf->anvil_en1_top__DOT__columns_hold) 
+                                                 | ((0xffffffffULL 
+                                                     < vlSelf->anvil_en1_top__DOT__patch_count) 
+                                                    | (0U 
+                                                       != 
+                                                       (3U 
+                                                        & ((IData)(vlSelf->anvil_en1_top__DOT__image_hold) 
+                                                           | (IData)(vlSelf->anvil_en1_top__DOT__vision_weights_hold))))))))) 
+                                       | ((IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__job_audio_mode) 
+                                          & ((0U == vlSelf->anvil_en1_top__DOT__frames_hold) 
+                                             | (0U 
+                                                != 
+                                                (3U 
+                                                 & ((IData)(vlSelf->anvil_en1_top__DOT__audio_hold) 
+                                                    | (IData)(vlSelf->anvil_en1_top__DOT__audio_weights_hold)))))))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__memory__DOT__arbiter__DOT__responses__BRA__2__KET____DOT__selected 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__memory__DOT____VdfgTmp_hc99991bc__0) 
+           & (2U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__memory__DOT__arbiter__DOT__owner_hold)));
+    vlSelf->anvil_en1_top__DOT__native__DOT____Vcellinp__binding__result_valid 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__memory__DOT____VdfgTmp_hc99991bc__0) 
+           & (1U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__memory__DOT__arbiter__DOT__owner_hold)));
+    vlSelf->anvil_en1_top__DOT__native__DOT____Vcellinp__frontier__result_valid 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__memory__DOT____VdfgTmp_hc99991bc__0) 
+           & (0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__memory__DOT__arbiter__DOT__owner_hold)));
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__593__right 
+        = ((((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__selected_fallback) 
+             & (0U != (vlSelf->anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__stages__BRA__0__KET____DOT__metrics__BRA__2__KET____DOT__nodes__BRA__0__KET____DOT__registered_node__DOT__input_pair__DOT__right 
+                       >> 0x17U))) << 0x17U) | ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__selected_fallback)
+                                                 ? 
+                                                (0x7fffffU 
+                                                 & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__stages__BRA__0__KET____DOT__metrics__BRA__2__KET____DOT__nodes__BRA__0__KET____DOT__registered_node__DOT__input_pair__DOT__right))
+                                                 : 0U));
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__593__left 
+        = ((((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__selected_fallback) 
+             & (0U != (vlSelf->anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__stages__BRA__0__KET____DOT__metrics__BRA__2__KET____DOT__nodes__BRA__0__KET____DOT__registered_node__DOT__input_pair__DOT__left 
+                       >> 0x17U))) << 0x17U) | ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__selected_fallback)
+                                                 ? 
+                                                (0x7fffffU 
+                                                 & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__stages__BRA__0__KET____DOT__metrics__BRA__2__KET____DOT__nodes__BRA__0__KET____DOT__registered_node__DOT__input_pair__DOT__left))
+                                                 : 0U));
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__593__sum 
+        = (0xffffffU & ((0x7fffffU & __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__593__left) 
+                        + (0x7fffffU & __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__593__right)));
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__593__Vfuncout 
+        = ((0x800000U & ((__Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__593__left 
+                          | __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__593__right) 
+                         | __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__593__sum)) 
+           | (0x7fffffU & __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__593__sum));
+    vlSelf->anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__stages__BRA__0__KET____DOT__metrics__BRA__6__KET____DOT__nodes__BRA__0__KET____DOT__registered_node__DOT__next_value 
+        = __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__593__Vfuncout;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__594__right 
+        = ((((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__selected_fallback)) 
+             & (0U != (vlSelf->anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__stages__BRA__0__KET____DOT__metrics__BRA__2__KET____DOT__nodes__BRA__2__KET____DOT__registered_node__DOT__input_pair__DOT__right 
+                       >> 0x17U))) << 0x17U) | ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__selected_fallback)
+                                                 ? 0U
+                                                 : 
+                                                (0x7fffffU 
+                                                 & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__stages__BRA__0__KET____DOT__metrics__BRA__2__KET____DOT__nodes__BRA__2__KET____DOT__registered_node__DOT__input_pair__DOT__right))));
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__594__left 
+        = vlSelf->anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__stages__BRA__0__KET____DOT__metrics__BRA__2__KET____DOT__nodes__BRA__2__KET____DOT__registered_node__DOT__left_node;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__594__sum 
+        = (0xffffffU & ((0x7fffffU & __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__594__left) 
+                        + (0x7fffffU & __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__594__right)));
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__594__Vfuncout 
+        = ((0x800000U & ((__Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__594__left 
+                          | __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__594__right) 
+                         | __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__594__sum)) 
+           | (0x7fffffU & __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__594__sum));
+    vlSelf->anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__stages__BRA__0__KET____DOT__metrics__BRA__6__KET____DOT__nodes__BRA__2__KET____DOT__registered_node__DOT__next_value 
+        = __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__594__Vfuncout;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__595__right 
+        = vlSelf->anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__stages__BRA__0__KET____DOT__metrics__BRA__2__KET____DOT__nodes__BRA__9__KET____DOT__registered_node__DOT__right_node;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__595__left 
+        = ((((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__selected_fallback) 
+             & (0U != (vlSelf->__VdfgTmp_hc1abadac__0 
+                       >> 0x17U))) << 0x17U) | ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__selected_fallback)
+                                                 ? 
+                                                (0x7fffffU 
+                                                 & (IData)(vlSelf->__VdfgTmp_hc1abadac__0))
+                                                 : 0U));
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__595__sum 
+        = (0xffffffU & ((0x7fffffU & __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__595__left) 
+                        + (0x7fffffU & __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__595__right)));
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__595__Vfuncout 
+        = ((0x800000U & ((__Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__595__left 
+                          | __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__595__right) 
+                         | __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__595__sum)) 
+           | (0x7fffffU & __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__595__sum));
+    vlSelf->anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__stages__BRA__0__KET____DOT__metrics__BRA__6__KET____DOT__nodes__BRA__9__KET____DOT__registered_node__DOT__next_value 
+        = __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__595__Vfuncout;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__596__right 
+        = ((((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__selected_fallback) 
+             & (0U != (vlSelf->__VdfgTmp_h1bfacb48__0 
+                       >> 0x17U))) << 0x17U) | ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__selected_fallback)
+                                                 ? 
+                                                (0x7fffffU 
+                                                 & (IData)(vlSelf->__VdfgTmp_h1bfacb48__0))
+                                                 : 0U));
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__596__left 
+        = ((((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__selected_fallback) 
+             & (0U != (vlSelf->__VdfgTmp_h42c59b09__0 
+                       >> 0x17U))) << 0x17U) | ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__selected_fallback)
+                                                 ? 
+                                                (0x7fffffU 
+                                                 & (IData)(vlSelf->__VdfgTmp_h42c59b09__0))
+                                                 : 0U));
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__596__sum 
+        = (0xffffffU & ((0x7fffffU & __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__596__left) 
+                        + (0x7fffffU & __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__596__right)));
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__596__Vfuncout 
+        = ((0x800000U & ((__Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__596__left 
+                          | __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__596__right) 
+                         | __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__596__sum)) 
+           | (0x7fffffU & __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__596__sum));
+    vlSelf->anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__stages__BRA__0__KET____DOT__metrics__BRA__7__KET____DOT__nodes__BRA__0__KET____DOT__registered_node__DOT__next_value 
+        = __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__596__Vfuncout;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__597__right 
+        = ((((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__selected_fallback)) 
+             & (0U != (vlSelf->anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__stages__BRA__0__KET____DOT__metrics__BRA__4__KET____DOT__nodes__BRA__2__KET____DOT__registered_node__DOT__input_pair__DOT__right 
+                       >> 0x17U))) << 0x17U) | ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__selected_fallback)
+                                                 ? 0U
+                                                 : 
+                                                (0x7fffffU 
+                                                 & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__stages__BRA__0__KET____DOT__metrics__BRA__4__KET____DOT__nodes__BRA__2__KET____DOT__registered_node__DOT__input_pair__DOT__right))));
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__597__left 
+        = vlSelf->anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__stages__BRA__0__KET____DOT__metrics__BRA__4__KET____DOT__nodes__BRA__2__KET____DOT__registered_node__DOT__left_node;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__597__sum 
+        = (0xffffffU & ((0x7fffffU & __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__597__left) 
+                        + (0x7fffffU & __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__597__right)));
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__597__Vfuncout 
+        = ((0x800000U & ((__Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__597__left 
+                          | __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__597__right) 
+                         | __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__597__sum)) 
+           | (0x7fffffU & __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__597__sum));
+    vlSelf->anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__stages__BRA__0__KET____DOT__metrics__BRA__7__KET____DOT__nodes__BRA__2__KET____DOT__registered_node__DOT__next_value 
+        = __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__597__Vfuncout;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__598__right 
+        = vlSelf->anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__stages__BRA__0__KET____DOT__metrics__BRA__4__KET____DOT__nodes__BRA__9__KET____DOT__registered_node__DOT__right_node;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__598__left 
+        = ((((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__selected_fallback) 
+             & (0U != (vlSelf->__VdfgTmp_h4dfb1dab__0 
+                       >> 0x17U))) << 0x17U) | ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__selected_fallback)
+                                                 ? 
+                                                (0x7fffffU 
+                                                 & (IData)(vlSelf->__VdfgTmp_h4dfb1dab__0))
+                                                 : 0U));
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__598__sum 
+        = (0xffffffU & ((0x7fffffU & __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__598__left) 
+                        + (0x7fffffU & __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__598__right)));
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__598__Vfuncout 
+        = ((0x800000U & ((__Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__598__left 
+                          | __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__598__right) 
+                         | __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__598__sum)) 
+           | (0x7fffffU & __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__598__sum));
+    vlSelf->anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__stages__BRA__0__KET____DOT__metrics__BRA__7__KET____DOT__nodes__BRA__9__KET____DOT__registered_node__DOT__next_value 
+        = __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__598__Vfuncout;
+    vlSelf->anvil_en1_top__DOT__native_allocation_fallback 
+        = ((IData)(vlSelf->rst_n) & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__selected_fallback));
+    __Vtemp_79[0U] = (IData)(vlSelf->anvil_en1_top__DOT__performance__DOT__counters
+                             [0x1cU]);
+    __Vtemp_79[1U] = (IData)((vlSelf->anvil_en1_top__DOT__performance__DOT__counters
+                              [0x1cU] >> 0x20U));
+    __Vtemp_79[2U] = 0U;
+    __Vtemp_80[0U] = (IData)(((IData)(vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__0__KET____DOT__metric_words__BRA__28__KET____DOT__traffic_event)
+                               ? 4ULL : 0ULL));
+    __Vtemp_80[1U] = (IData)((((IData)(vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__0__KET____DOT__metric_words__BRA__28__KET____DOT__traffic_event)
+                                ? 4ULL : 0ULL) >> 0x20U));
+    __Vtemp_80[2U] = 0U;
+    VL_ADD_W(3, __Vtemp_81, __Vtemp_79, __Vtemp_80);
+    vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__0__KET____DOT__metric_words__BRA__28__KET____DOT__updated[0U] 
+        = __Vtemp_81[0U];
+    vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__0__KET____DOT__metric_words__BRA__28__KET____DOT__updated[1U] 
+        = __Vtemp_81[1U];
+    vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__0__KET____DOT__metric_words__BRA__28__KET____DOT__updated[2U] 
+        = (1U & __Vtemp_81[2U]);
+    vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__0__KET____DOT__metric_words__BRA__27__KET____DOT__traffic_class 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__0__KET____DOT__traffic_bank) 
+           & ((~ (IData)(vlSelf->anvil_en1_top__DOT____Vcellinp__performance__traffic_cache)) 
+              & (IData)(vlSelf->mem_req_write)));
+    vlSelf->anvil_en1_top__DOT__performance__DOT____VdfgTmp_h6e9cab95__0 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__0__KET____DOT__traffic_bank) 
+           & (IData)(vlSelf->anvil_en1_top__DOT____Vcellinp__performance__traffic_cache));
+    vlSelf->anvil_en1_top__DOT__performance__DOT____VdfgTmp_h4c01d0b5__0 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__0__KET____DOT__traffic_bank) 
+           & ((~ (IData)(vlSelf->mem_req_write)) & 
+              (~ (IData)(vlSelf->anvil_en1_top__DOT____Vcellinp__performance__traffic_cache))));
+    vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__28__KET____DOT__traffic_event 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__accepted_memory) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__0__KET____DOT__traffic_bank));
+    vlSelf->__VdfgTmp_hcba1cd92__0 = ((IData)(vlSelf->anvil_en1_top__DOT____VdfgTmp_h6fffac67__0) 
+                                      & (IData)(vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__0__KET____DOT__traffic_bank));
+    __VdfgTmp_h349ecc70__0 = ((~ (IData)(vlSelf->anvil_en1_top__DOT__bridge_input)) 
+                              & (IData)(vlSelf->anvil_en1_top__DOT____VdfgTmp_h231c22f1__0));
+    __VdfgTmp_h56b2389c__0 = ((IData)(vlSelf->anvil_en1_top__DOT____VdfgTmp_h231c22f1__0) 
+                              & (IData)(vlSelf->anvil_en1_top__DOT__bridge_input));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__owner_eval_ready 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____VdfgTmp_heafcf40e__0) 
+           & (0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__root_state)));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__owner_regen_ready 
+        = ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__control_valid)) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__owner_control_ready));
+    vlSelf->anvil_en1_top__DOT__native__DOT__cache_response[0U] 
+        = (((IData)(((IData)(vlSelf->rst_n) ? vlSelf->anvil_en1_top__DOT__native__DOT__cache__DOT__cache__DOT__addr_hold
+                      : 0ULL)) << 0xfU) | ((((IData)(vlSelf->rst_n)
+                                              ? (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__cache__DOT__cache__DOT__owner_hold)
+                                              : 0U) 
+                                            << 7U) 
+                                           | ((((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__cache__DOT__cache__DOT__alias_hold) 
+                                                & (IData)(vlSelf->rst_n)) 
+                                               << 6U) 
+                                              | ((((IData)(vlSelf->rst_n)
+                                                    ? (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__cache__DOT__cache__DOT__meta_error)
+                                                    : 0U) 
+                                                  << 2U) 
+                                                 | ((IData)(vlSelf->rst_n)
+                                                     ? (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__cache__DOT__cache__DOT__space_hold)
+                                                     : 0U)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__cache_response[1U] 
+        = (((IData)(((IData)(vlSelf->rst_n) ? vlSelf->anvil_en1_top__DOT__native__DOT__cache__DOT__cache__DOT__addr_hold
+                      : 0ULL)) >> 0x11U) | ((IData)(
+                                                    (((IData)(vlSelf->rst_n)
+                                                       ? vlSelf->anvil_en1_top__DOT__native__DOT__cache__DOT__cache__DOT__addr_hold
+                                                       : 0ULL) 
+                                                     >> 0x20U)) 
+                                            << 0xfU));
+    vlSelf->anvil_en1_top__DOT__native__DOT__cache_response[2U] 
+        = ((IData)((((IData)(vlSelf->rst_n) ? vlSelf->anvil_en1_top__DOT__native__DOT__cache__DOT__cache__DOT__addr_hold
+                      : 0ULL) >> 0x20U)) >> 0x11U);
+    vlSelf->anvil_en1_top__DOT__native__DOT__meta_valid 
+        = (((IData)(vlSelf->anvil_en1_top__DOT__native__DOT____Vcellout__binding__req_valid) 
+            << 1U) | ((IData)(vlSelf->rst_n) & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__anchor_selected)
+                                                 ? 
+                                                ((IData)(vlSelf->rst_n) 
+                                                 & (2U 
+                                                    == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__anchor__DOT__materialize__DOT__state)))
+                                                 : 
+                                                ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__layer_selected) 
+                                                 & ((IData)(vlSelf->rst_n) 
+                                                    & (8U 
+                                                       == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__text_layer__DOT__engine__DOT__full_attention__DOT__attention_unit__DOT__attention__DOT__state)))))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__meta_payload[0U] = 0U;
+    vlSelf->anvil_en1_top__DOT__native__DOT__meta_payload[1U] = 0U;
+    vlSelf->anvil_en1_top__DOT__native__DOT__meta_payload[2U] 
+        = ((vlSelf->anvil_en1_top__DOT__native__DOT____Vcellout__frontier__req_token 
+            << 0xdU) | (((IData)(vlSelf->anvil_en1_top__DOT__native__DOT____Vcellout__frontier__req_is_value) 
+                         << 0xcU) | (((IData)(vlSelf->anvil_en1_top__DOT__native__DOT____Vcellout__frontier__req_kv_head) 
+                                      << 0xaU) | (IData)(vlSelf->anvil_en1_top__DOT__native__DOT____Vcellout__frontier__req_component))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__meta_payload[3U] 
+        = (((IData)(vlSelf->anvil_en1_top__DOT__native__DOT____Vcellout__frontier__req_model) 
+            << 0x15U) | ((((IData)(vlSelf->rst_n) ? 
+                           ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__anchor_selected)
+                             ? (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__anchor_write_owner)
+                             : ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__layer_selected)
+                                 ? ((IData)(vlSelf->rst_n)
+                                     ? (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__text_layer__DOT__engine__DOT__full_attention__DOT__attention_unit__DOT__attention__DOT__layer_hold)
+                                     : 0U) : 0U)) : 0U) 
+                          << 0xdU) | (vlSelf->anvil_en1_top__DOT__native__DOT____Vcellout__frontier__req_token 
+                                      >> 0x13U)));
+    vlSelf->anvil_en1_top__DOT__native__DOT__meta_payload[4U] = 0U;
+    vlSelf->anvil_en1_top__DOT__native__DOT__meta_payload[5U] 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__attention_branch__DOT__executor__DOT__fetch_component) 
+           << 0x1aU);
+    vlSelf->anvil_en1_top__DOT__native__DOT__meta_payload[6U] 
+        = ((vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__attention_branch__DOT__executor__DOT__fetch_token 
+            << 7U) | (((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__attention_branch__DOT__executor__DOT__fetch_selector) 
+                       << 6U) | (((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__attention_branch__DOT__executor__DOT__attention__DOT__head_need_kv_head) 
+                                  << 4U) | ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__attention_branch__DOT__executor__DOT__fetch_component) 
+                                            >> 6U))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__meta_payload[7U] 
+        = (((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__attention_branch__DOT__executor__DOT__fetch_model) 
+            << 0xfU) | ((((IData)(vlSelf->rst_n) ? (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__attention_branch__DOT__executor__DOT__attention__DOT__attention__DOT__attention__DOT__layer_hold)
+                           : 0U) << 7U) | (vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__attention_branch__DOT__executor__DOT__fetch_token 
+                                           >> 0x19U)));
+    vlSelf->anvil_en1_top__DOT__native__DOT__model_hold 
+        = vlSelf->__Vdly__anvil_en1_top__DOT__native__DOT__model_hold;
+    vlSelf->anvil_en1_top__DOT__native__DOT__cache_valid 
+        = ((IData)(vlSelf->rst_n) & (3U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__cache__DOT__cache__DOT__meta_state)));
+    vlSelf->anvil_en1_top__DOT__native__DOT__cache_ready 
+        = ((IData)(vlSelf->rst_n) & (0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__cache__DOT__cache__DOT__meta_state)));
+    vlSelf->anvil_en1_top__DOT__native__DOT__meta_state 
+        = vlSelf->__Vdly__anvil_en1_top__DOT__native__DOT__meta_state;
+    vlSelf->anvil_en1_top__DOT__native__DOT__state 
+        = vlSelf->__Vdly__anvil_en1_top__DOT__native__DOT__state;
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT____Vcellinp__original_input__work_req_ready 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__input_selected) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__work_ready));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT____Vcellinp__audio_feature__work_req_ready 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__feature_selected) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__work_ready));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT____Vcellinp__image_feature__work_req_ready 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature_selected) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__work_ready));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT____Vcellinp__vision_layer__work_req_ready 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_selected) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__work_ready));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT____Vcellinp__text_layer__work_req_ready 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_selected) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__work_ready));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT____Vcellinp__audio_layer__work_req_ready 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer_selected) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__work_ready));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__ordered_successor 
+        = ((vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry_order_key 
+            > vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__prior_entry[0U]) 
+           & ((~ vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__prior_end[2U]) 
+              & ((((QData)((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[3U])) 
+                   << 0x20U) | (QData)((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[2U]))) 
+                 >= (((QData)((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__prior_end[1U])) 
+                      << 0x20U) | (QData)((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__prior_end[0U]))))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__prior_bad 
+        = (1U & ((vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U] 
+                  == vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__prior_entry[0U]) 
+                 | (vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__prior_end[2U] 
+                    | (((((QData)((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[3U])) 
+                          << 0x20U) | (QData)((IData)(
+                                                      vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[2U]))) 
+                        < (((QData)((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__prior_end[1U])) 
+                            << 0x20U) | (QData)((IData)(
+                                                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__prior_end[0U])))) 
+                       & ((((QData)((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__prior_entry[2U])) 
+                            << 0x20U) | (QData)((IData)(
+                                                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__prior_entry[1U]))) 
+                          < (((QData)((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry_end[1U])) 
+                              << 0x20U) | (QData)((IData)(
+                                                          vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry_end[0U]))))))));
+    if (vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__lookup_selected) {
+        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__mask_cmd_valid 
+            = ((IData)(vlSelf->rst_n) & (2U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__state)));
+        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__mask_result_ready 
+            = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__lookup_result_ready;
+    } else {
+        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__mask_cmd_valid 
+            = ((IData)(vlSelf->rst_n) & (8U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__state)));
+        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__mask_result_ready 
+            = ((IData)(vlSelf->rst_n) & (9U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__state)));
+    }
+    __Vtemp_96[0U] = (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__base_hold);
+    __Vtemp_96[1U] = (IData)((vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__base_hold 
+                              >> 0x20U));
+    __Vtemp_96[2U] = 0U;
+    __Vtemp_97[0U] = (IData)((((QData)((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__header[1U])) 
+                               << 0x20U) | (QData)((IData)(
+                                                           vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__header[0U]))));
+    __Vtemp_97[1U] = (IData)(((((QData)((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__header[1U])) 
+                                << 0x20U) | (QData)((IData)(
+                                                            vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__header[0U]))) 
+                              >> 0x20U));
+    __Vtemp_97[2U] = 0U;
+    VL_ADD_W(3, __Vtemp_98, __Vtemp_96, __Vtemp_97);
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__header_bad 
+        = ((((((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__header_word_error) 
+               | __Vtemp_98[2U]) | (0U != (3U & vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__header[3U]))) 
+             | vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__directory_end[2U]) 
+            | vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__directory_sum[2U]) 
+           | ((((0x40ULL > (((QData)((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__header[1U])) 
+                             << 0x20U) | (QData)((IData)(
+                                                         vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__header[0U])))) 
+                | (vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__header[2U] 
+                   != ((IData)(vlSelf->rst_n) ? vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__count_hold
+                        : 0U))) | (0x40ULL > (((QData)((IData)(
+                                                               vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__header[4U])) 
+                                               << 0x20U) 
+                                              | (QData)((IData)(
+                                                                vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__header[3U]))))) 
+              | ((((QData)((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__directory_end[1U])) 
+                   << 0x20U) | (QData)((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__directory_end[0U]))) 
+                 > (((QData)((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__header[1U])) 
+                     << 0x20U) | (QData)((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__header[0U]))))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 0U;
+    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__matrix_type = 0U;
+    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__clipped = 0U;
+    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__clip_scalar = 0U;
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__type_hold = 0U;
+    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__rank_hold = 1U;
+    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d0 = 1U;
+    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d1 = 1U;
+    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d2 = 1U;
+    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d3 = 1U;
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__rows_hold = 1U;
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__columns_hold = 1U;
+    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__base_kind 
+        = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__kind_hold;
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 0U;
+    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__matrix_type = 0U;
+    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__clipped = 0U;
+    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__clip_scalar = 0U;
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__type_hold = 0U;
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__rank_hold = 1U;
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d0 = 1U;
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d1 = 1U;
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d2 = 1U;
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d3 = 1U;
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__rows_hold = 1U;
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__columns_hold = 1U;
+    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__base_kind 
+        = (0xffffU & vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U]);
+    if ((((IData)(vlSelf->rst_n) & ((1U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__model_hold)) 
+                                    | (2U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__model_hold)))) 
+         & (1U >= (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__precision_hold)))) {
+        if ((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__class_hold))) {
+            if ((0xffffU == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__layer_hold))) {
+                if ((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__kind_hold))) {
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 1U;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__matrix_type = 1U;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__rank_hold = 2U;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d0 = 0x40000U;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d1 
+                        = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__production_hidden;
+                } else if ((1U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__kind_hold))) {
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 1U;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__matrix_type = 1U;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__rank_hold = 2U;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d0 = 0x40000U;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d1 
+                        = VL_SHIFTL_III(32,32,32, (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__layers), 8U);
+                } else if ((2U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__kind_hold))) {
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 1U;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__matrix_type = 1U;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__rank_hold = 2U;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d0 
+                        = VL_SHIFTL_III(32,32,32, (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__layers), 8U);
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d1 
+                        = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__production_hidden;
+                } else if ((3U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__kind_hold))) {
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 1U;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d0 = 0x100U;
+                } else if ((4U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__kind_hold))) {
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 1U;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d0 
+                        = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__production_hidden;
+                } else {
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 0U;
+                }
+            } else if (((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__layer_hold) 
+                        < (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__layers))) {
+                if (((((((((((((0x100U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__kind_hold)) 
+                               || (0x107U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__kind_hold))) 
+                              || (0x108U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__kind_hold))) 
+                             || (0x10cU == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__kind_hold))) 
+                            || (0x10fU == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__kind_hold))) 
+                           | (0x101U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__kind_hold))) 
+                          | (0x102U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__kind_hold))) 
+                         | ((0x103U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__kind_hold)) 
+                            || (0x105U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__kind_hold)))) 
+                        | (0x104U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__kind_hold))) 
+                       | (0x106U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__kind_hold))) 
+                      | ((0x109U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__kind_hold)) 
+                         || (0x10aU == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__kind_hold)))) 
+                     | (0x10bU == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__kind_hold)))) {
+                    if ((((((0x100U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__kind_hold)) 
+                            || (0x107U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__kind_hold))) 
+                           || (0x108U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__kind_hold))) 
+                          || (0x10cU == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__kind_hold))) 
+                         || (0x10fU == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__kind_hold)))) {
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 1U;
+                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d0 
+                            = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__production_hidden;
+                    } else if ((0x101U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__kind_hold))) {
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 1U;
+                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__matrix_type = 1U;
+                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__rank_hold = 2U;
+                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d0 
+                            = VL_SHIFTL_III(32,32,32, 
+                                            ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__is_global)
+                                              ? 0x200U
+                                              : 0x100U), 3U);
+                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d1 
+                            = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__production_hidden;
+                    } else if ((0x102U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__kind_hold))) {
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 1U;
+                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d0 
+                            = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__is_global)
+                                ? 0x200U : 0x100U);
+                    } else if (((0x103U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__kind_hold)) 
+                                || (0x105U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__kind_hold)))) {
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold 
+                            = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__layer_hold) 
+                               < (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__owners));
+                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__matrix_type = 1U;
+                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__rank_hold = 2U;
+                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d0 
+                            = (((1U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__model_hold))
+                                 ? 1U : 2U) * ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__is_global)
+                                                ? 0x200U
+                                                : 0x100U));
+                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d1 
+                            = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__production_hidden;
+                    } else if ((0x104U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__kind_hold))) {
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold 
+                            = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__layer_hold) 
+                               < (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__owners));
+                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d0 
+                            = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__is_global)
+                                ? 0x200U : 0x100U);
+                    } else if ((0x106U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__kind_hold))) {
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 1U;
+                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__matrix_type = 1U;
+                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__rank_hold = 2U;
+                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d0 
+                            = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__production_hidden;
+                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d1 
+                            = VL_SHIFTL_III(32,32,32, 
+                                            ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__is_global)
+                                              ? 0x200U
+                                              : 0x100U), 3U);
+                    } else if (((0x109U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__kind_hold)) 
+                                || (0x10aU == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__kind_hold)))) {
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 1U;
+                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__matrix_type = 1U;
+                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__rank_hold = 2U;
+                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d0 
+                            = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__production_intermediate;
+                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d1 
+                            = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__production_hidden;
+                    } else {
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 1U;
+                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__matrix_type = 1U;
+                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__rank_hold = 2U;
+                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d0 
+                            = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__production_hidden;
+                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d1 
+                            = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__production_intermediate;
+                    }
+                } else if ((0x10dU == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__kind_hold))) {
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 1U;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__matrix_type = 1U;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__rank_hold = 2U;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d0 = 0x100U;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d1 
+                        = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__production_hidden;
+                } else if ((0x10eU == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__kind_hold))) {
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 1U;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__matrix_type = 1U;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__rank_hold = 2U;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d0 
+                        = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__production_hidden;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d1 = 0x100U;
+                } else if ((0x110U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__kind_hold))) {
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 1U;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__rank_hold = 0U;
+                } else {
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 0U;
+                }
+            }
+            if ((0xffffU == (vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U] 
+                             >> 0x10U))) {
+                if ((0U == (0xffffU & vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U]))) {
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 1U;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__matrix_type = 1U;
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__rank_hold = 2U;
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d0 = 0x40000U;
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d1 
+                        = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__production_hidden;
+                } else if ((1U == (0xffffU & vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U]))) {
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 1U;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__matrix_type = 1U;
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__rank_hold = 2U;
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d0 = 0x40000U;
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d1 
+                        = VL_SHIFTL_III(32,32,32, (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__layers), 8U);
+                } else if ((2U == (0xffffU & vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U]))) {
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 1U;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__matrix_type = 1U;
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__rank_hold = 2U;
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d0 
+                        = VL_SHIFTL_III(32,32,32, (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__layers), 8U);
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d1 
+                        = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__production_hidden;
+                } else if ((3U == (0xffffU & vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U]))) {
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 1U;
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d0 = 0x100U;
+                } else if ((4U == (0xffffU & vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U]))) {
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 1U;
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d0 
+                        = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__production_hidden;
+                } else {
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 0U;
+                }
+            } else if (((vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U] 
+                         >> 0x10U) < (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__layers))) {
+                if (((((((((((((0x100U == (0xffffU 
+                                           & vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U])) 
+                               || (0x107U == (0xffffU 
+                                              & vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U]))) 
+                              || (0x108U == (0xffffU 
+                                             & vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U]))) 
+                             || (0x10cU == (0xffffU 
+                                            & vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U]))) 
+                            || (0x10fU == (0xffffU 
+                                           & vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U]))) 
+                           | (0x101U == (0xffffU & 
+                                         vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U]))) 
+                          | (0x102U == (0xffffU & vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U]))) 
+                         | ((0x103U == (0xffffU & vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U])) 
+                            || (0x105U == (0xffffU 
+                                           & vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U])))) 
+                        | (0x104U == (0xffffU & vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U]))) 
+                       | (0x106U == (0xffffU & vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U]))) 
+                      | ((0x109U == (0xffffU & vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U])) 
+                         || (0x10aU == (0xffffU & vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U])))) 
+                     | (0x10bU == (0xffffU & vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U])))) {
+                    if ((((((0x100U == (0xffffU & vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U])) 
+                            || (0x107U == (0xffffU 
+                                           & vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U]))) 
+                           || (0x108U == (0xffffU & 
+                                          vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U]))) 
+                          || (0x10cU == (0xffffU & 
+                                         vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U]))) 
+                         || (0x10fU == (0xffffU & vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U])))) {
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 1U;
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d0 
+                            = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__production_hidden;
+                    } else if ((0x101U == (0xffffU 
+                                           & vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U]))) {
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 1U;
+                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__matrix_type = 1U;
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__rank_hold = 2U;
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d0 
+                            = VL_SHIFTL_III(32,32,32, 
+                                            ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__is_global)
+                                              ? 0x200U
+                                              : 0x100U), 3U);
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d1 
+                            = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__production_hidden;
+                    } else if ((0x102U == (0xffffU 
+                                           & vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U]))) {
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 1U;
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d0 
+                            = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__is_global)
+                                ? 0x200U : 0x100U);
+                    } else if (((0x103U == (0xffffU 
+                                            & vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U])) 
+                                || (0x105U == (0xffffU 
+                                               & vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U])))) {
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold 
+                            = ((vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U] 
+                                >> 0x10U) < (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__owners));
+                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__matrix_type = 1U;
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__rank_hold = 2U;
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d0 
+                            = (((1U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__model_hold))
+                                 ? 1U : 2U) * ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__is_global)
+                                                ? 0x200U
+                                                : 0x100U));
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d1 
+                            = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__production_hidden;
+                    } else if ((0x104U == (0xffffU 
+                                           & vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U]))) {
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold 
+                            = ((vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U] 
+                                >> 0x10U) < (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__owners));
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d0 
+                            = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__is_global)
+                                ? 0x200U : 0x100U);
+                    } else if ((0x106U == (0xffffU 
+                                           & vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U]))) {
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 1U;
+                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__matrix_type = 1U;
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__rank_hold = 2U;
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d0 
+                            = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__production_hidden;
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d1 
+                            = VL_SHIFTL_III(32,32,32, 
+                                            ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__is_global)
+                                              ? 0x200U
+                                              : 0x100U), 3U);
+                    } else if (((0x109U == (0xffffU 
+                                            & vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U])) 
+                                || (0x10aU == (0xffffU 
+                                               & vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U])))) {
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 1U;
+                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__matrix_type = 1U;
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__rank_hold = 2U;
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d0 
+                            = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__production_intermediate;
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d1 
+                            = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__production_hidden;
+                    } else {
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 1U;
+                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__matrix_type = 1U;
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__rank_hold = 2U;
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d0 
+                            = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__production_hidden;
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d1 
+                            = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__production_intermediate;
+                    }
+                } else if ((0x10dU == (0xffffU & vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U]))) {
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 1U;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__matrix_type = 1U;
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__rank_hold = 2U;
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d0 = 0x100U;
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d1 
+                        = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__production_hidden;
+                } else if ((0x10eU == (0xffffU & vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U]))) {
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 1U;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__matrix_type = 1U;
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__rank_hold = 2U;
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d0 
+                        = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__production_hidden;
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d1 = 0x100U;
+                } else if ((0x110U == (0xffffU & vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U]))) {
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 1U;
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__rank_hold = 0U;
+                } else {
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 0U;
+                }
+            }
+        } else if ((1U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__class_hold))) {
+            if (((5U <= (0xfU & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__kind_hold) 
+                                 >> 0xcU))) & (8U >= 
+                                               (0xfU 
+                                                & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__kind_hold) 
+                                                   >> 0xcU))))) {
+                anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__base_kind 
+                    = (0x1000U | (0xfffU & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__kind_hold)));
+                anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__clip_scalar = 1U;
+            }
+            if (((0xffffU == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__layer_hold)) 
+                 & (~ (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__clip_scalar)))) {
+                if ((0x1000U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__kind_hold))) {
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 1U;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__matrix_type = 1U;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__rank_hold = 2U;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d0 = 0x300U;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d1 = 0x300U;
+                } else if ((0x1001U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__kind_hold))) {
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 1U;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__rank_hold = 3U;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d0 = 2U;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d1 = 0x2800U;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d2 = 0x300U;
+                } else if ((0x1200U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__kind_hold))) {
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 1U;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__matrix_type = 1U;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__rank_hold = 2U;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d0 
+                        = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__production_hidden;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d1 = 0x300U;
+                } else {
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 0U;
+                }
+            } else if ((0x10U > (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__layer_hold))) {
+                if (((((0x1100U == (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__base_kind)) 
+                       || (0x1107U == (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__base_kind))) 
+                      || (0x1108U == (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__base_kind))) 
+                     || (0x110cU == (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__base_kind)))) {
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 1U;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d0 = 0x300U;
+                } else if (((0x1102U == (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__base_kind)) 
+                            || (0x1104U == (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__base_kind)))) {
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 1U;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d0 = 0x40U;
+                } else if (((((0x1101U == (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__base_kind)) 
+                              || (0x1103U == (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__base_kind))) 
+                             || (0x1105U == (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__base_kind))) 
+                            || (0x1106U == (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__base_kind)))) {
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 1U;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__matrix_type = 1U;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__clipped = 1U;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__rank_hold = 2U;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d0 = 0x300U;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d1 = 0x300U;
+                } else if (((0x1109U == (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__base_kind)) 
+                            || (0x110aU == (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__base_kind)))) {
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 1U;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__matrix_type = 1U;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__clipped = 1U;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__rank_hold = 2U;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d0 = 0xc00U;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d1 = 0x300U;
+                } else if ((0x110bU == (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__base_kind))) {
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 1U;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__matrix_type = 1U;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__clipped = 1U;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__rank_hold = 2U;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d0 = 0x300U;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d1 = 0xc00U;
+                } else {
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 0U;
+                }
+            }
+            if (((5U <= (0xfU & (vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U] 
+                                 >> 0xcU))) & (8U >= 
+                                               (0xfU 
+                                                & (vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U] 
+                                                   >> 0xcU))))) {
+                anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__base_kind 
+                    = (0x1000U | (0xfffU & vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U]));
+                anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__clip_scalar = 1U;
+            }
+            if (((0xffffU == (vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U] 
+                              >> 0x10U)) & (~ (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__clip_scalar)))) {
+                if ((0x1000U == (0xffffU & vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U]))) {
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 1U;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__matrix_type = 1U;
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__rank_hold = 2U;
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d0 = 0x300U;
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d1 = 0x300U;
+                } else if ((0x1001U == (0xffffU & vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U]))) {
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 1U;
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__rank_hold = 3U;
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d0 = 2U;
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d1 = 0x2800U;
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d2 = 0x300U;
+                } else if ((0x1200U == (0xffffU & vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U]))) {
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 1U;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__matrix_type = 1U;
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__rank_hold = 2U;
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d0 
+                        = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__production_hidden;
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d1 = 0x300U;
+                } else {
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 0U;
+                }
+            } else if ((0x10U > (vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U] 
+                                 >> 0x10U))) {
+                if (((((0x1100U == (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__base_kind)) 
+                       || (0x1107U == (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__base_kind))) 
+                      || (0x1108U == (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__base_kind))) 
+                     || (0x110cU == (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__base_kind)))) {
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 1U;
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d0 = 0x300U;
+                } else if (((0x1102U == (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__base_kind)) 
+                            || (0x1104U == (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__base_kind)))) {
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 1U;
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d0 = 0x40U;
+                } else if (((((0x1101U == (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__base_kind)) 
+                              || (0x1103U == (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__base_kind))) 
+                             || (0x1105U == (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__base_kind))) 
+                            || (0x1106U == (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__base_kind)))) {
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 1U;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__matrix_type = 1U;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__clipped = 1U;
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__rank_hold = 2U;
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d0 = 0x300U;
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d1 = 0x300U;
+                } else if (((0x1109U == (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__base_kind)) 
+                            || (0x110aU == (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__base_kind)))) {
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 1U;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__matrix_type = 1U;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__clipped = 1U;
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__rank_hold = 2U;
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d0 = 0xc00U;
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d1 = 0x300U;
+                } else if ((0x110bU == (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__base_kind))) {
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 1U;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__matrix_type = 1U;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__clipped = 1U;
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__rank_hold = 2U;
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d0 = 0x300U;
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d1 = 0xc00U;
+                } else {
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 0U;
+                }
+            }
+        } else if ((2U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__class_hold))) {
+            if (((6U <= (0xfU & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__kind_hold) 
+                                 >> 0xcU))) & (9U >= 
+                                               (0xfU 
+                                                & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__kind_hold) 
+                                                   >> 0xcU))))) {
+                anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__base_kind 
+                    = (0x2000U | (0xfffU & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__kind_hold)));
+                anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__clip_scalar = 1U;
+            }
+            if (((0xffffU == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__layer_hold)) 
+                 & (~ (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__clip_scalar)))) {
+                if (((((((((0x2000U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__kind_hold)) 
+                           | (0x2001U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__kind_hold))) 
+                          | (0x2002U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__kind_hold))) 
+                         | (0x2003U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__kind_hold))) 
+                        | (0x2004U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__kind_hold))) 
+                       | (0x2200U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__kind_hold))) 
+                      | (0x2201U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__kind_hold))) 
+                     | (0x2202U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__kind_hold)))) {
+                    if ((0x2000U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__kind_hold))) {
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 1U;
+                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__matrix_type = 1U;
+                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__rank_hold = 4U;
+                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d0 = 0x80U;
+                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d1 = 1U;
+                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d2 = 3U;
+                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d3 = 3U;
+                    } else if ((0x2001U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__kind_hold))) {
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 1U;
+                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d0 = 0x80U;
+                    } else if ((0x2002U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__kind_hold))) {
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 1U;
+                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__matrix_type = 1U;
+                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__rank_hold = 4U;
+                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d0 = 0x20U;
+                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d1 = 0x80U;
+                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d2 = 3U;
+                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d3 = 3U;
+                    } else if ((0x2003U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__kind_hold))) {
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 1U;
+                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d0 = 0x20U;
+                    } else if ((0x2004U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__kind_hold))) {
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 1U;
+                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__matrix_type = 1U;
+                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__rank_hold = 2U;
+                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d0 = 0x400U;
+                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d1 = 0x400U;
+                    } else if ((0x2200U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__kind_hold))) {
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 1U;
+                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__matrix_type = 1U;
+                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__rank_hold = 2U;
+                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d0 = 0x600U;
+                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d1 = 0x400U;
+                    } else if ((0x2201U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__kind_hold))) {
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 1U;
+                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d0 = 0x600U;
+                    } else {
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 1U;
+                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__matrix_type = 1U;
+                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__rank_hold = 2U;
+                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d0 
+                            = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__production_hidden;
+                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d1 = 0x600U;
+                    }
+                } else {
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 0U;
+                }
+            } else if ((0xcU > (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__layer_hold))) {
+                if ((0x8000U & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__base_kind))) {
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 0U;
+                } else if ((0x4000U & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__base_kind))) {
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 0U;
+                } else if ((0x2000U & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__base_kind))) {
+                    if ((0x1000U & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__base_kind))) {
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 0U;
+                    } else if ((0x800U & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__base_kind))) {
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 0U;
+                    } else if ((0x400U & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__base_kind))) {
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 0U;
+                    } else if ((0x200U & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__base_kind))) {
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 0U;
+                    } else if ((0x100U & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__base_kind))) {
+                        if ((0x80U & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__base_kind))) {
+                            vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 0U;
+                        } else if ((0x40U & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__base_kind))) {
+                            vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 0U;
+                        } else if ((0x20U & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__base_kind))) {
+                            vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 0U;
+                        } else if ((0x10U & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__base_kind))) {
+                            if ((8U & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__base_kind))) {
+                                vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 0U;
+                            } else if ((4U & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__base_kind))) {
+                                if ((2U & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__base_kind))) {
+                                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 0U;
+                                } else {
+                                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 1U;
+                                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d0 = 0x400U;
+                                }
+                            } else if ((2U & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__base_kind))) {
+                                if ((1U & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__base_kind))) {
+                                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 1U;
+                                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__matrix_type = 1U;
+                                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__clipped = 1U;
+                                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__rank_hold = 2U;
+                                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d0 = 0x400U;
+                                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d1 = 0x1000U;
+                                } else {
+                                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 1U;
+                                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__matrix_type = 1U;
+                                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__clipped = 1U;
+                                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__rank_hold = 2U;
+                                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d0 = 0x1000U;
+                                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d1 = 0x400U;
+                                }
+                            } else if ((1U & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__base_kind))) {
+                                vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 1U;
+                                anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d0 = 0x400U;
+                            } else {
+                                vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 1U;
+                                anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__matrix_type = 1U;
+                                anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__clipped = 1U;
+                                anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__rank_hold = 2U;
+                                anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d0 = 0x400U;
+                                anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d1 = 0x400U;
+                            }
+                        } else if ((8U & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__base_kind))) {
+                            if ((4U & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__base_kind))) {
+                                if ((2U & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__base_kind))) {
+                                    if ((1U & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__base_kind))) {
+                                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 1U;
+                                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d0 = 0x400U;
+                                    } else {
+                                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 1U;
+                                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__matrix_type = 1U;
+                                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__rank_hold = 3U;
+                                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d0 = 0x400U;
+                                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d1 = 1U;
+                                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d2 = 5U;
+                                    }
+                                } else if ((1U & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__base_kind))) {
+                                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 1U;
+                                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__matrix_type = 1U;
+                                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__clipped = 1U;
+                                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__rank_hold = 2U;
+                                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d0 = 0x800U;
+                                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d1 = 0x400U;
+                                } else {
+                                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 1U;
+                                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d0 = 0x400U;
+                                }
+                            } else if ((2U & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__base_kind))) {
+                                if ((1U & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__base_kind))) {
+                                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 1U;
+                                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d0 = 0x400U;
+                                } else {
+                                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 1U;
+                                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__matrix_type = 1U;
+                                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__clipped = 1U;
+                                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__rank_hold = 2U;
+                                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d0 = 0x400U;
+                                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d1 = 0x400U;
+                                }
+                            } else if ((1U & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__base_kind))) {
+                                vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 1U;
+                                anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d0 = 0x80U;
+                            } else {
+                                vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 1U;
+                                anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__matrix_type = 1U;
+                                anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__rank_hold = 2U;
+                                anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d0 = 0x400U;
+                                anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d1 = 0x400U;
+                            }
+                        } else if ((4U & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__base_kind))) {
+                            if ((2U & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__base_kind))) {
+                                vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 1U;
+                                anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__matrix_type = 1U;
+                                anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__clipped = 1U;
+                                anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__rank_hold = 2U;
+                                anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d0 = 0x400U;
+                                anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d1 = 0x400U;
+                            } else if ((1U & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__base_kind))) {
+                                vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 1U;
+                                anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__matrix_type = 1U;
+                                anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__clipped = 1U;
+                                anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__rank_hold = 2U;
+                                anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d0 = 0x400U;
+                                anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d1 = 0x400U;
+                            } else {
+                                vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 1U;
+                                anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d0 = 0x400U;
+                            }
+                        } else if ((2U & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__base_kind))) {
+                            if ((1U & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__base_kind))) {
+                                vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 1U;
+                                anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d0 = 0x400U;
+                            } else {
+                                vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 1U;
+                                anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__matrix_type = 1U;
+                                anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__clipped = 1U;
+                                anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__rank_hold = 2U;
+                                anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d0 = 0x400U;
+                                anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d1 = 0x1000U;
+                            }
+                        } else if ((1U & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__base_kind))) {
+                            vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 1U;
+                            anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__matrix_type = 1U;
+                            anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__clipped = 1U;
+                            anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__rank_hold = 2U;
+                            anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d0 = 0x1000U;
+                            anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d1 = 0x400U;
+                        } else {
+                            vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 1U;
+                            anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d0 = 0x400U;
+                        }
+                    } else {
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 0U;
+                    }
+                } else {
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 0U;
+                }
+            }
+            if (((6U <= (0xfU & (vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U] 
+                                 >> 0xcU))) & (9U >= 
+                                               (0xfU 
+                                                & (vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U] 
+                                                   >> 0xcU))))) {
+                anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__base_kind 
+                    = (0x2000U | (0xfffU & vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U]));
+                anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__clip_scalar = 1U;
+            }
+            if (((0xffffU == (vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U] 
+                              >> 0x10U)) & (~ (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__clip_scalar)))) {
+                if (((((((((0x2000U == (0xffffU & vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U])) 
+                           | (0x2001U == (0xffffU & 
+                                          vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U]))) 
+                          | (0x2002U == (0xffffU & 
+                                         vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U]))) 
+                         | (0x2003U == (0xffffU & vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U]))) 
+                        | (0x2004U == (0xffffU & vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U]))) 
+                       | (0x2200U == (0xffffU & vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U]))) 
+                      | (0x2201U == (0xffffU & vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U]))) 
+                     | (0x2202U == (0xffffU & vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U])))) {
+                    if ((0x2000U == (0xffffU & vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U]))) {
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 1U;
+                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__matrix_type = 1U;
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__rank_hold = 4U;
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d0 = 0x80U;
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d1 = 1U;
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d2 = 3U;
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d3 = 3U;
+                    } else if ((0x2001U == (0xffffU 
+                                            & vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U]))) {
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 1U;
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d0 = 0x80U;
+                    } else if ((0x2002U == (0xffffU 
+                                            & vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U]))) {
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 1U;
+                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__matrix_type = 1U;
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__rank_hold = 4U;
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d0 = 0x20U;
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d1 = 0x80U;
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d2 = 3U;
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d3 = 3U;
+                    } else if ((0x2003U == (0xffffU 
+                                            & vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U]))) {
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 1U;
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d0 = 0x20U;
+                    } else if ((0x2004U == (0xffffU 
+                                            & vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U]))) {
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 1U;
+                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__matrix_type = 1U;
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__rank_hold = 2U;
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d0 = 0x400U;
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d1 = 0x400U;
+                    } else if ((0x2200U == (0xffffU 
+                                            & vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U]))) {
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 1U;
+                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__matrix_type = 1U;
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__rank_hold = 2U;
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d0 = 0x600U;
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d1 = 0x400U;
+                    } else if ((0x2201U == (0xffffU 
+                                            & vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U]))) {
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 1U;
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d0 = 0x600U;
+                    } else {
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 1U;
+                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__matrix_type = 1U;
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__rank_hold = 2U;
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d0 
+                            = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__production_hidden;
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d1 = 0x600U;
+                    }
+                } else {
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 0U;
+                }
+            } else if ((0xcU > (vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U] 
+                                >> 0x10U))) {
+                if ((0x8000U & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__base_kind))) {
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 0U;
+                } else if ((0x4000U & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__base_kind))) {
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 0U;
+                } else if ((0x2000U & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__base_kind))) {
+                    if ((0x1000U & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__base_kind))) {
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 0U;
+                    } else if ((0x800U & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__base_kind))) {
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 0U;
+                    } else if ((0x400U & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__base_kind))) {
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 0U;
+                    } else if ((0x200U & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__base_kind))) {
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 0U;
+                    } else if ((0x100U & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__base_kind))) {
+                        if ((0x80U & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__base_kind))) {
+                            vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 0U;
+                        } else if ((0x40U & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__base_kind))) {
+                            vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 0U;
+                        } else if ((0x20U & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__base_kind))) {
+                            vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 0U;
+                        } else if ((0x10U & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__base_kind))) {
+                            if ((8U & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__base_kind))) {
+                                vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 0U;
+                            } else if ((4U & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__base_kind))) {
+                                if ((2U & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__base_kind))) {
+                                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 0U;
+                                } else {
+                                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 1U;
+                                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d0 = 0x400U;
+                                }
+                            } else if ((2U & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__base_kind))) {
+                                if ((1U & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__base_kind))) {
+                                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 1U;
+                                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__matrix_type = 1U;
+                                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__clipped = 1U;
+                                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__rank_hold = 2U;
+                                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d0 = 0x400U;
+                                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d1 = 0x1000U;
+                                } else {
+                                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 1U;
+                                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__matrix_type = 1U;
+                                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__clipped = 1U;
+                                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__rank_hold = 2U;
+                                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d0 = 0x1000U;
+                                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d1 = 0x400U;
+                                }
+                            } else if ((1U & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__base_kind))) {
+                                vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 1U;
+                                vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d0 = 0x400U;
+                            } else {
+                                vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 1U;
+                                anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__matrix_type = 1U;
+                                anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__clipped = 1U;
+                                vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__rank_hold = 2U;
+                                vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d0 = 0x400U;
+                                vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d1 = 0x400U;
+                            }
+                        } else if ((8U & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__base_kind))) {
+                            if ((4U & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__base_kind))) {
+                                if ((2U & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__base_kind))) {
+                                    if ((1U & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__base_kind))) {
+                                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 1U;
+                                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d0 = 0x400U;
+                                    } else {
+                                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 1U;
+                                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__matrix_type = 1U;
+                                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__rank_hold = 3U;
+                                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d0 = 0x400U;
+                                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d1 = 1U;
+                                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d2 = 5U;
+                                    }
+                                } else if ((1U & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__base_kind))) {
+                                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 1U;
+                                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__matrix_type = 1U;
+                                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__clipped = 1U;
+                                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__rank_hold = 2U;
+                                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d0 = 0x800U;
+                                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d1 = 0x400U;
+                                } else {
+                                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 1U;
+                                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d0 = 0x400U;
+                                }
+                            } else if ((2U & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__base_kind))) {
+                                if ((1U & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__base_kind))) {
+                                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 1U;
+                                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d0 = 0x400U;
+                                } else {
+                                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 1U;
+                                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__matrix_type = 1U;
+                                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__clipped = 1U;
+                                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__rank_hold = 2U;
+                                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d0 = 0x400U;
+                                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d1 = 0x400U;
+                                }
+                            } else if ((1U & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__base_kind))) {
+                                vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 1U;
+                                vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d0 = 0x80U;
+                            } else {
+                                vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 1U;
+                                anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__matrix_type = 1U;
+                                vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__rank_hold = 2U;
+                                vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d0 = 0x400U;
+                                vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d1 = 0x400U;
+                            }
+                        } else if ((4U & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__base_kind))) {
+                            if ((2U & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__base_kind))) {
+                                vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 1U;
+                                anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__matrix_type = 1U;
+                                anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__clipped = 1U;
+                                vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__rank_hold = 2U;
+                                vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d0 = 0x400U;
+                                vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d1 = 0x400U;
+                            } else if ((1U & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__base_kind))) {
+                                vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 1U;
+                                anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__matrix_type = 1U;
+                                anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__clipped = 1U;
+                                vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__rank_hold = 2U;
+                                vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d0 = 0x400U;
+                                vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d1 = 0x400U;
+                            } else {
+                                vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 1U;
+                                vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d0 = 0x400U;
+                            }
+                        } else if ((2U & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__base_kind))) {
+                            if ((1U & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__base_kind))) {
+                                vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 1U;
+                                vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d0 = 0x400U;
+                            } else {
+                                vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 1U;
+                                anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__matrix_type = 1U;
+                                anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__clipped = 1U;
+                                vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__rank_hold = 2U;
+                                vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d0 = 0x400U;
+                                vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d1 = 0x1000U;
+                            }
+                        } else if ((1U & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__base_kind))) {
+                            vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 1U;
+                            anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__matrix_type = 1U;
+                            anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__clipped = 1U;
+                            vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__rank_hold = 2U;
+                            vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d0 = 0x1000U;
+                            vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d1 = 0x400U;
+                        } else {
+                            vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 1U;
+                            vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d0 = 0x400U;
+                        }
+                    } else {
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 0U;
+                    }
+                } else {
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 0U;
+                }
+            }
+        } else if ((3U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__class_hold))) {
+            if (((0xffffU == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__layer_hold)) 
+                 & (0U != vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__items_hold))) {
+                if (vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__audio_hold) {
+                    if ((0x3010U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__kind_hold))) {
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 1U;
+                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__rank_hold = 2U;
+                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d0 
+                            = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__items_hold;
+                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d1 = 0x80U;
+                    } else if ((0x3011U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__kind_hold))) {
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 1U;
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__type_hold = 2U;
+                        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d0 
+                            = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__items_hold;
+                    } else {
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 0U;
+                    }
+                } else if ((0x3000U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__kind_hold))) {
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 1U;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__rank_hold = 2U;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d0 
+                        = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__items_hold;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d1 = 0x300U;
+                } else if ((0x3001U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__kind_hold))) {
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 1U;
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__type_hold = 3U;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__rank_hold = 2U;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d0 
+                        = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__items_hold;
+                    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d1 = 2U;
+                } else {
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 0U;
+                }
+            }
+            if (((0xffffU == (vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U] 
+                              >> 0x10U)) & (0U != vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__items_hold))) {
+                if (vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__audio_hold) {
+                    if ((0x3010U == (0xffffU & vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U]))) {
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 1U;
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__rank_hold = 2U;
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d0 
+                            = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__items_hold;
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d1 = 0x80U;
+                    } else if ((0x3011U == (0xffffU 
+                                            & vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U]))) {
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 1U;
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__type_hold = 2U;
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d0 
+                            = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__items_hold;
+                    } else {
+                        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 0U;
+                    }
+                } else if ((0x3000U == (0xffffU & vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U]))) {
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 1U;
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__rank_hold = 2U;
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d0 
+                        = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__items_hold;
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d1 = 0x300U;
+                } else if ((0x3001U == (0xffffU & vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0U]))) {
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 1U;
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__type_hold = 3U;
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__rank_hold = 2U;
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d0 
+                        = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__items_hold;
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d1 = 2U;
+                } else {
+                    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 0U;
+                }
+            }
+        } else {
+            vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold = 0U;
+            vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold = 0U;
+        }
+        if (anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__clip_scalar) {
+            vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold 
+                = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__valid_hold) 
+                   & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__clipped));
+            anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__matrix_type = 0U;
+            anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__rank_hold = 0U;
+            anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d0 = 1U;
+            anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d1 = 1U;
+            anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d2 = 1U;
+            anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d3 = 1U;
+        }
+        if (anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__matrix_type) {
+            vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__type_hold 
+                = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__precision_hold;
+        }
+        if ((1U >= (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__rank_hold))) {
+            vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__rows_hold = 1U;
+            vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__columns_hold 
+                = anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d0;
+        } else if (((IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__matrix_type) 
+                    & (2U < (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__rank_hold)))) {
+            vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__rows_hold 
+                = anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d0;
+            vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__columns_hold 
+                = ((anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d1 
+                    * anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d2) 
+                   * anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d3);
+        } else if ((3U == (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__rank_hold))) {
+            vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__rows_hold 
+                = (anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d0 
+                   * anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d1);
+            vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__columns_hold 
+                = anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d2;
+        } else {
+            vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__rows_hold 
+                = anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d0;
+            vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__columns_hold 
+                = anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__d1;
+        }
+        if (anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__clip_scalar) {
+            vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold 
+                = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold) 
+                   & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__clipped));
+            anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__matrix_type = 0U;
+            vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__rank_hold = 0U;
+            vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d0 = 1U;
+            vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d1 = 1U;
+            vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d2 = 1U;
+            vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d3 = 1U;
+        }
+        if (anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__matrix_type) {
+            vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__type_hold 
+                = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__precision_hold;
+        }
+        if ((1U >= (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__rank_hold))) {
+            vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__rows_hold = 1U;
+            vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__columns_hold 
+                = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d0;
+        } else if (((IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__matrix_type) 
+                    & (2U < (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__rank_hold)))) {
+            vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__rows_hold 
+                = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d0;
+            vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__columns_hold 
+                = ((vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d1 
+                    * vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d2) 
+                   * vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d3);
+        } else if ((3U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__rank_hold))) {
+            vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__rows_hold 
+                = (vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d0 
+                   * vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d1);
+            vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__columns_hold 
+                = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d2;
+        } else {
+            vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__rows_hold 
+                = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d0;
+            vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__columns_hold 
+                = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d1;
+        }
+    }
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT____Vcellinp__original_mask__cmd_ready 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT__mask_selected) 
+           & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT____Vcellinp__executor__cmd_ready));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT____Vcellinp__tile__cmd_ready 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT__tile_selected) 
+           & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT____Vcellinp__executor__cmd_ready));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT____Vcellinp__norm__cmd_ready 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__norm_selected) 
+           & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT____Vcellinp__pre_attention__cmd_ready));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT____Vcellinp__feedforward__cmd_ready 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__ff_selected) 
+           & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT____Vcellinp__pre_attention__cmd_ready));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT____Vcellinp__original_mask__result_valid 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT__mask_selected) 
+           & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT____Vcellinp__executor__result_valid));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT____Vcellinp__tile__result_valid 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT__tile_selected) 
+           & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT____Vcellinp__executor__result_valid));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT____Vcellinp__norm__result_valid 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__norm_selected) 
+           & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT____Vcellinp__pre_attention__result_valid));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT____Vcellinp__feedforward__result_valid 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__ff_selected) 
+           & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT____Vcellinp__pre_attention__result_valid));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT____VdfgTmp_hc9eec2f8__0 
+        = ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT____Vcellinp__image_feature__cancel)) 
+           & (IData)(vlSelf->rst_n));
+    if (vlSelf->anvil_en1_top__DOT__native__DOT____Vcellinp__binding__result_valid) {
+        vlSelf->anvil_en1_top__DOT__native__DOT____Vcellinp__binding__result_error 
+            = vlSelf->anvil_en1_top__DOT__native__DOT__memory__DOT__arbiter__DOT__error_hold;
+        vlSelf->anvil_en1_top__DOT__native__DOT____Vcellinp__binding__result_data 
+            = vlSelf->anvil_en1_top__DOT__native__DOT__memory__DOT__arbiter__DOT__read_data_hold;
+    } else {
+        vlSelf->anvil_en1_top__DOT__native__DOT____Vcellinp__binding__result_error = 0U;
+        vlSelf->anvil_en1_top__DOT__native__DOT____Vcellinp__binding__result_data = 0U;
+    }
+    if (vlSelf->anvil_en1_top__DOT__native__DOT____Vcellinp__frontier__result_valid) {
+        vlSelf->anvil_en1_top__DOT__native__DOT____Vcellinp__frontier__result_error 
+            = vlSelf->anvil_en1_top__DOT__native__DOT__memory__DOT__arbiter__DOT__error_hold;
+        vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT____Vcellinp__embedding__result_valid 
+            = (1U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__memory_owner));
+        vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT____Vcellinp__logits__result_valid 
+            = (3U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__memory_owner));
+        vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT____Vcellinp__text_layer__result_valid 
+            = (2U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__memory_owner));
+        vlSelf->anvil_en1_top__DOT__native__DOT____Vcellinp__frontier__result_data 
+            = vlSelf->anvil_en1_top__DOT__native__DOT__memory__DOT__arbiter__DOT__read_data_hold;
+    } else {
+        vlSelf->anvil_en1_top__DOT__native__DOT____Vcellinp__frontier__result_error = 0U;
+        vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT____Vcellinp__embedding__result_valid = 0U;
+        vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT____Vcellinp__logits__result_valid = 0U;
+        vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT____Vcellinp__text_layer__result_valid = 0U;
+        vlSelf->anvil_en1_top__DOT__native__DOT____Vcellinp__frontier__result_data = 0U;
+    }
+    vlSelf->anvil_en1_top__DOT__allocations__DOT__overlap 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native_allocation_fallback) 
+           & ((IData)(vlSelf->rst_n) & ((0U != vlSelf->__VdfgTmp_h5326e7e4__0) 
+                                        & (0U != (vlSelf->anvil_en1_top__DOT__allocations__DOT__stages__BRA__0__KET____DOT__metrics__BRA__0__KET____DOT__nodes__BRA__0__KET____DOT__registered_node__DOT__input_pair__DOT__left 
+                                                  | vlSelf->anvil_en1_top__DOT__allocations__DOT__stages__BRA__0__KET____DOT__metrics__BRA__0__KET____DOT__nodes__BRA__0__KET____DOT__registered_node__DOT__input_pair__DOT__right)))));
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__428__right 
+        = ((((~ (IData)(vlSelf->anvil_en1_top__DOT__native_allocation_fallback)) 
+             & (IData)(vlSelf->anvil_en1_top__DOT__allocations__DOT____VdfgTmp_h901d0445__0)) 
+            << 0x17U) | ((IData)(vlSelf->anvil_en1_top__DOT__native_allocation_fallback)
+                          ? 0U : vlSelf->anvil_en1_top__DOT__allocations__DOT____VdfgTmp_h26175ad1__0));
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__428__left 
+        = vlSelf->__VdfgTmp_h04d04099__0;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__428__sum 
+        = (0xffffffU & ((0x7fffffU & __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__428__left) 
+                        + (0x7fffffU & __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__428__right)));
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__428__Vfuncout 
+        = ((0x800000U & ((__Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__428__left 
+                          | __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__428__right) 
+                         | __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__428__sum)) 
+           | (0x7fffffU & __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__428__sum));
+    vlSelf->anvil_en1_top__DOT__allocations__DOT__stages__BRA__0__KET____DOT__metrics__BRA__6__KET____DOT__nodes__BRA__2__KET____DOT__registered_node__DOT__next_value 
+        = __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__428__Vfuncout;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__431__right 
+        = ((((~ (IData)(vlSelf->anvil_en1_top__DOT__native_allocation_fallback)) 
+             & (IData)(vlSelf->anvil_en1_top__DOT__allocations__DOT____VdfgTmp_h8e3caba9__0)) 
+            << 0x17U) | ((IData)(vlSelf->anvil_en1_top__DOT__native_allocation_fallback)
+                          ? 0U : vlSelf->anvil_en1_top__DOT__allocations__DOT____VdfgTmp_h0c34fc85__0));
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__431__left 
+        = vlSelf->anvil_en1_top__DOT__allocations__DOT__stages__BRA__0__KET____DOT__metrics__BRA__4__KET____DOT__nodes__BRA__2__KET____DOT__registered_node__DOT__left_node;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__431__sum 
+        = (0xffffffU & ((0x7fffffU & __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__431__left) 
+                        + (0x7fffffU & __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__431__right)));
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__431__Vfuncout 
+        = ((0x800000U & ((__Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__431__left 
+                          | __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__431__right) 
+                         | __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__431__sum)) 
+           | (0x7fffffU & __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__431__sum));
+    vlSelf->anvil_en1_top__DOT__allocations__DOT__stages__BRA__0__KET____DOT__metrics__BRA__7__KET____DOT__nodes__BRA__2__KET____DOT__registered_node__DOT__next_value 
+        = __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__431__Vfuncout;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__427__right 
+        = ((((IData)(vlSelf->anvil_en1_top__DOT__native_allocation_fallback) 
+             & (IData)(vlSelf->anvil_en1_top__DOT__allocations__DOT____VdfgTmp_h94214849__0)) 
+            << 0x17U) | ((IData)(vlSelf->anvil_en1_top__DOT__native_allocation_fallback)
+                          ? vlSelf->anvil_en1_top__DOT__allocations__DOT____VdfgTmp_h2659c40d__0
+                          : 0U));
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__427__left 
+        = ((((IData)(vlSelf->anvil_en1_top__DOT__native_allocation_fallback) 
+             & (IData)(vlSelf->anvil_en1_top__DOT__allocations__DOT____VdfgTmp_h95227970__0)) 
+            << 0x17U) | ((IData)(vlSelf->anvil_en1_top__DOT__native_allocation_fallback)
+                          ? vlSelf->anvil_en1_top__DOT__allocations__DOT____VdfgTmp_h21402160__0
+                          : 0U));
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__427__sum 
+        = (0xffffffU & ((0x7fffffU & __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__427__left) 
+                        + (0x7fffffU & __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__427__right)));
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__427__Vfuncout 
+        = ((0x800000U & ((__Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__427__left 
+                          | __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__427__right) 
+                         | __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__427__sum)) 
+           | (0x7fffffU & __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__427__sum));
+    vlSelf->anvil_en1_top__DOT__allocations__DOT__stages__BRA__0__KET____DOT__metrics__BRA__6__KET____DOT__nodes__BRA__0__KET____DOT__registered_node__DOT__next_value 
+        = __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__427__Vfuncout;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__430__right 
+        = ((((IData)(vlSelf->anvil_en1_top__DOT__native_allocation_fallback) 
+             & (IData)(vlSelf->anvil_en1_top__DOT__allocations__DOT____VdfgTmp_hf347eeed__0)) 
+            << 0x17U) | ((IData)(vlSelf->anvil_en1_top__DOT__native_allocation_fallback)
+                          ? vlSelf->anvil_en1_top__DOT__allocations__DOT____VdfgTmp_h0c7c7a61__0
+                          : 0U));
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__430__left 
+        = ((((IData)(vlSelf->anvil_en1_top__DOT__native_allocation_fallback) 
+             & (IData)(vlSelf->anvil_en1_top__DOT__allocations__DOT____VdfgTmp_h88481f2c__0)) 
+            << 0x17U) | ((IData)(vlSelf->anvil_en1_top__DOT__native_allocation_fallback)
+                          ? vlSelf->anvil_en1_top__DOT__allocations__DOT____VdfgTmp_h0f63873c__0
+                          : 0U));
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__430__sum 
+        = (0xffffffU & ((0x7fffffU & __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__430__left) 
+                        + (0x7fffffU & __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__430__right)));
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__430__Vfuncout 
+        = ((0x800000U & ((__Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__430__left 
+                          | __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__430__right) 
+                         | __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__430__sum)) 
+           | (0x7fffffU & __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__430__sum));
+    vlSelf->anvil_en1_top__DOT__allocations__DOT__stages__BRA__0__KET____DOT__metrics__BRA__7__KET____DOT__nodes__BRA__0__KET____DOT__registered_node__DOT__next_value 
+        = __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__430__Vfuncout;
+    vlSelf->anvil_en1_top__DOT__allocations__DOT__stages__BRA__0__KET____DOT__metrics__BRA__6__KET____DOT__nodes__BRA__9__KET____DOT__registered_node__DOT__left_node 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native_allocation_fallback)
+            ? vlSelf->anvil_en1_top__DOT__allocations__DOT____VdfgTmp_h30d415a6__0
+            : 0U);
+    vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__0__KET____DOT__metric_words__BRA__27__KET____DOT__selected_event 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__0__KET____DOT__metric_words__BRA__28__KET____DOT__traffic_event) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__0__KET____DOT__metric_words__BRA__27__KET____DOT__traffic_class));
+    anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__4__KET____DOT__traffic_class 
+        = ((~ (IData)(vlSelf->mem_req_write)) & (IData)(vlSelf->anvil_en1_top__DOT__performance__DOT____VdfgTmp_h6e9cab95__0));
+    anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__5__KET____DOT__traffic_class 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__performance__DOT____VdfgTmp_h6e9cab95__0) 
+           & (IData)(vlSelf->mem_req_write));
+    anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__25__KET____DOT__traffic_class 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__performance__DOT____VdfgTmp_h4c01d0b5__0) 
+           & (IData)(vlSelf->anvil_en1_top__DOT____Vcellinp__performance__traffic_input));
+    anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__26__KET____DOT__traffic_class 
+        = ((~ (IData)(vlSelf->anvil_en1_top__DOT____Vcellinp__performance__traffic_input)) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__performance__DOT____VdfgTmp_h4c01d0b5__0));
+    __Vtemp_103[0U] = (IData)(vlSelf->anvil_en1_top__DOT__performance__DOT__counters
+                              [0x39U]);
+    __Vtemp_103[1U] = (IData)((vlSelf->anvil_en1_top__DOT__performance__DOT__counters
+                               [0x39U] >> 0x20U));
+    __Vtemp_103[2U] = 0U;
+    __Vtemp_104[0U] = (IData)(((IData)(vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__28__KET____DOT__traffic_event)
+                                ? 4ULL : 0ULL));
+    __Vtemp_104[1U] = (IData)((((IData)(vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__28__KET____DOT__traffic_event)
+                                 ? 4ULL : 0ULL) >> 0x20U));
+    __Vtemp_104[2U] = 0U;
+    VL_ADD_W(3, __Vtemp_105, __Vtemp_103, __Vtemp_104);
+    vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__28__KET____DOT__updated[0U] 
+        = __Vtemp_105[0U];
+    vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__28__KET____DOT__updated[1U] 
+        = __Vtemp_105[1U];
+    vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__28__KET____DOT__updated[2U] 
+        = (1U & __Vtemp_105[2U]);
+    vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__27__KET____DOT__selected_event 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__28__KET____DOT__traffic_event) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__0__KET____DOT__metric_words__BRA__27__KET____DOT__traffic_class));
+    vlSelf->__Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__410__right 
+        = (((IData)((0U != (VL_SHIFTL_QQI(64,64,32, vlSelf->anvil_en1_top__DOT__native__DOT____Vcellout__binding__owner_tile_live_bytes, 6U) 
+                            >> 0x17U))) << 0x17U) | 
+           (0x7fffffU & VL_SHIFTL_III(23,23,32, vlSelf->__VdfgTmp_hc35200e9__0, 6U)));
+    if (vlSelf->__VdfgTmp_h386f9f8c__0) {
+        if ((1U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__model_hold))) {
+            vlSelf->__Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__410__left = 0xc00U;
+            vlSelf->__VdfgTmp_h47588aa1__0 = 0xc00ULL;
+        } else {
+            vlSelf->__Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__410__left = 0x1400U;
+            vlSelf->__VdfgTmp_h47588aa1__0 = 0x1400ULL;
+        }
+    } else {
+        vlSelf->__Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__410__left = 0U;
+        vlSelf->__VdfgTmp_h47588aa1__0 = 0ULL;
+    }
+    vlSelf->__Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__410__sum 
+        = (0xffffffU & ((0x7fffffU & vlSelf->__Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__410__left) 
+                        + (0x7fffffU & vlSelf->__Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__410__right)));
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__410__Vfuncout 
+        = ((0x800000U & ((vlSelf->__Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__410__left 
+                          | vlSelf->__Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__410__right) 
+                         | vlSelf->__Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__410__sum)) 
+           | (0x7fffffU & vlSelf->__Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__410__sum));
+    vlSelf->anvil_en1_top__DOT__allocations__DOT__stages__BRA__0__KET____DOT__metrics__BRA__4__KET____DOT__nodes__BRA__3__KET____DOT__registered_node__DOT__next_value 
+        = __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__410__Vfuncout;
+    if (vlSelf->__VdfgTmp_hb2ee994d__0) {
+        if ((1U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__model_hold))) {
+            vlSelf->anvil_en1_top__DOT__allocations__DOT__stages__BRA__0__KET____DOT__metrics__BRA__4__KET____DOT__nodes__BRA__1__KET____DOT__registered_node__DOT__right_node = 0xc00U;
+            vlSelf->__VdfgTmp_h7a050abe__0 = 0xc00ULL;
+        } else {
+            vlSelf->anvil_en1_top__DOT__allocations__DOT__stages__BRA__0__KET____DOT__metrics__BRA__4__KET____DOT__nodes__BRA__1__KET____DOT__registered_node__DOT__right_node = 0x1400U;
+            vlSelf->__VdfgTmp_h7a050abe__0 = 0x1400ULL;
+        }
+    } else {
+        vlSelf->anvil_en1_top__DOT__allocations__DOT__stages__BRA__0__KET____DOT__metrics__BRA__4__KET____DOT__nodes__BRA__1__KET____DOT__registered_node__DOT__right_node = 0U;
+        vlSelf->__VdfgTmp_h7a050abe__0 = 0ULL;
+    }
+    vlSelf->anvil_en1_top__DOT__native__DOT____VdfgTmp_h7df5716d__0 
+        = ((IData)(vlSelf->rst_n) & (3U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__meta_state)));
+    vlSelf->anvil_en1_top__DOT__native__DOT__cache_control_ready 
+        = ((IData)(vlSelf->rst_n) & (0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__meta_state)));
+    vlSelf->anvil_en1_top__DOT__native__DOT__workers_drained 
+        = ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__executor_busy)) 
+           & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding_busy)) 
+              & ((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__meta_state)) 
+                 & (0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__mask_state)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT____Vcellinp__cache__rsp_ready 
+        = ((IData)(vlSelf->rst_n) & (2U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__meta_state)));
+    vlSelf->anvil_en1_top__DOT__native__DOT____Vcellinp__cache__req_valid 
+        = ((IData)(vlSelf->rst_n) & (1U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__meta_state)));
+    vlSelf->anvil_en1_top__DOT__native__DOT__meta_retire 
+        = ((2U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__meta_owner))
+            ? (3U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__state))
+            : ((1U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__meta_owner))
+                ? ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__attention_branch__DOT__executor__DOT__run) 
+                   & ((IData)(vlSelf->rst_n) & (9U 
+                                                == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__attention_branch__DOT__executor__DOT__attention__DOT__attention__DOT__attention__DOT__state))))
+                : ((IData)(vlSelf->rst_n) & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__anchor_selected)
+                                              ? (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__anchor_rsp_ready)
+                                              : ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__layer_selected) 
+                                                 & ((IData)(vlSelf->rst_n) 
+                                                    & (9U 
+                                                       == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__text_layer__DOT__engine__DOT__full_attention__DOT__attention_unit__DOT__attention__DOT__state))))))));
+    vlSelf->anvil_en1_top__DOT__native_done = ((IData)(vlSelf->rst_n) 
+                                               & (0xdU 
+                                                  == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__state)));
+    vlSelf->anvil_en1_top__DOT__native__DOT____Vcellinp__frontier__control_valid 
+        = ((IData)(vlSelf->rst_n) & (4U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__state)));
+    vlSelf->anvil_en1_top__DOT__native__DOT____Vcellinp__binding__control_valid 
+        = ((IData)(vlSelf->rst_n) & (6U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__state)));
+    anvil_en1_top__DOT__native__DOT__core_idle = ((0U 
+                                                   == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__state)) 
+                                                  & ((0U 
+                                                      == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__meta_state)) 
+                                                     & ((0U 
+                                                         == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__mask_state)) 
+                                                        & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__executor_busy)) 
+                                                           & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding_busy)) 
+                                                              & ((~ 
+                                                                  ((IData)(vlSelf->rst_n) 
+                                                                   & (0U 
+                                                                      != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__schedule__DOT__schedule__DOT__state)))) 
+                                                                 & (0U 
+                                                                    == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__grant_state))))))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT____Vcellinp__attention__work_req_ready 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT____VdfgTmp_he4dda583__0) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT____Vcellinp__vision_layer__work_req_ready));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT____Vcellinp__attention_branch__work_req_ready 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__attention_selected) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT____Vcellinp__text_layer__work_req_ready));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT____Vcellinp__histories__work_req_ready 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__history_selected) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT____Vcellinp__audio_layer__work_req_ready));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__product_a 
+        = (0xffffU & ((2U & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__product_index))
+                       ? ((IData)(vlSelf->rst_n) ? 
+                          (vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__rows_hold 
+                           >> 0x10U) : 0U) : ((IData)(vlSelf->rst_n)
+                                               ? vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__rows_hold
+                                               : 0U)));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT__tile__DOT____Vcellinp__clipped__cmd_ready 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT__tile__DOT__clipped_selected) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT____Vcellinp__tile__cmd_ready));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT____Vcellinp__norm__cmd_ready 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT__norm_selected) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT____Vcellinp__feedforward__cmd_ready));
+    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT____Vcellinp__mlp__cmd_ready 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT__mlp_selected) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT____Vcellinp__feedforward__cmd_ready));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT__tile__DOT____Vcellinp__clipped__result_valid 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT__tile__DOT__clipped_selected) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT____Vcellinp__tile__result_valid));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT____Vcellinp__norm__result_valid 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT__norm_selected) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT____Vcellinp__feedforward__result_valid));
+    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT____Vcellinp__mlp__result_valid 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT__mlp_selected) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT____Vcellinp__feedforward__result_valid));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature_ready 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT____VdfgTmp_hc9eec2f8__0) 
+           & ((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__state)) 
+              | (0x12U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__state))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT____Vcellinp__feature__source_ready 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT____VdfgTmp_hc9eec2f8__0) 
+           & (6U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__state)));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__work_rsp_ready 
+        = (((IData)(vlSelf->rst_n) & (7U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__state))) 
+           | (((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__input_selected) 
+               & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__input_work_rsp_ready)) 
+              | (((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_selected) 
+                  & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_work_rsp_ready)) 
+                 | (((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_selected) 
+                     & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_work_rsp_ready)) 
+                    | (((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_active) 
+                        & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__input_worker)
+                            ? ((IData)(vlSelf->rst_n) 
+                               & (6U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__state)))
+                            : (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer_work_rsp_ready))) 
+                       | (((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__feature_selected) 
+                           & ((IData)(vlSelf->rst_n) 
+                              & ((6U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_feature__DOT__state)) 
+                                 | (0xaU == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_feature__DOT__state))))) 
+                          | ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature_selected) 
+                             & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT____VdfgTmp_hc9eec2f8__0) 
+                                & ((9U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__state)) 
+                                   | (0xdU == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__state)))))))))));
+    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature_work_valid 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT____VdfgTmp_hc9eec2f8__0) 
+           & ((8U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__state)) 
+              | (0xcU == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__state))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__map_selected 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT____VdfgTmp_hc9eec2f8__0) 
+           & ((2U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__state)) 
+              | (3U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__state))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__child_rst_n 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT____VdfgTmp_hc9eec2f8__0) 
+           & (0U != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__state)));
+    vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__text_layer__DOT____Vcellinp__engine__DOT__gated_unit__result_valid 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__text_layer__DOT____VdfgTmp_h82559656__0) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT____Vcellinp__text_layer__result_valid));
+    vlSelf->anvil_en1_top__DOT__native__DOT__memory_rdata[0U] 
+        = vlSelf->anvil_en1_top__DOT__native__DOT____Vcellinp__frontier__result_data;
+    vlSelf->anvil_en1_top__DOT__native__DOT__memory_rdata[1U] 
+        = (IData)((((QData)((IData)(((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__memory__DOT__arbiter__DOT__responses__BRA__2__KET____DOT__selected)
+                                      ? vlSelf->anvil_en1_top__DOT__native__DOT__memory__DOT__arbiter__DOT__read_data_hold
+                                      : 0U))) << 0x20U) 
+                   | (QData)((IData)(vlSelf->anvil_en1_top__DOT__native__DOT____Vcellinp__binding__result_data))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__memory_rdata[2U] 
+        = (IData)(((((QData)((IData)(((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__memory__DOT__arbiter__DOT__responses__BRA__2__KET____DOT__selected)
+                                       ? vlSelf->anvil_en1_top__DOT__native__DOT__memory__DOT__arbiter__DOT__read_data_hold
+                                       : 0U))) << 0x20U) 
+                    | (QData)((IData)(vlSelf->anvil_en1_top__DOT__native__DOT____Vcellinp__binding__result_data))) 
+                   >> 0x20U));
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__429__right 
+        = vlSelf->anvil_en1_top__DOT__allocations__DOT__stages__BRA__0__KET____DOT__metrics__BRA__0__KET____DOT__nodes__BRA__9__KET____DOT__registered_node__DOT__right_node;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__429__left 
+        = vlSelf->anvil_en1_top__DOT__allocations__DOT__stages__BRA__0__KET____DOT__metrics__BRA__6__KET____DOT__nodes__BRA__9__KET____DOT__registered_node__DOT__left_node;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__429__sum 
+        = (0xffffffU & ((0x7fffffU & __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__429__left) 
+                        + (0x7fffffU & __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__429__right)));
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__429__Vfuncout 
+        = ((0x800000U & ((__Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__429__left 
+                          | __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__429__right) 
+                         | __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__429__sum)) 
+           | (0x7fffffU & __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__429__sum));
+    vlSelf->anvil_en1_top__DOT__allocations__DOT__stages__BRA__0__KET____DOT__metrics__BRA__6__KET____DOT__nodes__BRA__9__KET____DOT__registered_node__DOT__next_value 
+        = __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__429__Vfuncout;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__432__right 
+        = vlSelf->anvil_en1_top__DOT__allocations__DOT__stages__BRA__0__KET____DOT__metrics__BRA__4__KET____DOT__nodes__BRA__9__KET____DOT__registered_node__DOT__right_node;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__432__left 
+        = vlSelf->anvil_en1_top__DOT__allocations__DOT__stages__BRA__0__KET____DOT__metrics__BRA__6__KET____DOT__nodes__BRA__9__KET____DOT__registered_node__DOT__left_node;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__432__sum 
+        = (0xffffffU & ((0x7fffffU & __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__432__left) 
+                        + (0x7fffffU & __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__432__right)));
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__432__Vfuncout 
+        = ((0x800000U & ((__Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__432__left 
+                          | __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__432__right) 
+                         | __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__432__sum)) 
+           | (0x7fffffU & __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__432__sum));
+    vlSelf->anvil_en1_top__DOT__allocations__DOT__stages__BRA__0__KET____DOT__metrics__BRA__7__KET____DOT__nodes__BRA__9__KET____DOT__registered_node__DOT__next_value 
+        = __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__432__Vfuncout;
+    __Vtemp_107[0U] = (IData)(vlSelf->anvil_en1_top__DOT__performance__DOT__counters
+                              [0x1bU]);
+    __Vtemp_107[1U] = (IData)((vlSelf->anvil_en1_top__DOT__performance__DOT__counters
+                               [0x1bU] >> 0x20U));
+    __Vtemp_107[2U] = 0U;
+    __Vtemp_108[0U] = (IData)(((IData)(vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__0__KET____DOT__metric_words__BRA__27__KET____DOT__selected_event)
+                                ? 4ULL : 0ULL));
+    __Vtemp_108[1U] = (IData)((((IData)(vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__0__KET____DOT__metric_words__BRA__27__KET____DOT__selected_event)
+                                 ? 4ULL : 0ULL) >> 0x20U));
+    __Vtemp_108[2U] = 0U;
+    VL_ADD_W(3, __Vtemp_109, __Vtemp_107, __Vtemp_108);
+    vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__0__KET____DOT__metric_words__BRA__27__KET____DOT__updated[0U] 
+        = __Vtemp_109[0U];
+    vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__0__KET____DOT__metric_words__BRA__27__KET____DOT__updated[1U] 
+        = __Vtemp_109[1U];
+    vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__0__KET____DOT__metric_words__BRA__27__KET____DOT__updated[2U] 
+        = (1U & __Vtemp_109[2U]);
+    vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__0__KET____DOT__metric_words__BRA__4__KET____DOT__selected_event 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__0__KET____DOT__metric_words__BRA__28__KET____DOT__traffic_event) 
+           & (IData)(anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__4__KET____DOT__traffic_class));
+    vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__4__KET____DOT__selected_event 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__28__KET____DOT__traffic_event) 
+           & (IData)(anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__4__KET____DOT__traffic_class));
+    vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__0__KET____DOT__metric_words__BRA__5__KET____DOT__selected_event 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__0__KET____DOT__metric_words__BRA__28__KET____DOT__traffic_event) 
+           & (IData)(anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__5__KET____DOT__traffic_class));
+    vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__5__KET____DOT__selected_event 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__28__KET____DOT__traffic_event) 
+           & (IData)(anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__5__KET____DOT__traffic_class));
+    vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__0__KET____DOT__metric_words__BRA__25__KET____DOT__selected_event 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__0__KET____DOT__metric_words__BRA__28__KET____DOT__traffic_event) 
+           & (IData)(anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__25__KET____DOT__traffic_class));
+    vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__25__KET____DOT__selected_event 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__28__KET____DOT__traffic_event) 
+           & (IData)(anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__25__KET____DOT__traffic_class));
+    vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__0__KET____DOT__metric_words__BRA__26__KET____DOT__selected_event 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__0__KET____DOT__metric_words__BRA__28__KET____DOT__traffic_event) 
+           & (IData)(anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__26__KET____DOT__traffic_class));
+    vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__26__KET____DOT__selected_event 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__28__KET____DOT__traffic_event) 
+           & (IData)(anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__26__KET____DOT__traffic_class));
+    __Vtemp_111[0U] = (IData)(vlSelf->anvil_en1_top__DOT__performance__DOT__counters
+                              [0x38U]);
+    __Vtemp_111[1U] = (IData)((vlSelf->anvil_en1_top__DOT__performance__DOT__counters
+                               [0x38U] >> 0x20U));
+    __Vtemp_111[2U] = 0U;
+    __Vtemp_112[0U] = (IData)(((IData)(vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__27__KET____DOT__selected_event)
+                                ? 4ULL : 0ULL));
+    __Vtemp_112[1U] = (IData)((((IData)(vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__27__KET____DOT__selected_event)
+                                 ? 4ULL : 0ULL) >> 0x20U));
+    __Vtemp_112[2U] = 0U;
+    VL_ADD_W(3, __Vtemp_113, __Vtemp_111, __Vtemp_112);
+    vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__27__KET____DOT__updated[0U] 
+        = __Vtemp_113[0U];
+    vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__27__KET____DOT__updated[1U] 
+        = __Vtemp_113[1U];
+    vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__27__KET____DOT__updated[2U] 
+        = (1U & __Vtemp_113[2U]);
+    __VdfgTmp_hcb11453e__0 = ((6U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__grant_component))
+                               ? vlSelf->anvil_en1_top__DOT__native__DOT__grant_shadow_bytes
+                               : vlSelf->__VdfgTmp_h47588aa1__0);
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__422__right 
+        = vlSelf->anvil_en1_top__DOT__allocations__DOT__stages__BRA__0__KET____DOT__metrics__BRA__4__KET____DOT__nodes__BRA__1__KET____DOT__registered_node__DOT__right_node;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__422__sum 
+        = (0x7fffffU & __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__422__right);
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__422__Vfuncout 
+        = ((0x800000U & (__Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__422__right 
+                         | __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__422__sum)) 
+           | (0x7fffffU & __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__422__sum));
+    vlSelf->anvil_en1_top__DOT__allocations__DOT__stages__BRA__0__KET____DOT__metrics__BRA__5__KET____DOT__nodes__BRA__1__KET____DOT__registered_node__DOT__next_value 
+        = __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__422__Vfuncout;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__408__right 
+        = vlSelf->anvil_en1_top__DOT__allocations__DOT__stages__BRA__0__KET____DOT__metrics__BRA__4__KET____DOT__nodes__BRA__1__KET____DOT__registered_node__DOT__right_node;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__408__left 
+        = vlSelf->anvil_en1_top__DOT__allocations__DOT__stages__BRA__0__KET____DOT__metrics__BRA__4__KET____DOT__nodes__BRA__1__KET____DOT__registered_node__DOT__left_node;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__408__sum 
+        = (0xffffffU & ((0x7fffffU & __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__408__left) 
+                        + (0x7fffffU & __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__408__right)));
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__408__Vfuncout 
+        = ((0x800000U & ((__Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__408__left 
+                          | __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__408__right) 
+                         | __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__408__sum)) 
+           | (0x7fffffU & __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__408__sum));
+    vlSelf->anvil_en1_top__DOT__allocations__DOT__stages__BRA__0__KET____DOT__metrics__BRA__4__KET____DOT__nodes__BRA__1__KET____DOT__registered_node__DOT__next_value 
+        = __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__408__Vfuncout;
+    vlSelf->__VdfgTmp_h94922243__0 = ((3U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__grant_component))
+                                       ? vlSelf->anvil_en1_top__DOT__native__DOT__grant_shadow_bytes
+                                       : vlSelf->__VdfgTmp_h7a050abe__0);
+    vlSelf->anvil_en1_top__DOT__native__DOT____Vcellinp__frontier__rsp_valid 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT____VdfgTmp_h7df5716d__0) 
+           & (0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__meta_owner)));
+    vlSelf->anvil_en1_top__DOT__native__DOT____Vcellinp__binding__req_ready 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__cache_control_ready) 
+           & (2U != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__state)));
+    vlSelf->anvil_en1_top__DOT__native__DOT____Vcellinp__memory__drain_valid 
+        = ((IData)(vlSelf->rst_n) & ((0xaU == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__state)) 
+                                     & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__workers_drained)));
+    vlSelf->__VdfgTmp_h2f1fabc1__0 = ((IData)(vlSelf->anvil_en1_top__DOT__native_selected) 
+                                      & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__cache_valid) 
+                                         & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT____Vcellinp__cache__rsp_ready) 
+                                            & ((0U 
+                                                == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__cache__DOT__cache__DOT__meta_error)) 
+                                               & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__cache__DOT__cache__DOT__alias_hold)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__cache__DOT__cache__DOT__invalidating 
+        = (((IData)(vlSelf->anvil_en1_top__DOT__native__DOT____Vcellinp__cache__req_valid) 
+            & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__cache_ready) 
+               & (IData)(((0x1000000U == (0x3800000U 
+                                          & vlSelf->anvil_en1_top__DOT__native__DOT__meta_request[3U])) 
+                          & (3U != (3U & (vlSelf->anvil_en1_top__DOT__native__DOT__meta_request[3U] 
+                                          >> 0x15U))))))) 
+           | ((4U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__cache__DOT__cache__DOT__meta_state)) 
+              | (((1U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__cache__DOT__cache__DOT__meta_state)) 
+                  | (2U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__cache__DOT__cache__DOT__meta_state))) 
+                 & ((2U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__cache__DOT__cache__DOT__op_hold)) 
+                    & (3U != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__cache__DOT__cache__DOT__model_hold))))));
+    vlSelf->__VdfgTmp_hdf0e8483__0 = ((IData)(vlSelf->anvil_en1_top__DOT__native_selected) 
+                                      & (((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__schedule__DOT__schedule__DOT__fallback_hold) 
+                                          & (IData)(vlSelf->rst_n)) 
+                                         & (IData)(vlSelf->anvil_en1_top__DOT__native_done)));
+    vlSelf->anvil_en1_top__DOT__native__DOT__task_ready 
+        = ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT____Vcellinp__frontier__control_valid)) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__executor_control_ready));
+    vlSelf->anvil_en1_top__DOT__native__DOT__owner_read_ready 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT____VdfgTmp_h88987347__0) 
+           & (((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT____Vcellinp__frontier__control_valid)) 
+               | (0U != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__state))) 
+              & ((3U != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__state)) 
+                 & ((4U != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__state)) 
+                    & ((0x10U != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__state)) 
+                       & ((0x11U != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__state)) 
+                          & ((0x12U != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__state)) 
+                             & ((0x13U != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__state)) 
+                                & ((0x14U != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__state)) 
+                                   & ((0x15U != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__state)) 
+                                      & (0x16U != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__state))))))))))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__eval_ready 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__owner_eval_ready) 
+           & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT____Vcellinp__binding__control_valid)) 
+              & (~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__owner_eval_valid))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____VdfgTmp_h6e3c30be__0 
+        = ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT____Vcellinp__binding__control_valid)) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____VdfgTmp_heafcf40e__0));
+    vlSelf->anvil_en1_top__DOT__native_ready = ((IData)(vlSelf->rst_n) 
+                                                & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native_fault)) 
+                                                   & (IData)(anvil_en1_top__DOT__native__DOT__core_idle)));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__attention_branch__DOT____Vcellinp__executor__work_req_ready 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__attention_branch__DOT__executor_work) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT____Vcellinp__attention_branch__work_req_ready));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT____Vcellinp__fold__work_req_ready 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold_selected) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT____Vcellinp__histories__work_req_ready));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT____Vcellinp__residual__work_req_ready 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__child_selected) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT____Vcellinp__histories__work_req_ready));
+    if (vlSelf->rst_n) {
+        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT____VdfgTmp_h84b18202__0 
+            = (0xffffU & vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__rows_hold);
+        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_rows 
+            = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__rows_hold;
+        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_type 
+            = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__type_hold;
+        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_columns 
+            = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_shape__DOT__shape__DOT__columns_hold;
+    } else {
+        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT____VdfgTmp_h84b18202__0 = 0U;
+        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_rows = 0U;
+        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_type = 0U;
+        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_columns = 0U;
+    }
+    __Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__tensor_stride__2699__columns 
+        = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_columns;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__tensor_stride__2699__tensor_type 
+        = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_type;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__tensor_stride__2699__columns_wide 
+        = (QData)((IData)(__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__tensor_stride__2699__columns));
+    __Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__tensor_stride__2699__q4_blocks 
+        = VL_SHIFTR_QQI(64,64,32, (0x1fULL + __Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__tensor_stride__2699__columns_wide), 5U);
+    __Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__tensor_stride__2699__q4_bytes 
+        = (VL_SHIFTL_QQI(64,64,32, __Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__tensor_stride__2699__q4_blocks, 4U) 
+           + VL_SHIFTL_QQI(64,64,32, __Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__tensor_stride__2699__q4_blocks, 1U));
+    __Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__tensor_stride__2699__Vfuncout 
+        = ((1U == (IData)(__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__tensor_stride__2699__tensor_type))
+            ? (0xfffffffffffffffcULL & (3ULL + __Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__tensor_stride__2699__q4_bytes))
+            : ((0U == (IData)(__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__tensor_stride__2699__tensor_type))
+                ? (0xfffffffffffffffcULL & VL_SHIFTL_QQI(64,64,32, 
+                                                         (1ULL 
+                                                          + __Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__tensor_stride__2699__columns_wide), 1U))
+                : VL_SHIFTL_QQI(64,64,32, __Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__tensor_stride__2699__columns_wide, 2U)));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__requested_stride 
+        = __Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__tensor_stride__2699__Vfuncout;
+    if (vlSelf->rst_n) {
+        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__shape_type 
+            = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__type_hold;
+        __Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__tensor_stride__2698__tensor_type 
+            = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__shape_type;
+        __Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__tensor_stride__2698__columns 
+            = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__columns_hold;
+    } else {
+        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__shape_type = 0U;
+        __Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__tensor_stride__2698__tensor_type 
+            = vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__shape_type;
+        __Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__tensor_stride__2698__columns = 0U;
+    }
+    __Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__tensor_stride__2698__columns_wide 
+        = (QData)((IData)(__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__tensor_stride__2698__columns));
+    __Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__tensor_stride__2698__q4_blocks 
+        = VL_SHIFTR_QQI(64,64,32, (0x1fULL + __Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__tensor_stride__2698__columns_wide), 5U);
+    __Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__tensor_stride__2698__q4_bytes 
+        = (VL_SHIFTL_QQI(64,64,32, __Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__tensor_stride__2698__q4_blocks, 4U) 
+           + VL_SHIFTL_QQI(64,64,32, __Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__tensor_stride__2698__q4_blocks, 1U));
+    __Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__tensor_stride__2698__Vfuncout 
+        = ((1U == (IData)(__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__tensor_stride__2698__tensor_type))
+            ? (0xfffffffffffffffcULL & (3ULL + __Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__tensor_stride__2698__q4_bytes))
+            : ((0U == (IData)(__Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__tensor_stride__2698__tensor_type))
+                ? (0xfffffffffffffffcULL & VL_SHIFTL_QQI(64,64,32, 
+                                                         (1ULL 
+                                                          + __Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__tensor_stride__2698__columns_wide), 1U))
+                : VL_SHIFTL_QQI(64,64,32, __Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__tensor_stride__2698__columns_wide, 2U)));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__required_stride 
+        = __Vfunc_anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__tensor_stride__2698__Vfuncout;
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT__mlp__DOT____Vcellinp__down__cmd_ready 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT__mlp__DOT__down_selected) 
+           & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT____Vcellinp__mlp__cmd_ready));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT__mlp__DOT____Vcellinp__inner__cmd_ready 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT__mlp__DOT__inner_selected) 
+           & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT____Vcellinp__mlp__cmd_ready));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT__mlp__DOT____Vcellinp__down__result_valid 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT__mlp__DOT__down_selected) 
+           & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT____Vcellinp__mlp__result_valid));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT__mlp__DOT____Vcellinp__inner__result_valid 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT__mlp__DOT__inner_selected) 
+           & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT____Vcellinp__mlp__result_valid));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__work_valid 
+        = (((IData)(vlSelf->rst_n) & (6U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__state))) 
+           | (((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__input_selected) 
+               & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__input_work_valid)) 
+              | (((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_selected) 
+                  & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_work_valid)) 
+                 | (((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_selected) 
+                     & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_work_valid)) 
+                    | (((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_active) 
+                        & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__input_worker)
+                            ? ((IData)(vlSelf->rst_n) 
+                               & (5U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__state)))
+                            : (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer_work_valid))) 
+                       | (((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__feature_selected) 
+                           & ((IData)(vlSelf->rst_n) 
+                              & ((5U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_feature__DOT__state)) 
+                                 | (9U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_feature__DOT__state))))) 
+                          | ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature_selected) 
+                             & (IData)(anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature_work_valid))))))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT____Vcellinp__mapping__cmd_ready 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__map_selected) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT____Vcellinp__image_feature__cmd_ready));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT____Vcellinp__mapping__result_valid 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__map_selected) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT____Vcellinp__image_feature__result_valid));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT____VdfgTmp_hd0eff43a__0 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__map_selected) 
+           & ((IData)(vlSelf->rst_n) & ((3U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__state)) 
+                                        | ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__mask_selected) 
+                                           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__mask_cmd_valid)))));
+    vlSelf->__VdfgTmp_ha9f938ed__0 = (((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__child_rst_n)
+                                        ? 0x3fULL : 0ULL) 
+                                      + ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__child_rst_n)
+                                          ? 0x44ULL
+                                          : 0ULL));
+    if (vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__child_rst_n) {
+        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__projection__DOT__primitive_projection_bytes 
+            = (0x41ULL + (((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__child_rst_n)
+                            ? 0x44ULL : 0ULL) + ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__child_rst_n)
+                                                  ? 0x6cULL
+                                                  : 0ULL)));
+        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__pool_control 
+            = (0xaeULL + (((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__child_rst_n)
+                            ? 0xf8ULL : 0ULL) + vlSelf->__VdfgTmp_ha9f938ed__0));
+        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__projection__DOT__primitive_norm_bytes 
+            = (0x3eULL + (((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__child_rst_n)
+                            ? 0xaULL : 0ULL) + vlSelf->__VdfgTmp_ha9f938ed__0));
+        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__projection_control 
+            = (0x4eULL + (((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__child_rst_n)
+                            ? 0xf8ULL : 0ULL) + (anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__projection__DOT__primitive_norm_bytes 
+                                                 + vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__projection__DOT__primitive_projection_bytes)));
+        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__child_selected 
+            = ((5U <= (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__state)) 
+               & (0xfU >= (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__state)));
+    } else {
+        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__projection__DOT__primitive_projection_bytes = 0ULL;
+        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__pool_control = 0ULL;
+        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__projection__DOT__primitive_norm_bytes = 0ULL;
+        anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__projection_control = 0ULL;
+        vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__child_selected = 0U;
+    }
+    __Vtemp_115[0U] = (IData)(vlSelf->anvil_en1_top__DOT__performance__DOT__counters
+                              [4U]);
+    __Vtemp_115[1U] = (IData)((vlSelf->anvil_en1_top__DOT__performance__DOT__counters
+                               [4U] >> 0x20U));
+    __Vtemp_115[2U] = 0U;
+    __Vtemp_116[0U] = (IData)(((IData)(vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__0__KET____DOT__metric_words__BRA__4__KET____DOT__selected_event)
+                                ? 4ULL : 0ULL));
+    __Vtemp_116[1U] = (IData)((((IData)(vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__0__KET____DOT__metric_words__BRA__4__KET____DOT__selected_event)
+                                 ? 4ULL : 0ULL) >> 0x20U));
+    __Vtemp_116[2U] = 0U;
+    VL_ADD_W(3, __Vtemp_117, __Vtemp_115, __Vtemp_116);
+    vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__0__KET____DOT__metric_words__BRA__4__KET____DOT__updated[0U] 
+        = __Vtemp_117[0U];
+    vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__0__KET____DOT__metric_words__BRA__4__KET____DOT__updated[1U] 
+        = __Vtemp_117[1U];
+    vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__0__KET____DOT__metric_words__BRA__4__KET____DOT__updated[2U] 
+        = (1U & __Vtemp_117[2U]);
+    __Vtemp_119[0U] = (IData)(vlSelf->anvil_en1_top__DOT__performance__DOT__counters
+                              [0x21U]);
+    __Vtemp_119[1U] = (IData)((vlSelf->anvil_en1_top__DOT__performance__DOT__counters
+                               [0x21U] >> 0x20U));
+    __Vtemp_119[2U] = 0U;
+    __Vtemp_120[0U] = (IData)(((IData)(vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__4__KET____DOT__selected_event)
+                                ? 4ULL : 0ULL));
+    __Vtemp_120[1U] = (IData)((((IData)(vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__4__KET____DOT__selected_event)
+                                 ? 4ULL : 0ULL) >> 0x20U));
+    __Vtemp_120[2U] = 0U;
+    VL_ADD_W(3, __Vtemp_121, __Vtemp_119, __Vtemp_120);
+    vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__4__KET____DOT__updated[0U] 
+        = __Vtemp_121[0U];
+    vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__4__KET____DOT__updated[1U] 
+        = __Vtemp_121[1U];
+    vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__4__KET____DOT__updated[2U] 
+        = (1U & __Vtemp_121[2U]);
+    __Vtemp_123[0U] = (IData)(vlSelf->anvil_en1_top__DOT__performance__DOT__counters
+                              [5U]);
+    __Vtemp_123[1U] = (IData)((vlSelf->anvil_en1_top__DOT__performance__DOT__counters
+                               [5U] >> 0x20U));
+    __Vtemp_123[2U] = 0U;
+    __Vtemp_124[0U] = (IData)(((IData)(vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__0__KET____DOT__metric_words__BRA__5__KET____DOT__selected_event)
+                                ? 4ULL : 0ULL));
+    __Vtemp_124[1U] = (IData)((((IData)(vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__0__KET____DOT__metric_words__BRA__5__KET____DOT__selected_event)
+                                 ? 4ULL : 0ULL) >> 0x20U));
+    __Vtemp_124[2U] = 0U;
+    VL_ADD_W(3, __Vtemp_125, __Vtemp_123, __Vtemp_124);
+    vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__0__KET____DOT__metric_words__BRA__5__KET____DOT__updated[0U] 
+        = __Vtemp_125[0U];
+    vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__0__KET____DOT__metric_words__BRA__5__KET____DOT__updated[1U] 
+        = __Vtemp_125[1U];
+    vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__0__KET____DOT__metric_words__BRA__5__KET____DOT__updated[2U] 
+        = (1U & __Vtemp_125[2U]);
+    __Vtemp_127[0U] = (IData)(vlSelf->anvil_en1_top__DOT__performance__DOT__counters
+                              [0x22U]);
+    __Vtemp_127[1U] = (IData)((vlSelf->anvil_en1_top__DOT__performance__DOT__counters
+                               [0x22U] >> 0x20U));
+    __Vtemp_127[2U] = 0U;
+    __Vtemp_128[0U] = (IData)(((IData)(vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__5__KET____DOT__selected_event)
+                                ? 4ULL : 0ULL));
+    __Vtemp_128[1U] = (IData)((((IData)(vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__5__KET____DOT__selected_event)
+                                 ? 4ULL : 0ULL) >> 0x20U));
+    __Vtemp_128[2U] = 0U;
+    VL_ADD_W(3, __Vtemp_129, __Vtemp_127, __Vtemp_128);
+    vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__5__KET____DOT__updated[0U] 
+        = __Vtemp_129[0U];
+    vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__5__KET____DOT__updated[1U] 
+        = __Vtemp_129[1U];
+    vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__5__KET____DOT__updated[2U] 
+        = (1U & __Vtemp_129[2U]);
+    __Vtemp_131[0U] = (IData)(vlSelf->anvil_en1_top__DOT__performance__DOT__counters
+                              [0x19U]);
+    __Vtemp_131[1U] = (IData)((vlSelf->anvil_en1_top__DOT__performance__DOT__counters
+                               [0x19U] >> 0x20U));
+    __Vtemp_131[2U] = 0U;
+    __Vtemp_132[0U] = (IData)(((IData)(vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__0__KET____DOT__metric_words__BRA__25__KET____DOT__selected_event)
+                                ? 4ULL : 0ULL));
+    __Vtemp_132[1U] = (IData)((((IData)(vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__0__KET____DOT__metric_words__BRA__25__KET____DOT__selected_event)
+                                 ? 4ULL : 0ULL) >> 0x20U));
+    __Vtemp_132[2U] = 0U;
+    VL_ADD_W(3, __Vtemp_133, __Vtemp_131, __Vtemp_132);
+    vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__0__KET____DOT__metric_words__BRA__25__KET____DOT__updated[0U] 
+        = __Vtemp_133[0U];
+    vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__0__KET____DOT__metric_words__BRA__25__KET____DOT__updated[1U] 
+        = __Vtemp_133[1U];
+    vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__0__KET____DOT__metric_words__BRA__25__KET____DOT__updated[2U] 
+        = (1U & __Vtemp_133[2U]);
+    __Vtemp_135[0U] = (IData)(vlSelf->anvil_en1_top__DOT__performance__DOT__counters
+                              [0x36U]);
+    __Vtemp_135[1U] = (IData)((vlSelf->anvil_en1_top__DOT__performance__DOT__counters
+                               [0x36U] >> 0x20U));
+    __Vtemp_135[2U] = 0U;
+    __Vtemp_136[0U] = (IData)(((IData)(vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__25__KET____DOT__selected_event)
+                                ? 4ULL : 0ULL));
+    __Vtemp_136[1U] = (IData)((((IData)(vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__25__KET____DOT__selected_event)
+                                 ? 4ULL : 0ULL) >> 0x20U));
+    __Vtemp_136[2U] = 0U;
+    VL_ADD_W(3, __Vtemp_137, __Vtemp_135, __Vtemp_136);
+    vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__25__KET____DOT__updated[0U] 
+        = __Vtemp_137[0U];
+    vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__25__KET____DOT__updated[1U] 
+        = __Vtemp_137[1U];
+    vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__25__KET____DOT__updated[2U] 
+        = (1U & __Vtemp_137[2U]);
+    __Vtemp_139[0U] = (IData)(vlSelf->anvil_en1_top__DOT__performance__DOT__counters
+                              [0x1aU]);
+    __Vtemp_139[1U] = (IData)((vlSelf->anvil_en1_top__DOT__performance__DOT__counters
+                               [0x1aU] >> 0x20U));
+    __Vtemp_139[2U] = 0U;
+    __Vtemp_140[0U] = (IData)(((IData)(vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__0__KET____DOT__metric_words__BRA__26__KET____DOT__selected_event)
+                                ? 4ULL : 0ULL));
+    __Vtemp_140[1U] = (IData)((((IData)(vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__0__KET____DOT__metric_words__BRA__26__KET____DOT__selected_event)
+                                 ? 4ULL : 0ULL) >> 0x20U));
+    __Vtemp_140[2U] = 0U;
+    VL_ADD_W(3, __Vtemp_141, __Vtemp_139, __Vtemp_140);
+    vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__0__KET____DOT__metric_words__BRA__26__KET____DOT__updated[0U] 
+        = __Vtemp_141[0U];
+    vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__0__KET____DOT__metric_words__BRA__26__KET____DOT__updated[1U] 
+        = __Vtemp_141[1U];
+    vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__0__KET____DOT__metric_words__BRA__26__KET____DOT__updated[2U] 
+        = (1U & __Vtemp_141[2U]);
+    __Vtemp_143[0U] = (IData)(vlSelf->anvil_en1_top__DOT__performance__DOT__counters
+                              [0x37U]);
+    __Vtemp_143[1U] = (IData)((vlSelf->anvil_en1_top__DOT__performance__DOT__counters
+                               [0x37U] >> 0x20U));
+    __Vtemp_143[2U] = 0U;
+    __Vtemp_144[0U] = (IData)(((IData)(vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__26__KET____DOT__selected_event)
+                                ? 4ULL : 0ULL));
+    __Vtemp_144[1U] = (IData)((((IData)(vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__26__KET____DOT__selected_event)
+                                 ? 4ULL : 0ULL) >> 0x20U));
+    __Vtemp_144[2U] = 0U;
+    VL_ADD_W(3, __Vtemp_145, __Vtemp_143, __Vtemp_144);
+    vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__26__KET____DOT__updated[0U] 
+        = __Vtemp_145[0U];
+    vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__26__KET____DOT__updated[1U] 
+        = __Vtemp_145[1U];
+    vlSelf->anvil_en1_top__DOT__performance__DOT__metric_banks__BRA__1__KET____DOT__metric_words__BRA__26__KET____DOT__updated[2U] 
+        = (1U & __Vtemp_145[2U]);
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__576__right 
+        = (((IData)((0U != (vlSelf->__VdfgTmp_h73e791de__0 
+                            >> 0x17U))) << 0x17U) | 
+           (0x7fffffU & (IData)(vlSelf->__VdfgTmp_h73e791de__0)));
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__576__left 
+        = (((IData)((0U != (__VdfgTmp_hcb11453e__0 
+                            >> 0x17U))) << 0x17U) | 
+           (0x7fffffU & (IData)(__VdfgTmp_hcb11453e__0)));
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__576__sum 
+        = (0xffffffU & ((0x7fffffU & __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__576__left) 
+                        + (0x7fffffU & __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__576__right)));
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__576__Vfuncout 
+        = ((0x800000U & ((__Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__576__left 
+                          | __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__576__right) 
+                         | __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__576__sum)) 
+           | (0x7fffffU & __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__576__sum));
+    vlSelf->anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__stages__BRA__0__KET____DOT__metrics__BRA__4__KET____DOT__nodes__BRA__3__KET____DOT__registered_node__DOT__next_value 
+        = __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__576__Vfuncout;
+    vlSelf->anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__stages__BRA__0__KET____DOT__metrics__BRA__4__KET____DOT__nodes__BRA__1__KET____DOT__registered_node__DOT__right_node 
+        = (((IData)((0U != (vlSelf->__VdfgTmp_h94922243__0 
+                            >> 0x17U))) << 0x17U) | 
+           (0x7fffffU & (IData)(vlSelf->__VdfgTmp_h94922243__0)));
+    vlSelf->anvil_en1_top__DOT__native__DOT____Vcellinp__frontier__req_ready 
+        = ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT____Vcellout__binding__req_valid)) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT____Vcellinp__binding__req_ready));
+    vlSelf->anvil_en1_top__DOT__native__DOT__memory__DOT__arbiter__DOT__drain_accept 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT____Vcellinp__memory__drain_valid) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__drain_ready));
+    vlSelf->anvil_en1_top__DOT__native__DOT__memory__DOT__arbiter__DOT__ingress_open 
+        = ((IData)(vlSelf->rst_n) & ((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__memory__DOT__arbiter__DOT__state)) 
+                                     & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__memory__DOT__arbiter__DOT__draining)) 
+                                        & (~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT____Vcellinp__memory__drain_valid)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__fetch_ready 
+        = ((IData)(vlSelf->rst_n) & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__cache__DOT__cache__DOT__invalidating)) 
+                                     & (0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__cache__DOT__cache__DOT__fetch_state))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__cache__DOT__cache__DOT__insert_word 
+        = ((4U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__cache__DOT__cache__DOT__fetch_state)) 
+           & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__regen_rsp_valid) 
+              & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__regen_rsp_ready) 
+                 & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__cache__DOT__cache__DOT__invalidating)) 
+                    & (0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__regen_error))))));
+    vlSelf->__VdfgTmp_h04061367__0 = ((IData)(vlSelf->anvil_en1_top__DOT__native_selected) 
+                                      & (((IData)(vlSelf->rst_n) 
+                                          & ((2U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__cache__DOT__cache__DOT__fetch_state)) 
+                                             & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__cache__DOT__cache__DOT__invalidating)) 
+                                                & (0U 
+                                                   == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__cache__DOT__cache__DOT__data_error))))) 
+                                         & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__cache__DOT__cache__DOT__hit_hold)));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__regen_valid 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____VdfgTmp_h6e3c30be__0) 
+           & ((IData)(vlSelf->rst_n) & (3U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__cache__DOT__cache__DOT__fetch_state))));
+    __VdfgTmp_h63afe554__0 = ((IData)(vlSelf->anvil_en1_top__DOT____Vcellinp__native__start_valid) 
+                              & (IData)(vlSelf->anvil_en1_top__DOT__native_ready));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__attention_branch__DOT__executor__DOT____Vcellinp__attention__work_req_ready 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__attention_branch__DOT__executor__DOT____VdfgTmp_h9e85d5ff__0) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__attention_branch__DOT____Vcellinp__executor__work_req_ready));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT____Vcellinp__heads__work_req_ready 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads_selected) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT____Vcellinp__residual__work_req_ready));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry_bad 
+        = (1U & ((~ ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__valid_hold) 
+                     & (IData)(vlSelf->rst_n))) | (
+                                                   ((0xffU 
+                                                     & vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[1U]) 
+                                                    != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__shape_type)) 
+                                                   | (((0xffU 
+                                                        & (vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[1U] 
+                                                           >> 8U)) 
+                                                       != 
+                                                       ((IData)(vlSelf->rst_n)
+                                                         ? (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__rank_hold)
+                                                         : 0U)) 
+                                                      | ((0U 
+                                                          != 
+                                                          (vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[1U] 
+                                                           >> 0x10U)) 
+                                                         | ((vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[6U] 
+                                                             != 
+                                                             ((IData)(vlSelf->rst_n)
+                                                               ? vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d0
+                                                               : 0U)) 
+                                                            | ((vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[7U] 
+                                                                != 
+                                                                ((IData)(vlSelf->rst_n)
+                                                                  ? vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d1
+                                                                  : 0U)) 
+                                                               | ((vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[8U] 
+                                                                   != 
+                                                                   ((IData)(vlSelf->rst_n)
+                                                                     ? vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d2
+                                                                     : 0U)) 
+                                                                  | ((vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[9U] 
+                                                                      != 
+                                                                      ((IData)(vlSelf->rst_n)
+                                                                        ? vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__current_shape__DOT__shape__DOT__d3
+                                                                        : 0U)) 
+                                                                     | ((0U 
+                                                                         != (IData)(
+                                                                                (vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__required_stride 
+                                                                                >> 0x20U))) 
+                                                                        | ((0ULL 
+                                                                            == vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__required_stride) 
+                                                                           | ((vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[0xaU] 
+                                                                               != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__required_stride)) 
+                                                                              | ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry_word_error) 
+                                                                                | ((0x40ULL 
+                                                                                > 
+                                                                                (((QData)((IData)(
+                                                                                vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[3U])) 
+                                                                                << 0x20U) 
+                                                                                | (QData)((IData)(
+                                                                                vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[2U])))) 
+                                                                                | ((0U 
+                                                                                != 
+                                                                                (3U 
+                                                                                & vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[2U])) 
+                                                                                | (((((QData)((IData)(
+                                                                                vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[5U])) 
+                                                                                << 0x20U) 
+                                                                                | (QData)((IData)(
+                                                                                vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[4U]))) 
+                                                                                != vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__required_bytes) 
+                                                                                | (vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry_end[2U] 
+                                                                                | (((((QData)((IData)(
+                                                                                vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry_end[1U])) 
+                                                                                << 0x20U) 
+                                                                                | (QData)((IData)(
+                                                                                vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry_end[0U]))) 
+                                                                                > 
+                                                                                (((QData)((IData)(
+                                                                                vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__header[1U])) 
+                                                                                << 0x20U) 
+                                                                                | (QData)((IData)(
+                                                                                vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__header[0U])))) 
+                                                                                | (vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__payload_sum[2U] 
+                                                                                | (((((QData)((IData)(
+                                                                                vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[3U])) 
+                                                                                << 0x20U) 
+                                                                                | (QData)((IData)(
+                                                                                vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry[2U]))) 
+                                                                                < 
+                                                                                (((QData)((IData)(
+                                                                                vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__directory_end[1U])) 
+                                                                                << 0x20U) 
+                                                                                | (QData)((IData)(
+                                                                                vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__directory_end[0U])))) 
+                                                                                & ((((QData)((IData)(
+                                                                                vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__header[4U])) 
+                                                                                << 0x20U) 
+                                                                                | (QData)((IData)(
+                                                                                vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__header[3U]))) 
+                                                                                < 
+                                                                                (((QData)((IData)(
+                                                                                vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry_end[1U])) 
+                                                                                << 0x20U) 
+                                                                                | (QData)((IData)(
+                                                                                vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__entry_end[0U]))))))))))))))))))))))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__task_done_ready 
+        = ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__work_valid)) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__scheduler__DOT____VdfgTmp_h45d0ec3c__0));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT____Vcellinp__immutable_mask__cmd_ready 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__mask_selected) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT____Vcellinp__mapping__cmd_ready));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT____Vcellinp__immutable_mask__result_valid 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__mask_selected) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT____Vcellinp__mapping__result_valid));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT____Vcellinp__feature__cmd_ready 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__child_selected) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT____Vcellinp__image_feature__cmd_ready));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT____Vcellinp__feature__result_valid 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__child_selected) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT____Vcellinp__image_feature__result_valid));
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__588__right 
+        = vlSelf->anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__stages__BRA__0__KET____DOT__metrics__BRA__4__KET____DOT__nodes__BRA__1__KET____DOT__registered_node__DOT__right_node;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__588__sum 
+        = (0x7fffffU & __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__588__right);
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__588__Vfuncout 
+        = ((0x800000U & (__Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__588__right 
+                         | __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__588__sum)) 
+           | (0x7fffffU & __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__588__sum));
+    vlSelf->anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__stages__BRA__0__KET____DOT__metrics__BRA__5__KET____DOT__nodes__BRA__1__KET____DOT__registered_node__DOT__next_value 
+        = __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__588__Vfuncout;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__574__right 
+        = vlSelf->anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__stages__BRA__0__KET____DOT__metrics__BRA__4__KET____DOT__nodes__BRA__1__KET____DOT__registered_node__DOT__right_node;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__574__left 
+        = (((IData)((0U != (vlSelf->__VdfgTmp_hae023b33__0 
+                            >> 0x17U))) << 0x17U) | 
+           (0x7fffffU & (IData)(vlSelf->__VdfgTmp_hae023b33__0)));
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__574__sum 
+        = (0xffffffU & ((0x7fffffU & __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__574__left) 
+                        + (0x7fffffU & __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__574__right)));
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__574__Vfuncout 
+        = ((0x800000U & ((__Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__574__left 
+                          | __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__574__right) 
+                         | __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__574__sum)) 
+           | (0x7fffffU & __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__574__sum));
+    vlSelf->anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__stages__BRA__0__KET____DOT__metrics__BRA__4__KET____DOT__nodes__BRA__1__KET____DOT__registered_node__DOT__next_value 
+        = __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__574__Vfuncout;
+    vlSelf->anvil_en1_top__DOT__native__DOT__meta_ready 
+        = (((IData)(vlSelf->anvil_en1_top__DOT__native__DOT____Vcellinp__binding__req_ready) 
+            << 1U) | (IData)(vlSelf->anvil_en1_top__DOT__native__DOT____Vcellinp__frontier__req_ready));
+    vlSelf->anvil_en1_top__DOT__native__DOT____Vcellinp__binding__cmd_ready 
+        = (3U & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__memory__DOT__arbiter__DOT__ingress_open) 
+                 & (((IData)(1U) << (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__memory__DOT__arbiter__DOT__cursor)) 
+                    >> 1U)));
+    vlSelf->anvil_en1_top__DOT__native__DOT____Vcellinp__frontier__cmd_ready 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__memory__DOT__arbiter__DOT__ingress_open) 
+           & ((IData)(1U) << (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__memory__DOT__arbiter__DOT__cursor)));
+    anvil_en1_top__DOT____Vcellinp__performance__event_valid 
+        = ((IData)(vlSelf->rst_n) & ((IData)(vlSelf->__VdfgTmp_hdf0e8483__0) 
+                                     | ((IData)(vlSelf->__VdfgTmp_hed4fa09b__0) 
+                                        | ((IData)(vlSelf->__VdfgTmp_h5e9fb576__0) 
+                                           | ((IData)(__VdfgTmp_h349ecc70__0) 
+                                              | ((IData)(__VdfgTmp_h56b2389c__0) 
+                                                 | ((IData)(vlSelf->__VdfgTmp_h0d4e560b__0) 
+                                                    | ((IData)(__VdfgTmp_h63afe554__0) 
+                                                       | ((IData)(vlSelf->__VdfgTmp_hba6f849c__0) 
+                                                          | ((IData)(vlSelf->__VdfgTmp_ha3f10df9__0) 
+                                                             | ((IData)(vlSelf->__VdfgTmp_h0bb94bb7__0) 
+                                                                | ((IData)(__VdfgTmp_haf6908d9__0) 
+                                                                   | ((IData)(__VdfgTmp_hcbfbada7__0) 
+                                                                      | ((IData)(vlSelf->__VdfgTmp_h04061367__0) 
+                                                                         | ((IData)(vlSelf->__VdfgTmp_h2f1fabc1__0) 
+                                                                            | ((IData)(vlSelf->__VdfgTmp_h4d8e6622__0) 
+                                                                               | ((IData)(vlSelf->__VdfgTmp_hcba1cd92__0) 
+                                                                                | ((IData)(vlSelf->__VdfgTmp_h80dceb5f__0) 
+                                                                                | ((IData)(vlSelf->__VdfgTmp_ha3cace5a__0) 
+                                                                                | ((IData)(vlSelf->anvil_en1_top__DOT____VdfgTmp_h6fffac67__0) 
+                                                                                | (IData)(vlSelf->busy)))))))))))))))))))));
+    anvil_en1_top__DOT__native__DOT____Vcellinp__frontier__image_invalidate 
+        = ((IData)(vlSelf->anvil_en1_top__DOT____Vcellinp__allocation_limits__clear) 
+           | (IData)(__VdfgTmp_h63afe554__0));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT____Vcellinp__attention__work_req_ready 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT____Vcellinp__attention__need_ready) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT____Vcellinp__heads__work_req_ready));
+    vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT____Vcellinp__logits__cmd_ready 
+        = ((3U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__memory_owner)) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT____Vcellinp__frontier__cmd_ready));
+    vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT____Vcellinp__text_layer__cmd_ready 
+        = ((2U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__memory_owner)) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT____Vcellinp__frontier__cmd_ready));
+    vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT____Vcellinp__embedding__cmd_ready 
+        = ((1U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__memory_owner)) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT____Vcellinp__frontier__cmd_ready));
+    vlSelf->anvil_en1_top__DOT__performance__DOT____VdfgTmp_hb22bf848__0 
+        = ((IData)(anvil_en1_top__DOT____Vcellinp__performance__event_valid) 
+           & (IData)(vlSelf->busy));
+    vlSelf->anvil_en1_top__DOT__performance__DOT____VdfgTmp_hb228aa5b__0 
+        = ((IData)(anvil_en1_top__DOT____Vcellinp__performance__event_valid) 
+           & (IData)(vlSelf->anvil_en1_top__DOT____VdfgTmp_h6fffac67__0));
+    vlSelf->anvil_en1_top__DOT__performance__DOT____VdfgTmp_hb2ef90c2__0 
+        = ((IData)(anvil_en1_top__DOT____Vcellinp__performance__event_valid) 
+           & (IData)(vlSelf->__VdfgTmp_ha3cace5a__0));
+    vlSelf->anvil_en1_top__DOT__performance__DOT____VdfgTmp_hb293494d__0 
+        = ((IData)(anvil_en1_top__DOT____Vcellinp__performance__event_valid) 
+           & (IData)(vlSelf->__VdfgTmp_h80dceb5f__0));
+    vlSelf->anvil_en1_top__DOT__performance__DOT____VdfgTmp_hb2ffe9bd__0 
+        = ((IData)(anvil_en1_top__DOT____Vcellinp__performance__event_valid) 
+           & (IData)(vlSelf->__VdfgTmp_hcba1cd92__0));
+    vlSelf->anvil_en1_top__DOT__performance__DOT____VdfgTmp_hb2e51832__0 
+        = ((IData)(anvil_en1_top__DOT____Vcellinp__performance__event_valid) 
+           & (IData)(vlSelf->__VdfgTmp_h4d8e6622__0));
+    vlSelf->anvil_en1_top__DOT__performance__DOT____VdfgTmp_hb28758c6__0 
+        = ((IData)(anvil_en1_top__DOT____Vcellinp__performance__event_valid) 
+           & (IData)(vlSelf->__VdfgTmp_h2f1fabc1__0));
+    vlSelf->anvil_en1_top__DOT__performance__DOT____VdfgTmp_hb28d1659__0 
+        = ((IData)(anvil_en1_top__DOT____Vcellinp__performance__event_valid) 
+           & (IData)(vlSelf->__VdfgTmp_h04061367__0));
+    vlSelf->anvil_en1_top__DOT__performance__DOT____VdfgTmp_hb2f0c79c__0 
+        = ((IData)(anvil_en1_top__DOT____Vcellinp__performance__event_valid) 
+           & (IData)(__VdfgTmp_hcbfbada7__0));
+    vlSelf->anvil_en1_top__DOT__performance__DOT____VdfgTmp_hb2f4a8f7__0 
+        = ((IData)(anvil_en1_top__DOT____Vcellinp__performance__event_valid) 
+           & (IData)(__VdfgTmp_haf6908d9__0));
+    vlSelf->anvil_en1_top__DOT__performance__DOT____VdfgTmp_hb2d96429__0 
+        = ((IData)(anvil_en1_top__DOT____Vcellinp__performance__event_valid) 
+           & (IData)(vlSelf->__VdfgTmp_h0bb94bb7__0));
+    vlSelf->anvil_en1_top__DOT__performance__DOT____VdfgTmp_hb2dd13d6__0 
+        = ((IData)(anvil_en1_top__DOT____Vcellinp__performance__event_valid) 
+           & (IData)(vlSelf->__VdfgTmp_ha3f10df9__0));
+    vlSelf->anvil_en1_top__DOT__performance__DOT____VdfgTmp_hb2c0c4e7__0 
+        = ((IData)(anvil_en1_top__DOT____Vcellinp__performance__event_valid) 
+           & (IData)(vlSelf->__VdfgTmp_hba6f849c__0));
+    vlSelf->anvil_en1_top__DOT__performance__DOT____VdfgTmp_hb2e7bb06__0 
+        = ((IData)(anvil_en1_top__DOT____Vcellinp__performance__event_valid) 
+           & (IData)(__VdfgTmp_h63afe554__0));
+    vlSelf->anvil_en1_top__DOT__performance__DOT____VdfgTmp_hb1ac65f1__0 
+        = ((IData)(anvil_en1_top__DOT____Vcellinp__performance__event_valid) 
+           & (IData)(vlSelf->__VdfgTmp_h0d4e560b__0));
+    vlSelf->anvil_en1_top__DOT__performance__DOT____VdfgTmp_hb1aedc9c__0 
+        = ((IData)(anvil_en1_top__DOT____Vcellinp__performance__event_valid) 
+           & (IData)(__VdfgTmp_h56b2389c__0));
+    vlSelf->anvil_en1_top__DOT__performance__DOT____VdfgTmp_hb253832f__0 
+        = ((IData)(anvil_en1_top__DOT____Vcellinp__performance__event_valid) 
+           & (IData)(__VdfgTmp_h349ecc70__0));
+    vlSelf->anvil_en1_top__DOT__performance__DOT____VdfgTmp_hb1bbd68e__0 
+        = ((IData)(anvil_en1_top__DOT____Vcellinp__performance__event_valid) 
+           & (IData)(vlSelf->__VdfgTmp_h5e9fb576__0));
+    vlSelf->anvil_en1_top__DOT__performance__DOT____VdfgTmp_hb1a03ee7__0 
+        = ((IData)(anvil_en1_top__DOT____Vcellinp__performance__event_valid) 
+           & (IData)(vlSelf->__VdfgTmp_hed4fa09b__0));
+    vlSelf->anvil_en1_top__DOT__performance__DOT____VdfgTmp_hb2b46424__0 
+        = ((IData)(anvil_en1_top__DOT____Vcellinp__performance__event_valid) 
+           & (IData)(vlSelf->__VdfgTmp_hdf0e8483__0));
+    vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT____Vcellinp__text_layer__image_invalidate 
+        = ((IData)(anvil_en1_top__DOT__native__DOT____Vcellinp__frontier__image_invalidate) 
+           | ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT____Vcellinp__frontier__control_valid) 
+              & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__executor_control_ready)));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate 
+        = ((IData)(anvil_en1_top__DOT__native__DOT____Vcellinp__frontier__image_invalidate) 
+           | ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT____Vcellinp__binding__control_valid) 
+              & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding_control_ready)));
+    vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__text_layer__DOT____Vcellinp__engine__DOT__gated_unit__cmd_ready 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__text_layer__DOT____VdfgTmp_h82559656__0) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT____Vcellinp__text_layer__cmd_ready));
+    vlSelf->anvil_en1_top__DOT__native__DOT____Vcellinp__memory__client_input_read_event 
+        = ((4U & (((IData)(vlSelf->anvil_en1_top__DOT__native__DOT____VdfgTmp_h778cba85__0) 
+                   << 2U) & (((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__memory__DOT__arbiter__DOT__ingress_open) 
+                              << 2U) & ((IData)(1U) 
+                                        << (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__memory__DOT__arbiter__DOT__cursor))))) 
+           | ((((IData)(vlSelf->anvil_en1_top__DOT__native__DOT____Vcellout__binding__cmd_valid) 
+                & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT____Vcellinp__binding__cmd_ready) 
+                   & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__memory__DOT__arbiter__DOT__input_hold) 
+                      & (IData)(vlSelf->rst_n)))) << 1U) 
+              | ((IData)(vlSelf->rst_n) & (((4U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__memory_owner)) 
+                                            & ((0x20U 
+                                                == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__state)) 
+                                               & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT____Vcellinp__frontier__cmd_ready))) 
+                                           | ((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__embedding__DOT__frontend__DOT__memory_owner)) 
+                                              & ((3U 
+                                                  == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__embedding__DOT__frontend__DOT__state)) 
+                                                 & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT____Vcellinp__embedding__cmd_ready)))))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__embedding__DOT__frontend__DOT__tensor_lookup__DOT__reader__DOT__lifetime_revoked 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__embedding__DOT__frontend__DOT__tensor_lookup__DOT__reader__DOT__cache_allowed) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT____Vcellinp__text_layer__image_invalidate));
+    vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__text_layer__DOT__engine__DOT__tensor_lookup__DOT__reader__DOT__lifetime_revoked 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__text_layer__DOT__engine__DOT__tensor_lookup__DOT__reader__DOT__cache_allowed) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT____Vcellinp__text_layer__image_invalidate));
+    vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__logits__DOT__final_head__DOT__tensor_lookup__DOT__reader__DOT__lifetime_revoked 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__logits__DOT__final_head__DOT__tensor_lookup__DOT__reader__DOT__cache_allowed) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT____Vcellinp__text_layer__image_invalidate));
+    vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__embedding__DOT__frontend__DOT__lookup_ready 
+        = ((IData)(vlSelf->rst_n) & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT____Vcellinp__text_layer__image_invalidate)) 
+                                     & (0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__embedding__DOT__frontend__DOT__tensor_lookup__DOT__reader__DOT__state))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__text_layer__DOT__engine__DOT__lookup_ready 
+        = ((IData)(vlSelf->rst_n) & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT____Vcellinp__text_layer__image_invalidate)) 
+                                     & (0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__text_layer__DOT__engine__DOT__tensor_lookup__DOT__reader__DOT__state))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__logits__DOT__final_head__DOT__lookup_ready 
+        = ((IData)(vlSelf->rst_n) & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT____Vcellinp__text_layer__image_invalidate)) 
+                                     & (0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__logits__DOT__final_head__DOT__tensor_lookup__DOT__reader__DOT__state))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__original_input__DOT__reconstruct__DOT__frontend__DOT__tensor_lookup__DOT__reader__DOT__lifetime_revoked 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__original_input__DOT__reconstruct__DOT__frontend__DOT__tensor_lookup__DOT__reader__DOT__cache_allowed) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__attention_branch__DOT__matrix_lookup__DOT__reader__DOT__lifetime_revoked 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__attention_branch__DOT__matrix_lookup__DOT__reader__DOT__cache_allowed) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__attention_branch__DOT__executor__DOT__tile__DOT__owner_tile__DOT__tile__DOT__tensor_lookup__DOT__reader__DOT__lifetime_revoked 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__attention_branch__DOT__executor__DOT__tile__DOT__owner_tile__DOT__tile__DOT__tensor_lookup__DOT__reader__DOT__cache_allowed) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__layer_embedding__DOT__frontend__DOT__tensor_lookup__DOT__reader__DOT__lifetime_revoked 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__layer_embedding__DOT__frontend__DOT__tensor_lookup__DOT__reader__DOT__cache_allowed) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__post_attention__DOT__engine__DOT__tensor_lookup__DOT__reader__DOT__lifetime_revoked 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__post_attention__DOT__engine__DOT__tensor_lookup__DOT__reader__DOT__cache_allowed) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__original_patch__DOT__directory__DOT__reader__DOT__lifetime_revoked 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__original_patch__DOT__directory__DOT__reader__DOT__cache_allowed) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__attention__DOT__executor__DOT__directory__DOT__reader__DOT__lifetime_revoked 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__attention__DOT__executor__DOT__directory__DOT__reader__DOT__cache_allowed) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__attention__DOT__executor__DOT__tile__DOT__directory__DOT__reader__DOT__lifetime_revoked 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__attention__DOT__executor__DOT__tile__DOT__directory__DOT__reader__DOT__cache_allowed) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__attention__DOT__executor__DOT__tile__DOT__projection__DOT__directory__DOT__reader__DOT__lifetime_revoked 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__attention__DOT__executor__DOT__tile__DOT__projection__DOT__directory__DOT__reader__DOT__cache_allowed) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__output_projection__DOT__directory__DOT__reader__DOT__lifetime_revoked 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__output_projection__DOT__directory__DOT__reader__DOT__cache_allowed) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT__normalization__DOT__directory__DOT__reader__DOT__lifetime_revoked 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT__normalization__DOT__directory__DOT__reader__DOT__cache_allowed) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT__mlp__DOT__down__DOT__directory__DOT__reader__DOT__lifetime_revoked 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT__mlp__DOT__down__DOT__directory__DOT__reader__DOT__cache_allowed) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT__mlp__DOT__inner__DOT__directory__DOT__reader__DOT__lifetime_revoked 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT__mlp__DOT__inner__DOT__directory__DOT__reader__DOT__cache_allowed) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__directory__DOT__reader__DOT__lifetime_revoked 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__directory__DOT__reader__DOT__cache_allowed) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_one__DOT__point__DOT__convolution__DOT__directory__DOT__reader__DOT__lifetime_revoked 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_one__DOT__point__DOT__convolution__DOT__directory__DOT__reader__DOT__cache_allowed) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_one__DOT__point__DOT__channel_norm__DOT__directory__DOT__reader__DOT__lifetime_revoked 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_one__DOT__point__DOT__channel_norm__DOT__directory__DOT__reader__DOT__cache_allowed) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_one__DOT__original_input__DOT__directory__DOT__reader__DOT__lifetime_revoked 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_one__DOT__original_input__DOT__directory__DOT__reader__DOT__cache_allowed) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_zero__DOT__point__DOT__convolution__DOT__directory__DOT__reader__DOT__lifetime_revoked 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_zero__DOT__point__DOT__convolution__DOT__directory__DOT__reader__DOT__cache_allowed) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_zero__DOT__point__DOT__channel_norm__DOT__directory__DOT__reader__DOT__lifetime_revoked 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_zero__DOT__point__DOT__channel_norm__DOT__directory__DOT__reader__DOT__cache_allowed) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_zero__DOT__original_input__DOT__directory__DOT__reader__DOT__lifetime_revoked 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_zero__DOT__original_input__DOT__directory__DOT__reader__DOT__cache_allowed) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT__norm__DOT__directory__DOT__reader__DOT__lifetime_revoked 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT__norm__DOT__directory__DOT__reader__DOT__cache_allowed) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT__mlp__DOT__down__DOT__directory__DOT__reader__DOT__lifetime_revoked 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT__mlp__DOT__down__DOT__directory__DOT__reader__DOT__cache_allowed) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT__mlp__DOT__inner__DOT__directory__DOT__reader__DOT__lifetime_revoked 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT__mlp__DOT__inner__DOT__directory__DOT__reader__DOT__cache_allowed) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__norm__DOT__directory__DOT__reader__DOT__lifetime_revoked 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__norm__DOT__directory__DOT__reader__DOT__cache_allowed) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT__original_mask__DOT__directory__DOT__reader__DOT__lifetime_revoked 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT__original_mask__DOT__directory__DOT__reader__DOT__cache_allowed) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT__tile__DOT__directory__DOT__reader__DOT__lifetime_revoked 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT__tile__DOT__directory__DOT__reader__DOT__cache_allowed) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT__tile__DOT__clipped__DOT__directory__DOT__reader__DOT__lifetime_revoked 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT__tile__DOT__clipped__DOT__directory__DOT__reader__DOT__cache_allowed) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__post_attention__DOT__post_projection__DOT__directory__DOT__reader__DOT__lifetime_revoked 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__post_attention__DOT__post_projection__DOT__directory__DOT__reader__DOT__cache_allowed) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__post_attention__DOT__norm__DOT__directory__DOT__reader__DOT__lifetime_revoked 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__post_attention__DOT__norm__DOT__directory__DOT__reader__DOT__cache_allowed) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT__directory__DOT__reader__DOT__lifetime_revoked 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT__directory__DOT__reader__DOT__cache_allowed) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT__gated_input__DOT__norm__DOT__directory__DOT__reader__DOT__lifetime_revoked 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT__gated_input__DOT__norm__DOT__directory__DOT__reader__DOT__cache_allowed) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT__gated_input__DOT__projection__DOT__directory__DOT__reader__DOT__lifetime_revoked 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT__gated_input__DOT__projection__DOT__directory__DOT__reader__DOT__cache_allowed) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__convolution__DOT__norm__DOT__directory__DOT__reader__DOT__lifetime_revoked 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__convolution__DOT__norm__DOT__directory__DOT__reader__DOT__cache_allowed) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__convolution__DOT__projection__DOT__directory__DOT__reader__DOT__lifetime_revoked 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__convolution__DOT__projection__DOT__directory__DOT__reader__DOT__cache_allowed) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__feed_forward2__DOT__norm__DOT__directory__DOT__reader__DOT__lifetime_revoked 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__feed_forward2__DOT__norm__DOT__directory__DOT__reader__DOT__cache_allowed) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__feed_forward2__DOT__mlp__DOT__down__DOT__directory__DOT__reader__DOT__lifetime_revoked 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__feed_forward2__DOT__mlp__DOT__down__DOT__directory__DOT__reader__DOT__cache_allowed) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__feed_forward2__DOT__mlp__DOT__inner__DOT__directory__DOT__reader__DOT__lifetime_revoked 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__feed_forward2__DOT__mlp__DOT__inner__DOT__directory__DOT__reader__DOT__cache_allowed) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__norm_out__DOT__directory__DOT__reader__DOT__lifetime_revoked 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__norm_out__DOT__directory__DOT__reader__DOT__cache_allowed) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__lifetime_revoked 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__cache_allowed) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_feature__DOT__feature__DOT__native_output__DOT__directory__DOT__reader__DOT__lifetime_revoked 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_feature__DOT__feature__DOT__native_output__DOT__directory__DOT__reader__DOT__cache_allowed) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_feature__DOT__feature__DOT__modality__DOT__directory__DOT__reader__DOT__lifetime_revoked 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_feature__DOT__feature__DOT__modality__DOT__directory__DOT__reader__DOT__cache_allowed) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__lifetime_revoked 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__cache_allowed) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__original_input__DOT__reconstruct__DOT__frontend__DOT__lookup_ready 
+        = ((IData)(vlSelf->rst_n) & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate)) 
+                                     & (0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__original_input__DOT__reconstruct__DOT__frontend__DOT__tensor_lookup__DOT__reader__DOT__state))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__attention_branch__DOT__lookup_ready 
+        = ((IData)(vlSelf->rst_n) & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate)) 
+                                     & (0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__attention_branch__DOT__matrix_lookup__DOT__reader__DOT__state))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__attention_branch__DOT__executor__DOT__tile__DOT__owner_tile__DOT__tile__DOT__lookup_ready 
+        = ((IData)(vlSelf->rst_n) & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate)) 
+                                     & (0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__attention_branch__DOT__executor__DOT__tile__DOT__owner_tile__DOT__tile__DOT__tensor_lookup__DOT__reader__DOT__state))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__layer_embedding__DOT__frontend__DOT__lookup_ready 
+        = ((IData)(vlSelf->rst_n) & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate)) 
+                                     & (0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__layer_embedding__DOT__frontend__DOT__tensor_lookup__DOT__reader__DOT__state))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__post_attention__DOT__engine__DOT__lookup_ready 
+        = ((IData)(vlSelf->rst_n) & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate)) 
+                                     & (0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__post_attention__DOT__engine__DOT__tensor_lookup__DOT__reader__DOT__state))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__original_patch__DOT__image_ready 
+        = ((IData)(vlSelf->rst_n) & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate)) 
+                                     & (0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__original_patch__DOT__directory__DOT__reader__DOT__state))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__attention__DOT__executor__DOT__lookup_ready 
+        = ((IData)(vlSelf->rst_n) & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate)) 
+                                     & (0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__attention__DOT__executor__DOT__directory__DOT__reader__DOT__state))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__attention__DOT__executor__DOT__tile__DOT__lookup_ready 
+        = ((IData)(vlSelf->rst_n) & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate)) 
+                                     & (0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__attention__DOT__executor__DOT__tile__DOT__directory__DOT__reader__DOT__state))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__attention__DOT__executor__DOT__tile__DOT__projection__DOT__image_ready 
+        = ((IData)(vlSelf->rst_n) & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate)) 
+                                     & (0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__attention__DOT__executor__DOT__tile__DOT__projection__DOT__directory__DOT__reader__DOT__state))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__output_projection__DOT__image_ready 
+        = ((IData)(vlSelf->rst_n) & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate)) 
+                                     & (0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__output_projection__DOT__directory__DOT__reader__DOT__state))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT__normalization__DOT__lookup_ready 
+        = ((IData)(vlSelf->rst_n) & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate)) 
+                                     & (0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT__normalization__DOT__directory__DOT__reader__DOT__state))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT__mlp__DOT__down__DOT__image_ready 
+        = ((IData)(vlSelf->rst_n) & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate)) 
+                                     & (0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT__mlp__DOT__down__DOT__directory__DOT__reader__DOT__state))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT__mlp__DOT__inner__DOT__image_ready 
+        = ((IData)(vlSelf->rst_n) & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate)) 
+                                     & (0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT__mlp__DOT__inner__DOT__directory__DOT__reader__DOT__state))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__lookup_ready 
+        = ((IData)(vlSelf->rst_n) & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate)) 
+                                     & (0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__directory__DOT__reader__DOT__state))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_one__DOT__point__DOT__convolution__DOT__lookup_ready 
+        = ((IData)(vlSelf->rst_n) & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate)) 
+                                     & (0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_one__DOT__point__DOT__convolution__DOT__directory__DOT__reader__DOT__state))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_one__DOT__point__DOT__channel_norm__DOT__lookup_ready 
+        = ((IData)(vlSelf->rst_n) & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate)) 
+                                     & (0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_one__DOT__point__DOT__channel_norm__DOT__directory__DOT__reader__DOT__state))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_one__DOT__original_input__DOT__lookup_ready 
+        = ((IData)(vlSelf->rst_n) & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate)) 
+                                     & (0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_one__DOT__original_input__DOT__directory__DOT__reader__DOT__state))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_zero__DOT__point__DOT__convolution__DOT__lookup_ready 
+        = ((IData)(vlSelf->rst_n) & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate)) 
+                                     & (0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_zero__DOT__point__DOT__convolution__DOT__directory__DOT__reader__DOT__state))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_zero__DOT__point__DOT__channel_norm__DOT__lookup_ready 
+        = ((IData)(vlSelf->rst_n) & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate)) 
+                                     & (0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_zero__DOT__point__DOT__channel_norm__DOT__directory__DOT__reader__DOT__state))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_zero__DOT__original_input__DOT__lookup_ready 
+        = ((IData)(vlSelf->rst_n) & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate)) 
+                                     & (0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_zero__DOT__original_input__DOT__directory__DOT__reader__DOT__state))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT__norm__DOT__lookup_ready 
+        = ((IData)(vlSelf->rst_n) & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate)) 
+                                     & (0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT__norm__DOT__directory__DOT__reader__DOT__state))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT__mlp__DOT__down__DOT__image_ready 
+        = ((IData)(vlSelf->rst_n) & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate)) 
+                                     & (0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT__mlp__DOT__down__DOT__directory__DOT__reader__DOT__state))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT__mlp__DOT__inner__DOT__image_ready 
+        = ((IData)(vlSelf->rst_n) & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate)) 
+                                     & (0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT__mlp__DOT__inner__DOT__directory__DOT__reader__DOT__state))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__norm__DOT__lookup_ready 
+        = ((IData)(vlSelf->rst_n) & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate)) 
+                                     & (0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__norm__DOT__directory__DOT__reader__DOT__state))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT__original_mask__DOT__lookup_ready 
+        = ((IData)(vlSelf->rst_n) & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate)) 
+                                     & (0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT__original_mask__DOT__directory__DOT__reader__DOT__state))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT__tile__DOT__lookup_ready 
+        = ((IData)(vlSelf->rst_n) & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate)) 
+                                     & (0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT__tile__DOT__directory__DOT__reader__DOT__state))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT__tile__DOT__clipped__DOT__image_ready 
+        = ((IData)(vlSelf->rst_n) & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate)) 
+                                     & (0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT__tile__DOT__clipped__DOT__directory__DOT__reader__DOT__state))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__post_attention__DOT__post_projection__DOT__image_ready 
+        = ((IData)(vlSelf->rst_n) & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate)) 
+                                     & (0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__post_attention__DOT__post_projection__DOT__directory__DOT__reader__DOT__state))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__post_attention__DOT__norm__DOT__lookup_ready 
+        = ((IData)(vlSelf->rst_n) & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate)) 
+                                     & (0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__post_attention__DOT__norm__DOT__directory__DOT__reader__DOT__state))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT__image_ready 
+        = ((IData)(vlSelf->rst_n) & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate)) 
+                                     & (0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT__directory__DOT__reader__DOT__state))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT__gated_input__DOT__norm__DOT__lookup_ready 
+        = ((IData)(vlSelf->rst_n) & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate)) 
+                                     & (0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT__gated_input__DOT__norm__DOT__directory__DOT__reader__DOT__state))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT__gated_input__DOT__projection__DOT__image_ready 
+        = ((IData)(vlSelf->rst_n) & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate)) 
+                                     & (0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT__gated_input__DOT__projection__DOT__directory__DOT__reader__DOT__state))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__convolution__DOT__norm__DOT__lookup_ready 
+        = ((IData)(vlSelf->rst_n) & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate)) 
+                                     & (0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__convolution__DOT__norm__DOT__directory__DOT__reader__DOT__state))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__convolution__DOT__projection__DOT__image_ready 
+        = ((IData)(vlSelf->rst_n) & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate)) 
+                                     & (0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__convolution__DOT__projection__DOT__directory__DOT__reader__DOT__state))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__feed_forward2__DOT__norm__DOT__lookup_ready 
+        = ((IData)(vlSelf->rst_n) & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate)) 
+                                     & (0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__feed_forward2__DOT__norm__DOT__directory__DOT__reader__DOT__state))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__feed_forward2__DOT__mlp__DOT__down__DOT__image_ready 
+        = ((IData)(vlSelf->rst_n) & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate)) 
+                                     & (0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__feed_forward2__DOT__mlp__DOT__down__DOT__directory__DOT__reader__DOT__state))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__feed_forward2__DOT__mlp__DOT__inner__DOT__image_ready 
+        = ((IData)(vlSelf->rst_n) & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate)) 
+                                     & (0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__feed_forward2__DOT__mlp__DOT__inner__DOT__directory__DOT__reader__DOT__state))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__norm_out__DOT__lookup_ready 
+        = ((IData)(vlSelf->rst_n) & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate)) 
+                                     & (0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__norm_out__DOT__directory__DOT__reader__DOT__state))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_feature__DOT__mapping__DOT__immutable_mask__DOT__lookup_ready 
+        = ((IData)(vlSelf->rst_n) & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate)) 
+                                     & (0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__state))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_feature__DOT__feature__DOT__native_output__DOT__lookup_ready 
+        = ((IData)(vlSelf->rst_n) & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate)) 
+                                     & (0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_feature__DOT__feature__DOT__native_output__DOT__directory__DOT__reader__DOT__state))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_feature__DOT__feature__DOT__modality__DOT__image_ready 
+        = ((IData)(vlSelf->rst_n) & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate)) 
+                                     & (0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_feature__DOT__feature__DOT__modality__DOT__directory__DOT__reader__DOT__state))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__lookup_ready 
+        = ((IData)(vlSelf->rst_n) & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate)) 
+                                     & (0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__state))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__owner_replay__DOT____Vcellinp__replay__DOT__owner_tile__image_invalidate 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate) 
+           | ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__control_valid) 
+              & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__owner_control_ready)));
+    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature_nested_controller_bytes 
+        = ((IData)(vlSelf->rst_n) ? (((IData)(vlSelf->rst_n)
+                                       ? 0x4fULL : 0ULL) 
+                                     + (vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__upper_input_controller 
+                                        + (((IData)(vlSelf->rst_n)
+                                             ? 0x12ULL
+                                             : 0ULL) 
+                                           + (((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__child_rst_n)
+                                                ? 0x3bULL
+                                                : 0ULL) 
+                                              + (((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__child_rst_n)
+                                                   ? 
+                                                  (0x9eULL 
+                                                   + 
+                                                   ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__child_rst_n)
+                                                     ? 0xf8ULL
+                                                     : 0ULL))
+                                                   : 0ULL) 
+                                                 + 
+                                                 (((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__child_rst_n)
+                                                    ? 0x37ULL
+                                                    : 0ULL) 
+                                                  + 
+                                                  (anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__pool_control 
+                                                   + 
+                                                   ((((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__child_rst_n)
+                                                       ? 0x12ULL
+                                                       : 0ULL) 
+                                                     + 
+                                                     ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__child_rst_n)
+                                                       ? 0x12ULL
+                                                       : 0ULL)) 
+                                                    + anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__projection_control))))))))
+            : 0ULL);
+    anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT____VdfgTmp_h66b0d7b1__0 
+        = (((IData)(vlSelf->rst_n) ? 0x8eULL : 0ULL) 
+           + (((IData)(vlSelf->rst_n) ? 0x15ULL : 0ULL) 
+              + (vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_patch_controller_bytes 
+                 + (((IData)(vlSelf->rst_n) ? 0x8aULL
+                      : 0ULL) + (((IData)(vlSelf->rst_n)
+                                   ? (0xbbULL + ((IData)(vlSelf->rst_n)
+                                                  ? 0xf8ULL
+                                                  : 0ULL))
+                                   : 0ULL) + (vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_head_controller_bytes 
+                                              + (vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_tile_controller_bytes 
+                                                 + 
+                                                 (vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_clipped_controller_bytes 
+                                                  + 
+                                                  (((IData)(vlSelf->rst_n)
+                                                     ? 0xaULL
+                                                     : 0ULL) 
+                                                   + 
+                                                   (vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_output_controller_bytes 
+                                                    + 
+                                                    (((IData)(vlSelf->rst_n)
+                                                       ? 0xaULL
+                                                       : 0ULL) 
+                                                     + 
+                                                     (((IData)(vlSelf->rst_n)
+                                                        ? 
+                                                       (0x33ULL 
+                                                        + 
+                                                        ((IData)(vlSelf->rst_n)
+                                                          ? 0x44ULL
+                                                          : 0ULL))
+                                                        : 0ULL) 
+                                                      + 
+                                                      (vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_norm_controller_bytes 
+                                                       + 
+                                                       (((IData)(vlSelf->rst_n)
+                                                          ? 
+                                                         (0x2bULL 
+                                                          + 
+                                                          ((IData)(vlSelf->rst_n)
+                                                            ? 
+                                                           (0x17ULL 
+                                                            + vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT__mlp__DOT__vision_activation__DOT__geglu__DOT__activation_controller_bytes)
+                                                            : 0ULL))
+                                                          : 0ULL) 
+                                                        + 
+                                                        (vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_down_controller_bytes 
+                                                         + 
+                                                         ((((IData)(vlSelf->rst_n)
+                                                             ? 0xaULL
+                                                             : 0ULL) 
+                                                           + 
+                                                           ((IData)(vlSelf->rst_n)
+                                                             ? 0xaULL
+                                                             : 0ULL)) 
+                                                          + 
+                                                          (vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_inner_controller_bytes 
+                                                           + 
+                                                           (((IData)(vlSelf->rst_n)
+                                                              ? 0x30ULL
+                                                              : 0ULL) 
+                                                            + 
+                                                            (((IData)(vlSelf->rst_n)
+                                                               ? 0x77ULL
+                                                               : 0ULL) 
+                                                             + 
+                                                             (((IData)(vlSelf->rst_n)
+                                                                ? 
+                                                               (vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer_nested 
+                                                                + 
+                                                                ((IData)(vlSelf->rst_n)
+                                                                  ? 
+                                                                 (vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__child_control 
+                                                                  + vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__child_nested_control)
+                                                                  : 0ULL))
+                                                                : 0ULL) 
+                                                              + 
+                                                              (((IData)(vlSelf->rst_n)
+                                                                 ? 0x65ULL
+                                                                 : 0ULL) 
+                                                               + 
+                                                               (vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_feature_nested_controller_bytes 
+                                                                + 
+                                                                (((IData)(vlSelf->rst_n)
+                                                                   ? 0x79ULL
+                                                                   : 0ULL) 
+                                                                 + anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature_nested_controller_bytes)))))))))))))))))))))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__embedding__DOT__frontend__DOT__tensor_lookup__DOT__reader__DOT__cache_clear 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT____Vcellinp__text_layer__image_invalidate) 
+           | (((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__embedding__DOT__frontend__DOT__tensor_lookup__DOT__reader__DOT__state)) 
+               & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__embedding__DOT____Vcellinp__frontend__DOT__tensor_lookup__start_valid) 
+                  & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__embedding__DOT__frontend__DOT__tensor_lookup__DOT__reader__DOT__same_image)) 
+                     & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__embedding__DOT__frontend__DOT__lookup_ready)))) 
+              | ((0x12U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__embedding__DOT__frontend__DOT__tensor_lookup__DOT__reader__DOT__state)) 
+                 & (0U != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__embedding__DOT__frontend__DOT__tensor_lookup__DOT__reader__DOT__error_hold)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__text_layer__DOT__engine__DOT__tensor_lookup__DOT__reader__DOT__cache_clear 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT____Vcellinp__text_layer__image_invalidate) 
+           | (((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__text_layer__DOT__engine__DOT__tensor_lookup__DOT__reader__DOT__state)) 
+               & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__text_layer__DOT____Vcellinp__engine__DOT__tensor_lookup__start_valid) 
+                  & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__text_layer__DOT__engine__DOT__tensor_lookup__DOT__reader__DOT__same_image)) 
+                     & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__text_layer__DOT__engine__DOT__lookup_ready)))) 
+              | ((0x12U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__text_layer__DOT__engine__DOT__tensor_lookup__DOT__reader__DOT__state)) 
+                 & (0U != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__text_layer__DOT__engine__DOT__tensor_lookup__DOT__reader__DOT__error_hold)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__logits__DOT__final_head__DOT__tensor_lookup__DOT__reader__DOT__cache_clear 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT____Vcellinp__text_layer__image_invalidate) 
+           | (((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__logits__DOT__final_head__DOT__tensor_lookup__DOT__reader__DOT__state)) 
+               & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__logits__DOT____Vcellinp__final_head__DOT__tensor_lookup__start_valid) 
+                  & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__logits__DOT__final_head__DOT__tensor_lookup__DOT__reader__DOT__same_image)) 
+                     & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__logits__DOT__final_head__DOT__lookup_ready)))) 
+              | ((0x12U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__logits__DOT__final_head__DOT__tensor_lookup__DOT__reader__DOT__state)) 
+                 & (0U != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__logits__DOT__final_head__DOT__tensor_lookup__DOT__reader__DOT__error_hold)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__original_input__DOT__reconstruct__DOT__frontend__DOT__tensor_lookup__DOT__reader__DOT__cache_clear 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate) 
+           | (((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__original_input__DOT__reconstruct__DOT__frontend__DOT__tensor_lookup__DOT__reader__DOT__state)) 
+               & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__original_input__DOT__reconstruct__DOT____Vcellinp__frontend__DOT__tensor_lookup__start_valid) 
+                  & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__original_input__DOT__reconstruct__DOT__frontend__DOT__tensor_lookup__DOT__reader__DOT__same_image)) 
+                     & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__original_input__DOT__reconstruct__DOT__frontend__DOT__lookup_ready)))) 
+              | ((0x12U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__original_input__DOT__reconstruct__DOT__frontend__DOT__tensor_lookup__DOT__reader__DOT__state)) 
+                 & (0U != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__original_input__DOT__reconstruct__DOT__frontend__DOT__tensor_lookup__DOT__reader__DOT__error_hold)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__attention_branch__DOT__matrix_lookup__DOT__reader__DOT__cache_clear 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate) 
+           | (((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__attention_branch__DOT__matrix_lookup__DOT__reader__DOT__state)) 
+               & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__attention_branch__DOT____Vcellinp__matrix_lookup__start_valid) 
+                  & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__attention_branch__DOT__matrix_lookup__DOT__reader__DOT__same_image)) 
+                     & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__attention_branch__DOT__lookup_ready)))) 
+              | ((0x12U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__attention_branch__DOT__matrix_lookup__DOT__reader__DOT__state)) 
+                 & (0U != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__attention_branch__DOT__matrix_lookup__DOT__reader__DOT__error_hold)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__attention_branch__DOT__executor__DOT__tile__DOT__owner_tile__DOT__tile__DOT__tensor_lookup__DOT__reader__DOT__cache_clear 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate) 
+           | (((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__attention_branch__DOT__executor__DOT__tile__DOT__owner_tile__DOT__tile__DOT__tensor_lookup__DOT__reader__DOT__state)) 
+               & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__attention_branch__DOT__executor__DOT__tile__DOT__owner_tile__DOT____Vcellinp__tile__DOT__tensor_lookup__start_valid) 
+                  & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__attention_branch__DOT__executor__DOT__tile__DOT__owner_tile__DOT__tile__DOT__tensor_lookup__DOT__reader__DOT__same_image)) 
+                     & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__attention_branch__DOT__executor__DOT__tile__DOT__owner_tile__DOT__tile__DOT__lookup_ready)))) 
+              | ((0x12U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__attention_branch__DOT__executor__DOT__tile__DOT__owner_tile__DOT__tile__DOT__tensor_lookup__DOT__reader__DOT__state)) 
+                 & (0U != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__attention_branch__DOT__executor__DOT__tile__DOT__owner_tile__DOT__tile__DOT__tensor_lookup__DOT__reader__DOT__error_hold)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__layer_embedding__DOT__frontend__DOT__tensor_lookup__DOT__reader__DOT__cache_clear 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate) 
+           | (((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__layer_embedding__DOT__frontend__DOT__tensor_lookup__DOT__reader__DOT__state)) 
+               & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__layer_embedding__DOT____Vcellinp__frontend__DOT__tensor_lookup__start_valid) 
+                  & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__layer_embedding__DOT__frontend__DOT__tensor_lookup__DOT__reader__DOT__same_image)) 
+                     & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__layer_embedding__DOT__frontend__DOT__lookup_ready)))) 
+              | ((0x12U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__layer_embedding__DOT__frontend__DOT__tensor_lookup__DOT__reader__DOT__state)) 
+                 & (0U != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__layer_embedding__DOT__frontend__DOT__tensor_lookup__DOT__reader__DOT__error_hold)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__post_attention__DOT__engine__DOT__tensor_lookup__DOT__reader__DOT__cache_clear 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate) 
+           | (((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__post_attention__DOT__engine__DOT__tensor_lookup__DOT__reader__DOT__state)) 
+               & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__post_attention__DOT____Vcellinp__engine__DOT__tensor_lookup__start_valid) 
+                  & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__post_attention__DOT__engine__DOT__tensor_lookup__DOT__reader__DOT__same_image)) 
+                     & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__post_attention__DOT__engine__DOT__lookup_ready)))) 
+              | ((0x12U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__post_attention__DOT__engine__DOT__tensor_lookup__DOT__reader__DOT__state)) 
+                 & (0U != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__post_attention__DOT__engine__DOT__tensor_lookup__DOT__reader__DOT__error_hold)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__original_patch__DOT__directory__DOT__reader__DOT__cache_clear 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate) 
+           | (((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__original_patch__DOT__directory__DOT__reader__DOT__state)) 
+               & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__original_patch__DOT____Vcellinp__directory__start_valid) 
+                  & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__original_patch__DOT__directory__DOT__reader__DOT__same_image)) 
+                     & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__original_patch__DOT__image_ready)))) 
+              | ((0x12U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__original_patch__DOT__directory__DOT__reader__DOT__state)) 
+                 & (0U != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__original_patch__DOT__directory__DOT__reader__DOT__error_hold)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__attention__DOT__executor__DOT__directory__DOT__reader__DOT__cache_clear 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate) 
+           | (((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__attention__DOT__executor__DOT__directory__DOT__reader__DOT__state)) 
+               & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__attention__DOT__executor__DOT____Vcellinp__directory__start_valid) 
+                  & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__attention__DOT__executor__DOT__directory__DOT__reader__DOT__same_image)) 
+                     & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__attention__DOT__executor__DOT__lookup_ready)))) 
+              | ((0x12U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__attention__DOT__executor__DOT__directory__DOT__reader__DOT__state)) 
+                 & (0U != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__attention__DOT__executor__DOT__directory__DOT__reader__DOT__error_hold)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__attention__DOT__executor__DOT__tile__DOT__directory__DOT__reader__DOT__cache_clear 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate) 
+           | (((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__attention__DOT__executor__DOT__tile__DOT__directory__DOT__reader__DOT__state)) 
+               & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__attention__DOT__executor__DOT__tile__DOT____Vcellinp__directory__start_valid) 
+                  & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__attention__DOT__executor__DOT__tile__DOT__directory__DOT__reader__DOT__same_image)) 
+                     & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__attention__DOT__executor__DOT__tile__DOT__lookup_ready)))) 
+              | ((0x12U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__attention__DOT__executor__DOT__tile__DOT__directory__DOT__reader__DOT__state)) 
+                 & (0U != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__attention__DOT__executor__DOT__tile__DOT__directory__DOT__reader__DOT__error_hold)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__attention__DOT__executor__DOT__tile__DOT__projection__DOT__directory__DOT__reader__DOT__cache_clear 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate) 
+           | (((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__attention__DOT__executor__DOT__tile__DOT__projection__DOT__directory__DOT__reader__DOT__state)) 
+               & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__attention__DOT__executor__DOT__tile__DOT__projection__DOT____Vcellinp__directory__start_valid) 
+                  & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__attention__DOT__executor__DOT__tile__DOT__projection__DOT__directory__DOT__reader__DOT__same_image)) 
+                     & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__attention__DOT__executor__DOT__tile__DOT__projection__DOT__image_ready)))) 
+              | ((0x12U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__attention__DOT__executor__DOT__tile__DOT__projection__DOT__directory__DOT__reader__DOT__state)) 
+                 & (0U != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__attention__DOT__executor__DOT__tile__DOT__projection__DOT__directory__DOT__reader__DOT__error_hold)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__output_projection__DOT__directory__DOT__reader__DOT__cache_clear 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate) 
+           | (((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__output_projection__DOT__directory__DOT__reader__DOT__state)) 
+               & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__output_projection__DOT____Vcellinp__directory__start_valid) 
+                  & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__output_projection__DOT__directory__DOT__reader__DOT__same_image)) 
+                     & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__output_projection__DOT__image_ready)))) 
+              | ((0x12U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__output_projection__DOT__directory__DOT__reader__DOT__state)) 
+                 & (0U != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__output_projection__DOT__directory__DOT__reader__DOT__error_hold)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT__normalization__DOT__directory__DOT__reader__DOT__cache_clear 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate) 
+           | (((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT__normalization__DOT__directory__DOT__reader__DOT__state)) 
+               & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT__normalization__DOT____Vcellinp__directory__start_valid) 
+                  & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT__normalization__DOT__directory__DOT__reader__DOT__same_image)) 
+                     & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT__normalization__DOT__lookup_ready)))) 
+              | ((0x12U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT__normalization__DOT__directory__DOT__reader__DOT__state)) 
+                 & (0U != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT__normalization__DOT__directory__DOT__reader__DOT__error_hold)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT__mlp__DOT__down__DOT__directory__DOT__reader__DOT__cache_clear 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate) 
+           | (((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT__mlp__DOT__down__DOT__directory__DOT__reader__DOT__state)) 
+               & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT__mlp__DOT__down__DOT____Vcellinp__directory__start_valid) 
+                  & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT__mlp__DOT__down__DOT__directory__DOT__reader__DOT__same_image)) 
+                     & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT__mlp__DOT__down__DOT__image_ready)))) 
+              | ((0x12U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT__mlp__DOT__down__DOT__directory__DOT__reader__DOT__state)) 
+                 & (0U != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT__mlp__DOT__down__DOT__directory__DOT__reader__DOT__error_hold)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT__mlp__DOT__inner__DOT__directory__DOT__reader__DOT__cache_clear 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate) 
+           | (((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT__mlp__DOT__inner__DOT__directory__DOT__reader__DOT__state)) 
+               & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT__mlp__DOT__inner__DOT____Vcellinp__directory__start_valid) 
+                  & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT__mlp__DOT__inner__DOT__directory__DOT__reader__DOT__same_image)) 
+                     & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT__mlp__DOT__inner__DOT__image_ready)))) 
+              | ((0x12U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT__mlp__DOT__inner__DOT__directory__DOT__reader__DOT__state)) 
+                 & (0U != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT__mlp__DOT__inner__DOT__directory__DOT__reader__DOT__error_hold)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__directory__DOT__reader__DOT__cache_clear 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate) 
+           | (((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__directory__DOT__reader__DOT__state)) 
+               & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT____Vcellinp__directory__start_valid) 
+                  & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__directory__DOT__reader__DOT__same_image)) 
+                     & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__lookup_ready)))) 
+              | ((0x12U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__directory__DOT__reader__DOT__state)) 
+                 & (0U != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__directory__DOT__reader__DOT__error_hold)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_one__DOT__point__DOT__convolution__DOT__directory__DOT__reader__DOT__cache_clear 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate) 
+           | (((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_one__DOT__point__DOT__convolution__DOT__directory__DOT__reader__DOT__state)) 
+               & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_one__DOT__point__DOT__convolution__DOT____Vcellinp__directory__start_valid) 
+                  & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_one__DOT__point__DOT__convolution__DOT__directory__DOT__reader__DOT__same_image)) 
+                     & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_one__DOT__point__DOT__convolution__DOT__lookup_ready)))) 
+              | ((0x12U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_one__DOT__point__DOT__convolution__DOT__directory__DOT__reader__DOT__state)) 
+                 & (0U != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_one__DOT__point__DOT__convolution__DOT__directory__DOT__reader__DOT__error_hold)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_one__DOT__point__DOT__channel_norm__DOT__directory__DOT__reader__DOT__cache_clear 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate) 
+           | (((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_one__DOT__point__DOT__channel_norm__DOT__directory__DOT__reader__DOT__state)) 
+               & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_one__DOT__point__DOT__channel_norm__DOT____Vcellinp__directory__start_valid) 
+                  & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_one__DOT__point__DOT__channel_norm__DOT__directory__DOT__reader__DOT__same_image)) 
+                     & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_one__DOT__point__DOT__channel_norm__DOT__lookup_ready)))) 
+              | ((0x12U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_one__DOT__point__DOT__channel_norm__DOT__directory__DOT__reader__DOT__state)) 
+                 & (0U != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_one__DOT__point__DOT__channel_norm__DOT__directory__DOT__reader__DOT__error_hold)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_one__DOT__original_input__DOT__directory__DOT__reader__DOT__cache_clear 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate) 
+           | (((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_one__DOT__original_input__DOT__directory__DOT__reader__DOT__state)) 
+               & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_one__DOT__original_input__DOT____Vcellinp__directory__start_valid) 
+                  & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_one__DOT__original_input__DOT__directory__DOT__reader__DOT__same_image)) 
+                     & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_one__DOT__original_input__DOT__lookup_ready)))) 
+              | ((0x12U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_one__DOT__original_input__DOT__directory__DOT__reader__DOT__state)) 
+                 & (0U != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_one__DOT__original_input__DOT__directory__DOT__reader__DOT__error_hold)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_zero__DOT__point__DOT__convolution__DOT__directory__DOT__reader__DOT__cache_clear 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate) 
+           | (((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_zero__DOT__point__DOT__convolution__DOT__directory__DOT__reader__DOT__state)) 
+               & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_zero__DOT__point__DOT__convolution__DOT____Vcellinp__directory__start_valid) 
+                  & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_zero__DOT__point__DOT__convolution__DOT__directory__DOT__reader__DOT__same_image)) 
+                     & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_zero__DOT__point__DOT__convolution__DOT__lookup_ready)))) 
+              | ((0x12U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_zero__DOT__point__DOT__convolution__DOT__directory__DOT__reader__DOT__state)) 
+                 & (0U != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_zero__DOT__point__DOT__convolution__DOT__directory__DOT__reader__DOT__error_hold)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_zero__DOT__point__DOT__channel_norm__DOT__directory__DOT__reader__DOT__cache_clear 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate) 
+           | (((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_zero__DOT__point__DOT__channel_norm__DOT__directory__DOT__reader__DOT__state)) 
+               & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_zero__DOT__point__DOT__channel_norm__DOT____Vcellinp__directory__start_valid) 
+                  & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_zero__DOT__point__DOT__channel_norm__DOT__directory__DOT__reader__DOT__same_image)) 
+                     & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_zero__DOT__point__DOT__channel_norm__DOT__lookup_ready)))) 
+              | ((0x12U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_zero__DOT__point__DOT__channel_norm__DOT__directory__DOT__reader__DOT__state)) 
+                 & (0U != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_zero__DOT__point__DOT__channel_norm__DOT__directory__DOT__reader__DOT__error_hold)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_zero__DOT__original_input__DOT__directory__DOT__reader__DOT__cache_clear 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate) 
+           | (((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_zero__DOT__original_input__DOT__directory__DOT__reader__DOT__state)) 
+               & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_zero__DOT__original_input__DOT____Vcellinp__directory__start_valid) 
+                  & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_zero__DOT__original_input__DOT__directory__DOT__reader__DOT__same_image)) 
+                     & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_zero__DOT__original_input__DOT__lookup_ready)))) 
+              | ((0x12U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_zero__DOT__original_input__DOT__directory__DOT__reader__DOT__state)) 
+                 & (0U != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_zero__DOT__original_input__DOT__directory__DOT__reader__DOT__error_hold)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT__norm__DOT__directory__DOT__reader__DOT__cache_clear 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate) 
+           | (((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT__norm__DOT__directory__DOT__reader__DOT__state)) 
+               & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT__norm__DOT____Vcellinp__directory__start_valid) 
+                  & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT__norm__DOT__directory__DOT__reader__DOT__same_image)) 
+                     & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT__norm__DOT__lookup_ready)))) 
+              | ((0x12U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT__norm__DOT__directory__DOT__reader__DOT__state)) 
+                 & (0U != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT__norm__DOT__directory__DOT__reader__DOT__error_hold)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT__mlp__DOT__down__DOT__directory__DOT__reader__DOT__cache_clear 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate) 
+           | (((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT__mlp__DOT__down__DOT__directory__DOT__reader__DOT__state)) 
+               & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT__mlp__DOT__down__DOT____Vcellinp__directory__start_valid) 
+                  & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT__mlp__DOT__down__DOT__directory__DOT__reader__DOT__same_image)) 
+                     & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT__mlp__DOT__down__DOT__image_ready)))) 
+              | ((0x12U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT__mlp__DOT__down__DOT__directory__DOT__reader__DOT__state)) 
+                 & (0U != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT__mlp__DOT__down__DOT__directory__DOT__reader__DOT__error_hold)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT__mlp__DOT__inner__DOT__directory__DOT__reader__DOT__cache_clear 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate) 
+           | (((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT__mlp__DOT__inner__DOT__directory__DOT__reader__DOT__state)) 
+               & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT__mlp__DOT__inner__DOT____Vcellinp__directory__start_valid) 
+                  & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT__mlp__DOT__inner__DOT__directory__DOT__reader__DOT__same_image)) 
+                     & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT__mlp__DOT__inner__DOT__image_ready)))) 
+              | ((0x12U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT__mlp__DOT__inner__DOT__directory__DOT__reader__DOT__state)) 
+                 & (0U != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT__mlp__DOT__inner__DOT__directory__DOT__reader__DOT__error_hold)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__norm__DOT__directory__DOT__reader__DOT__cache_clear 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate) 
+           | (((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__norm__DOT__directory__DOT__reader__DOT__state)) 
+               & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__norm__DOT____Vcellinp__directory__start_valid) 
+                  & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__norm__DOT__directory__DOT__reader__DOT__same_image)) 
+                     & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__norm__DOT__lookup_ready)))) 
+              | ((0x12U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__norm__DOT__directory__DOT__reader__DOT__state)) 
+                 & (0U != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__norm__DOT__directory__DOT__reader__DOT__error_hold)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT__original_mask__DOT__directory__DOT__reader__DOT__cache_clear 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate) 
+           | (((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT__original_mask__DOT__directory__DOT__reader__DOT__state)) 
+               & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT__original_mask__DOT____Vcellinp__directory__start_valid) 
+                  & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT__original_mask__DOT__directory__DOT__reader__DOT__same_image)) 
+                     & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT__original_mask__DOT__lookup_ready)))) 
+              | ((0x12U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT__original_mask__DOT__directory__DOT__reader__DOT__state)) 
+                 & (0U != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT__original_mask__DOT__directory__DOT__reader__DOT__error_hold)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT__tile__DOT__directory__DOT__reader__DOT__cache_clear 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate) 
+           | (((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT__tile__DOT__directory__DOT__reader__DOT__state)) 
+               & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT__tile__DOT____Vcellinp__directory__start_valid) 
+                  & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT__tile__DOT__directory__DOT__reader__DOT__same_image)) 
+                     & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT__tile__DOT__lookup_ready)))) 
+              | ((0x12U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT__tile__DOT__directory__DOT__reader__DOT__state)) 
+                 & (0U != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT__tile__DOT__directory__DOT__reader__DOT__error_hold)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT__tile__DOT__clipped__DOT__directory__DOT__reader__DOT__cache_clear 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate) 
+           | (((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT__tile__DOT__clipped__DOT__directory__DOT__reader__DOT__state)) 
+               & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT__tile__DOT__clipped__DOT____Vcellinp__directory__start_valid) 
+                  & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT__tile__DOT__clipped__DOT__directory__DOT__reader__DOT__same_image)) 
+                     & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT__tile__DOT__clipped__DOT__image_ready)))) 
+              | ((0x12U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT__tile__DOT__clipped__DOT__directory__DOT__reader__DOT__state)) 
+                 & (0U != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT__tile__DOT__clipped__DOT__directory__DOT__reader__DOT__error_hold)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__post_attention__DOT__post_projection__DOT__directory__DOT__reader__DOT__cache_clear 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate) 
+           | (((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__post_attention__DOT__post_projection__DOT__directory__DOT__reader__DOT__state)) 
+               & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__post_attention__DOT__post_projection__DOT____Vcellinp__directory__start_valid) 
+                  & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__post_attention__DOT__post_projection__DOT__directory__DOT__reader__DOT__same_image)) 
+                     & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__post_attention__DOT__post_projection__DOT__image_ready)))) 
+              | ((0x12U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__post_attention__DOT__post_projection__DOT__directory__DOT__reader__DOT__state)) 
+                 & (0U != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__post_attention__DOT__post_projection__DOT__directory__DOT__reader__DOT__error_hold)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__post_attention__DOT__norm__DOT__directory__DOT__reader__DOT__cache_clear 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate) 
+           | (((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__post_attention__DOT__norm__DOT__directory__DOT__reader__DOT__state)) 
+               & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__post_attention__DOT__norm__DOT____Vcellinp__directory__start_valid) 
+                  & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__post_attention__DOT__norm__DOT__directory__DOT__reader__DOT__same_image)) 
+                     & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__post_attention__DOT__norm__DOT__lookup_ready)))) 
+              | ((0x12U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__post_attention__DOT__norm__DOT__directory__DOT__reader__DOT__state)) 
+                 & (0U != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__post_attention__DOT__norm__DOT__directory__DOT__reader__DOT__error_hold)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT__directory__DOT__reader__DOT__cache_clear 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate) 
+           | (((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT__directory__DOT__reader__DOT__state)) 
+               & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT____Vcellinp__directory__start_valid) 
+                  & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT__directory__DOT__reader__DOT__same_image)) 
+                     & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT__image_ready)))) 
+              | ((0x12U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT__directory__DOT__reader__DOT__state)) 
+                 & (0U != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT__directory__DOT__reader__DOT__error_hold)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT__gated_input__DOT__norm__DOT__directory__DOT__reader__DOT__cache_clear 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate) 
+           | (((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT__gated_input__DOT__norm__DOT__directory__DOT__reader__DOT__state)) 
+               & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT__gated_input__DOT__norm__DOT____Vcellinp__directory__start_valid) 
+                  & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT__gated_input__DOT__norm__DOT__directory__DOT__reader__DOT__same_image)) 
+                     & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT__gated_input__DOT__norm__DOT__lookup_ready)))) 
+              | ((0x12U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT__gated_input__DOT__norm__DOT__directory__DOT__reader__DOT__state)) 
+                 & (0U != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT__gated_input__DOT__norm__DOT__directory__DOT__reader__DOT__error_hold)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT__gated_input__DOT__projection__DOT__directory__DOT__reader__DOT__cache_clear 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate) 
+           | (((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT__gated_input__DOT__projection__DOT__directory__DOT__reader__DOT__state)) 
+               & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT__gated_input__DOT__projection__DOT____Vcellinp__directory__start_valid) 
+                  & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT__gated_input__DOT__projection__DOT__directory__DOT__reader__DOT__same_image)) 
+                     & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT__gated_input__DOT__projection__DOT__image_ready)))) 
+              | ((0x12U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT__gated_input__DOT__projection__DOT__directory__DOT__reader__DOT__state)) 
+                 & (0U != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT__gated_input__DOT__projection__DOT__directory__DOT__reader__DOT__error_hold)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__convolution__DOT__norm__DOT__directory__DOT__reader__DOT__cache_clear 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate) 
+           | (((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__convolution__DOT__norm__DOT__directory__DOT__reader__DOT__state)) 
+               & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__convolution__DOT__norm__DOT____Vcellinp__directory__start_valid) 
+                  & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__convolution__DOT__norm__DOT__directory__DOT__reader__DOT__same_image)) 
+                     & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__convolution__DOT__norm__DOT__lookup_ready)))) 
+              | ((0x12U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__convolution__DOT__norm__DOT__directory__DOT__reader__DOT__state)) 
+                 & (0U != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__convolution__DOT__norm__DOT__directory__DOT__reader__DOT__error_hold)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__convolution__DOT__projection__DOT__directory__DOT__reader__DOT__cache_clear 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate) 
+           | (((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__convolution__DOT__projection__DOT__directory__DOT__reader__DOT__state)) 
+               & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__convolution__DOT__projection__DOT____Vcellinp__directory__start_valid) 
+                  & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__convolution__DOT__projection__DOT__directory__DOT__reader__DOT__same_image)) 
+                     & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__convolution__DOT__projection__DOT__image_ready)))) 
+              | ((0x12U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__convolution__DOT__projection__DOT__directory__DOT__reader__DOT__state)) 
+                 & (0U != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__convolution__DOT__projection__DOT__directory__DOT__reader__DOT__error_hold)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__feed_forward2__DOT__norm__DOT__directory__DOT__reader__DOT__cache_clear 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate) 
+           | (((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__feed_forward2__DOT__norm__DOT__directory__DOT__reader__DOT__state)) 
+               & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__feed_forward2__DOT__norm__DOT____Vcellinp__directory__start_valid) 
+                  & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__feed_forward2__DOT__norm__DOT__directory__DOT__reader__DOT__same_image)) 
+                     & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__feed_forward2__DOT__norm__DOT__lookup_ready)))) 
+              | ((0x12U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__feed_forward2__DOT__norm__DOT__directory__DOT__reader__DOT__state)) 
+                 & (0U != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__feed_forward2__DOT__norm__DOT__directory__DOT__reader__DOT__error_hold)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__feed_forward2__DOT__mlp__DOT__down__DOT__directory__DOT__reader__DOT__cache_clear 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate) 
+           | (((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__feed_forward2__DOT__mlp__DOT__down__DOT__directory__DOT__reader__DOT__state)) 
+               & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__feed_forward2__DOT__mlp__DOT__down__DOT____Vcellinp__directory__start_valid) 
+                  & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__feed_forward2__DOT__mlp__DOT__down__DOT__directory__DOT__reader__DOT__same_image)) 
+                     & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__feed_forward2__DOT__mlp__DOT__down__DOT__image_ready)))) 
+              | ((0x12U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__feed_forward2__DOT__mlp__DOT__down__DOT__directory__DOT__reader__DOT__state)) 
+                 & (0U != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__feed_forward2__DOT__mlp__DOT__down__DOT__directory__DOT__reader__DOT__error_hold)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__feed_forward2__DOT__mlp__DOT__inner__DOT__directory__DOT__reader__DOT__cache_clear 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate) 
+           | (((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__feed_forward2__DOT__mlp__DOT__inner__DOT__directory__DOT__reader__DOT__state)) 
+               & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__feed_forward2__DOT__mlp__DOT__inner__DOT____Vcellinp__directory__start_valid) 
+                  & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__feed_forward2__DOT__mlp__DOT__inner__DOT__directory__DOT__reader__DOT__same_image)) 
+                     & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__feed_forward2__DOT__mlp__DOT__inner__DOT__image_ready)))) 
+              | ((0x12U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__feed_forward2__DOT__mlp__DOT__inner__DOT__directory__DOT__reader__DOT__state)) 
+                 & (0U != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__feed_forward2__DOT__mlp__DOT__inner__DOT__directory__DOT__reader__DOT__error_hold)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__norm_out__DOT__directory__DOT__reader__DOT__cache_clear 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate) 
+           | (((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__norm_out__DOT__directory__DOT__reader__DOT__state)) 
+               & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__norm_out__DOT____Vcellinp__directory__start_valid) 
+                  & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__norm_out__DOT__directory__DOT__reader__DOT__same_image)) 
+                     & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__norm_out__DOT__lookup_ready)))) 
+              | ((0x12U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__norm_out__DOT__directory__DOT__reader__DOT__state)) 
+                 & (0U != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__norm_out__DOT__directory__DOT__reader__DOT__error_hold)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__cache_clear 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate) 
+           | (((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__state)) 
+               & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_feature__DOT__mapping__DOT__immutable_mask__DOT____Vcellinp__directory__start_valid) 
+                  & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__same_image)) 
+                     & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_feature__DOT__mapping__DOT__immutable_mask__DOT__lookup_ready)))) 
+              | ((0x12U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__state)) 
+                 & (0U != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__error_hold)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_feature__DOT__feature__DOT__native_output__DOT__directory__DOT__reader__DOT__cache_clear 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate) 
+           | (((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_feature__DOT__feature__DOT__native_output__DOT__directory__DOT__reader__DOT__state)) 
+               & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_feature__DOT__feature__DOT__native_output__DOT____Vcellinp__directory__start_valid) 
+                  & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_feature__DOT__feature__DOT__native_output__DOT__directory__DOT__reader__DOT__same_image)) 
+                     & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_feature__DOT__feature__DOT__native_output__DOT__lookup_ready)))) 
+              | ((0x12U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_feature__DOT__feature__DOT__native_output__DOT__directory__DOT__reader__DOT__state)) 
+                 & (0U != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_feature__DOT__feature__DOT__native_output__DOT__directory__DOT__reader__DOT__error_hold)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_feature__DOT__feature__DOT__modality__DOT__directory__DOT__reader__DOT__cache_clear 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate) 
+           | (((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_feature__DOT__feature__DOT__modality__DOT__directory__DOT__reader__DOT__state)) 
+               & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_feature__DOT__feature__DOT__modality__DOT____Vcellinp__directory__start_valid) 
+                  & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_feature__DOT__feature__DOT__modality__DOT__directory__DOT__reader__DOT__same_image)) 
+                     & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_feature__DOT__feature__DOT__modality__DOT__image_ready)))) 
+              | ((0x12U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_feature__DOT__feature__DOT__modality__DOT__directory__DOT__reader__DOT__state)) 
+                 & (0U != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_feature__DOT__feature__DOT__modality__DOT__directory__DOT__reader__DOT__error_hold)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__cache_clear 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT____Vcellinp__owner_replay__image_invalidate) 
+           | (((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__state)) 
+               & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT____Vcellinp__directory__start_valid) 
+                  & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__same_image)) 
+                     & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__lookup_ready)))) 
+              | ((0x12U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__state)) 
+                 & (0U != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__error_hold)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__owner_replay__DOT__replay__DOT__owner_tile__DOT__tile__DOT__tensor_lookup__DOT__reader__DOT__lifetime_revoked 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__owner_replay__DOT__replay__DOT__owner_tile__DOT__tile__DOT__tensor_lookup__DOT__reader__DOT__cache_allowed) 
+           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__owner_replay__DOT____Vcellinp__replay__DOT__owner_tile__image_invalidate));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__owner_replay__DOT__replay__DOT__owner_tile__DOT__tile__DOT__lookup_ready 
+        = ((IData)(vlSelf->rst_n) & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__owner_replay__DOT____Vcellinp__replay__DOT__owner_tile__image_invalidate)) 
+                                     & (0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__owner_replay__DOT__replay__DOT__owner_tile__DOT__tile__DOT__tensor_lookup__DOT__reader__DOT__state))));
+    __VdfgTmp_h2f934d06__0 = (7ULL + (vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__input_state_bytes 
+                                      + anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT____VdfgTmp_h66b0d7b1__0));
+    vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__embedding__DOT__frontend__DOT__tensor_lookup__DOT__reader__DOT__cache_store 
+        = ((0x11U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__embedding__DOT__frontend__DOT__tensor_lookup__DOT__reader__DOT__state)) 
+           & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__embedding__DOT__frontend__DOT__tensor_lookup__DOT__reader__DOT__found) 
+              & ((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__embedding__DOT__frontend__DOT__tensor_lookup__DOT__reader__DOT__error_hold)) 
+                 & ((~ ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__embedding__DOT__frontend__DOT__tensor_lookup__DOT__reader__DOT__lifetime_lost) 
+                        | (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__embedding__DOT__frontend__DOT__tensor_lookup__DOT__reader__DOT__cache_clear))) 
+                    & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__embedding__DOT__frontend__DOT__tensor_lookup__DOT__reader__DOT__cache_allowed)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__text_layer__DOT__engine__DOT__tensor_lookup__DOT__reader__DOT__cache_store 
+        = ((0x11U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__text_layer__DOT__engine__DOT__tensor_lookup__DOT__reader__DOT__state)) 
+           & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__text_layer__DOT__engine__DOT__tensor_lookup__DOT__reader__DOT__found) 
+              & ((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__text_layer__DOT__engine__DOT__tensor_lookup__DOT__reader__DOT__error_hold)) 
+                 & ((~ ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__text_layer__DOT__engine__DOT__tensor_lookup__DOT__reader__DOT__lifetime_lost) 
+                        | (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__text_layer__DOT__engine__DOT__tensor_lookup__DOT__reader__DOT__cache_clear))) 
+                    & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__text_layer__DOT__engine__DOT__tensor_lookup__DOT__reader__DOT__cache_allowed)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__logits__DOT__final_head__DOT__tensor_lookup__DOT__reader__DOT__cache_store 
+        = ((0x11U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__logits__DOT__final_head__DOT__tensor_lookup__DOT__reader__DOT__state)) 
+           & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__logits__DOT__final_head__DOT__tensor_lookup__DOT__reader__DOT__found) 
+              & ((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__logits__DOT__final_head__DOT__tensor_lookup__DOT__reader__DOT__error_hold)) 
+                 & ((~ ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__logits__DOT__final_head__DOT__tensor_lookup__DOT__reader__DOT__lifetime_lost) 
+                        | (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__logits__DOT__final_head__DOT__tensor_lookup__DOT__reader__DOT__cache_clear))) 
+                    & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__logits__DOT__final_head__DOT__tensor_lookup__DOT__reader__DOT__cache_allowed)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__original_input__DOT__reconstruct__DOT__frontend__DOT__tensor_lookup__DOT__reader__DOT__cache_store 
+        = ((0x11U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__original_input__DOT__reconstruct__DOT__frontend__DOT__tensor_lookup__DOT__reader__DOT__state)) 
+           & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__original_input__DOT__reconstruct__DOT__frontend__DOT__tensor_lookup__DOT__reader__DOT__found) 
+              & ((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__original_input__DOT__reconstruct__DOT__frontend__DOT__tensor_lookup__DOT__reader__DOT__error_hold)) 
+                 & ((~ ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__original_input__DOT__reconstruct__DOT__frontend__DOT__tensor_lookup__DOT__reader__DOT__lifetime_lost) 
+                        | (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__original_input__DOT__reconstruct__DOT__frontend__DOT__tensor_lookup__DOT__reader__DOT__cache_clear))) 
+                    & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__original_input__DOT__reconstruct__DOT__frontend__DOT__tensor_lookup__DOT__reader__DOT__cache_allowed)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__attention_branch__DOT__matrix_lookup__DOT__reader__DOT__cache_store 
+        = ((0x11U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__attention_branch__DOT__matrix_lookup__DOT__reader__DOT__state)) 
+           & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__attention_branch__DOT__matrix_lookup__DOT__reader__DOT__found) 
+              & ((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__attention_branch__DOT__matrix_lookup__DOT__reader__DOT__error_hold)) 
+                 & ((~ ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__attention_branch__DOT__matrix_lookup__DOT__reader__DOT__lifetime_lost) 
+                        | (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__attention_branch__DOT__matrix_lookup__DOT__reader__DOT__cache_clear))) 
+                    & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__attention_branch__DOT__matrix_lookup__DOT__reader__DOT__cache_allowed)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__attention_branch__DOT__executor__DOT__tile__DOT__owner_tile__DOT__tile__DOT__tensor_lookup__DOT__reader__DOT__cache_store 
+        = ((0x11U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__attention_branch__DOT__executor__DOT__tile__DOT__owner_tile__DOT__tile__DOT__tensor_lookup__DOT__reader__DOT__state)) 
+           & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__attention_branch__DOT__executor__DOT__tile__DOT__owner_tile__DOT__tile__DOT__tensor_lookup__DOT__reader__DOT__found) 
+              & ((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__attention_branch__DOT__executor__DOT__tile__DOT__owner_tile__DOT__tile__DOT__tensor_lookup__DOT__reader__DOT__error_hold)) 
+                 & ((~ ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__attention_branch__DOT__executor__DOT__tile__DOT__owner_tile__DOT__tile__DOT__tensor_lookup__DOT__reader__DOT__lifetime_lost) 
+                        | (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__attention_branch__DOT__executor__DOT__tile__DOT__owner_tile__DOT__tile__DOT__tensor_lookup__DOT__reader__DOT__cache_clear))) 
+                    & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__attention_branch__DOT__executor__DOT__tile__DOT__owner_tile__DOT__tile__DOT__tensor_lookup__DOT__reader__DOT__cache_allowed)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__layer_embedding__DOT__frontend__DOT__tensor_lookup__DOT__reader__DOT__cache_store 
+        = ((0x11U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__layer_embedding__DOT__frontend__DOT__tensor_lookup__DOT__reader__DOT__state)) 
+           & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__layer_embedding__DOT__frontend__DOT__tensor_lookup__DOT__reader__DOT__found) 
+              & ((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__layer_embedding__DOT__frontend__DOT__tensor_lookup__DOT__reader__DOT__error_hold)) 
+                 & ((~ ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__layer_embedding__DOT__frontend__DOT__tensor_lookup__DOT__reader__DOT__lifetime_lost) 
+                        | (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__layer_embedding__DOT__frontend__DOT__tensor_lookup__DOT__reader__DOT__cache_clear))) 
+                    & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__layer_embedding__DOT__frontend__DOT__tensor_lookup__DOT__reader__DOT__cache_allowed)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__post_attention__DOT__engine__DOT__tensor_lookup__DOT__reader__DOT__cache_store 
+        = ((0x11U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__post_attention__DOT__engine__DOT__tensor_lookup__DOT__reader__DOT__state)) 
+           & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__post_attention__DOT__engine__DOT__tensor_lookup__DOT__reader__DOT__found) 
+              & ((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__post_attention__DOT__engine__DOT__tensor_lookup__DOT__reader__DOT__error_hold)) 
+                 & ((~ ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__post_attention__DOT__engine__DOT__tensor_lookup__DOT__reader__DOT__lifetime_lost) 
+                        | (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__post_attention__DOT__engine__DOT__tensor_lookup__DOT__reader__DOT__cache_clear))) 
+                    & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__post_attention__DOT__engine__DOT__tensor_lookup__DOT__reader__DOT__cache_allowed)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__original_patch__DOT__directory__DOT__reader__DOT__cache_store 
+        = ((0x11U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__original_patch__DOT__directory__DOT__reader__DOT__state)) 
+           & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__original_patch__DOT__directory__DOT__reader__DOT__found) 
+              & ((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__original_patch__DOT__directory__DOT__reader__DOT__error_hold)) 
+                 & ((~ ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__original_patch__DOT__directory__DOT__reader__DOT__lifetime_lost) 
+                        | (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__original_patch__DOT__directory__DOT__reader__DOT__cache_clear))) 
+                    & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__original_patch__DOT__directory__DOT__reader__DOT__cache_allowed)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__attention__DOT__executor__DOT__directory__DOT__reader__DOT__cache_store 
+        = ((0x11U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__attention__DOT__executor__DOT__directory__DOT__reader__DOT__state)) 
+           & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__attention__DOT__executor__DOT__directory__DOT__reader__DOT__found) 
+              & ((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__attention__DOT__executor__DOT__directory__DOT__reader__DOT__error_hold)) 
+                 & ((~ ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__attention__DOT__executor__DOT__directory__DOT__reader__DOT__lifetime_lost) 
+                        | (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__attention__DOT__executor__DOT__directory__DOT__reader__DOT__cache_clear))) 
+                    & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__attention__DOT__executor__DOT__directory__DOT__reader__DOT__cache_allowed)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__attention__DOT__executor__DOT__tile__DOT__directory__DOT__reader__DOT__cache_store 
+        = ((0x11U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__attention__DOT__executor__DOT__tile__DOT__directory__DOT__reader__DOT__state)) 
+           & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__attention__DOT__executor__DOT__tile__DOT__directory__DOT__reader__DOT__found) 
+              & ((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__attention__DOT__executor__DOT__tile__DOT__directory__DOT__reader__DOT__error_hold)) 
+                 & ((~ ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__attention__DOT__executor__DOT__tile__DOT__directory__DOT__reader__DOT__lifetime_lost) 
+                        | (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__attention__DOT__executor__DOT__tile__DOT__directory__DOT__reader__DOT__cache_clear))) 
+                    & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__attention__DOT__executor__DOT__tile__DOT__directory__DOT__reader__DOT__cache_allowed)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__attention__DOT__executor__DOT__tile__DOT__projection__DOT__directory__DOT__reader__DOT__cache_store 
+        = ((0x11U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__attention__DOT__executor__DOT__tile__DOT__projection__DOT__directory__DOT__reader__DOT__state)) 
+           & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__attention__DOT__executor__DOT__tile__DOT__projection__DOT__directory__DOT__reader__DOT__found) 
+              & ((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__attention__DOT__executor__DOT__tile__DOT__projection__DOT__directory__DOT__reader__DOT__error_hold)) 
+                 & ((~ ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__attention__DOT__executor__DOT__tile__DOT__projection__DOT__directory__DOT__reader__DOT__lifetime_lost) 
+                        | (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__attention__DOT__executor__DOT__tile__DOT__projection__DOT__directory__DOT__reader__DOT__cache_clear))) 
+                    & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__attention__DOT__executor__DOT__tile__DOT__projection__DOT__directory__DOT__reader__DOT__cache_allowed)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__output_projection__DOT__directory__DOT__reader__DOT__cache_store 
+        = ((0x11U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__output_projection__DOT__directory__DOT__reader__DOT__state)) 
+           & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__output_projection__DOT__directory__DOT__reader__DOT__found) 
+              & ((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__output_projection__DOT__directory__DOT__reader__DOT__error_hold)) 
+                 & ((~ ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__output_projection__DOT__directory__DOT__reader__DOT__lifetime_lost) 
+                        | (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__output_projection__DOT__directory__DOT__reader__DOT__cache_clear))) 
+                    & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__output_projection__DOT__directory__DOT__reader__DOT__cache_allowed)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT__normalization__DOT__directory__DOT__reader__DOT__cache_store 
+        = ((0x11U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT__normalization__DOT__directory__DOT__reader__DOT__state)) 
+           & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT__normalization__DOT__directory__DOT__reader__DOT__found) 
+              & ((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT__normalization__DOT__directory__DOT__reader__DOT__error_hold)) 
+                 & ((~ ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT__normalization__DOT__directory__DOT__reader__DOT__lifetime_lost) 
+                        | (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT__normalization__DOT__directory__DOT__reader__DOT__cache_clear))) 
+                    & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT__normalization__DOT__directory__DOT__reader__DOT__cache_allowed)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT__mlp__DOT__down__DOT__directory__DOT__reader__DOT__cache_store 
+        = ((0x11U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT__mlp__DOT__down__DOT__directory__DOT__reader__DOT__state)) 
+           & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT__mlp__DOT__down__DOT__directory__DOT__reader__DOT__found) 
+              & ((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT__mlp__DOT__down__DOT__directory__DOT__reader__DOT__error_hold)) 
+                 & ((~ ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT__mlp__DOT__down__DOT__directory__DOT__reader__DOT__lifetime_lost) 
+                        | (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT__mlp__DOT__down__DOT__directory__DOT__reader__DOT__cache_clear))) 
+                    & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT__mlp__DOT__down__DOT__directory__DOT__reader__DOT__cache_allowed)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT__mlp__DOT__inner__DOT__directory__DOT__reader__DOT__cache_store 
+        = ((0x11U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT__mlp__DOT__inner__DOT__directory__DOT__reader__DOT__state)) 
+           & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT__mlp__DOT__inner__DOT__directory__DOT__reader__DOT__found) 
+              & ((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT__mlp__DOT__inner__DOT__directory__DOT__reader__DOT__error_hold)) 
+                 & ((~ ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT__mlp__DOT__inner__DOT__directory__DOT__reader__DOT__lifetime_lost) 
+                        | (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT__mlp__DOT__inner__DOT__directory__DOT__reader__DOT__cache_clear))) 
+                    & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__vision_layer__DOT__post__DOT__mlp__DOT__inner__DOT__directory__DOT__reader__DOT__cache_allowed)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__directory__DOT__reader__DOT__cache_store 
+        = ((0x11U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__directory__DOT__reader__DOT__state)) 
+           & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__directory__DOT__reader__DOT__found) 
+              & ((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__directory__DOT__reader__DOT__error_hold)) 
+                 & ((~ ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__directory__DOT__reader__DOT__lifetime_lost) 
+                        | (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__directory__DOT__reader__DOT__cache_clear))) 
+                    & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__directory__DOT__reader__DOT__cache_allowed)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_one__DOT__point__DOT__convolution__DOT__directory__DOT__reader__DOT__cache_store 
+        = ((0x11U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_one__DOT__point__DOT__convolution__DOT__directory__DOT__reader__DOT__state)) 
+           & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_one__DOT__point__DOT__convolution__DOT__directory__DOT__reader__DOT__found) 
+              & ((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_one__DOT__point__DOT__convolution__DOT__directory__DOT__reader__DOT__error_hold)) 
+                 & ((~ ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_one__DOT__point__DOT__convolution__DOT__directory__DOT__reader__DOT__lifetime_lost) 
+                        | (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_one__DOT__point__DOT__convolution__DOT__directory__DOT__reader__DOT__cache_clear))) 
+                    & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_one__DOT__point__DOT__convolution__DOT__directory__DOT__reader__DOT__cache_allowed)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_one__DOT__point__DOT__channel_norm__DOT__directory__DOT__reader__DOT__cache_store 
+        = ((0x11U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_one__DOT__point__DOT__channel_norm__DOT__directory__DOT__reader__DOT__state)) 
+           & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_one__DOT__point__DOT__channel_norm__DOT__directory__DOT__reader__DOT__found) 
+              & ((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_one__DOT__point__DOT__channel_norm__DOT__directory__DOT__reader__DOT__error_hold)) 
+                 & ((~ ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_one__DOT__point__DOT__channel_norm__DOT__directory__DOT__reader__DOT__lifetime_lost) 
+                        | (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_one__DOT__point__DOT__channel_norm__DOT__directory__DOT__reader__DOT__cache_clear))) 
+                    & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_one__DOT__point__DOT__channel_norm__DOT__directory__DOT__reader__DOT__cache_allowed)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_one__DOT__original_input__DOT__directory__DOT__reader__DOT__cache_store 
+        = ((0x11U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_one__DOT__original_input__DOT__directory__DOT__reader__DOT__state)) 
+           & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_one__DOT__original_input__DOT__directory__DOT__reader__DOT__found) 
+              & ((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_one__DOT__original_input__DOT__directory__DOT__reader__DOT__error_hold)) 
+                 & ((~ ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_one__DOT__original_input__DOT__directory__DOT__reader__DOT__lifetime_lost) 
+                        | (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_one__DOT__original_input__DOT__directory__DOT__reader__DOT__cache_clear))) 
+                    & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_one__DOT__original_input__DOT__directory__DOT__reader__DOT__cache_allowed)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_zero__DOT__point__DOT__convolution__DOT__directory__DOT__reader__DOT__cache_store 
+        = ((0x11U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_zero__DOT__point__DOT__convolution__DOT__directory__DOT__reader__DOT__state)) 
+           & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_zero__DOT__point__DOT__convolution__DOT__directory__DOT__reader__DOT__found) 
+              & ((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_zero__DOT__point__DOT__convolution__DOT__directory__DOT__reader__DOT__error_hold)) 
+                 & ((~ ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_zero__DOT__point__DOT__convolution__DOT__directory__DOT__reader__DOT__lifetime_lost) 
+                        | (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_zero__DOT__point__DOT__convolution__DOT__directory__DOT__reader__DOT__cache_clear))) 
+                    & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_zero__DOT__point__DOT__convolution__DOT__directory__DOT__reader__DOT__cache_allowed)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_zero__DOT__point__DOT__channel_norm__DOT__directory__DOT__reader__DOT__cache_store 
+        = ((0x11U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_zero__DOT__point__DOT__channel_norm__DOT__directory__DOT__reader__DOT__state)) 
+           & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_zero__DOT__point__DOT__channel_norm__DOT__directory__DOT__reader__DOT__found) 
+              & ((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_zero__DOT__point__DOT__channel_norm__DOT__directory__DOT__reader__DOT__error_hold)) 
+                 & ((~ ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_zero__DOT__point__DOT__channel_norm__DOT__directory__DOT__reader__DOT__lifetime_lost) 
+                        | (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_zero__DOT__point__DOT__channel_norm__DOT__directory__DOT__reader__DOT__cache_clear))) 
+                    & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_zero__DOT__point__DOT__channel_norm__DOT__directory__DOT__reader__DOT__cache_allowed)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_zero__DOT__original_input__DOT__directory__DOT__reader__DOT__cache_store 
+        = ((0x11U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_zero__DOT__original_input__DOT__directory__DOT__reader__DOT__state)) 
+           & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_zero__DOT__original_input__DOT__directory__DOT__reader__DOT__found) 
+              & ((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_zero__DOT__original_input__DOT__directory__DOT__reader__DOT__error_hold)) 
+                 & ((~ ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_zero__DOT__original_input__DOT__directory__DOT__reader__DOT__lifetime_lost) 
+                        | (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_zero__DOT__original_input__DOT__directory__DOT__reader__DOT__cache_clear))) 
+                    & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_input__DOT__immutable_input__DOT__stage_zero__DOT__original_input__DOT__directory__DOT__reader__DOT__cache_allowed)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT__norm__DOT__directory__DOT__reader__DOT__cache_store 
+        = ((0x11U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT__norm__DOT__directory__DOT__reader__DOT__state)) 
+           & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT__norm__DOT__directory__DOT__reader__DOT__found) 
+              & ((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT__norm__DOT__directory__DOT__reader__DOT__error_hold)) 
+                 & ((~ ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT__norm__DOT__directory__DOT__reader__DOT__lifetime_lost) 
+                        | (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT__norm__DOT__directory__DOT__reader__DOT__cache_clear))) 
+                    & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT__norm__DOT__directory__DOT__reader__DOT__cache_allowed)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT__mlp__DOT__down__DOT__directory__DOT__reader__DOT__cache_store 
+        = ((0x11U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT__mlp__DOT__down__DOT__directory__DOT__reader__DOT__state)) 
+           & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT__mlp__DOT__down__DOT__directory__DOT__reader__DOT__found) 
+              & ((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT__mlp__DOT__down__DOT__directory__DOT__reader__DOT__error_hold)) 
+                 & ((~ ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT__mlp__DOT__down__DOT__directory__DOT__reader__DOT__lifetime_lost) 
+                        | (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT__mlp__DOT__down__DOT__directory__DOT__reader__DOT__cache_clear))) 
+                    & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT__mlp__DOT__down__DOT__directory__DOT__reader__DOT__cache_allowed)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT__mlp__DOT__inner__DOT__directory__DOT__reader__DOT__cache_store 
+        = ((0x11U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT__mlp__DOT__inner__DOT__directory__DOT__reader__DOT__state)) 
+           & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT__mlp__DOT__inner__DOT__directory__DOT__reader__DOT__found) 
+              & ((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT__mlp__DOT__inner__DOT__directory__DOT__reader__DOT__error_hold)) 
+                 & ((~ ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT__mlp__DOT__inner__DOT__directory__DOT__reader__DOT__lifetime_lost) 
+                        | (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT__mlp__DOT__inner__DOT__directory__DOT__reader__DOT__cache_clear))) 
+                    & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__feedforward__DOT__mlp__DOT__inner__DOT__directory__DOT__reader__DOT__cache_allowed)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__norm__DOT__directory__DOT__reader__DOT__cache_store 
+        = ((0x11U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__norm__DOT__directory__DOT__reader__DOT__state)) 
+           & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__norm__DOT__directory__DOT__reader__DOT__found) 
+              & ((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__norm__DOT__directory__DOT__reader__DOT__error_hold)) 
+                 & ((~ ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__norm__DOT__directory__DOT__reader__DOT__lifetime_lost) 
+                        | (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__norm__DOT__directory__DOT__reader__DOT__cache_clear))) 
+                    & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__pre_attention__DOT__norm__DOT__directory__DOT__reader__DOT__cache_allowed)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT__original_mask__DOT__directory__DOT__reader__DOT__cache_store 
+        = ((0x11U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT__original_mask__DOT__directory__DOT__reader__DOT__state)) 
+           & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT__original_mask__DOT__directory__DOT__reader__DOT__found) 
+              & ((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT__original_mask__DOT__directory__DOT__reader__DOT__error_hold)) 
+                 & ((~ ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT__original_mask__DOT__directory__DOT__reader__DOT__lifetime_lost) 
+                        | (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT__original_mask__DOT__directory__DOT__reader__DOT__cache_clear))) 
+                    & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT__original_mask__DOT__directory__DOT__reader__DOT__cache_allowed)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT__tile__DOT__directory__DOT__reader__DOT__cache_store 
+        = ((0x11U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT__tile__DOT__directory__DOT__reader__DOT__state)) 
+           & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT__tile__DOT__directory__DOT__reader__DOT__found) 
+              & ((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT__tile__DOT__directory__DOT__reader__DOT__error_hold)) 
+                 & ((~ ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT__tile__DOT__directory__DOT__reader__DOT__lifetime_lost) 
+                        | (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT__tile__DOT__directory__DOT__reader__DOT__cache_clear))) 
+                    & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT__tile__DOT__directory__DOT__reader__DOT__cache_allowed)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT__tile__DOT__clipped__DOT__directory__DOT__reader__DOT__cache_store 
+        = ((0x11U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT__tile__DOT__clipped__DOT__directory__DOT__reader__DOT__state)) 
+           & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT__tile__DOT__clipped__DOT__directory__DOT__reader__DOT__found) 
+              & ((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT__tile__DOT__clipped__DOT__directory__DOT__reader__DOT__error_hold)) 
+                 & ((~ ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT__tile__DOT__clipped__DOT__directory__DOT__reader__DOT__lifetime_lost) 
+                        | (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT__tile__DOT__clipped__DOT__directory__DOT__reader__DOT__cache_clear))) 
+                    & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__heads__DOT__attention__DOT__executor__DOT__tile__DOT__clipped__DOT__directory__DOT__reader__DOT__cache_allowed)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__post_attention__DOT__post_projection__DOT__directory__DOT__reader__DOT__cache_store 
+        = ((0x11U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__post_attention__DOT__post_projection__DOT__directory__DOT__reader__DOT__state)) 
+           & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__post_attention__DOT__post_projection__DOT__directory__DOT__reader__DOT__found) 
+              & ((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__post_attention__DOT__post_projection__DOT__directory__DOT__reader__DOT__error_hold)) 
+                 & ((~ ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__post_attention__DOT__post_projection__DOT__directory__DOT__reader__DOT__lifetime_lost) 
+                        | (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__post_attention__DOT__post_projection__DOT__directory__DOT__reader__DOT__cache_clear))) 
+                    & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__post_attention__DOT__post_projection__DOT__directory__DOT__reader__DOT__cache_allowed)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__post_attention__DOT__norm__DOT__directory__DOT__reader__DOT__cache_store 
+        = ((0x11U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__post_attention__DOT__norm__DOT__directory__DOT__reader__DOT__state)) 
+           & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__post_attention__DOT__norm__DOT__directory__DOT__reader__DOT__found) 
+              & ((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__post_attention__DOT__norm__DOT__directory__DOT__reader__DOT__error_hold)) 
+                 & ((~ ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__post_attention__DOT__norm__DOT__directory__DOT__reader__DOT__lifetime_lost) 
+                        | (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__post_attention__DOT__norm__DOT__directory__DOT__reader__DOT__cache_clear))) 
+                    & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__residual__DOT__post_attention__DOT__norm__DOT__directory__DOT__reader__DOT__cache_allowed)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT__directory__DOT__reader__DOT__cache_store 
+        = ((0x11U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT__directory__DOT__reader__DOT__state)) 
+           & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT__directory__DOT__reader__DOT__found) 
+              & ((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT__directory__DOT__reader__DOT__error_hold)) 
+                 & ((~ ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT__directory__DOT__reader__DOT__lifetime_lost) 
+                        | (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT__directory__DOT__reader__DOT__cache_clear))) 
+                    & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT__directory__DOT__reader__DOT__cache_allowed)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT__gated_input__DOT__norm__DOT__directory__DOT__reader__DOT__cache_store 
+        = ((0x11U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT__gated_input__DOT__norm__DOT__directory__DOT__reader__DOT__state)) 
+           & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT__gated_input__DOT__norm__DOT__directory__DOT__reader__DOT__found) 
+              & ((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT__gated_input__DOT__norm__DOT__directory__DOT__reader__DOT__error_hold)) 
+                 & ((~ ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT__gated_input__DOT__norm__DOT__directory__DOT__reader__DOT__lifetime_lost) 
+                        | (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT__gated_input__DOT__norm__DOT__directory__DOT__reader__DOT__cache_clear))) 
+                    & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT__gated_input__DOT__norm__DOT__directory__DOT__reader__DOT__cache_allowed)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT__gated_input__DOT__projection__DOT__directory__DOT__reader__DOT__cache_store 
+        = ((0x11U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT__gated_input__DOT__projection__DOT__directory__DOT__reader__DOT__state)) 
+           & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT__gated_input__DOT__projection__DOT__directory__DOT__reader__DOT__found) 
+              & ((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT__gated_input__DOT__projection__DOT__directory__DOT__reader__DOT__error_hold)) 
+                 & ((~ ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT__gated_input__DOT__projection__DOT__directory__DOT__reader__DOT__lifetime_lost) 
+                        | (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT__gated_input__DOT__projection__DOT__directory__DOT__reader__DOT__cache_clear))) 
+                    & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__histories__DOT__fold__DOT__gated_input__DOT__projection__DOT__directory__DOT__reader__DOT__cache_allowed)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__convolution__DOT__norm__DOT__directory__DOT__reader__DOT__cache_store 
+        = ((0x11U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__convolution__DOT__norm__DOT__directory__DOT__reader__DOT__state)) 
+           & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__convolution__DOT__norm__DOT__directory__DOT__reader__DOT__found) 
+              & ((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__convolution__DOT__norm__DOT__directory__DOT__reader__DOT__error_hold)) 
+                 & ((~ ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__convolution__DOT__norm__DOT__directory__DOT__reader__DOT__lifetime_lost) 
+                        | (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__convolution__DOT__norm__DOT__directory__DOT__reader__DOT__cache_clear))) 
+                    & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__convolution__DOT__norm__DOT__directory__DOT__reader__DOT__cache_allowed)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__convolution__DOT__projection__DOT__directory__DOT__reader__DOT__cache_store 
+        = ((0x11U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__convolution__DOT__projection__DOT__directory__DOT__reader__DOT__state)) 
+           & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__convolution__DOT__projection__DOT__directory__DOT__reader__DOT__found) 
+              & ((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__convolution__DOT__projection__DOT__directory__DOT__reader__DOT__error_hold)) 
+                 & ((~ ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__convolution__DOT__projection__DOT__directory__DOT__reader__DOT__lifetime_lost) 
+                        | (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__convolution__DOT__projection__DOT__directory__DOT__reader__DOT__cache_clear))) 
+                    & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__convolution__DOT__projection__DOT__directory__DOT__reader__DOT__cache_allowed)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__feed_forward2__DOT__norm__DOT__directory__DOT__reader__DOT__cache_store 
+        = ((0x11U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__feed_forward2__DOT__norm__DOT__directory__DOT__reader__DOT__state)) 
+           & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__feed_forward2__DOT__norm__DOT__directory__DOT__reader__DOT__found) 
+              & ((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__feed_forward2__DOT__norm__DOT__directory__DOT__reader__DOT__error_hold)) 
+                 & ((~ ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__feed_forward2__DOT__norm__DOT__directory__DOT__reader__DOT__lifetime_lost) 
+                        | (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__feed_forward2__DOT__norm__DOT__directory__DOT__reader__DOT__cache_clear))) 
+                    & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__feed_forward2__DOT__norm__DOT__directory__DOT__reader__DOT__cache_allowed)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__feed_forward2__DOT__mlp__DOT__down__DOT__directory__DOT__reader__DOT__cache_store 
+        = ((0x11U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__feed_forward2__DOT__mlp__DOT__down__DOT__directory__DOT__reader__DOT__state)) 
+           & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__feed_forward2__DOT__mlp__DOT__down__DOT__directory__DOT__reader__DOT__found) 
+              & ((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__feed_forward2__DOT__mlp__DOT__down__DOT__directory__DOT__reader__DOT__error_hold)) 
+                 & ((~ ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__feed_forward2__DOT__mlp__DOT__down__DOT__directory__DOT__reader__DOT__lifetime_lost) 
+                        | (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__feed_forward2__DOT__mlp__DOT__down__DOT__directory__DOT__reader__DOT__cache_clear))) 
+                    & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__feed_forward2__DOT__mlp__DOT__down__DOT__directory__DOT__reader__DOT__cache_allowed)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__feed_forward2__DOT__mlp__DOT__inner__DOT__directory__DOT__reader__DOT__cache_store 
+        = ((0x11U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__feed_forward2__DOT__mlp__DOT__inner__DOT__directory__DOT__reader__DOT__state)) 
+           & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__feed_forward2__DOT__mlp__DOT__inner__DOT__directory__DOT__reader__DOT__found) 
+              & ((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__feed_forward2__DOT__mlp__DOT__inner__DOT__directory__DOT__reader__DOT__error_hold)) 
+                 & ((~ ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__feed_forward2__DOT__mlp__DOT__inner__DOT__directory__DOT__reader__DOT__lifetime_lost) 
+                        | (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__feed_forward2__DOT__mlp__DOT__inner__DOT__directory__DOT__reader__DOT__cache_clear))) 
+                    & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__feed_forward2__DOT__mlp__DOT__inner__DOT__directory__DOT__reader__DOT__cache_allowed)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__norm_out__DOT__directory__DOT__reader__DOT__cache_store 
+        = ((0x11U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__norm_out__DOT__directory__DOT__reader__DOT__state)) 
+           & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__norm_out__DOT__directory__DOT__reader__DOT__found) 
+              & ((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__norm_out__DOT__directory__DOT__reader__DOT__error_hold)) 
+                 & ((~ ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__norm_out__DOT__directory__DOT__reader__DOT__lifetime_lost) 
+                        | (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__norm_out__DOT__directory__DOT__reader__DOT__cache_clear))) 
+                    & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_layer__DOT__norm_out__DOT__directory__DOT__reader__DOT__cache_allowed)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__cache_store 
+        = ((0x11U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__state)) 
+           & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__found) 
+              & ((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__error_hold)) 
+                 & ((~ ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__lifetime_lost) 
+                        | (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__cache_clear))) 
+                    & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__cache_allowed)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_feature__DOT__feature__DOT__native_output__DOT__directory__DOT__reader__DOT__cache_store 
+        = ((0x11U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_feature__DOT__feature__DOT__native_output__DOT__directory__DOT__reader__DOT__state)) 
+           & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_feature__DOT__feature__DOT__native_output__DOT__directory__DOT__reader__DOT__found) 
+              & ((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_feature__DOT__feature__DOT__native_output__DOT__directory__DOT__reader__DOT__error_hold)) 
+                 & ((~ ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_feature__DOT__feature__DOT__native_output__DOT__directory__DOT__reader__DOT__lifetime_lost) 
+                        | (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_feature__DOT__feature__DOT__native_output__DOT__directory__DOT__reader__DOT__cache_clear))) 
+                    & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_feature__DOT__feature__DOT__native_output__DOT__directory__DOT__reader__DOT__cache_allowed)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_feature__DOT__feature__DOT__modality__DOT__directory__DOT__reader__DOT__cache_store 
+        = ((0x11U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_feature__DOT__feature__DOT__modality__DOT__directory__DOT__reader__DOT__state)) 
+           & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_feature__DOT__feature__DOT__modality__DOT__directory__DOT__reader__DOT__found) 
+              & ((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_feature__DOT__feature__DOT__modality__DOT__directory__DOT__reader__DOT__error_hold)) 
+                 & ((~ ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_feature__DOT__feature__DOT__modality__DOT__directory__DOT__reader__DOT__lifetime_lost) 
+                        | (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_feature__DOT__feature__DOT__modality__DOT__directory__DOT__reader__DOT__cache_clear))) 
+                    & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__audio_feature__DOT__feature__DOT__modality__DOT__directory__DOT__reader__DOT__cache_allowed)))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__owner_replay__DOT__replay__DOT__owner_tile__DOT__tile__DOT__tensor_lookup__DOT__reader__DOT__cache_clear 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__owner_replay__DOT____Vcellinp__replay__DOT__owner_tile__image_invalidate) 
+           | (((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__owner_replay__DOT__replay__DOT__owner_tile__DOT__tile__DOT__tensor_lookup__DOT__reader__DOT__state)) 
+               & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__owner_replay__DOT__replay__DOT__owner_tile__DOT____Vcellinp__tile__DOT__tensor_lookup__start_valid) 
+                  & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__owner_replay__DOT__replay__DOT__owner_tile__DOT__tile__DOT__tensor_lookup__DOT__reader__DOT__same_image)) 
+                     & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__owner_replay__DOT__replay__DOT__owner_tile__DOT__tile__DOT__lookup_ready)))) 
+              | ((0x12U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__owner_replay__DOT__replay__DOT__owner_tile__DOT__tile__DOT__tensor_lookup__DOT__reader__DOT__state)) 
+                 & (0U != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__owner_replay__DOT__replay__DOT__owner_tile__DOT__tile__DOT__tensor_lookup__DOT__reader__DOT__error_hold)))));
+    anvil_en1_top__DOT__allocations__DOT__stages__BRA__0__KET____DOT__metrics__BRA__3__KET____DOT__nodes__BRA__13__KET____DOT__registered_node__DOT__left_node 
+        = (((IData)((0U != ((IData)(vlSelf->rst_n) ? 
+                            (__VdfgTmp_h2f934d06__0 
+                             >> 0x17U) : 0ULL))) << 0x17U) 
+           | ((IData)(vlSelf->rst_n) ? (0x7fffffU & (IData)(__VdfgTmp_h2f934d06__0))
+               : 0U));
+    anvil_en1_top__DOT__native__DOT__binding__DOT__replay_controller_bytes 
+        = ((IData)(vlSelf->rst_n) ? (((IData)(vlSelf->rst_n)
+                                       ? 0xafULL : 0ULL) 
+                                     + (((IData)(vlSelf->rst_n)
+                                          ? 0x8fULL
+                                          : 0ULL) + 
+                                        (((IData)(vlSelf->rst_n)
+                                           ? 0x107ULL
+                                           : 0ULL) 
+                                         + (vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__input_state_bytes 
+                                            + (((IData)(vlSelf->rst_n)
+                                                 ? 
+                                                (0x81ULL 
+                                                 + 
+                                                 (vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__embedding_controller_bytes 
+                                                  + vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__post_controller_bytes))
+                                                 : 0ULL) 
+                                               + (((IData)(vlSelf->rst_n)
+                                                    ? 0x15ULL
+                                                    : 0ULL) 
+                                                  + 
+                                                  (vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__projection_controller_bytes 
+                                                   + 
+                                                   (((IData)(vlSelf->rst_n)
+                                                      ? 0x64ULL
+                                                      : 0ULL) 
+                                                    + 
+                                                    (((IData)(vlSelf->rst_n)
+                                                       ? 
+                                                      (0x4aULL 
+                                                       + vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__attention_branch__DOT__executor__DOT__attention__DOT__head_controller_bytes)
+                                                       : 0ULL) 
+                                                     + 
+                                                     (((IData)(vlSelf->rst_n)
+                                                        ? 
+                                                       (0x35ULL 
+                                                        + vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__text_layer__DOT__attention_branch__DOT__executor__DOT__tile__DOT__owner_controller_bytes)
+                                                        : 0ULL) 
+                                                      + anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT____VdfgTmp_h66b0d7b1__0))))))))))
+            : 0ULL);
+    __VdfgTmp_h90466ea5__0 = (((IData)(vlSelf->rst_n)
+                                ? (0x4dULL + vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__owner_replay__DOT__replay__DOT__tile_controller_bytes)
+                                : 0ULL) + (((IData)(vlSelf->rst_n)
+                                             ? 0x12ULL
+                                             : 0ULL) 
+                                           + anvil_en1_top__DOT__native__DOT__binding__DOT__replay_controller_bytes));
+    if (vlSelf->rst_n) {
+        vlSelf->anvil_en1_top__DOT__native_reconstruction_controller_bytes 
+            = __VdfgTmp_h2f934d06__0;
+        vlSelf->anvil_en1_top__DOT__allocations__DOT__stages__BRA__0__KET____DOT__metrics__BRA__2__KET____DOT__nodes__BRA__11__KET____DOT__registered_node__DOT__input_pair__DOT__left 
+            = __VdfgTmp_h90466ea5__0;
+    } else {
+        vlSelf->anvil_en1_top__DOT__native_reconstruction_controller_bytes = 0ULL;
+        vlSelf->anvil_en1_top__DOT__allocations__DOT__stages__BRA__0__KET____DOT__metrics__BRA__2__KET____DOT__nodes__BRA__11__KET____DOT__registered_node__DOT__input_pair__DOT__left = 0ULL;
+    }
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__owner_replay__DOT__replay__DOT__owner_tile__DOT__tile__DOT__tensor_lookup__DOT__reader__DOT__cache_store 
+        = ((0x11U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__owner_replay__DOT__replay__DOT__owner_tile__DOT__tile__DOT__tensor_lookup__DOT__reader__DOT__state)) 
+           & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__owner_replay__DOT__replay__DOT__owner_tile__DOT__tile__DOT__tensor_lookup__DOT__reader__DOT__found) 
+              & ((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__owner_replay__DOT__replay__DOT__owner_tile__DOT__tile__DOT__tensor_lookup__DOT__reader__DOT__error_hold)) 
+                 & ((~ ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__owner_replay__DOT__replay__DOT__owner_tile__DOT__tile__DOT__tensor_lookup__DOT__reader__DOT__lifetime_lost) 
+                        | (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__owner_replay__DOT__replay__DOT__owner_tile__DOT__tile__DOT__tensor_lookup__DOT__reader__DOT__cache_clear))) 
+                    & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__owner_replay__DOT__replay__DOT__owner_tile__DOT__tile__DOT__tensor_lookup__DOT__reader__DOT__cache_allowed)))));
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__406__left 
+        = anvil_en1_top__DOT__allocations__DOT__stages__BRA__0__KET____DOT__metrics__BRA__3__KET____DOT__nodes__BRA__13__KET____DOT__registered_node__DOT__left_node;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__406__sum 
+        = (0x7fffffU & __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__406__left);
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__406__Vfuncout 
+        = ((0x800000U & (__Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__406__left 
+                         | __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__406__sum)) 
+           | (0x7fffffU & __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__406__sum));
+    vlSelf->anvil_en1_top__DOT__allocations__DOT__stages__BRA__0__KET____DOT__metrics__BRA__3__KET____DOT__nodes__BRA__13__KET____DOT__registered_node__DOT__next_value 
+        = __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__406__Vfuncout;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__572__left 
+        = anvil_en1_top__DOT__allocations__DOT__stages__BRA__0__KET____DOT__metrics__BRA__3__KET____DOT__nodes__BRA__13__KET____DOT__registered_node__DOT__left_node;
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__572__sum 
+        = (0x7fffffU & __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__572__left);
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__572__Vfuncout 
+        = ((0x800000U & (__Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__572__left 
+                         | __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__572__sum)) 
+           | (0x7fffffU & __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__572__sum));
+    vlSelf->anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__stages__BRA__0__KET____DOT__metrics__BRA__3__KET____DOT__nodes__BRA__13__KET____DOT__registered_node__DOT__next_value 
+        = __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__572__Vfuncout;
+    anvil_en1_top__DOT__allocations__DOT__stages__BRA__0__KET____DOT__metrics__BRA__1__KET____DOT__nodes__BRA__11__KET____DOT__registered_node__DOT__left_node 
+        = ((((IData)(vlSelf->rst_n) & (0U != (__VdfgTmp_h90466ea5__0 
+                                              >> 0x17U))) 
+            << 0x17U) | ((IData)(vlSelf->rst_n) ? (0x7fffffU 
+                                                   & (IData)(__VdfgTmp_h90466ea5__0))
+                          : 0U));
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__394__left 
+        = anvil_en1_top__DOT__allocations__DOT__stages__BRA__0__KET____DOT__metrics__BRA__1__KET____DOT__nodes__BRA__11__KET____DOT__registered_node__DOT__left_node;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__394__sum 
+        = (0x7fffffU & __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__394__left);
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__394__Vfuncout 
+        = ((0x800000U & (__Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__394__left 
+                         | __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__394__sum)) 
+           | (0x7fffffU & __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__394__sum));
+    vlSelf->anvil_en1_top__DOT__allocations__DOT__stages__BRA__0__KET____DOT__metrics__BRA__1__KET____DOT__nodes__BRA__11__KET____DOT__registered_node__DOT__next_value 
+        = __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__394__Vfuncout;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__397__right 
+        = vlSelf->anvil_en1_top__DOT__allocations__DOT__stages__BRA__0__KET____DOT__metrics__BRA__2__KET____DOT__nodes__BRA__11__KET____DOT__registered_node__DOT__right_node;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__397__left 
+        = anvil_en1_top__DOT__allocations__DOT__stages__BRA__0__KET____DOT__metrics__BRA__1__KET____DOT__nodes__BRA__11__KET____DOT__registered_node__DOT__left_node;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__397__sum 
+        = (0xffffffU & ((0x7fffffU & __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__397__left) 
+                        + (0x7fffffU & __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__397__right)));
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__397__Vfuncout 
+        = ((0x800000U & ((__Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__397__left 
+                          | __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__397__right) 
+                         | __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__397__sum)) 
+           | (0x7fffffU & __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__397__sum));
+    vlSelf->anvil_en1_top__DOT__allocations__DOT__stages__BRA__0__KET____DOT__metrics__BRA__2__KET____DOT__nodes__BRA__11__KET____DOT__registered_node__DOT__next_value 
+        = __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__397__Vfuncout;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__418__right 
+        = vlSelf->anvil_en1_top__DOT__allocations__DOT__stages__BRA__0__KET____DOT__metrics__BRA__2__KET____DOT__nodes__BRA__11__KET____DOT__registered_node__DOT__right_node;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__418__left 
+        = anvil_en1_top__DOT__allocations__DOT__stages__BRA__0__KET____DOT__metrics__BRA__1__KET____DOT__nodes__BRA__11__KET____DOT__registered_node__DOT__left_node;
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__418__sum 
+        = (0xffffffU & ((0x7fffffU & __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__418__left) 
+                        + (0x7fffffU & __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__418__right)));
+    __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__418__Vfuncout 
+        = ((0x800000U & ((__Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__418__left 
+                          | __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__418__right) 
+                         | __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__418__sum)) 
+           | (0x7fffffU & __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__418__sum));
+    vlSelf->anvil_en1_top__DOT__allocations__DOT__stages__BRA__0__KET____DOT__metrics__BRA__4__KET____DOT__nodes__BRA__11__KET____DOT__registered_node__DOT__next_value 
+        = __Vfunc_anvil_en1_top__DOT__allocations__DOT__add_node__418__Vfuncout;
+    if ((0x16U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__grant_component))) {
+        __VdfgTmp_hdc868057__0 = vlSelf->anvil_en1_top__DOT__native__DOT__grant_payload_bytes;
+        __VdfgTmp_hb66f361b__0 = vlSelf->anvil_en1_top__DOT__native__DOT__grant_shadow_bytes;
+    } else {
+        __VdfgTmp_hdc868057__0 = vlSelf->anvil_en1_top__DOT__allocations__DOT__stages__BRA__0__KET____DOT__metrics__BRA__2__KET____DOT__nodes__BRA__11__KET____DOT__registered_node__DOT__input_pair__DOT__left;
+        __VdfgTmp_hb66f361b__0 = vlSelf->anvil_en1_top__DOT__allocations__DOT__stages__BRA__0__KET____DOT__metrics__BRA__2__KET____DOT__nodes__BRA__11__KET____DOT__registered_node__DOT__input_pair__DOT__left;
+    }
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__563__right 
+        = (((IData)((0U != (vlSelf->__VdfgTmp_h2476d894__0 
+                            >> 0x17U))) << 0x17U) | 
+           (0x7fffffU & (IData)(vlSelf->__VdfgTmp_h2476d894__0)));
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__563__left 
+        = (((IData)((0U != (__VdfgTmp_hdc868057__0 
+                            >> 0x17U))) << 0x17U) | 
+           (0x7fffffU & (IData)(__VdfgTmp_hdc868057__0)));
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__563__sum 
+        = (0xffffffU & ((0x7fffffU & __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__563__left) 
+                        + (0x7fffffU & __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__563__right)));
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__563__Vfuncout 
+        = ((0x800000U & ((__Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__563__left 
+                          | __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__563__right) 
+                         | __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__563__sum)) 
+           | (0x7fffffU & __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__563__sum));
+    vlSelf->anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__stages__BRA__0__KET____DOT__metrics__BRA__2__KET____DOT__nodes__BRA__11__KET____DOT__registered_node__DOT__next_value 
+        = __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__563__Vfuncout;
+    vlSelf->anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__subset_error 
+        = ((((IData)(vlSelf->rst_n) ? vlSelf->anvil_en1_top__DOT__native__DOT__grant_native_hold
+              : 0ULL) > vlSelf->anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__stages__BRA__0__KET____DOT__metrics__BRA__2__KET____DOT__nodes__BRA__2__KET____DOT__registered_node__DOT__input_pair__DOT__right) 
+           | ((((IData)(vlSelf->rst_n) ? vlSelf->anvil_en1_top__DOT__native__DOT__grant_native_shadow_hold
+                 : 0ULL) > vlSelf->anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__stages__BRA__0__KET____DOT__metrics__BRA__4__KET____DOT__nodes__BRA__2__KET____DOT__registered_node__DOT__input_pair__DOT__right) 
+              | ((vlSelf->anvil_en1_top__DOT__native_reconstruction_controller_bytes 
+                  > __VdfgTmp_hdc868057__0) | (vlSelf->anvil_en1_top__DOT__native_reconstruction_controller_bytes 
+                                               > __VdfgTmp_hb66f361b__0))));
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__584__right 
+        = (((IData)((0U != (vlSelf->__VdfgTmp_h5af4eae3__0 
+                            >> 0x17U))) << 0x17U) | 
+           (0x7fffffU & (IData)(vlSelf->__VdfgTmp_h5af4eae3__0)));
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__584__left 
+        = (((IData)((0U != (__VdfgTmp_hb66f361b__0 
+                            >> 0x17U))) << 0x17U) | 
+           (0x7fffffU & (IData)(__VdfgTmp_hb66f361b__0)));
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__584__sum 
+        = (0xffffffU & ((0x7fffffU & __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__584__left) 
+                        + (0x7fffffU & __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__584__right)));
+    __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__584__Vfuncout 
+        = ((0x800000U & ((__Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__584__left 
+                          | __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__584__right) 
+                         | __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__584__sum)) 
+           | (0x7fffffU & __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__584__sum));
+    vlSelf->anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__stages__BRA__0__KET____DOT__metrics__BRA__4__KET____DOT__nodes__BRA__11__KET____DOT__registered_node__DOT__next_value 
+        = __Vfunc_anvil_en1_top__DOT__native__DOT__workspace_admission__DOT__prospective__DOT__add_node__584__Vfuncout;
+}
+
+extern const VlUnpacked<CData/*0:0*/, 256> Vanvil_en1_top__ConstPool__TABLE_hf049cce3_0;
+extern const VlUnpacked<CData/*2:0*/, 256> Vanvil_en1_top__ConstPool__TABLE_h571c794b_0;
+
+VL_INLINE_OPT void Vanvil_en1_top___024root___nba_comb__TOP__4(Vanvil_en1_top___024root* vlSelf) {
+    if (false && vlSelf) {}  // Prevent unused
+    Vanvil_en1_top__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vanvil_en1_top___024root___nba_comb__TOP__4\n"); );
+    // Init
+    CData/*7:0*/ __Vtableidx50;
+    __Vtableidx50 = 0;
+    CData/*7:0*/ __Vtableidx51;
+    __Vtableidx51 = 0;
+    CData/*7:0*/ __Vtableidx52;
+    __Vtableidx52 = 0;
+    // Body
+    __Vtableidx50 = ((0xffffff80U & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__mapping__DOT__directory__DOT__reader__DOT__descriptor_valid) 
+                                     & ((vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__mapping__DOT__directory__DOT__reader__DOT__descriptors__BRA__7__KET____DOT__key 
+                                         == vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__mapping__DOT__directory__DOT__reader__DOT__descriptor_key) 
+                                        << 7U))) | 
+                     ((0xffffffc0U & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__mapping__DOT__directory__DOT__reader__DOT__descriptor_valid) 
+                                      & ((vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__mapping__DOT__directory__DOT__reader__DOT__descriptors__BRA__6__KET____DOT__key 
+                                          == vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__mapping__DOT__directory__DOT__reader__DOT__descriptor_key) 
+                                         << 6U))) | 
+                      ((0xffffffe0U & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__mapping__DOT__directory__DOT__reader__DOT__descriptor_valid) 
+                                       & ((vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__mapping__DOT__directory__DOT__reader__DOT__descriptors__BRA__5__KET____DOT__key 
+                                           == vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__mapping__DOT__directory__DOT__reader__DOT__descriptor_key) 
+                                          << 5U))) 
+                       | ((0xfffffff0U & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__mapping__DOT__directory__DOT__reader__DOT__descriptor_valid) 
+                                          & ((vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__mapping__DOT__directory__DOT__reader__DOT__descriptors__BRA__4__KET____DOT__key 
+                                              == vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__mapping__DOT__directory__DOT__reader__DOT__descriptor_key) 
+                                             << 4U))) 
+                          | ((0xfffffff8U & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__mapping__DOT__directory__DOT__reader__DOT__descriptor_valid) 
+                                             & ((vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__mapping__DOT__directory__DOT__reader__DOT__descriptors__BRA__3__KET____DOT__key 
+                                                 == vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__mapping__DOT__directory__DOT__reader__DOT__descriptor_key) 
+                                                << 3U))) 
+                             | ((0xfffffffcU & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__mapping__DOT__directory__DOT__reader__DOT__descriptor_valid) 
+                                                & ((vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__mapping__DOT__directory__DOT__reader__DOT__descriptors__BRA__2__KET____DOT__key 
+                                                    == vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__mapping__DOT__directory__DOT__reader__DOT__descriptor_key) 
+                                                   << 2U))) 
+                                | ((0xfffffffeU & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__mapping__DOT__directory__DOT__reader__DOT__descriptor_valid) 
+                                                   & ((vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__mapping__DOT__directory__DOT__reader__DOT__descriptors__BRA__1__KET____DOT__key 
+                                                       == vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__mapping__DOT__directory__DOT__reader__DOT__descriptor_key) 
+                                                      << 1U))) 
+                                   | ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__mapping__DOT__directory__DOT__reader__DOT__descriptor_valid) 
+                                      & (vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__mapping__DOT__directory__DOT__reader__DOT__descriptors__BRA__0__KET____DOT__key 
+                                         == vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__mapping__DOT__directory__DOT__reader__DOT__descriptor_key)))))))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__mapping__DOT__directory__DOT__reader__DOT__descriptor_hit 
+        = Vanvil_en1_top__ConstPool__TABLE_hf049cce3_0
+        [__Vtableidx50];
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__mapping__DOT__directory__DOT__reader__DOT__descriptor_index 
+        = Vanvil_en1_top__ConstPool__TABLE_h571c794b_0
+        [__Vtableidx50];
+    __Vtableidx51 = ((0xffffff80U & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__pool__DOT__directory__DOT__reader__DOT__descriptor_valid) 
+                                     & ((vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__pool__DOT__directory__DOT__reader__DOT__descriptors__BRA__7__KET____DOT__key 
+                                         == vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__pool__DOT__directory__DOT__reader__DOT__descriptor_key) 
+                                        << 7U))) | 
+                     ((0xffffffc0U & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__pool__DOT__directory__DOT__reader__DOT__descriptor_valid) 
+                                      & ((vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__pool__DOT__directory__DOT__reader__DOT__descriptors__BRA__6__KET____DOT__key 
+                                          == vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__pool__DOT__directory__DOT__reader__DOT__descriptor_key) 
+                                         << 6U))) | 
+                      ((0xffffffe0U & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__pool__DOT__directory__DOT__reader__DOT__descriptor_valid) 
+                                       & ((vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__pool__DOT__directory__DOT__reader__DOT__descriptors__BRA__5__KET____DOT__key 
+                                           == vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__pool__DOT__directory__DOT__reader__DOT__descriptor_key) 
+                                          << 5U))) 
+                       | ((0xfffffff0U & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__pool__DOT__directory__DOT__reader__DOT__descriptor_valid) 
+                                          & ((vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__pool__DOT__directory__DOT__reader__DOT__descriptors__BRA__4__KET____DOT__key 
+                                              == vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__pool__DOT__directory__DOT__reader__DOT__descriptor_key) 
+                                             << 4U))) 
+                          | ((0xfffffff8U & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__pool__DOT__directory__DOT__reader__DOT__descriptor_valid) 
+                                             & ((vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__pool__DOT__directory__DOT__reader__DOT__descriptors__BRA__3__KET____DOT__key 
+                                                 == vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__pool__DOT__directory__DOT__reader__DOT__descriptor_key) 
+                                                << 3U))) 
+                             | ((0xfffffffcU & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__pool__DOT__directory__DOT__reader__DOT__descriptor_valid) 
+                                                & ((vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__pool__DOT__directory__DOT__reader__DOT__descriptors__BRA__2__KET____DOT__key 
+                                                    == vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__pool__DOT__directory__DOT__reader__DOT__descriptor_key) 
+                                                   << 2U))) 
+                                | ((0xfffffffeU & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__pool__DOT__directory__DOT__reader__DOT__descriptor_valid) 
+                                                   & ((vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__pool__DOT__directory__DOT__reader__DOT__descriptors__BRA__1__KET____DOT__key 
+                                                       == vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__pool__DOT__directory__DOT__reader__DOT__descriptor_key) 
+                                                      << 1U))) 
+                                   | ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__pool__DOT__directory__DOT__reader__DOT__descriptor_valid) 
+                                      & (vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__pool__DOT__directory__DOT__reader__DOT__descriptors__BRA__0__KET____DOT__key 
+                                         == vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__pool__DOT__directory__DOT__reader__DOT__descriptor_key)))))))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__pool__DOT__directory__DOT__reader__DOT__descriptor_hit 
+        = Vanvil_en1_top__ConstPool__TABLE_hf049cce3_0
+        [__Vtableidx51];
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__pool__DOT__directory__DOT__reader__DOT__descriptor_index 
+        = Vanvil_en1_top__ConstPool__TABLE_h571c794b_0
+        [__Vtableidx51];
+    __Vtableidx52 = ((0xffffff80U & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__projection__DOT__directory__DOT__reader__DOT__descriptor_valid) 
+                                     & ((vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__projection__DOT__directory__DOT__reader__DOT__descriptors__BRA__7__KET____DOT__key 
+                                         == vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__projection__DOT__directory__DOT__reader__DOT__descriptor_key) 
+                                        << 7U))) | 
+                     ((0xffffffc0U & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__projection__DOT__directory__DOT__reader__DOT__descriptor_valid) 
+                                      & ((vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__projection__DOT__directory__DOT__reader__DOT__descriptors__BRA__6__KET____DOT__key 
+                                          == vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__projection__DOT__directory__DOT__reader__DOT__descriptor_key) 
+                                         << 6U))) | 
+                      ((0xffffffe0U & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__projection__DOT__directory__DOT__reader__DOT__descriptor_valid) 
+                                       & ((vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__projection__DOT__directory__DOT__reader__DOT__descriptors__BRA__5__KET____DOT__key 
+                                           == vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__projection__DOT__directory__DOT__reader__DOT__descriptor_key) 
+                                          << 5U))) 
+                       | ((0xfffffff0U & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__projection__DOT__directory__DOT__reader__DOT__descriptor_valid) 
+                                          & ((vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__projection__DOT__directory__DOT__reader__DOT__descriptors__BRA__4__KET____DOT__key 
+                                              == vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__projection__DOT__directory__DOT__reader__DOT__descriptor_key) 
+                                             << 4U))) 
+                          | ((0xfffffff8U & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__projection__DOT__directory__DOT__reader__DOT__descriptor_valid) 
+                                             & ((vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__projection__DOT__directory__DOT__reader__DOT__descriptors__BRA__3__KET____DOT__key 
+                                                 == vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__projection__DOT__directory__DOT__reader__DOT__descriptor_key) 
+                                                << 3U))) 
+                             | ((0xfffffffcU & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__projection__DOT__directory__DOT__reader__DOT__descriptor_valid) 
+                                                & ((vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__projection__DOT__directory__DOT__reader__DOT__descriptors__BRA__2__KET____DOT__key 
+                                                    == vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__projection__DOT__directory__DOT__reader__DOT__descriptor_key) 
+                                                   << 2U))) 
+                                | ((0xfffffffeU & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__projection__DOT__directory__DOT__reader__DOT__descriptor_valid) 
+                                                   & ((vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__projection__DOT__directory__DOT__reader__DOT__descriptors__BRA__1__KET____DOT__key 
+                                                       == vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__projection__DOT__directory__DOT__reader__DOT__descriptor_key) 
+                                                      << 1U))) 
+                                   | ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__projection__DOT__directory__DOT__reader__DOT__descriptor_valid) 
+                                      & (vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__projection__DOT__directory__DOT__reader__DOT__descriptors__BRA__0__KET____DOT__key 
+                                         == vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__projection__DOT__directory__DOT__reader__DOT__descriptor_key)))))))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__projection__DOT__directory__DOT__reader__DOT__descriptor_hit 
+        = Vanvil_en1_top__ConstPool__TABLE_hf049cce3_0
+        [__Vtableidx52];
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__projection__DOT__directory__DOT__reader__DOT__descriptor_index 
+        = Vanvil_en1_top__ConstPool__TABLE_h571c794b_0
+        [__Vtableidx52];
+}
+
+VL_INLINE_OPT void Vanvil_en1_top___024root___nba_sequent__TOP__65(Vanvil_en1_top___024root* vlSelf) {
+    if (false && vlSelf) {}  // Prevent unused
+    Vanvil_en1_top__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vanvil_en1_top___024root___nba_sequent__TOP__65\n"); );
+    // Body
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__mapping__DOT__mask_word 
+        = vlSelf->__Vdly__anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__mapping__DOT__mask_word;
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__mapping__DOT__state 
+        = vlSelf->__Vdly__anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__mapping__DOT__state;
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__mapping__DOT__directory__DOT__reader__DOT__output_base 
+        = vlSelf->__Vdly__anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__mapping__DOT__directory__DOT__reader__DOT__output_base;
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__mapping__DOT__directory__DOT__reader__DOT__descriptor_cursor 
+        = vlSelf->__Vdly__anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__mapping__DOT__directory__DOT__reader__DOT__descriptor_cursor;
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__projection__DOT__bank_index 
+        = vlSelf->__Vdly__anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__projection__DOT__bank_index;
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__projection__DOT__source_state 
+        = vlSelf->__Vdly__anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__projection__DOT__source_state;
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__projection__DOT__state 
+        = vlSelf->__Vdly__anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__projection__DOT__state;
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__pool__DOT__directory__DOT__reader__DOT__output_base 
+        = vlSelf->__Vdly__anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__pool__DOT__directory__DOT__reader__DOT__output_base;
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__pool__DOT__directory__DOT__reader__DOT__descriptor_cursor 
+        = vlSelf->__Vdly__anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__pool__DOT__directory__DOT__reader__DOT__descriptor_cursor;
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__projection__DOT__directory__DOT__reader__DOT__output_base 
+        = vlSelf->__Vdly__anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__projection__DOT__directory__DOT__reader__DOT__output_base;
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__projection__DOT__directory__DOT__reader__DOT__descriptor_cursor 
+        = vlSelf->__Vdly__anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__projection__DOT__directory__DOT__reader__DOT__descriptor_cursor;
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__bank_index 
+        = vlSelf->__Vdly__anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__bank_index;
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__source_state 
+        = vlSelf->__Vdly__anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__source_state;
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__state 
+        = vlSelf->__Vdly__anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__state;
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__error_hold 
+        = vlSelf->__Vdly__anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__error_hold;
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__pool__DOT__state 
+        = vlSelf->__Vdly__anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__feature__DOT__pool__DOT__state;
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__state 
+        = vlSelf->__Vdly__anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__feature__DOT__state;
+}
+
+VL_INLINE_OPT void Vanvil_en1_top___024root___nba_comb__TOP__5(Vanvil_en1_top___024root* vlSelf) {
+    if (false && vlSelf) {}  // Prevent unused
+    Vanvil_en1_top__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vanvil_en1_top___024root___nba_comb__TOP__5\n"); );
+    // Init
+    VlWide<4>/*127:0*/ __Vtemp_4;
+    VlWide<4>/*127:0*/ __Vtemp_8;
+    VlWide<4>/*127:0*/ __Vtemp_9;
+    VlWide<4>/*127:0*/ __Vtemp_10;
+    VlWide<3>/*95:0*/ __Vtemp_11;
+    VlWide<3>/*95:0*/ __Vtemp_12;
+    VlWide<3>/*95:0*/ __Vtemp_13;
+    // Body
+    vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__ndata 
+        = ((0x17U == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__state))
+            ? ((IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__att_nvalid)
+                ? vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__attention_stage__DOT__attention__DOT__score_value
+                : 0ULL) : ((0x15U == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__state))
+                            ? ((IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__unit_rst_n)
+                                ? vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__rotary_stage__DOT__rope__DOT__angle
+                                : 0ULL) : vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__source_a_data));
+    vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__bank_write_data = 0ULL;
+    if (vlSelf->rst_n) {
+        if (((((((((4U == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__state)) 
+                   | (9U == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__state))) 
+                  | (0xeU == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__state))) 
+                 | (0xfU == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__state))) 
+                | (0x1fU == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__state))) 
+               | (0x11U == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__state))) 
+              | (0x13U == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__state))) 
+             | (0x15U == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__state)))) {
+            if ((4U == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__state))) {
+                if ((((IData)(vlSelf->anvil_en1_top__DOT__parent__DOT____Vcellinp__legal_datapath__DOT__vision_encoder__result_valid) 
+                      & (~ (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__bridge_result_error))) 
+                     & (0U == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__read_target)))) {
+                    vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__bank_write_data 
+                        = ((QData)((IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__bridge_data)) 
+                           << 0x10U);
+                }
+            } else if ((9U == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__state))) {
+                if ((((IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__mat_out_valid) 
+                      & (vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__mat_out_index 
+                         == vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__index)) 
+                     & ((IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__mat_out_last) 
+                        == (vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__index 
+                            == (vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__count 
+                                - (IData)(1U)))))) {
+                    vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__bank_write_data 
+                        = ((IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__unit_rst_n)
+                            ? vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__matvec__DOT__result_hold
+                            : 0ULL);
+                }
+            } else if ((0xeU == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__state))) {
+                if (((((IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__norm_out_valid) 
+                       & (~ (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__norm_out_error))) 
+                      & (vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__norm_out_index 
+                         == vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__index)) 
+                     & ((IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__norm_out_last) 
+                        == (vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__index 
+                            == (vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__count 
+                                - (IData)(1U)))))) {
+                    vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__bank_write_data 
+                        = ((IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__unit_rst_n)
+                            ? vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__norm__DOT__result
+                            : 0ULL);
+                }
+            } else if ((0xfU == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__state))) {
+                if ((2U == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__vector_mode))) {
+                    vlSelf->__Vfunc_anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__add_values__181__b 
+                        = vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__source_b_data;
+                    vlSelf->__Vfunc_anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__add_values__181__a 
+                        = vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__source_a_data;
+                    __Vtemp_4[0U] = (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__add_values__181__a);
+                    __Vtemp_4[1U] = (((- (IData)((1U 
+                                                  & (IData)(
+                                                            (vlSelf->__Vfunc_anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__add_values__181__a 
+                                                             >> 0x2fU))))) 
+                                      << 0x10U) | (IData)(
+                                                          (vlSelf->__Vfunc_anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__add_values__181__a 
+                                                           >> 0x20U)));
+                    __Vtemp_4[2U] = (((- (IData)((1U 
+                                                  & (IData)(
+                                                            (vlSelf->__Vfunc_anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__add_values__181__a 
+                                                             >> 0x2fU))))) 
+                                      >> 0x10U) | (
+                                                   (- (IData)(
+                                                              (1U 
+                                                               & (IData)(
+                                                                         (vlSelf->__Vfunc_anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__add_values__181__a 
+                                                                          >> 0x2fU))))) 
+                                                   << 0x10U));
+                    __Vtemp_4[3U] = (((- (IData)((1U 
+                                                  & (IData)(
+                                                            (vlSelf->__Vfunc_anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__add_values__181__a 
+                                                             >> 0x2fU))))) 
+                                      >> 0x10U) | (
+                                                   (- (IData)(
+                                                              (1U 
+                                                               & (IData)(
+                                                                         (vlSelf->__Vfunc_anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__add_values__181__a 
+                                                                          >> 0x2fU))))) 
+                                                   << 0x10U));
+                    __Vtemp_8[0U] = (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__add_values__181__b);
+                    __Vtemp_8[1U] = (((- (IData)((1U 
+                                                  & (IData)(
+                                                            (vlSelf->__Vfunc_anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__add_values__181__b 
+                                                             >> 0x2fU))))) 
+                                      << 0x10U) | (IData)(
+                                                          (vlSelf->__Vfunc_anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__add_values__181__b 
+                                                           >> 0x20U)));
+                    __Vtemp_8[2U] = (((- (IData)((1U 
+                                                  & (IData)(
+                                                            (vlSelf->__Vfunc_anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__add_values__181__b 
+                                                             >> 0x2fU))))) 
+                                      >> 0x10U) | (
+                                                   (- (IData)(
+                                                              (1U 
+                                                               & (IData)(
+                                                                         (vlSelf->__Vfunc_anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__add_values__181__b 
+                                                                          >> 0x2fU))))) 
+                                                   << 0x10U));
+                    __Vtemp_8[3U] = (((- (IData)((1U 
+                                                  & (IData)(
+                                                            (vlSelf->__Vfunc_anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__add_values__181__b 
+                                                             >> 0x2fU))))) 
+                                      >> 0x10U) | (
+                                                   (- (IData)(
+                                                              (1U 
+                                                               & (IData)(
+                                                                         (vlSelf->__Vfunc_anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__add_values__181__b 
+                                                                          >> 0x2fU))))) 
+                                                   << 0x10U));
+                    VL_ADD_W(4, vlSelf->__Vfunc_anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__saturate__182__value, __Vtemp_4, __Vtemp_8);
+                    __Vtemp_9[0U] = 0xffff0000U;
+                    __Vtemp_9[1U] = 0x7fffU;
+                    __Vtemp_9[2U] = 0U;
+                    __Vtemp_9[3U] = 0U;
+                    __Vtemp_10[0U] = 0U;
+                    __Vtemp_10[1U] = 0xffff8000U;
+                    __Vtemp_10[2U] = 0xffffffffU;
+                    __Vtemp_10[3U] = 0xffffffffU;
+                    vlSelf->__Vfunc_anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__saturate__182__Vfuncout 
+                        = (VL_LTS_IWW(128, __Vtemp_9, vlSelf->__Vfunc_anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__saturate__182__value)
+                            ? 0x7fffffff0000ULL : (
+                                                   VL_GTS_IWW(128, __Vtemp_10, vlSelf->__Vfunc_anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__saturate__182__value)
+                                                    ? 0x800000000000ULL
+                                                    : 
+                                                   (0xffffffffffffULL 
+                                                    & (((QData)((IData)(
+                                                                        vlSelf->__Vfunc_anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__saturate__182__value[1U])) 
+                                                        << 0x20U) 
+                                                       | (QData)((IData)(
+                                                                         vlSelf->__Vfunc_anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__saturate__182__value[0U]))))));
+                    vlSelf->__Vfunc_anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__add_values__181__Vfuncout 
+                        = vlSelf->__Vfunc_anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__saturate__182__Vfuncout;
+                    vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__bank_write_data 
+                        = vlSelf->__Vfunc_anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__add_values__181__Vfuncout;
+                }
+            } else if ((0x1fU != (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__state))) {
+                if ((0x11U == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__state))) {
+                    vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__bank_write_data 
+                        = vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__mac_rounded;
+                } else if ((0x13U == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__state))) {
+                    if (((IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__nout_valid) 
+                         & (~ (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__nout_error)))) {
+                        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__bank_write_data 
+                            = vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__nout_data;
+                    }
+                } else if (((IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__rope_out_valid) 
+                            & (~ (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__rope_error)))) {
+                    vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__bank_write_data 
+                        = ((IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__unit_rst_n)
+                            ? vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__rotary_stage__DOT__rope__DOT__result_lo
+                            : 0ULL);
+                }
+            }
+        } else if ((0x17U == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__state))) {
+            if ((((IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__att_out_valid) 
+                  & (vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__att_out_index 
+                     == vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__index)) 
+                 & ((IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__att_out_last) 
+                    == (3U == vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__index)))) {
+                vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__bank_write_data 
+                    = ((IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__unit_rst_n)
+                        ? vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__attention_stage__DOT__attention__DOT__data_hold
+                        : 0ULL);
+            }
+        }
+    }
+    VL_EXTENDS_WQ(96,48, __Vtemp_11, ((9U == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__state))
+                                       ? ((IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__mat_accumulate)
+                                           ? vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__matvec__DOT__inputs
+                                          [(0xfU & vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__matvec__DOT__col)]
+                                           : 0ULL) : 
+                                      ((0x17U == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__state))
+                                        ? ((IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__att_accumulate)
+                                            ? ((0xaU 
+                                                == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__attention_stage__DOT__attention__DOT__state))
+                                                ? vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__attention_stage__DOT__attention__DOT__q_values
+                                               [(3U 
+                                                 & vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__attention_stage__DOT__attention__DOT__component)]
+                                                : vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__attention_stage__DOT__attention__DOT__exponential)
+                                            : 0ULL)
+                                        : ((0x15U == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__state))
+                                            ? ((IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__unit_rst_n)
+                                                ? ((IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__rotary_stage__DOT__rope__DOT____VdfgTmp_h84464c25__0)
+                                                    ? vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__rotary_stage__DOT__rope__DOT__lo
+                                                    : vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__rotary_stage__DOT__rope__DOT__hi)
+                                                : 0ULL)
+                                            : vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__source_a_data))));
+    VL_EXTENDS_WQ(96,48, __Vtemp_12, (0xffffffffffffULL 
+                                      & ((9U == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__state))
+                                          ? ((IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__mat_accumulate)
+                                              ? ((QData)((IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__bridge_data)) 
+                                                 << 0x10U)
+                                              : 0ULL)
+                                          : ((0x17U 
+                                              == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__state))
+                                              ? ((IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__att_accumulate)
+                                                  ? 
+                                                 ((QData)((IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__bridge_data)) 
+                                                  << 0x10U)
+                                                  : 0ULL)
+                                              : ((0x15U 
+                                                  == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__state))
+                                                  ? 
+                                                 ((IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__unit_rst_n)
+                                                   ? 
+                                                  (((7U 
+                                                     == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__rotary_stage__DOT__rope__DOT__state)) 
+                                                    | (0xbU 
+                                                       == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__rotary_stage__DOT__rope__DOT__state)))
+                                                    ? vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__rotary_stage__DOT__rope__DOT__cosine
+                                                    : 
+                                                   ((8U 
+                                                     == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__rotary_stage__DOT__rope__DOT__state))
+                                                     ? 
+                                                    (- vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__rotary_stage__DOT__rope__DOT__sine)
+                                                     : vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__rotary_stage__DOT__rope__DOT__sine))
+                                                   : 0ULL)
+                                                  : 
+                                                 ((5U 
+                                                   == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__vector_mode))
+                                                   ? 
+                                                  ((QData)((IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__scalar)) 
+                                                   << 0x10U)
+                                                   : vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__source_b_data))))));
+    VL_MULS_WWW(96, __Vtemp_13, __Vtemp_11, __Vtemp_12);
+    if (((IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__mac_accumulate) 
+         & (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__unit_rst_n))) {
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__mac_product[0U] 
+            = __Vtemp_13[0U];
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__mac_product[1U] 
+            = __Vtemp_13[1U];
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__mac_product[2U] 
+            = __Vtemp_13[2U];
+    } else {
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__mac_product[0U] = 0U;
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__mac_product[1U] = 0U;
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__vision_encoder__DOT__engine__DOT__mac_product[2U] = 0U;
+    }
+}
+
+VL_INLINE_OPT void Vanvil_en1_top___024root___nba_comb__TOP__6(Vanvil_en1_top___024root* vlSelf) {
+    if (false && vlSelf) {}  // Prevent unused
+    Vanvil_en1_top__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vanvil_en1_top___024root___nba_comb__TOP__6\n"); );
+    // Init
+    VlWide<4>/*127:0*/ __Vtemp_4;
+    VlWide<4>/*127:0*/ __Vtemp_8;
+    VlWide<4>/*127:0*/ __Vtemp_9;
+    VlWide<4>/*127:0*/ __Vtemp_10;
+    VlWide<3>/*95:0*/ __Vtemp_11;
+    VlWide<3>/*95:0*/ __Vtemp_12;
+    VlWide<3>/*95:0*/ __Vtemp_13;
+    // Body
+    vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__ndata 
+        = ((0x17U == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__state))
+            ? ((IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__att_nvalid)
+                ? vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__attention_stage__DOT__attention__DOT__score_value
+                : 0ULL) : ((0x15U == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__state))
+                            ? ((IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__unit_rst_n)
+                                ? vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__rotary_stage__DOT__rope__DOT__angle
+                                : 0ULL) : vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__source_a_data));
+    vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__bank_write_data = 0ULL;
+    if (vlSelf->rst_n) {
+        if (((((((((4U == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__state)) 
+                   | (9U == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__state))) 
+                  | (0xeU == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__state))) 
+                 | (0xfU == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__state))) 
+                | (0x1fU == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__state))) 
+               | (0x11U == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__state))) 
+              | (0x13U == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__state))) 
+             | (0x15U == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__state)))) {
+            if ((4U == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__state))) {
+                if ((((IData)(vlSelf->anvil_en1_top__DOT__parent__DOT____Vcellinp__legal_datapath__DOT__hybrid_layer__result_valid) 
+                      & (~ (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__bridge_result_error))) 
+                     & (0U == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__read_target)))) {
+                    vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__bank_write_data 
+                        = ((QData)((IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__bridge_data)) 
+                           << 0x10U);
+                }
+            } else if ((9U == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__state))) {
+                if ((((IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__mat_out_valid) 
+                      & (vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__mat_out_index 
+                         == vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__index)) 
+                     & ((IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__mat_out_last) 
+                        == (vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__index 
+                            == (vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__count 
+                                - (IData)(1U)))))) {
+                    vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__bank_write_data 
+                        = ((IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__unit_rst_n)
+                            ? vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__matvec__DOT__result_hold
+                            : 0ULL);
+                }
+            } else if ((0xeU == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__state))) {
+                if (((((IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__norm_out_valid) 
+                       & (~ (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__norm_out_error))) 
+                      & (vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__norm_out_index 
+                         == vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__index)) 
+                     & ((IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__norm_out_last) 
+                        == (vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__index 
+                            == (vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__count 
+                                - (IData)(1U)))))) {
+                    vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__bank_write_data 
+                        = ((IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__unit_rst_n)
+                            ? vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__norm__DOT__result
+                            : 0ULL);
+                }
+            } else if ((0xfU == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__state))) {
+                if ((2U == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__vector_mode))) {
+                    vlSelf->__Vfunc_anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__add_values__285__b 
+                        = vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__source_b_data;
+                    vlSelf->__Vfunc_anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__add_values__285__a 
+                        = vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__source_a_data;
+                    __Vtemp_4[0U] = (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__add_values__285__a);
+                    __Vtemp_4[1U] = (((- (IData)((1U 
+                                                  & (IData)(
+                                                            (vlSelf->__Vfunc_anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__add_values__285__a 
+                                                             >> 0x2fU))))) 
+                                      << 0x10U) | (IData)(
+                                                          (vlSelf->__Vfunc_anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__add_values__285__a 
+                                                           >> 0x20U)));
+                    __Vtemp_4[2U] = (((- (IData)((1U 
+                                                  & (IData)(
+                                                            (vlSelf->__Vfunc_anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__add_values__285__a 
+                                                             >> 0x2fU))))) 
+                                      >> 0x10U) | (
+                                                   (- (IData)(
+                                                              (1U 
+                                                               & (IData)(
+                                                                         (vlSelf->__Vfunc_anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__add_values__285__a 
+                                                                          >> 0x2fU))))) 
+                                                   << 0x10U));
+                    __Vtemp_4[3U] = (((- (IData)((1U 
+                                                  & (IData)(
+                                                            (vlSelf->__Vfunc_anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__add_values__285__a 
+                                                             >> 0x2fU))))) 
+                                      >> 0x10U) | (
+                                                   (- (IData)(
+                                                              (1U 
+                                                               & (IData)(
+                                                                         (vlSelf->__Vfunc_anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__add_values__285__a 
+                                                                          >> 0x2fU))))) 
+                                                   << 0x10U));
+                    __Vtemp_8[0U] = (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__add_values__285__b);
+                    __Vtemp_8[1U] = (((- (IData)((1U 
+                                                  & (IData)(
+                                                            (vlSelf->__Vfunc_anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__add_values__285__b 
+                                                             >> 0x2fU))))) 
+                                      << 0x10U) | (IData)(
+                                                          (vlSelf->__Vfunc_anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__add_values__285__b 
+                                                           >> 0x20U)));
+                    __Vtemp_8[2U] = (((- (IData)((1U 
+                                                  & (IData)(
+                                                            (vlSelf->__Vfunc_anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__add_values__285__b 
+                                                             >> 0x2fU))))) 
+                                      >> 0x10U) | (
+                                                   (- (IData)(
+                                                              (1U 
+                                                               & (IData)(
+                                                                         (vlSelf->__Vfunc_anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__add_values__285__b 
+                                                                          >> 0x2fU))))) 
+                                                   << 0x10U));
+                    __Vtemp_8[3U] = (((- (IData)((1U 
+                                                  & (IData)(
+                                                            (vlSelf->__Vfunc_anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__add_values__285__b 
+                                                             >> 0x2fU))))) 
+                                      >> 0x10U) | (
+                                                   (- (IData)(
+                                                              (1U 
+                                                               & (IData)(
+                                                                         (vlSelf->__Vfunc_anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__add_values__285__b 
+                                                                          >> 0x2fU))))) 
+                                                   << 0x10U));
+                    VL_ADD_W(4, vlSelf->__Vfunc_anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__saturate__286__value, __Vtemp_4, __Vtemp_8);
+                    __Vtemp_9[0U] = 0xffff0000U;
+                    __Vtemp_9[1U] = 0x7fffU;
+                    __Vtemp_9[2U] = 0U;
+                    __Vtemp_9[3U] = 0U;
+                    __Vtemp_10[0U] = 0U;
+                    __Vtemp_10[1U] = 0xffff8000U;
+                    __Vtemp_10[2U] = 0xffffffffU;
+                    __Vtemp_10[3U] = 0xffffffffU;
+                    vlSelf->__Vfunc_anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__saturate__286__Vfuncout 
+                        = (VL_LTS_IWW(128, __Vtemp_9, vlSelf->__Vfunc_anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__saturate__286__value)
+                            ? 0x7fffffff0000ULL : (
+                                                   VL_GTS_IWW(128, __Vtemp_10, vlSelf->__Vfunc_anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__saturate__286__value)
+                                                    ? 0x800000000000ULL
+                                                    : 
+                                                   (0xffffffffffffULL 
+                                                    & (((QData)((IData)(
+                                                                        vlSelf->__Vfunc_anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__saturate__286__value[1U])) 
+                                                        << 0x20U) 
+                                                       | (QData)((IData)(
+                                                                         vlSelf->__Vfunc_anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__saturate__286__value[0U]))))));
+                    vlSelf->__Vfunc_anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__add_values__285__Vfuncout 
+                        = vlSelf->__Vfunc_anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__saturate__286__Vfuncout;
+                    vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__bank_write_data 
+                        = vlSelf->__Vfunc_anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__add_values__285__Vfuncout;
+                }
+            } else if ((0x1fU != (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__state))) {
+                if ((0x11U == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__state))) {
+                    vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__bank_write_data 
+                        = vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__mac_rounded;
+                } else if ((0x13U == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__state))) {
+                    if (((IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__nout_valid) 
+                         & (~ (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__nout_error)))) {
+                        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__bank_write_data 
+                            = vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__nout_data;
+                    }
+                } else if (((IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__rope_out_valid) 
+                            & (~ (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__rope_error)))) {
+                    vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__bank_write_data 
+                        = ((IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__unit_rst_n)
+                            ? vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__rotary_stage__DOT__rope__DOT__result_lo
+                            : 0ULL);
+                }
+            }
+        } else if ((0x17U == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__state))) {
+            if ((((IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__att_out_valid) 
+                  & (vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__att_out_index 
+                     == vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__index)) 
+                 & ((IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__att_out_last) 
+                    == (3U == vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__index)))) {
+                vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__bank_write_data 
+                    = ((IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__unit_rst_n)
+                        ? vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__attention_stage__DOT__attention__DOT__data_hold
+                        : 0ULL);
+            }
+        }
+    }
+    VL_EXTENDS_WQ(96,48, __Vtemp_11, ((9U == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__state))
+                                       ? ((IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__mat_accumulate)
+                                           ? vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__matvec__DOT__inputs
+                                          [(0xfU & vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__matvec__DOT__col)]
+                                           : 0ULL) : 
+                                      ((0x17U == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__state))
+                                        ? ((IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__att_accumulate)
+                                            ? ((0xaU 
+                                                == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__attention_stage__DOT__attention__DOT__state))
+                                                ? vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__attention_stage__DOT__attention__DOT__q_values
+                                               [(7U 
+                                                 & vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__attention_stage__DOT__attention__DOT__component)]
+                                                : vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__attention_stage__DOT__attention__DOT__exponential)
+                                            : 0ULL)
+                                        : ((0x15U == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__state))
+                                            ? ((IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__unit_rst_n)
+                                                ? ((IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__rotary_stage__DOT__rope__DOT____VdfgTmp_h84464c25__0)
+                                                    ? vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__rotary_stage__DOT__rope__DOT__lo
+                                                    : vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__rotary_stage__DOT__rope__DOT__hi)
+                                                : 0ULL)
+                                            : vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__source_a_data))));
+    VL_EXTENDS_WQ(96,48, __Vtemp_12, (0xffffffffffffULL 
+                                      & ((9U == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__state))
+                                          ? ((IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__mat_accumulate)
+                                              ? ((QData)((IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__bridge_data)) 
+                                                 << 0x10U)
+                                              : 0ULL)
+                                          : ((0x17U 
+                                              == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__state))
+                                              ? ((IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__att_accumulate)
+                                                  ? 
+                                                 ((QData)((IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__bridge_data)) 
+                                                  << 0x10U)
+                                                  : 0ULL)
+                                              : ((0x15U 
+                                                  == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__state))
+                                                  ? 
+                                                 ((IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__unit_rst_n)
+                                                   ? 
+                                                  (((7U 
+                                                     == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__rotary_stage__DOT__rope__DOT__state)) 
+                                                    | (0xbU 
+                                                       == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__rotary_stage__DOT__rope__DOT__state)))
+                                                    ? vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__rotary_stage__DOT__rope__DOT__cosine
+                                                    : 
+                                                   ((8U 
+                                                     == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__rotary_stage__DOT__rope__DOT__state))
+                                                     ? 
+                                                    (- vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__rotary_stage__DOT__rope__DOT__sine)
+                                                     : vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__rotary_stage__DOT__rope__DOT__sine))
+                                                   : 0ULL)
+                                                  : 
+                                                 ((5U 
+                                                   == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__vector_mode))
+                                                   ? 
+                                                  ((QData)((IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__scalar)) 
+                                                   << 0x10U)
+                                                   : vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__source_b_data))))));
+    VL_MULS_WWW(96, __Vtemp_13, __Vtemp_11, __Vtemp_12);
+    if (((IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__mac_accumulate) 
+         & (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__unit_rst_n))) {
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__mac_product[0U] 
+            = __Vtemp_13[0U];
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__mac_product[1U] 
+            = __Vtemp_13[1U];
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__mac_product[2U] 
+            = __Vtemp_13[2U];
+    } else {
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__mac_product[0U] = 0U;
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__mac_product[1U] = 0U;
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__hybrid_layer__DOT__mac_product[2U] = 0U;
+    }
+}
+
+VL_INLINE_OPT void Vanvil_en1_top___024root___nba_comb__TOP__7(Vanvil_en1_top___024root* vlSelf) {
+    if (false && vlSelf) {}  // Prevent unused
+    Vanvil_en1_top__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vanvil_en1_top___024root___nba_comb__TOP__7\n"); );
+    // Init
+    VlWide<3>/*95:0*/ __Vtemp_1;
+    VlWide<3>/*95:0*/ __Vtemp_2;
+    VlWide<3>/*95:0*/ __Vtemp_3;
+    // Body
+    vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__pool_norm__DOT__engine__DOT____Vcellinp__norm__in_data 
+        = ((0x1aU == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__pool_norm__DOT__engine__DOT__state))
+            ? ((IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__pool_norm__DOT__engine__DOT__pool_nivalid)
+                ? ((0xbU >= (0xfU & vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__pool_norm__DOT__engine__DOT__pooling_stage__DOT__pool__DOT__channel))
+                    ? vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__pool_norm__DOT__engine__DOT__pooling_stage__DOT__pool__DOT__pooled
+                   [(0xfU & vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__pool_norm__DOT__engine__DOT__pooling_stage__DOT__pool__DOT__channel)]
+                    : 0ULL) : 0ULL) : vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__pool_norm__DOT__engine__DOT__source_offset_data);
+    VL_EXTENDS_WQ(96,48, __Vtemp_1, ((9U == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__pool_norm__DOT__engine__DOT__state))
+                                      ? ((IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__pool_norm__DOT__engine__DOT__mat_accumulate)
+                                          ? ((0xbU 
+                                              >= (0xfU 
+                                                  & vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__pool_norm__DOT__engine__DOT__matvec__DOT__col))
+                                              ? vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__pool_norm__DOT__engine__DOT__matvec__DOT__inputs
+                                             [(0xfU 
+                                               & vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__pool_norm__DOT__engine__DOT__matvec__DOT__col)]
+                                              : 0ULL)
+                                          : 0ULL) : 
+                                     ((0x17U == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__pool_norm__DOT__engine__DOT__state))
+                                       ? 0ULL : ((0x15U 
+                                                  == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__pool_norm__DOT__engine__DOT__state))
+                                                  ? 0ULL
+                                                  : vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__pool_norm__DOT__engine__DOT__source_a_data))));
+    VL_EXTENDS_WQ(96,48, __Vtemp_2, ((9U == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__pool_norm__DOT__engine__DOT__state))
+                                      ? ((IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__pool_norm__DOT__engine__DOT__mat_accumulate)
+                                          ? ((QData)((IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__bridge_data)) 
+                                             << 0x10U)
+                                          : 0ULL) : 
+                                     ((0x17U == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__pool_norm__DOT__engine__DOT__state))
+                                       ? 0ULL : ((0x15U 
+                                                  == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__pool_norm__DOT__engine__DOT__state))
+                                                  ? 0ULL
+                                                  : 
+                                                 ((5U 
+                                                   == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__pool_norm__DOT__engine__DOT__vector_mode))
+                                                   ? 
+                                                  ((QData)((IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__pool_norm__DOT__engine__DOT__scalar)) 
+                                                   << 0x10U)
+                                                   : vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__pool_norm__DOT__engine__DOT__source_b_data)))));
+    VL_MULS_WWW(96, __Vtemp_3, __Vtemp_1, __Vtemp_2);
+    if (((IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__pool_norm__DOT__engine__DOT__mac_accumulate) 
+         & (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__pool_norm__DOT__engine__DOT__unit_rst_n))) {
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__pool_norm__DOT__engine__DOT__mac_product[0U] 
+            = __Vtemp_3[0U];
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__pool_norm__DOT__engine__DOT__mac_product[1U] 
+            = __Vtemp_3[1U];
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__pool_norm__DOT__engine__DOT__mac_product[2U] 
+            = __Vtemp_3[2U];
+    } else {
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__pool_norm__DOT__engine__DOT__mac_product[0U] = 0U;
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__pool_norm__DOT__engine__DOT__mac_product[1U] = 0U;
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__pool_norm__DOT__engine__DOT__mac_product[2U] = 0U;
+    }
+}
+
+VL_INLINE_OPT void Vanvil_en1_top___024root___nba_comb__TOP__8(Vanvil_en1_top___024root* vlSelf) {
+    if (false && vlSelf) {}  // Prevent unused
+    Vanvil_en1_top__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vanvil_en1_top___024root___nba_comb__TOP__8\n"); );
+    // Init
+    CData/*7:0*/ __Vtableidx49;
+    __Vtableidx49 = 0;
+    VlWide<4>/*127:0*/ __Vtemp_4;
+    VlWide<3>/*95:0*/ __Vtemp_9;
+    VlWide<3>/*95:0*/ __Vtemp_10;
+    // Body
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__scheduler__DOT__workspace__DOT__workspace__DOT__history_move_state_valid 
+        = (((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__scheduler__DOT__workspace__DOT__workspace__DOT__slot_hold) 
+            == (0x3fU & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__scheduler__DOT__workspace__DOT__workspace__DOT__depth) 
+                         - (IData)(1U)))) & (((0x17fU 
+                                               >= (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__scheduler__DOT__workspace__DOT__workspace__DOT__history_source_index)) 
+                                              && (1U 
+                                                  & (vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__scheduler__DOT__workspace__DOT__workspace__DOT__vector_reserved[
+                                                     ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__scheduler__DOT__workspace__DOT__workspace__DOT__history_source_index) 
+                                                      >> 5U)] 
+                                                     >> 
+                                                     (0x1fU 
+                                                      & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__scheduler__DOT__workspace__DOT__workspace__DOT__history_source_index))))) 
+                                             & (((0x17fU 
+                                                  >= (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__scheduler__DOT__workspace__DOT__workspace__DOT__history_source_index)) 
+                                                 && (1U 
+                                                     & (vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__scheduler__DOT__workspace__DOT__workspace__DOT__vector_occupied[
+                                                        ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__scheduler__DOT__workspace__DOT__workspace__DOT__history_source_index) 
+                                                         >> 5U)] 
+                                                        >> 
+                                                        (0x1fU 
+                                                         & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__scheduler__DOT__workspace__DOT__workspace__DOT__history_source_index))))) 
+                                                & ((~ 
+                                                    ((0x17fU 
+                                                      >= (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__scheduler__DOT__workspace__DOT__workspace__DOT__history_source_index)) 
+                                                     && (1U 
+                                                         & (vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__scheduler__DOT__workspace__DOT__workspace__DOT__pair_progress_valid[
+                                                            ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__scheduler__DOT__workspace__DOT__workspace__DOT__history_source_index) 
+                                                             >> 5U)] 
+                                                            >> 
+                                                            (0x1fU 
+                                                             & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__scheduler__DOT__workspace__DOT__workspace__DOT__history_source_index)))))) 
+                                                   & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__scheduler__DOT__workspace__DOT__workspace__DOT__vector_reserved_q)) 
+                                                      & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__scheduler__DOT__workspace__DOT__workspace__DOT__vector_present_q)) 
+                                                         & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__scheduler__DOT__workspace__DOT__workspace__DOT__pair_active_q)) 
+                                                            & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__scheduler__DOT__workspace__DOT____VdfgTmp_hfa5e484e__0) 
+                                                               & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__scheduler__DOT__workspace__DOT____VdfgTmp_h163fca2c__0) 
+                                                                  & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__scheduler__DOT__workspace__DOT____VdfgTmp_hfe4b5d81__0))))))))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__ring__DOT__ring__DOT__slot_retag 
+        = (1U & (~ ((0U != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__ring__DOT__ring__DOT__lane_valid_hold)) 
+                    & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__ring__DOT__ring__DOT__tag_q) 
+                       == (0x7fffU & (vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__ring__DOT__ring__DOT__token_hold 
+                                      >> 2U))))));
+    vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__source_b_data = 0ULL;
+    vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__source_a_data = 0ULL;
+    vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__source_offset_data = 0ULL;
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__scheduler__DOT__workspace__DOT__workspace__DOT__tag_vector_ok 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__scheduler__DOT__workspace__DOT____VdfgTmp_hcb8275e4__0) 
+           & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__scheduler__DOT__workspace__DOT____VdfgTmp_hc8eb5598__0) 
+              & ((~ ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__scheduler__DOT__workspace__DOT__workspace__DOT__vector_reserved_q)) 
+                     & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__scheduler__DOT__workspace__DOT__workspace__DOT__pair_active_q) 
+                        | (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__scheduler__DOT__workspace__DOT__workspace__DOT__vector_present_q)))) 
+                 & (0U == (((vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__scheduler__DOT__workspace__DOT__workspace__DOT__frame_tag_q[0U] 
+                             ^ vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__scheduler__DOT__workspace__DOT__workspace__DOT__request_tag[0U]) 
+                            | (vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__scheduler__DOT__workspace__DOT__workspace__DOT__frame_tag_q[1U] 
+                               ^ vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__scheduler__DOT__workspace__DOT__workspace__DOT__request_tag[1U])) 
+                           | (vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__scheduler__DOT__workspace__DOT__workspace__DOT__frame_tag_q[2U] 
+                              ^ vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__scheduler__DOT__workspace__DOT__workspace__DOT__request_tag[2U]))))));
+    __Vtableidx49 = ((0xffffff80U & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__descriptor_valid) 
+                                     & ((vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__descriptors__BRA__7__KET____DOT__key 
+                                         == vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__descriptor_key) 
+                                        << 7U))) | 
+                     ((0xffffffc0U & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__descriptor_valid) 
+                                      & ((vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__descriptors__BRA__6__KET____DOT__key 
+                                          == vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__descriptor_key) 
+                                         << 6U))) | 
+                      ((0xffffffe0U & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__descriptor_valid) 
+                                       & ((vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__descriptors__BRA__5__KET____DOT__key 
+                                           == vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__descriptor_key) 
+                                          << 5U))) 
+                       | ((0xfffffff0U & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__descriptor_valid) 
+                                          & ((vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__descriptors__BRA__4__KET____DOT__key 
+                                              == vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__descriptor_key) 
+                                             << 4U))) 
+                          | ((0xfffffff8U & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__descriptor_valid) 
+                                             & ((vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__descriptors__BRA__3__KET____DOT__key 
+                                                 == vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__descriptor_key) 
+                                                << 3U))) 
+                             | ((0xfffffffcU & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__descriptor_valid) 
+                                                & ((vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__descriptors__BRA__2__KET____DOT__key 
+                                                    == vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__descriptor_key) 
+                                                   << 2U))) 
+                                | ((0xfffffffeU & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__descriptor_valid) 
+                                                   & ((vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__descriptors__BRA__1__KET____DOT__key 
+                                                       == vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__descriptor_key) 
+                                                      << 1U))) 
+                                   | ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__descriptor_valid) 
+                                      & (vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__descriptors__BRA__0__KET____DOT__key 
+                                         == vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__descriptor_key)))))))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__descriptor_hit 
+        = Vanvil_en1_top__ConstPool__TABLE_hf049cce3_0
+        [__Vtableidx49];
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__image_feature__DOT__mapping__DOT__immutable_mask__DOT__directory__DOT__reader__DOT__descriptor_index 
+        = Vanvil_en1_top__ConstPool__TABLE_h571c794b_0
+        [__Vtableidx49];
+    if (vlSelf->rst_n) {
+        if ((((0xfU == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__state)) 
+              & (2U == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__vector_mode))) 
+             | (0x10U == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__state)))) {
+            vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__source_b_data 
+                = ((0U == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__source_b))
+                    ? vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__xvec
+                   [(7U & vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__index)]
+                    : ((1U == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__source_b))
+                        ? 0ULL : ((2U == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__source_b))
+                                   ? vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__temporary
+                                  [(7U & vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__index)]
+                                   : 0ULL)));
+        }
+        if (((((8U == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__state)) 
+               | (0xfU == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__state))) 
+              | (0x10U == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__state))) 
+             | (0x12U == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__state)))) {
+            vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__source_a_data 
+                = ((0U == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__source_a))
+                    ? vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__xvec
+                   [(7U & vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__index)]
+                    : ((1U == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__source_a))
+                        ? 0ULL : ((2U == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__source_a))
+                                   ? vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__temporary
+                                  [(7U & vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__index)]
+                                   : 0ULL)));
+        }
+    }
+    __Vtemp_4[0U] = (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__source_a_data);
+    __Vtemp_4[1U] = (((- (IData)((1U & (IData)((vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__source_a_data 
+                                                >> 0x2fU))))) 
+                      << 0x10U) | (IData)((vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__source_a_data 
+                                           >> 0x20U)));
+    __Vtemp_4[2U] = (((- (IData)((1U & (IData)((vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__source_a_data 
+                                                >> 0x2fU))))) 
+                      >> 0x10U) | ((- (IData)((1U & (IData)(
+                                                            (vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__source_a_data 
+                                                             >> 0x2fU))))) 
+                                   << 0x10U));
+    __Vtemp_4[3U] = (((- (IData)((1U & (IData)((vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__source_a_data 
+                                                >> 0x2fU))))) 
+                      >> 0x10U) | ((- (IData)((1U & (IData)(
+                                                            (vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__source_a_data 
+                                                             >> 0x2fU))))) 
+                                   << 0x10U));
+    VL_SHIFTL_WWI(128,128,32, vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__scale_numerator, __Vtemp_4, 0x28U);
+    __Vtemp_9[0U] = (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__source_a_data);
+    __Vtemp_9[1U] = (((IData)((0xffffffffffULL & (((QData)((IData)(
+                                                                   (- (IData)(
+                                                                              (1U 
+                                                                               & (IData)(
+                                                                                (vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__source_a_data 
+                                                                                >> 0x2fU))))))) 
+                                                   << 0x20U) 
+                                                  | (QData)((IData)(
+                                                                    (- (IData)(
+                                                                               (1U 
+                                                                                & (IData)(
+                                                                                (vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__source_a_data 
+                                                                                >> 0x2fU)))))))))) 
+                      << 0x10U) | (IData)((vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__source_a_data 
+                                           >> 0x20U)));
+    __Vtemp_9[2U] = (((IData)((0xffffffffffULL & (((QData)((IData)(
+                                                                   (- (IData)(
+                                                                              (1U 
+                                                                               & (IData)(
+                                                                                (vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__source_a_data 
+                                                                                >> 0x2fU))))))) 
+                                                   << 0x20U) 
+                                                  | (QData)((IData)(
+                                                                    (- (IData)(
+                                                                               (1U 
+                                                                                & (IData)(
+                                                                                (vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__source_a_data 
+                                                                                >> 0x2fU)))))))))) 
+                      >> 0x10U) | ((IData)(((0xffffffffffULL 
+                                             & (((QData)((IData)(
+                                                                 (- (IData)(
+                                                                            (1U 
+                                                                             & (IData)(
+                                                                                (vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__source_a_data 
+                                                                                >> 0x2fU))))))) 
+                                                 << 0x20U) 
+                                                | (QData)((IData)(
+                                                                  (- (IData)(
+                                                                             (1U 
+                                                                              & (IData)(
+                                                                                (vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__source_a_data 
+                                                                                >> 0x2fU))))))))) 
+                                            >> 0x20U)) 
+                                   << 0x10U));
+    VL_SHIFTL_WWI(88,88,32, __Vtemp_10, __Vtemp_9, 0x28U);
+    vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT____VdfgTmp_hfe9df563__0[0U] 
+        = __Vtemp_10[0U];
+    vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT____VdfgTmp_hfe9df563__0[1U] 
+        = __Vtemp_10[1U];
+    vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT____VdfgTmp_hfe9df563__0[2U] 
+        = (0xffffffU & __Vtemp_10[2U]);
+    vlSelf->anvil_en1_top__DOT__parent__DOT____Vcellout__legal_datapath__DOT__text_frontend__cmd_wdata = 0U;
+    if (vlSelf->rst_n) {
+        if (((5U == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__state)) 
+             | (0xdU == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__state)))) {
+            vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__source_offset_data 
+                = ((0U == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__source_a))
+                    ? vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__xvec
+                   [(7U & (vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__source_offset 
+                           + vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__index))]
+                    : ((1U == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__source_a))
+                        ? 0ULL : ((2U == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__source_a))
+                                   ? vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__temporary
+                                  [(7U & (vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__source_offset 
+                                          + vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__index))]
+                                   : 0ULL)));
+        }
+        if ((1U & (~ ((3U == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__state)) 
+                      || (0xbU == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__state)))))) {
+            if ((5U == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__state))) {
+                vlSelf->__Vfunc_anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__materialize__245__value 
+                    = vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__source_offset_data;
+                vlSelf->__Vfunc_anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__materialize__245__q 
+                    = (0x1ffffffffffffULL & VL_SHIFTRS_QQI(49,49,32, 
+                                                           (((QData)((IData)(
+                                                                             (1U 
+                                                                              & (IData)(
+                                                                                (vlSelf->__Vfunc_anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__materialize__245__value 
+                                                                                >> 0x2fU))))) 
+                                                             << 0x30U) 
+                                                            | vlSelf->__Vfunc_anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__materialize__245__value), 0x10U));
+                if (((0x8000U < (0xffffU & (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__materialize__245__value))) 
+                     | ((0x8000U == (0xffffU & (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__materialize__245__value))) 
+                        & (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__materialize__245__q)))) {
+                    vlSelf->__Vfunc_anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__materialize__245__q 
+                        = (0x1ffffffffffffULL & (1ULL 
+                                                 + vlSelf->__Vfunc_anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__materialize__245__q));
+                }
+                vlSelf->__Vfunc_anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__materialize__245__Vfuncout 
+                    = (VL_LTS_IQQ(49, 0x7fffffffULL, vlSelf->__Vfunc_anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__materialize__245__q)
+                        ? 0x7fffffffU : (VL_GTS_IQQ(49, 0x1ffff80000000ULL, vlSelf->__Vfunc_anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__materialize__245__q)
+                                          ? 0x80000000U
+                                          : (IData)(vlSelf->__Vfunc_anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__materialize__245__q)));
+                vlSelf->anvil_en1_top__DOT__parent__DOT____Vcellout__legal_datapath__DOT__text_frontend__cmd_wdata 
+                    = vlSelf->__Vfunc_anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__text_frontend__DOT__engine__DOT__materialize__245__Vfuncout;
+            }
+        }
+    }
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__scheduler__DOT__workspace__DOT__workspace__DOT__history_move_commit 
+        = ((6U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__scheduler__DOT__workspace__DOT__workspace__DOT__state)) 
+           & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__scheduler__DOT__workspace__DOT__workspace__DOT__move_history) 
+              & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__scheduler__DOT__workspace__DOT__workspace__DOT__tag_vector_ok) 
+                 & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__scheduler__DOT__workspace__DOT__workspace__DOT__history_move_state_valid))));
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__scheduler__DOT__workspace__DOT__workspace__DOT__vector_release 
+        = ((6U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__scheduler__DOT__workspace__DOT__workspace__DOT__state)) 
+           & ((7U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__scheduler__DOT__workspace__DOT__workspace__DOT__op_hold)) 
+              & ((2U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__scheduler__DOT__workspace__DOT__workspace__DOT__target_hold)) 
+                 & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__scheduler__DOT__workspace__DOT__workspace__DOT__tag_vector_ok) 
+                    & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__scheduler__DOT__workspace__DOT__workspace__DOT__vector_reserved_q) 
+                       & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__scheduler__DOT__workspace__DOT__workspace__DOT__vector_present_q) 
+                          & ((~ (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__scheduler__DOT__workspace__DOT__workspace__DOT__pair_active_q)) 
+                             & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__scheduler__DOT__workspace__DOT____VdfgTmp_hdae32097__0))))))));
+    vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__stage_data[7U] 
+        = vlSelf->anvil_en1_top__DOT__parent__DOT____Vcellout__legal_datapath__DOT__text_frontend__cmd_wdata;
+    vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__scheduler__DOT__workspace__DOT__workspace__DOT__vector_visibility_clear 
+        = ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__scheduler__DOT__workspace__DOT__workspace__DOT__vector_release) 
+           | ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__scheduler__DOT__workspace__DOT__workspace__DOT__memo_move_commit) 
+              | (((0x10U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__scheduler__DOT__workspace__DOT__workspace__DOT__state)) 
+                  & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__scheduler__DOT__workspace__DOT____VdfgTmp_h03488ecb__0) 
+                     & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__scheduler__DOT__workspace__DOT__workspace__DOT__vector_reserved_q))) 
+                 | (((0x21U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__scheduler__DOT__workspace__DOT__workspace__DOT__state)) 
+                     & ((2U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__scheduler__DOT__workspace__DOT__workspace__DOT__target_hold)) 
+                        & ((0U == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__scheduler__DOT__workspace__DOT__workspace__DOT__component_hold)) 
+                           & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__scheduler__DOT__workspace__DOT__workspace__DOT__vector_reserved_q)))) 
+                    | ((0x1bU == (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__scheduler__DOT__workspace__DOT__workspace__DOT__state)) 
+                       & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__backing_rsp_valid) 
+                          & ((IData)(vlSelf->anvil_en1_top__DOT__native__DOT__backing_rsp_ready) 
+                             & ((0U != (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__frontier__DOT__frontier_control_error)) 
+                                & (IData)(vlSelf->anvil_en1_top__DOT__native__DOT__binding__DOT__replay__DOT__scheduler__DOT__workspace__DOT____VdfgTmp_hd67ad0eb__0)))))))));
+}
+
+VL_INLINE_OPT void Vanvil_en1_top___024root___nba_comb__TOP__9(Vanvil_en1_top___024root* vlSelf) {
+    if (false && vlSelf) {}  // Prevent unused
+    Vanvil_en1_top__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vanvil_en1_top___024root___nba_comb__TOP__9\n"); );
+    // Init
+    VlWide<5>/*159:0*/ __Vtemp_10;
+    VlWide<5>/*159:0*/ __Vtemp_11;
+    VlWide<5>/*159:0*/ __Vtemp_14;
+    VlWide<5>/*159:0*/ __Vtemp_15;
+    VlWide<5>/*159:0*/ __Vtemp_18;
+    VlWide<5>/*159:0*/ __Vtemp_19;
+    // Body
+    if (vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__unit_rst_n) {
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__act_data 
+            = vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__result;
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divide_result[0U] 
+            = vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divider__DOT__result[0U];
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divide_result[1U] 
+            = vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divider__DOT__result[1U];
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divide_result[2U] 
+            = vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divider__DOT__result[2U];
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divide_result[3U] 
+            = vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divider__DOT__result[3U];
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divider__DOT__q[0U] 
+            = vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divider__DOT__unsigned_divider__DOT__quotient[0U];
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divider__DOT__q[1U] 
+            = vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divider__DOT__unsigned_divider__DOT__quotient[1U];
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divider__DOT__q[2U] 
+            = vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divider__DOT__unsigned_divider__DOT__quotient[2U];
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divider__DOT__q[3U] 
+            = vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divider__DOT__unsigned_divider__DOT__quotient[3U];
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__exp_data 
+            = vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__exponential_unit__DOT__result;
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__exponential_unit__DOT__divide_data[0U] 
+            = vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__exponential_unit__DOT__divider__DOT__result[0U];
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__exponential_unit__DOT__divide_data[1U] 
+            = vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__exponential_unit__DOT__divider__DOT__result[1U];
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__exponential_unit__DOT__divide_data[2U] 
+            = vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__exponential_unit__DOT__divider__DOT__result[2U];
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__exponential_unit__DOT__divide_data[3U] 
+            = vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__exponential_unit__DOT__divider__DOT__result[3U];
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__exponential_unit__DOT__divider__DOT__q[0U] 
+            = vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__exponential_unit__DOT__divider__DOT__unsigned_divider__DOT__quotient[0U];
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__exponential_unit__DOT__divider__DOT__q[1U] 
+            = vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__exponential_unit__DOT__divider__DOT__unsigned_divider__DOT__quotient[1U];
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__exponential_unit__DOT__divider__DOT__q[2U] 
+            = vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__exponential_unit__DOT__divider__DOT__unsigned_divider__DOT__quotient[2U];
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__exponential_unit__DOT__divider__DOT__q[3U] 
+            = vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__exponential_unit__DOT__divider__DOT__unsigned_divider__DOT__quotient[3U];
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__divider__DOT__q[0U] 
+            = vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__divider__DOT__unsigned_divider__DOT__quotient[0U];
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__divider__DOT__q[1U] 
+            = vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__divider__DOT__unsigned_divider__DOT__quotient[1U];
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__divider__DOT__q[2U] 
+            = vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__divider__DOT__unsigned_divider__DOT__quotient[2U];
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__divider__DOT__q[3U] 
+            = vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__divider__DOT__unsigned_divider__DOT__quotient[3U];
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__div_data[0U] 
+            = vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__divider__DOT__result[0U];
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__div_data[1U] 
+            = vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__divider__DOT__result[1U];
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__div_data[2U] 
+            = vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__divider__DOT__result[2U];
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__div_data[3U] 
+            = vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__divider__DOT__result[3U];
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divider__DOT__r[0U] 
+            = vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divider__DOT__unsigned_divider__DOT__residue[0U];
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divider__DOT__r[1U] 
+            = vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divider__DOT__unsigned_divider__DOT__residue[1U];
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divider__DOT__r[2U] 
+            = vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divider__DOT__unsigned_divider__DOT__residue[2U];
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divider__DOT__r[3U] 
+            = vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divider__DOT__unsigned_divider__DOT__residue[3U];
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__exponential_unit__DOT__divider__DOT__r[0U] 
+            = vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__exponential_unit__DOT__divider__DOT__unsigned_divider__DOT__residue[0U];
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__exponential_unit__DOT__divider__DOT__r[1U] 
+            = vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__exponential_unit__DOT__divider__DOT__unsigned_divider__DOT__residue[1U];
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__exponential_unit__DOT__divider__DOT__r[2U] 
+            = vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__exponential_unit__DOT__divider__DOT__unsigned_divider__DOT__residue[2U];
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__exponential_unit__DOT__divider__DOT__r[3U] 
+            = vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__exponential_unit__DOT__divider__DOT__unsigned_divider__DOT__residue[3U];
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__divider__DOT__r[0U] 
+            = vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__divider__DOT__unsigned_divider__DOT__residue[0U];
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__divider__DOT__r[1U] 
+            = vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__divider__DOT__unsigned_divider__DOT__residue[1U];
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__divider__DOT__r[2U] 
+            = vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__divider__DOT__unsigned_divider__DOT__residue[2U];
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__divider__DOT__r[3U] 
+            = vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__divider__DOT__unsigned_divider__DOT__residue[3U];
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divide_in_ready 
+            = (0U == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divider__DOT__state));
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divide_out_valid 
+            = (4U == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divider__DOT__state));
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divide_error 
+            = vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divider__DOT__error;
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__div_ready 
+            = (0U == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__divider__DOT__state));
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__div_valid 
+            = (4U == (IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__divider__DOT__state));
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__div_error 
+            = vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__divider__DOT__error;
+    } else {
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__act_data = 0ULL;
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divide_result[0U] = 0U;
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divide_result[1U] = 0U;
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divide_result[2U] = 0U;
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divide_result[3U] = 0U;
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divider__DOT__q[0U] = 0U;
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divider__DOT__q[1U] = 0U;
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divider__DOT__q[2U] = 0U;
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divider__DOT__q[3U] = 0U;
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__exp_data = 0ULL;
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__exponential_unit__DOT__divide_data[0U] = 0U;
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__exponential_unit__DOT__divide_data[1U] = 0U;
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__exponential_unit__DOT__divide_data[2U] = 0U;
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__exponential_unit__DOT__divide_data[3U] = 0U;
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__exponential_unit__DOT__divider__DOT__q[0U] = 0U;
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__exponential_unit__DOT__divider__DOT__q[1U] = 0U;
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__exponential_unit__DOT__divider__DOT__q[2U] = 0U;
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__exponential_unit__DOT__divider__DOT__q[3U] = 0U;
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__divider__DOT__q[0U] = 0U;
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__divider__DOT__q[1U] = 0U;
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__divider__DOT__q[2U] = 0U;
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__divider__DOT__q[3U] = 0U;
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__div_data[0U] = 0U;
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__div_data[1U] = 0U;
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__div_data[2U] = 0U;
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__div_data[3U] = 0U;
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divider__DOT__r[0U] = 0U;
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divider__DOT__r[1U] = 0U;
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divider__DOT__r[2U] = 0U;
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divider__DOT__r[3U] = 0U;
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__exponential_unit__DOT__divider__DOT__r[0U] = 0U;
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__exponential_unit__DOT__divider__DOT__r[1U] = 0U;
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__exponential_unit__DOT__divider__DOT__r[2U] = 0U;
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__exponential_unit__DOT__divider__DOT__r[3U] = 0U;
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__divider__DOT__r[0U] = 0U;
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__divider__DOT__r[1U] = 0U;
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__divider__DOT__r[2U] = 0U;
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__divider__DOT__r[3U] = 0U;
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divide_in_ready = 0U;
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divide_out_valid = 0U;
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divide_error = 0U;
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__div_ready = 0U;
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__div_valid = 0U;
+        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__div_error = 0U;
+    }
+    VL_ADD_W(4, vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__next_sum, vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__div_data, vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__log_sum);
+    __Vtemp_10[0U] = (vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divider__DOT__r[0U] 
+                      << 1U);
+    __Vtemp_10[1U] = ((vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divider__DOT__r[0U] 
+                       >> 0x1fU) | (vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divider__DOT__r[1U] 
+                                    << 1U));
+    __Vtemp_10[2U] = ((vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divider__DOT__r[1U] 
+                       >> 0x1fU) | (vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divider__DOT__r[2U] 
+                                    << 1U));
+    __Vtemp_10[3U] = ((vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divider__DOT__r[2U] 
+                       >> 0x1fU) | (vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divider__DOT__r[3U] 
+                                    << 1U));
+    __Vtemp_10[4U] = (vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divider__DOT__r[3U] 
+                      >> 0x1fU);
+    __Vtemp_11[0U] = vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divider__DOT__divisor[0U];
+    __Vtemp_11[1U] = vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divider__DOT__divisor[1U];
+    __Vtemp_11[2U] = vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divider__DOT__divisor[2U];
+    __Vtemp_11[3U] = vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divider__DOT__divisor[3U];
+    __Vtemp_11[4U] = 0U;
+    vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divider__DOT__round_up 
+        = (VL_GT_W(5, __Vtemp_10, __Vtemp_11) | ((0U 
+                                                  == 
+                                                  ((((((vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divider__DOT__r[0U] 
+                                                        << 1U) 
+                                                       ^ 
+                                                       vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divider__DOT__divisor[0U]) 
+                                                      | (((vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divider__DOT__r[0U] 
+                                                           >> 0x1fU) 
+                                                          | (vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divider__DOT__r[1U] 
+                                                             << 1U)) 
+                                                         ^ 
+                                                         vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divider__DOT__divisor[1U])) 
+                                                     | (((vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divider__DOT__r[1U] 
+                                                          >> 0x1fU) 
+                                                         | (vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divider__DOT__r[2U] 
+                                                            << 1U)) 
+                                                        ^ 
+                                                        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divider__DOT__divisor[2U])) 
+                                                    | (((vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divider__DOT__r[2U] 
+                                                         >> 0x1fU) 
+                                                        | (vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divider__DOT__r[3U] 
+                                                           << 1U)) 
+                                                       ^ 
+                                                       vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divider__DOT__divisor[3U])) 
+                                                   | (vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divider__DOT__r[3U] 
+                                                      >> 0x1fU))) 
+                                                 & ((IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__unit_rst_n) 
+                                                    & vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__normalization__DOT__divider__DOT__unsigned_divider__DOT__quotient[0U])));
+    __Vtemp_14[0U] = (vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__exponential_unit__DOT__divider__DOT__r[0U] 
+                      << 1U);
+    __Vtemp_14[1U] = ((vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__exponential_unit__DOT__divider__DOT__r[0U] 
+                       >> 0x1fU) | (vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__exponential_unit__DOT__divider__DOT__r[1U] 
+                                    << 1U));
+    __Vtemp_14[2U] = ((vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__exponential_unit__DOT__divider__DOT__r[1U] 
+                       >> 0x1fU) | (vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__exponential_unit__DOT__divider__DOT__r[2U] 
+                                    << 1U));
+    __Vtemp_14[3U] = ((vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__exponential_unit__DOT__divider__DOT__r[2U] 
+                       >> 0x1fU) | (vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__exponential_unit__DOT__divider__DOT__r[3U] 
+                                    << 1U));
+    __Vtemp_14[4U] = (vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__exponential_unit__DOT__divider__DOT__r[3U] 
+                      >> 0x1fU);
+    __Vtemp_15[0U] = vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__exponential_unit__DOT__divider__DOT__divisor[0U];
+    __Vtemp_15[1U] = vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__exponential_unit__DOT__divider__DOT__divisor[1U];
+    __Vtemp_15[2U] = vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__exponential_unit__DOT__divider__DOT__divisor[2U];
+    __Vtemp_15[3U] = vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__exponential_unit__DOT__divider__DOT__divisor[3U];
+    __Vtemp_15[4U] = 0U;
+    vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__exponential_unit__DOT__divider__DOT__round_up 
+        = (VL_GT_W(5, __Vtemp_14, __Vtemp_15) | ((0U 
+                                                  == 
+                                                  ((((((vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__exponential_unit__DOT__divider__DOT__r[0U] 
+                                                        << 1U) 
+                                                       ^ 
+                                                       vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__exponential_unit__DOT__divider__DOT__divisor[0U]) 
+                                                      | (((vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__exponential_unit__DOT__divider__DOT__r[0U] 
+                                                           >> 0x1fU) 
+                                                          | (vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__exponential_unit__DOT__divider__DOT__r[1U] 
+                                                             << 1U)) 
+                                                         ^ 
+                                                         vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__exponential_unit__DOT__divider__DOT__divisor[1U])) 
+                                                     | (((vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__exponential_unit__DOT__divider__DOT__r[1U] 
+                                                          >> 0x1fU) 
+                                                         | (vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__exponential_unit__DOT__divider__DOT__r[2U] 
+                                                            << 1U)) 
+                                                        ^ 
+                                                        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__exponential_unit__DOT__divider__DOT__divisor[2U])) 
+                                                    | (((vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__exponential_unit__DOT__divider__DOT__r[2U] 
+                                                         >> 0x1fU) 
+                                                        | (vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__exponential_unit__DOT__divider__DOT__r[3U] 
+                                                           << 1U)) 
+                                                       ^ 
+                                                       vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__exponential_unit__DOT__divider__DOT__divisor[3U])) 
+                                                   | (vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__exponential_unit__DOT__divider__DOT__r[3U] 
+                                                      >> 0x1fU))) 
+                                                 & ((IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__unit_rst_n) 
+                                                    & vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__exponential_unit__DOT__divider__DOT__unsigned_divider__DOT__quotient[0U])));
+    __Vtemp_18[0U] = (vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__divider__DOT__r[0U] 
+                      << 1U);
+    __Vtemp_18[1U] = ((vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__divider__DOT__r[0U] 
+                       >> 0x1fU) | (vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__divider__DOT__r[1U] 
+                                    << 1U));
+    __Vtemp_18[2U] = ((vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__divider__DOT__r[1U] 
+                       >> 0x1fU) | (vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__divider__DOT__r[2U] 
+                                    << 1U));
+    __Vtemp_18[3U] = ((vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__divider__DOT__r[2U] 
+                       >> 0x1fU) | (vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__divider__DOT__r[3U] 
+                                    << 1U));
+    __Vtemp_18[4U] = (vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__divider__DOT__r[3U] 
+                      >> 0x1fU);
+    __Vtemp_19[0U] = vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__divider__DOT__divisor[0U];
+    __Vtemp_19[1U] = vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__divider__DOT__divisor[1U];
+    __Vtemp_19[2U] = vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__divider__DOT__divisor[2U];
+    __Vtemp_19[3U] = vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__divider__DOT__divisor[3U];
+    __Vtemp_19[4U] = 0U;
+    vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__divider__DOT__round_up 
+        = (VL_GT_W(5, __Vtemp_18, __Vtemp_19) | ((0U 
+                                                  == 
+                                                  ((((((vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__divider__DOT__r[0U] 
+                                                        << 1U) 
+                                                       ^ 
+                                                       vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__divider__DOT__divisor[0U]) 
+                                                      | (((vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__divider__DOT__r[0U] 
+                                                           >> 0x1fU) 
+                                                          | (vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__divider__DOT__r[1U] 
+                                                             << 1U)) 
+                                                         ^ 
+                                                         vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__divider__DOT__divisor[1U])) 
+                                                     | (((vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__divider__DOT__r[1U] 
+                                                          >> 0x1fU) 
+                                                         | (vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__divider__DOT__r[2U] 
+                                                            << 1U)) 
+                                                        ^ 
+                                                        vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__divider__DOT__divisor[2U])) 
+                                                    | (((vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__divider__DOT__r[2U] 
+                                                         >> 0x1fU) 
+                                                        | (vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__divider__DOT__r[3U] 
+                                                           << 1U)) 
+                                                       ^ 
+                                                       vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__divider__DOT__divisor[3U])) 
+                                                   | (vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__divider__DOT__r[3U] 
+                                                      >> 0x1fU))) 
+                                                 & ((IData)(vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__unit_rst_n) 
+                                                    & vlSelf->anvil_en1_top__DOT__parent__DOT__legal_datapath__DOT__audio_subsample__DOT__vectors__DOT__activation__DOT__divider__DOT__unsigned_divider__DOT__quotient[0U])));
+}

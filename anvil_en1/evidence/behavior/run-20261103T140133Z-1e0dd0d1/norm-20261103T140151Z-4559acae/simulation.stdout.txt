@@ -1,0 +1,2 @@
+SUMMARY norm cases=117 comparisons=205200 stalled=191103 cycles=18057508
+- tests/norm_tb.sv:207: Verilog $finish

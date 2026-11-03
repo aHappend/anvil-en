@@ -1,0 +1,2 @@
+SUMMARY owner_icarus pairs=1 projections=4 reads=9193 responses=9193 reset_checks=4 cycles=75844
+tests/owner_tile_tb.sv:171: $finish called at 758436000 (1ps)

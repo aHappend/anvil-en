@@ -1,0 +1,4 @@
+PROGRESS owner_tile comparisons=269 cycles=19072200
+PROGRESS owner_tile comparisons=590 cycles=41506840
+PROGRESS owner_tile comparisons=856 cycles=63851012
+SUMMARY owner_tile comparisons=1116 rejected=108 projections=5376 reads=10272156 responses=10272156 reset_checks=5580 cycles=85858601

@@ -1,0 +1,56 @@
+%Warning-WIDTHTRUNC: rtl/anvil_en1_allocation_ledger.sv:64:34: Logical operator LOGAND expects 1 bit on the LHS, but LHS's VARREF 'REPORT_BREAKDOWN' generates 32 bits.
+                                                             : ... note: In instance 'ledger_schedule_tb.device'
+   64 |             if (REPORT_BREAKDOWN && term<22 && term!=16 && term!=17)
+      |                                  ^~
+                     ... For warning description see https://verilator.org/warn/WIDTHTRUNC?v=5.020
+                     ... Use "/* verilator lint_off WIDTHTRUNC */" and lint_on around source to disable this message.
+%Warning-WIDTHTRUNC: rtl/anvil_en1_allocation_ledger.sv:68:34: Logical operator LOGAND expects 1 bit on the LHS, but LHS's VARREF 'REPORT_BREAKDOWN' generates 32 bits.
+                                                             : ... note: In instance 'ledger_schedule_tb.device'
+   68 |             if (REPORT_BREAKDOWN && ((term>=5 && term<=16) || term==22))
+      |                                  ^~
+%Warning-WIDTHTRUNC: rtl/anvil_en1_allocation_ledger.sv:85:34: Logical operator LOGAND expects 1 bit on the LHS, but LHS's VARREF 'REPORT_BREAKDOWN' generates 32 bits.
+                                                             : ... note: In instance 'ledger_schedule_tb.device'
+   85 |             if (REPORT_BREAKDOWN && term==27)
+      |                                  ^~
+%Warning-WIDTHTRUNC: rtl/anvil_en1_allocation_ledger.sv:116:38: Logical operator LOGAND expects 1 bit on the LHS, but LHS's VARREF 'REPORT_BREAKDOWN' generates 32 bits.
+                                                              : ... note: In instance 'ledger_schedule_tb.device'
+  116 |                 if (REPORT_BREAKDOWN && term_index < 22 &&
+      |                                      ^~
+%Warning-WIDTHTRUNC: rtl/anvil_en1_allocation_ledger.sv:123:43: Logical operator LOGAND expects 1 bit on the LHS, but LHS's VARREF 'REPORT_BREAKDOWN' generates 32 bits.
+                                                              : ... note: In instance 'ledger_schedule_tb.device'
+  123 |                 else if (REPORT_BREAKDOWN && term_index == 27)
+      |                                           ^~
+%Warning-WIDTHTRUNC: rtl/anvil_en1_allocation_ledger.sv:120:38: Logical operator LOGAND expects 1 bit on the LHS, but LHS's VARREF 'REPORT_BREAKDOWN' generates 32 bits.
+                                                              : ... note: In instance 'ledger_schedule_tb.device'
+  120 |                 if (REPORT_BREAKDOWN && ((term_index >= 5 && term_index <= 16) ||
+      |                                      ^~
+%Warning-WIDTHTRUNC: rtl/anvil_en1_allocation_ledger.sv:173:31: Logical operator LOGAND expects 1 bit on the LHS, but LHS's VARREF 'identical' generates 32 bits.
+                                                              : ... note: In instance 'ledger_schedule_tb.device'
+  173 |                 if (identical && node_source == metric)
+      |                               ^~
+%Warning-WIDTHTRUNC: rtl/anvil_en1_allocation_ledger.sv:216:21: Logical operator LOGNOT expects 1 bit on the LHS, but LHS's FUNCREF 'node_present' generates 32 bits.
+                                                              : ... note: In instance 'ledger_schedule_tb.device'
+  216 |                 if (!node_present(metric, node*SPAN, SPAN)) begin : zero_node
+      |                     ^
+%Warning-WIDTHTRUNC: rtl/anvil_en1_allocation_ledger.sv:249:13: Logical operator LOGNOT expects 1 bit on the LHS, but LHS's VARREF 'REPORT_BREAKDOWN' generates 32 bits.
+                                                              : ... note: In instance 'ledger_schedule_tb.device'
+  249 |         if (!REPORT_BREAKDOWN && metric < 2) begin : omitted_breakdown
+      |             ^
+%Warning-WIDTHTRUNC: rtl/anvil_en1_allocation_ledger.sv:187:67: Logical operator LOGAND expects 1 bit on the LHS, but LHS's FUNCREF 'node_present' generates 32 bits.
+                                                              : ... note: In instance 'ledger_schedule_tb.device'
+  187 |                         if (node_present(metric, node*span, span) &&
+      |                                                                   ^~
+%Warning-WIDTHTRUNC: rtl/anvil_en1_allocation_ledger.sv:191:69: Logical operator COND expects 1 bit on the Conditional Test, but Conditional Test's VARREF 'REPORT_BREAKDOWN' generates 32 bits.
+                                                              : ... note: In instance 'ledger_schedule_tb.device'
+  191 |             registered_nodes = registered_nodes + (REPORT_BREAKDOWN ? 8 : 6);
+      |                                                                     ^
+%Warning-WIDTHEXPAND: rtl/anvil_en1_allocation_ledger.sv:289:59: Operator ADD expects 64 bits on the LHS, but LHS's VARREF 'CONTROLLER_BITS' generates 32 bits.
+                                                               : ... note: In instance 'ledger_schedule_tb.device'
+  289 |     assign controller_bytes = rst_n ? 64'((CONTROLLER_BITS+7) >> 3) : 64'd0;
+      |                                                           ^
+%Warning-UNOPTFLAT: rtl/anvil_en1_allocation_ledger.sv:94:30: Signal unoptimizable: Circular combinational logic: 'ledger_schedule_tb.device.stage_values'
+   94 |     wire [128*NODE_BITS-1:0] stage_values [0:4];
+      |                              ^~~~~~~~~~~~
+                    rtl/anvil_en1_allocation_ledger.sv:94:30:      Example path: ledger_schedule_tb.device.stage_values
+                    rtl/anvil_en1_allocation_ledger.sv:219:66:      Example path: ASSIGNW
+                    rtl/anvil_en1_allocation_ledger.sv:94:30:      Example path: ledger_schedule_tb.device.stage_values

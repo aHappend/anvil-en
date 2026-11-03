@@ -1,0 +1,2 @@
+SUMMARY workspace_icarus comparisons=16 cycles=298 reads=13 writes=13
+tests/workspace_tb.sv:183: $finish called at 2980 (1s)

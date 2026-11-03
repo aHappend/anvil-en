@@ -1,0 +1,2 @@
+SUMMARY tensor_image_icarus reads=8656 responses=8656 cycles=68159
+tests/tensor_image_tb.sv:125: $finish called at 681586 (1s)

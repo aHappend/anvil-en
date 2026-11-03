@@ -1,0 +1,1 @@
+{"status": "passed", "receipt": "evidence/behavior/run-20261103T140133Z-1e0dd0d1/allocation-bounds-20261103T141709Z-7510c7ef/receipt.json", "failure": null}

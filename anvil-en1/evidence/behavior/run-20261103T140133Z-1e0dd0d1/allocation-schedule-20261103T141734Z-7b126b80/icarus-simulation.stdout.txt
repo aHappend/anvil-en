@@ -1,0 +1,6 @@
+REPORT case=0 edge=11 model=1 flags=1000 replay=512 equivalent=544 shadow=672 scratch=128 text=416 text_shadow=544
+REPORT case=1 edge=21 model=2 flags=1000 replay=768 equivalent=800 shadow=928 scratch=128 text=672 text_shadow=800
+REPORT case=2 edge=22 model=1 flags=1000 replay=1024 equivalent=1056 shadow=1184 scratch=128 text=928 text_shadow=1056
+REPORT case=3 edge=34 model=2 flags=1000 replay=1280 equivalent=1312 shadow=1440 scratch=128 text=1184 text_shadow=1312
+SUMMARY ledger_schedule accepted=4 compared=4 failures=0
+tests/ledger_schedule_tb.sv:120: $finish called at 380000 (1ps)

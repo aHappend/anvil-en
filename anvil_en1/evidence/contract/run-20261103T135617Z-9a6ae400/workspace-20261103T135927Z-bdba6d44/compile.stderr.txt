@@ -1,0 +1,106 @@
+%Warning-WIDTHTRUNC: rtl/anvil_en1_replay_workspace.sv:115:49: Logical operator COND expects 1 bit on the Conditional Test, but Conditional Test's VARREF 'COMPACT' generates 32 bits.
+                                                             : ... note: In instance 'anvil_en1_replay_workspace'
+  115 |         localparam integer MEMO_WORDS = COMPACT ? 512 : 2048;
+      |                                                 ^
+                     ... For warning description see https://verilator.org/warn/WIDTHTRUNC?v=5.020
+                     ... Use "/* verilator lint_off WIDTHTRUNC */" and lint_on around source to disable this message.
+%Warning-WIDTHTRUNC: rtl/anvil_en1_replay_workspace.sv:174:45: Logical operator COND expects 1 bit on the Conditional Test, but Conditional Test's VARREF 'COMPACT' generates 32 bits.
+                                                             : ... note: In instance 'anvil_en1_replay_workspace'
+  174 |                     domain_length = COMPACT ? 12'd8 :
+      |                                             ^
+%Warning-WIDTHTRUNC: rtl/anvil_en1_replay_workspace.sv:290:52: Logical operator LOGAND expects 1 bit on the LHS, but LHS's VARREF 'COMPACT' generates 32 bits.
+                                                             : ... note: In instance 'anvil_en1_replay_workspace'
+  290 |         wire [31:0] request_vector_bytes = COMPACT &&
+      |                                                    ^~
+%Warning-WIDTHTRUNC: rtl/anvil_en1_replay_workspace.sv:307:51: Logical operator COND expects 1 bit on the Conditional Test, but Conditional Test's VARREF 'COMPACT' generates 32 bits.
+                                                             : ... note: In instance 'anvil_en1_replay_workspace'
+  307 |         wire [15:0] private_actual_head = COMPACT ?
+      |                                                   ^
+%Warning-WIDTHTRUNC: rtl/anvil_en1_replay_workspace.sv:309:49: Logical operator COND expects 1 bit on the Conditional Test, but Conditional Test's VARREF 'COMPACT' generates 32 bits.
+                                                             : ... note: In instance 'anvil_en1_replay_workspace'
+  309 |         wire [15:0] private_ple_bytes = COMPACT ? 16'd8 : 16'd512;
+      |                                                 ^
+%Warning-WIDTHTRUNC: rtl/anvil_en1_replay_workspace.sv:365:50: Logical operator COND expects 1 bit on the Conditional Test, but Conditional Test's VARREF 'COMPACT' generates 32 bits.
+                                                             : ... note: In instance 'anvil_en1_replay_workspace'
+  365 |             ({28'd0, slot_hold[3:0]} << (COMPACT ? 9 : 11));
+      |                                                  ^
+%Warning-WIDTHTRUNC: rtl/anvil_en1_replay_workspace.sv:392:69: Logical operator COND expects 1 bit on the Conditional Test, but Conditional Test's VARREF 'COMPACT' generates 32 bits.
+                                                             : ... note: In instance 'anvil_en1_replay_workspace'
+  392 |             32'(MEMO_BASE) + ({26'd0, copy_source_slot} << (COMPACT ? 9 : 11)) :
+      |                                                                     ^
+%Warning-WIDTHTRUNC: rtl/anvil_en1_replay_workspace.sv:410:51: Logical operator LOGAND expects 1 bit on the LHS, but LHS's VARREF 'COMPACT' generates 32 bits.
+                                                             : ... note: In instance 'anvil_en1_replay_workspace'
+  410 |         wire [31:0] popped_vector_bytes = COMPACT &&
+      |                                                   ^~
+%Warning-WIDTHTRUNC: rtl/anvil_en1_replay_workspace.sv:430:51: Logical operator LOGAND expects 1 bit on the LHS, but LHS's VARREF 'COMPACT' generates 32 bits.
+                                                             : ... note: In instance 'anvil_en1_replay_workspace'
+  430 |         wire [31:0] replaced_memo_bytes = COMPACT &&
+      |                                                   ^~
+%Warning-WIDTHEXPAND: rtl/anvil_en1_replay_workspace.sv:472:64: Operator LT expects 7 bits on the LHS, but LHS's VARREF 'slot_hold' generates 6 bits.
+                                                              : ... note: In instance 'anvil_en1_replay_workspace'
+  472 |         wire vector_grant_ok = vector_capacity_ok && slot_hold < depth &&
+      |                                                                ^
+%Warning-WIDTHTRUNC: rtl/anvil_en1_replay_workspace.sv:486:51: Logical operator LOGAND expects 1 bit on the LHS, but LHS's VARREF 'COMPACT' generates 32 bits.
+                                                             : ... note: In instance 'anvil_en1_replay_workspace'
+  486 |         wire [31:0] budget_victim_bytes = COMPACT &&
+      |                                                   ^~
+%Warning-WIDTHEXPAND: rtl/anvil_en1_replay_workspace.sv:503:40: Operator LT expects 7 bits on the LHS, but LHS's VARREF 'slot_hold' generates 6 bits.
+                                                              : ... note: In instance 'anvil_en1_replay_workspace'
+  503 |         wire tag_vector_ok = slot_hold < depth && frame_occupied[slot_hold] &&
+      |                                        ^
+%Warning-WIDTHTRUNC: rtl/anvil_en1_replay_workspace.sv:553:32: Bit extraction of var[33:0] requires 6 bit index, not 8 bits.
+                                                             : ... note: In instance 'anvil_en1_replay_workspace'
+  553 |                         scalars[scalar_index_hold] <= 0;
+      |                                ^
+%Warning-WIDTHTRUNC: rtl/anvil_en1_replay_workspace.sv:555:32: Bit extraction of var[33:0] requires 6 bit index, not 8 bits.
+                                                             : ... note: In instance 'anvil_en1_replay_workspace'
+  555 |                         scalars[scalar_index_hold] <= 1;
+      |                                ^
+%Warning-WIDTHEXPAND: rtl/anvil_en1_replay_workspace.sv:563:50: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'vector_bit_index' generates 9 bits.
+                                                              : ... note: In instance 'anvil_en1_replay_workspace'
+  563 |                 wire selected = vector_bit_index == INDEX;
+      |                                                  ^~
+%Warning-WIDTHEXPAND: rtl/anvil_en1_replay_workspace.sv:564:60: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'history_source_index' generates 9 bits.
+                                                              : ... note: In instance 'anvil_en1_replay_workspace'
+  564 |                 wire history_source = history_source_index == INDEX;
+      |                                                            ^~
+%Warning-WIDTHEXPAND: rtl/anvil_en1_replay_workspace.sv:634:32: Operator ADD expects 64 bits on the LHS, but LHS's VARREF 'METADATA_BITS' generates 32 bits.
+                                                              : ... note: In instance 'anvil_en1_replay_workspace'
+  634 |             64'((METADATA_BITS + 7) >> 3) : 64'd0;
+      |                                ^
+%Warning-WIDTHEXPAND: rtl/anvil_en1_replay_workspace.sv:635:64: Operator ADD expects 64 bits on the LHS, but LHS's VARREF 'CONTROLLER_BITS' generates 32 bits.
+                                                              : ... note: In instance 'anvil_en1_replay_workspace'
+  635 |         assign controller_bytes = rst_n ? 64'((CONTROLLER_BITS + 7) >> 3) : 64'd0;
+      |                                                                ^
+%Warning-WIDTHEXPAND: rtl/anvil_en1_replay_workspace.sv:904:67: Operator GTE expects 32 bits on the LHS, but LHS's VARREF 'scalar_index_hold' generates 8 bits.
+                                                              : ... note: In instance 'anvil_en1_replay_workspace'
+  904 |                             target_hold == 0 && scalar_index_hold >= SCALAR_WORDS) begin
+      |                                                                   ^~
+%Warning-WIDTHEXPAND: rtl/anvil_en1_replay_workspace.sv:941:48: Operator GTE expects 7 bits on the LHS, but LHS's VARREF 'slot_hold' generates 6 bits.
+                                                              : ... note: In instance 'anvil_en1_replay_workspace'
+  941 |                         end else if (slot_hold >= depth || !frame_occupied[slot_hold]) begin
+      |                                                ^~
+%Warning-WIDTHEXPAND: rtl/anvil_en1_replay_workspace.sv:1055:65: Operator ADD expects 32 bits on the RHS, but RHS's VARREF 'continuation_index' generates 3 bits.
+                                                               : ... note: In instance 'anvil_en1_replay_workspace'
+ 1055 |                         backing_address_hold <= 18'(scalar_base + continuation_index);
+      |                                                                 ^
+%Warning-WIDTHEXPAND: rtl/anvil_en1_replay_workspace.sv:1103:65: Operator ADD expects 32 bits on the RHS, but RHS's VARREF 'continuation_index' generates 3 bits.
+                                                               : ... note: In instance 'anvil_en1_replay_workspace'
+ 1103 |                         backing_address_hold <= 18'(scalar_base + continuation_index);
+      |                                                                 ^
+%Warning-WIDTHEXPAND: rtl/anvil_en1_replay_workspace.sv:1433:78: Operator ADD expects 32 bits on the RHS, but RHS's VARREF 'pair_index' generates 12 bits.
+                                                               : ... note: In instance 'anvil_en1_replay_workspace'
+ 1433 |                             backing_address_hold <= 18'(selected_vector_base + pair_index);
+      |                                                                              ^
+%Warning-WIDTHEXPAND: rtl/anvil_en1_replay_workspace.sv:1452:70: Operator ADD expects 32 bits on the RHS, but RHS's VARREF 'pair_index' generates 12 bits.
+                                                               : ... note: In instance 'anvil_en1_replay_workspace'
+ 1452 |                         backing_address_hold <= 18'(copy_source_base + pair_index);
+      |                                                                      ^
+%Warning-WIDTHEXPAND: rtl/anvil_en1_replay_workspace.sv:1463:75: Operator ADD expects 32 bits on the RHS, but RHS's VARREF 'pair_index' generates 12 bits.
+                                                               : ... note: In instance 'anvil_en1_replay_workspace'
+ 1463 |                         backing_address_hold <= 18'(copy_destination_base + pair_index);
+      |                                                                           ^
+%Warning-WIDTHEXPAND: rtl/anvil_en1_replay_workspace.sv:1535:69: Operator ADD expects 32 bits on the RHS, but RHS's VARREF 'scalar_index_hold' generates 8 bits.
+                                                               : ... note: In instance 'anvil_en1_replay_workspace'
+ 1535 |                             backing_address_hold <= 18'(scalar_base + scalar_index_hold);
+      |                                                                     ^

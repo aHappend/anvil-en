@@ -1,0 +1,1 @@
+{"status": "passed", "receipt": "evidence/behavior/run-20261103T140133Z-1e0dd0d1/allocation-schedule-20261103T141734Z-7b126b80/receipt.json", "failure": null}

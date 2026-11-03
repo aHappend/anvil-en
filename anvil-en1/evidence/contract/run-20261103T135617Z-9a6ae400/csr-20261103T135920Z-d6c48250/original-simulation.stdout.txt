@@ -1,0 +1,1 @@
+SUMMARY csr transactions=1080 comparisons=4320 clear_coincidences=1 cycles=7628

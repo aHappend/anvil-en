@@ -1,0 +1,6 @@
+%Warning-WIDTHEXPAND: rtl/anvil_en1_allocation_guard.sv:28:59: Operator ADD expects 64 bits on the LHS, but LHS's VARREF 'CONTROLLER_BITS' generates 32 bits.
+                                                             : ... note: In instance 'anvil_en1_allocation_guard'
+   28 |     assign controller_bytes = rst_n ? 64'((CONTROLLER_BITS+7) >> 3) : 64'd0;
+      |                                                           ^
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.020
+                      ... Use "/* verilator lint_off WIDTHEXPAND */" and lint_on around source to disable this message.

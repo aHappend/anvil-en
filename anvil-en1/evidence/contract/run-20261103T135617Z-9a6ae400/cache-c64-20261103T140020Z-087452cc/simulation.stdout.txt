@@ -1,0 +1,2 @@
+SUMMARY cache capacity=64 meta=549 fetch=277 hits=130 misses=140 regen=140 aliases=266 cycles=7731
+- tests/cache_tb.sv:372: Verilog $finish

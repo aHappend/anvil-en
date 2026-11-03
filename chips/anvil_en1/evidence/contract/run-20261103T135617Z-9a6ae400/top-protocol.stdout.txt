@@ -1,0 +1,6 @@
+PROGRESS phase=verilator-compile elapsed_s=30 receipt=evidence/contract/run-20261103T135617Z-9a6ae400/top-protocol-20261103T135617Z-9aaac562/receipt.json
+PROGRESS phase=verilator-compile elapsed_s=60 receipt=evidence/contract/run-20261103T135617Z-9a6ae400/top-protocol-20261103T135617Z-9aaac562/receipt.json
+PROGRESS phase=verilator-compile elapsed_s=90 receipt=evidence/contract/run-20261103T135617Z-9a6ae400/top-protocol-20261103T135617Z-9aaac562/receipt.json
+PROGRESS phase=verilator-compile elapsed_s=120 receipt=evidence/contract/run-20261103T135617Z-9a6ae400/top-protocol-20261103T135617Z-9aaac562/receipt.json
+PROGRESS phase=verilator-compile elapsed_s=150 receipt=evidence/contract/run-20261103T135617Z-9a6ae400/top-protocol-20261103T135617Z-9aaac562/receipt.json
+{"status": "passed", "receipt": "evidence/contract/run-20261103T135617Z-9a6ae400/top-protocol-20261103T135617Z-9aaac562/receipt.json", "failure": null}

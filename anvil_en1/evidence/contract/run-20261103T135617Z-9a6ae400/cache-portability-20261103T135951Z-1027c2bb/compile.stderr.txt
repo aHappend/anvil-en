@@ -1,0 +1,4 @@
+rtl/anvil_en1_kv_shared_cache.sv:1: warning: timescale for anvil_en1_kv_shared_cache inherited from another file.
+tests/cache_tb.sv:1: ...: The inherited timescale is here.
+rtl/anvil_en1_geometry.sv:1: warning: timescale for anvil_en1_geometry inherited from another file.
+tests/cache_tb.sv:1: ...: The inherited timescale is here.

@@ -1,0 +1,1 @@
+{"status": "passed", "receipt": "evidence/contract/run-20261103T135617Z-9a6ae400/csr-20261103T135920Z-d6c48250/receipt.json", "failure": null}

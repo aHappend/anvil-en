@@ -1,0 +1,1361 @@
+%Warning-PINMISSING: rtl/anvil_en1_audio_attention_head.sv:122:23: Cell has missing pin: 'arithmetic_valid'
+  122 |     anvil_en1_softcap cap (
+      |                       ^~~
+                     ... For warning description see https://verilator.org/warn/PINMISSING?v=5.020
+                     ... Use "/* verilator lint_off PINMISSING */" and lint_on around source to disable this message.
+%Warning-PINMISSING: rtl/anvil_en1_audio_attention_head.sv:122:23: Cell has missing pin: 'arithmetic_ready'
+  122 |     anvil_en1_softcap cap (
+      |                       ^~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_attention_head.sv:122:23: Cell has missing pin: 'arithmetic_operation'
+  122 |     anvil_en1_softcap cap (
+      |                       ^~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_attention_head.sv:122:23: Cell has missing pin: 'arithmetic_a'
+  122 |     anvil_en1_softcap cap (
+      |                       ^~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_attention_head.sv:122:23: Cell has missing pin: 'arithmetic_b'
+  122 |     anvil_en1_softcap cap (
+      |                       ^~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_attention_head.sv:122:23: Cell has missing pin: 'arithmetic_result_valid'
+  122 |     anvil_en1_softcap cap (
+      |                       ^~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_attention_head.sv:122:23: Cell has missing pin: 'arithmetic_result_ready'
+  122 |     anvil_en1_softcap cap (
+      |                       ^~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_attention_head.sv:122:23: Cell has missing pin: 'arithmetic_result_data'
+  122 |     anvil_en1_softcap cap (
+      |                       ^~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_attention_head.sv:122:23: Cell has missing pin: 'arithmetic_result_error'
+  122 |     anvil_en1_softcap cap (
+      |                       ^~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_attention_residual.sv:323:34: Cell has missing pin: 'arithmetic_valid'
+  323 |     anvil_en1_clipped_projection post_projection (
+      |                                  ^~~~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_attention_residual.sv:323:34: Cell has missing pin: 'arithmetic_ready'
+  323 |     anvil_en1_clipped_projection post_projection (
+      |                                  ^~~~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_attention_residual.sv:323:34: Cell has missing pin: 'arithmetic_operation'
+  323 |     anvil_en1_clipped_projection post_projection (
+      |                                  ^~~~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_attention_residual.sv:323:34: Cell has missing pin: 'arithmetic_a'
+  323 |     anvil_en1_clipped_projection post_projection (
+      |                                  ^~~~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_attention_residual.sv:323:34: Cell has missing pin: 'arithmetic_b'
+  323 |     anvil_en1_clipped_projection post_projection (
+      |                                  ^~~~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_attention_residual.sv:323:34: Cell has missing pin: 'arithmetic_result_valid'
+  323 |     anvil_en1_clipped_projection post_projection (
+      |                                  ^~~~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_attention_residual.sv:323:34: Cell has missing pin: 'arithmetic_result_ready'
+  323 |     anvil_en1_clipped_projection post_projection (
+      |                                  ^~~~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_attention_residual.sv:323:34: Cell has missing pin: 'arithmetic_result_data'
+  323 |     anvil_en1_clipped_projection post_projection (
+      |                                  ^~~~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_attention_residual.sv:323:34: Cell has missing pin: 'arithmetic_result_error'
+  323 |     anvil_en1_clipped_projection post_projection (
+      |                                  ^~~~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_attention_residual.sv:365:27: Cell has missing pin: 'arithmetic_valid'
+  365 |     anvil_en1_native_norm norm (
+      |                           ^~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_attention_residual.sv:365:27: Cell has missing pin: 'arithmetic_ready'
+  365 |     anvil_en1_native_norm norm (
+      |                           ^~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_attention_residual.sv:365:27: Cell has missing pin: 'arithmetic_operation'
+  365 |     anvil_en1_native_norm norm (
+      |                           ^~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_attention_residual.sv:365:27: Cell has missing pin: 'arithmetic_a'
+  365 |     anvil_en1_native_norm norm (
+      |                           ^~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_attention_residual.sv:365:27: Cell has missing pin: 'arithmetic_b'
+  365 |     anvil_en1_native_norm norm (
+      |                           ^~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_attention_residual.sv:365:27: Cell has missing pin: 'arithmetic_result_valid'
+  365 |     anvil_en1_native_norm norm (
+      |                           ^~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_attention_residual.sv:365:27: Cell has missing pin: 'arithmetic_result_ready'
+  365 |     anvil_en1_native_norm norm (
+      |                           ^~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_attention_residual.sv:365:27: Cell has missing pin: 'arithmetic_result_data'
+  365 |     anvil_en1_native_norm norm (
+      |                           ^~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_attention_residual.sv:365:27: Cell has missing pin: 'arithmetic_result_error'
+  365 |     anvil_en1_native_norm norm (
+      |                           ^~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_conv_row.sv:110:26: Cell has missing pin: 'arithmetic_valid'
+  110 |     anvil_en1_projection convolution (
+      |                          ^~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_conv_row.sv:110:26: Cell has missing pin: 'arithmetic_ready'
+  110 |     anvil_en1_projection convolution (
+      |                          ^~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_conv_row.sv:110:26: Cell has missing pin: 'arithmetic_operation'
+  110 |     anvil_en1_projection convolution (
+      |                          ^~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_conv_row.sv:110:26: Cell has missing pin: 'arithmetic_a'
+  110 |     anvil_en1_projection convolution (
+      |                          ^~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_conv_row.sv:110:26: Cell has missing pin: 'arithmetic_b'
+  110 |     anvil_en1_projection convolution (
+      |                          ^~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_conv_row.sv:110:26: Cell has missing pin: 'arithmetic_result_valid'
+  110 |     anvil_en1_projection convolution (
+      |                          ^~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_conv_row.sv:110:26: Cell has missing pin: 'arithmetic_result_ready'
+  110 |     anvil_en1_projection convolution (
+      |                          ^~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_conv_row.sv:110:26: Cell has missing pin: 'arithmetic_result_data'
+  110 |     anvil_en1_projection convolution (
+      |                          ^~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_conv_row.sv:110:26: Cell has missing pin: 'arithmetic_result_error'
+  110 |     anvil_en1_projection convolution (
+      |                          ^~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_depthwise_row.sv:88:26: Cell has missing pin: 'arithmetic_valid'
+   88 |     anvil_en1_projection depthwise (
+      |                          ^~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_depthwise_row.sv:88:26: Cell has missing pin: 'arithmetic_ready'
+   88 |     anvil_en1_projection depthwise (
+      |                          ^~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_depthwise_row.sv:88:26: Cell has missing pin: 'arithmetic_operation'
+   88 |     anvil_en1_projection depthwise (
+      |                          ^~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_depthwise_row.sv:88:26: Cell has missing pin: 'arithmetic_a'
+   88 |     anvil_en1_projection depthwise (
+      |                          ^~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_depthwise_row.sv:88:26: Cell has missing pin: 'arithmetic_b'
+   88 |     anvil_en1_projection depthwise (
+      |                          ^~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_depthwise_row.sv:88:26: Cell has missing pin: 'arithmetic_result_valid'
+   88 |     anvil_en1_projection depthwise (
+      |                          ^~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_depthwise_row.sv:88:26: Cell has missing pin: 'arithmetic_result_ready'
+   88 |     anvil_en1_projection depthwise (
+      |                          ^~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_depthwise_row.sv:88:26: Cell has missing pin: 'arithmetic_result_data'
+   88 |     anvil_en1_projection depthwise (
+      |                          ^~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_depthwise_row.sv:88:26: Cell has missing pin: 'arithmetic_result_error'
+   88 |     anvil_en1_projection depthwise (
+      |                          ^~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_glu_component.sv:75:27: Cell has missing pin: 'arithmetic_valid'
+   75 |     anvil_en1_native_norm norm (
+      |                           ^~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_glu_component.sv:75:27: Cell has missing pin: 'arithmetic_ready'
+   75 |     anvil_en1_native_norm norm (
+      |                           ^~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_glu_component.sv:75:27: Cell has missing pin: 'arithmetic_operation'
+   75 |     anvil_en1_native_norm norm (
+      |                           ^~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_glu_component.sv:75:27: Cell has missing pin: 'arithmetic_a'
+   75 |     anvil_en1_native_norm norm (
+      |                           ^~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_glu_component.sv:75:27: Cell has missing pin: 'arithmetic_b'
+   75 |     anvil_en1_native_norm norm (
+      |                           ^~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_glu_component.sv:75:27: Cell has missing pin: 'arithmetic_result_valid'
+   75 |     anvil_en1_native_norm norm (
+      |                           ^~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_glu_component.sv:75:27: Cell has missing pin: 'arithmetic_result_ready'
+   75 |     anvil_en1_native_norm norm (
+      |                           ^~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_glu_component.sv:75:27: Cell has missing pin: 'arithmetic_result_data'
+   75 |     anvil_en1_native_norm norm (
+      |                           ^~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_glu_component.sv:75:27: Cell has missing pin: 'arithmetic_result_error'
+   75 |     anvil_en1_native_norm norm (
+      |                           ^~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_glu_component.sv:107:34: Cell has missing pin: 'arithmetic_valid'
+  107 |     anvil_en1_clipped_projection projection (
+      |                                  ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_glu_component.sv:107:34: Cell has missing pin: 'arithmetic_ready'
+  107 |     anvil_en1_clipped_projection projection (
+      |                                  ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_glu_component.sv:107:34: Cell has missing pin: 'arithmetic_operation'
+  107 |     anvil_en1_clipped_projection projection (
+      |                                  ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_glu_component.sv:107:34: Cell has missing pin: 'arithmetic_a'
+  107 |     anvil_en1_clipped_projection projection (
+      |                                  ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_glu_component.sv:107:34: Cell has missing pin: 'arithmetic_b'
+  107 |     anvil_en1_clipped_projection projection (
+      |                                  ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_glu_component.sv:107:34: Cell has missing pin: 'arithmetic_result_valid'
+  107 |     anvil_en1_clipped_projection projection (
+      |                                  ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_glu_component.sv:107:34: Cell has missing pin: 'arithmetic_result_ready'
+  107 |     anvil_en1_clipped_projection projection (
+      |                                  ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_glu_component.sv:107:34: Cell has missing pin: 'arithmetic_result_data'
+  107 |     anvil_en1_clipped_projection projection (
+      |                                  ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_glu_component.sv:107:34: Cell has missing pin: 'arithmetic_result_error'
+  107 |     anvil_en1_clipped_projection projection (
+      |                                  ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_glu_component.sv:135:26: Cell has missing pin: 'arithmetic_valid'
+  135 |     anvil_en1_geglu_pair glu (
+      |                          ^~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_glu_component.sv:135:26: Cell has missing pin: 'arithmetic_ready'
+  135 |     anvil_en1_geglu_pair glu (
+      |                          ^~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_glu_component.sv:135:26: Cell has missing pin: 'arithmetic_operation'
+  135 |     anvil_en1_geglu_pair glu (
+      |                          ^~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_glu_component.sv:135:26: Cell has missing pin: 'arithmetic_a'
+  135 |     anvil_en1_geglu_pair glu (
+      |                          ^~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_glu_component.sv:135:26: Cell has missing pin: 'arithmetic_b'
+  135 |     anvil_en1_geglu_pair glu (
+      |                          ^~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_glu_component.sv:135:26: Cell has missing pin: 'arithmetic_result_valid'
+  135 |     anvil_en1_geglu_pair glu (
+      |                          ^~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_glu_component.sv:135:26: Cell has missing pin: 'arithmetic_result_ready'
+  135 |     anvil_en1_geglu_pair glu (
+      |                          ^~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_glu_component.sv:135:26: Cell has missing pin: 'arithmetic_result_data'
+  135 |     anvil_en1_geglu_pair glu (
+      |                          ^~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_glu_component.sv:135:26: Cell has missing pin: 'arithmetic_result_error'
+  135 |     anvil_en1_geglu_pair glu (
+      |                          ^~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_history_fold.sv:117:27: Cell has missing pin: 'arithmetic_valid'
+  117 |     anvil_en1_weight_read weight_reader (
+      |                           ^~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_history_fold.sv:117:27: Cell has missing pin: 'arithmetic_ready'
+  117 |     anvil_en1_weight_read weight_reader (
+      |                           ^~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_history_fold.sv:117:27: Cell has missing pin: 'arithmetic_operation'
+  117 |     anvil_en1_weight_read weight_reader (
+      |                           ^~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_history_fold.sv:117:27: Cell has missing pin: 'arithmetic_a'
+  117 |     anvil_en1_weight_read weight_reader (
+      |                           ^~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_history_fold.sv:117:27: Cell has missing pin: 'arithmetic_b'
+  117 |     anvil_en1_weight_read weight_reader (
+      |                           ^~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_history_fold.sv:117:27: Cell has missing pin: 'arithmetic_result_valid'
+  117 |     anvil_en1_weight_read weight_reader (
+      |                           ^~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_history_fold.sv:117:27: Cell has missing pin: 'arithmetic_result_ready'
+  117 |     anvil_en1_weight_read weight_reader (
+      |                           ^~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_history_fold.sv:117:27: Cell has missing pin: 'arithmetic_result_data'
+  117 |     anvil_en1_weight_read weight_reader (
+      |                           ^~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_history_fold.sv:117:27: Cell has missing pin: 'arithmetic_result_error'
+  117 |     anvil_en1_weight_read weight_reader (
+      |                           ^~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_layer.sv:97:40: Cell has missing pin: 'source_kind'
+   97 |     anvil_en1_audio_attention_residual attention_residual (
+      |                                        ^~~~~~~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_layer.sv:153:31: Cell has missing pin: 'vector_ram_write'
+  153 |     anvil_en1_audio_lightconv light_convolution (
+      |                               ^~~~~~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_layer.sv:153:31: Cell has missing pin: 'vector_ram_read'
+  153 |     anvil_en1_audio_lightconv light_convolution (
+      |                               ^~~~~~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_layer.sv:153:31: Cell has missing pin: 'vector_ram_waddr'
+  153 |     anvil_en1_audio_lightconv light_convolution (
+      |                               ^~~~~~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_layer.sv:153:31: Cell has missing pin: 'vector_ram_raddr'
+  153 |     anvil_en1_audio_lightconv light_convolution (
+      |                               ^~~~~~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_layer.sv:153:31: Cell has missing pin: 'vector_ram_wdata'
+  153 |     anvil_en1_audio_lightconv light_convolution (
+      |                               ^~~~~~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_layer.sv:153:31: Cell has missing pin: 'vector_ram_rdata'
+  153 |     anvil_en1_audio_lightconv light_convolution (
+      |                               ^~~~~~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_layer.sv:198:33: Cell has missing pin: 'vector_ram_write'
+  198 |     anvil_en1_audio_feedforward feed_forward2 (
+      |                                 ^~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_layer.sv:198:33: Cell has missing pin: 'vector_ram_read'
+  198 |     anvil_en1_audio_feedforward feed_forward2 (
+      |                                 ^~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_layer.sv:198:33: Cell has missing pin: 'vector_ram_waddr'
+  198 |     anvil_en1_audio_feedforward feed_forward2 (
+      |                                 ^~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_layer.sv:198:33: Cell has missing pin: 'vector_ram_raddr'
+  198 |     anvil_en1_audio_feedforward feed_forward2 (
+      |                                 ^~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_layer.sv:198:33: Cell has missing pin: 'vector_ram_wdata'
+  198 |     anvil_en1_audio_feedforward feed_forward2 (
+      |                                 ^~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_layer.sv:198:33: Cell has missing pin: 'vector_ram_rdata'
+  198 |     anvil_en1_audio_feedforward feed_forward2 (
+      |                                 ^~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_layer.sv:257:27: Cell has missing pin: 'arithmetic_valid'
+  257 |     anvil_en1_native_norm final_norm (
+      |                           ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_layer.sv:257:27: Cell has missing pin: 'arithmetic_ready'
+  257 |     anvil_en1_native_norm final_norm (
+      |                           ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_layer.sv:257:27: Cell has missing pin: 'arithmetic_operation'
+  257 |     anvil_en1_native_norm final_norm (
+      |                           ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_layer.sv:257:27: Cell has missing pin: 'arithmetic_a'
+  257 |     anvil_en1_native_norm final_norm (
+      |                           ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_layer.sv:257:27: Cell has missing pin: 'arithmetic_b'
+  257 |     anvil_en1_native_norm final_norm (
+      |                           ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_layer.sv:257:27: Cell has missing pin: 'arithmetic_result_valid'
+  257 |     anvil_en1_native_norm final_norm (
+      |                           ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_layer.sv:257:27: Cell has missing pin: 'arithmetic_result_ready'
+  257 |     anvil_en1_native_norm final_norm (
+      |                           ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_layer.sv:257:27: Cell has missing pin: 'arithmetic_result_data'
+  257 |     anvil_en1_native_norm final_norm (
+      |                           ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_layer.sv:257:27: Cell has missing pin: 'arithmetic_result_error'
+  257 |     anvil_en1_native_norm final_norm (
+      |                           ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_lightconv.sv:241:27: Cell has missing pin: 'arithmetic_valid'
+  241 |     anvil_en1_native_norm norm (
+      |                           ^~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_lightconv.sv:241:27: Cell has missing pin: 'arithmetic_ready'
+  241 |     anvil_en1_native_norm norm (
+      |                           ^~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_lightconv.sv:241:27: Cell has missing pin: 'arithmetic_operation'
+  241 |     anvil_en1_native_norm norm (
+      |                           ^~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_lightconv.sv:241:27: Cell has missing pin: 'arithmetic_a'
+  241 |     anvil_en1_native_norm norm (
+      |                           ^~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_lightconv.sv:241:27: Cell has missing pin: 'arithmetic_b'
+  241 |     anvil_en1_native_norm norm (
+      |                           ^~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_lightconv.sv:241:27: Cell has missing pin: 'arithmetic_result_valid'
+  241 |     anvil_en1_native_norm norm (
+      |                           ^~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_lightconv.sv:241:27: Cell has missing pin: 'arithmetic_result_ready'
+  241 |     anvil_en1_native_norm norm (
+      |                           ^~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_lightconv.sv:241:27: Cell has missing pin: 'arithmetic_result_data'
+  241 |     anvil_en1_native_norm norm (
+      |                           ^~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_lightconv.sv:241:27: Cell has missing pin: 'arithmetic_result_error'
+  241 |     anvil_en1_native_norm norm (
+      |                           ^~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_lightconv.sv:272:34: Cell has missing pin: 'arithmetic_valid'
+  272 |     anvil_en1_clipped_projection projection (
+      |                                  ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_lightconv.sv:272:34: Cell has missing pin: 'arithmetic_ready'
+  272 |     anvil_en1_clipped_projection projection (
+      |                                  ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_lightconv.sv:272:34: Cell has missing pin: 'arithmetic_operation'
+  272 |     anvil_en1_clipped_projection projection (
+      |                                  ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_lightconv.sv:272:34: Cell has missing pin: 'arithmetic_a'
+  272 |     anvil_en1_clipped_projection projection (
+      |                                  ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_lightconv.sv:272:34: Cell has missing pin: 'arithmetic_b'
+  272 |     anvil_en1_clipped_projection projection (
+      |                                  ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_lightconv.sv:272:34: Cell has missing pin: 'arithmetic_result_valid'
+  272 |     anvil_en1_clipped_projection projection (
+      |                                  ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_lightconv.sv:272:34: Cell has missing pin: 'arithmetic_result_ready'
+  272 |     anvil_en1_clipped_projection projection (
+      |                                  ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_lightconv.sv:272:34: Cell has missing pin: 'arithmetic_result_data'
+  272 |     anvil_en1_clipped_projection projection (
+      |                                  ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_lightconv.sv:272:34: Cell has missing pin: 'arithmetic_result_error'
+  272 |     anvil_en1_clipped_projection projection (
+      |                                  ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_lightconv.sv:312:26: Cell has missing pin: 'arithmetic_valid'
+  312 |     anvil_en1_activation activation (
+      |                          ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_lightconv.sv:312:26: Cell has missing pin: 'arithmetic_ready'
+  312 |     anvil_en1_activation activation (
+      |                          ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_lightconv.sv:312:26: Cell has missing pin: 'arithmetic_operation'
+  312 |     anvil_en1_activation activation (
+      |                          ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_lightconv.sv:312:26: Cell has missing pin: 'arithmetic_a'
+  312 |     anvil_en1_activation activation (
+      |                          ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_lightconv.sv:312:26: Cell has missing pin: 'arithmetic_b'
+  312 |     anvil_en1_activation activation (
+      |                          ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_lightconv.sv:312:26: Cell has missing pin: 'arithmetic_result_valid'
+  312 |     anvil_en1_activation activation (
+      |                          ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_lightconv.sv:312:26: Cell has missing pin: 'arithmetic_result_ready'
+  312 |     anvil_en1_activation activation (
+      |                          ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_lightconv.sv:312:26: Cell has missing pin: 'arithmetic_result_data'
+  312 |     anvil_en1_activation activation (
+      |                          ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_lightconv.sv:312:26: Cell has missing pin: 'arithmetic_result_error'
+  312 |     anvil_en1_activation activation (
+      |                          ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_output.sv:88:26: Cell has missing pin: 'arithmetic_valid'
+   88 |     anvil_en1_projection projection (
+      |                          ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_output.sv:88:26: Cell has missing pin: 'arithmetic_ready'
+   88 |     anvil_en1_projection projection (
+      |                          ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_output.sv:88:26: Cell has missing pin: 'arithmetic_operation'
+   88 |     anvil_en1_projection projection (
+      |                          ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_output.sv:88:26: Cell has missing pin: 'arithmetic_a'
+   88 |     anvil_en1_projection projection (
+      |                          ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_output.sv:88:26: Cell has missing pin: 'arithmetic_b'
+   88 |     anvil_en1_projection projection (
+      |                          ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_output.sv:88:26: Cell has missing pin: 'arithmetic_result_valid'
+   88 |     anvil_en1_projection projection (
+      |                          ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_output.sv:88:26: Cell has missing pin: 'arithmetic_result_ready'
+   88 |     anvil_en1_projection projection (
+      |                          ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_output.sv:88:26: Cell has missing pin: 'arithmetic_result_data'
+   88 |     anvil_en1_projection projection (
+      |                          ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_output.sv:88:26: Cell has missing pin: 'arithmetic_result_error'
+   88 |     anvil_en1_projection projection (
+      |                          ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_output.sv:113:27: Cell has missing pin: 'arithmetic_valid'
+  113 |     anvil_en1_weight_read bias_reader (
+      |                           ^~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_output.sv:113:27: Cell has missing pin: 'arithmetic_ready'
+  113 |     anvil_en1_weight_read bias_reader (
+      |                           ^~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_output.sv:113:27: Cell has missing pin: 'arithmetic_operation'
+  113 |     anvil_en1_weight_read bias_reader (
+      |                           ^~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_output.sv:113:27: Cell has missing pin: 'arithmetic_a'
+  113 |     anvil_en1_weight_read bias_reader (
+      |                           ^~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_output.sv:113:27: Cell has missing pin: 'arithmetic_b'
+  113 |     anvil_en1_weight_read bias_reader (
+      |                           ^~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_output.sv:113:27: Cell has missing pin: 'arithmetic_result_valid'
+  113 |     anvil_en1_weight_read bias_reader (
+      |                           ^~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_output.sv:113:27: Cell has missing pin: 'arithmetic_result_ready'
+  113 |     anvil_en1_weight_read bias_reader (
+      |                           ^~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_output.sv:113:27: Cell has missing pin: 'arithmetic_result_data'
+  113 |     anvil_en1_weight_read bias_reader (
+      |                           ^~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_output.sv:113:27: Cell has missing pin: 'arithmetic_result_error'
+  113 |     anvil_en1_weight_read bias_reader (
+      |                           ^~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_pre_attention.sv:137:27: Cell has missing pin: 'arithmetic_valid'
+  137 |     anvil_en1_native_norm norm (
+      |                           ^~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_pre_attention.sv:137:27: Cell has missing pin: 'arithmetic_ready'
+  137 |     anvil_en1_native_norm norm (
+      |                           ^~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_pre_attention.sv:137:27: Cell has missing pin: 'arithmetic_operation'
+  137 |     anvil_en1_native_norm norm (
+      |                           ^~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_pre_attention.sv:137:27: Cell has missing pin: 'arithmetic_a'
+  137 |     anvil_en1_native_norm norm (
+      |                           ^~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_pre_attention.sv:137:27: Cell has missing pin: 'arithmetic_b'
+  137 |     anvil_en1_native_norm norm (
+      |                           ^~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_pre_attention.sv:137:27: Cell has missing pin: 'arithmetic_result_valid'
+  137 |     anvil_en1_native_norm norm (
+      |                           ^~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_pre_attention.sv:137:27: Cell has missing pin: 'arithmetic_result_ready'
+  137 |     anvil_en1_native_norm norm (
+      |                           ^~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_pre_attention.sv:137:27: Cell has missing pin: 'arithmetic_result_data'
+  137 |     anvil_en1_native_norm norm (
+      |                           ^~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_pre_attention.sv:137:27: Cell has missing pin: 'arithmetic_result_error'
+  137 |     anvil_en1_native_norm norm (
+      |                           ^~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_qkv_tile.sv:102:34: Cell has missing pin: 'arithmetic_valid'
+  102 |     anvil_en1_clipped_projection clipped (
+      |                                  ^~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_qkv_tile.sv:102:34: Cell has missing pin: 'arithmetic_ready'
+  102 |     anvil_en1_clipped_projection clipped (
+      |                                  ^~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_qkv_tile.sv:102:34: Cell has missing pin: 'arithmetic_operation'
+  102 |     anvil_en1_clipped_projection clipped (
+      |                                  ^~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_qkv_tile.sv:102:34: Cell has missing pin: 'arithmetic_a'
+  102 |     anvil_en1_clipped_projection clipped (
+      |                                  ^~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_qkv_tile.sv:102:34: Cell has missing pin: 'arithmetic_b'
+  102 |     anvil_en1_clipped_projection clipped (
+      |                                  ^~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_qkv_tile.sv:102:34: Cell has missing pin: 'arithmetic_result_valid'
+  102 |     anvil_en1_clipped_projection clipped (
+      |                                  ^~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_qkv_tile.sv:102:34: Cell has missing pin: 'arithmetic_result_ready'
+  102 |     anvil_en1_clipped_projection clipped (
+      |                                  ^~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_qkv_tile.sv:102:34: Cell has missing pin: 'arithmetic_result_data'
+  102 |     anvil_en1_clipped_projection clipped (
+      |                                  ^~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_qkv_tile.sv:102:34: Cell has missing pin: 'arithmetic_result_error'
+  102 |     anvil_en1_clipped_projection clipped (
+      |                                  ^~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_qkv_tile.sv:132:26: Cell has missing pin: 'arithmetic_valid'
+  132 |     anvil_en1_projection relative_projection (
+      |                          ^~~~~~~~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_qkv_tile.sv:132:26: Cell has missing pin: 'arithmetic_ready'
+  132 |     anvil_en1_projection relative_projection (
+      |                          ^~~~~~~~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_qkv_tile.sv:132:26: Cell has missing pin: 'arithmetic_operation'
+  132 |     anvil_en1_projection relative_projection (
+      |                          ^~~~~~~~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_qkv_tile.sv:132:26: Cell has missing pin: 'arithmetic_a'
+  132 |     anvil_en1_projection relative_projection (
+      |                          ^~~~~~~~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_qkv_tile.sv:132:26: Cell has missing pin: 'arithmetic_b'
+  132 |     anvil_en1_projection relative_projection (
+      |                          ^~~~~~~~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_qkv_tile.sv:132:26: Cell has missing pin: 'arithmetic_result_valid'
+  132 |     anvil_en1_projection relative_projection (
+      |                          ^~~~~~~~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_qkv_tile.sv:132:26: Cell has missing pin: 'arithmetic_result_ready'
+  132 |     anvil_en1_projection relative_projection (
+      |                          ^~~~~~~~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_qkv_tile.sv:132:26: Cell has missing pin: 'arithmetic_result_data'
+  132 |     anvil_en1_projection relative_projection (
+      |                          ^~~~~~~~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_qkv_tile.sv:132:26: Cell has missing pin: 'arithmetic_result_error'
+  132 |     anvil_en1_projection relative_projection (
+      |                          ^~~~~~~~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_qkv_tile.sv:170:27: Cell has missing pin: 'arithmetic_valid'
+  170 |     anvil_en1_weight_read scales (
+      |                           ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_qkv_tile.sv:170:27: Cell has missing pin: 'arithmetic_ready'
+  170 |     anvil_en1_weight_read scales (
+      |                           ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_qkv_tile.sv:170:27: Cell has missing pin: 'arithmetic_operation'
+  170 |     anvil_en1_weight_read scales (
+      |                           ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_qkv_tile.sv:170:27: Cell has missing pin: 'arithmetic_a'
+  170 |     anvil_en1_weight_read scales (
+      |                           ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_qkv_tile.sv:170:27: Cell has missing pin: 'arithmetic_b'
+  170 |     anvil_en1_weight_read scales (
+      |                           ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_qkv_tile.sv:170:27: Cell has missing pin: 'arithmetic_result_valid'
+  170 |     anvil_en1_weight_read scales (
+      |                           ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_qkv_tile.sv:170:27: Cell has missing pin: 'arithmetic_result_ready'
+  170 |     anvil_en1_weight_read scales (
+      |                           ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_qkv_tile.sv:170:27: Cell has missing pin: 'arithmetic_result_data'
+  170 |     anvil_en1_weight_read scales (
+      |                           ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_qkv_tile.sv:170:27: Cell has missing pin: 'arithmetic_result_error'
+  170 |     anvil_en1_weight_read scales (
+      |                           ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_relative_position.sv:83:22: Cell has missing pin: 'arithmetic_valid'
+   83 |     anvil_en1_sincos trigonometry (
+      |                      ^~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_relative_position.sv:83:22: Cell has missing pin: 'arithmetic_ready'
+   83 |     anvil_en1_sincos trigonometry (
+      |                      ^~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_relative_position.sv:83:22: Cell has missing pin: 'arithmetic_operation'
+   83 |     anvil_en1_sincos trigonometry (
+      |                      ^~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_relative_position.sv:83:22: Cell has missing pin: 'arithmetic_a'
+   83 |     anvil_en1_sincos trigonometry (
+      |                      ^~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_relative_position.sv:83:22: Cell has missing pin: 'arithmetic_b'
+   83 |     anvil_en1_sincos trigonometry (
+      |                      ^~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_relative_position.sv:83:22: Cell has missing pin: 'arithmetic_result_valid'
+   83 |     anvil_en1_sincos trigonometry (
+      |                      ^~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_relative_position.sv:83:22: Cell has missing pin: 'arithmetic_result_ready'
+   83 |     anvil_en1_sincos trigonometry (
+      |                      ^~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_relative_position.sv:83:22: Cell has missing pin: 'arithmetic_result_data'
+   83 |     anvil_en1_sincos trigonometry (
+      |                      ^~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_relative_position.sv:83:22: Cell has missing pin: 'arithmetic_result_error'
+   83 |     anvil_en1_sincos trigonometry (
+      |                      ^~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_subsample.sv:95:26: Cell has missing pin: 'arithmetic_valid'
+   95 |     anvil_en1_projection input_projection (
+      |                          ^~~~~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_subsample.sv:95:26: Cell has missing pin: 'arithmetic_ready'
+   95 |     anvil_en1_projection input_projection (
+      |                          ^~~~~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_subsample.sv:95:26: Cell has missing pin: 'arithmetic_operation'
+   95 |     anvil_en1_projection input_projection (
+      |                          ^~~~~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_subsample.sv:95:26: Cell has missing pin: 'arithmetic_a'
+   95 |     anvil_en1_projection input_projection (
+      |                          ^~~~~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_subsample.sv:95:26: Cell has missing pin: 'arithmetic_b'
+   95 |     anvil_en1_projection input_projection (
+      |                          ^~~~~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_subsample.sv:95:26: Cell has missing pin: 'arithmetic_result_valid'
+   95 |     anvil_en1_projection input_projection (
+      |                          ^~~~~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_subsample.sv:95:26: Cell has missing pin: 'arithmetic_result_ready'
+   95 |     anvil_en1_projection input_projection (
+      |                          ^~~~~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_subsample.sv:95:26: Cell has missing pin: 'arithmetic_result_data'
+   95 |     anvil_en1_projection input_projection (
+      |                          ^~~~~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_subsample.sv:95:26: Cell has missing pin: 'arithmetic_result_error'
+   95 |     anvil_en1_projection input_projection (
+      |                          ^~~~~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_subsample_point.sv:130:27: Cell has missing pin: 'arithmetic_valid'
+  130 |     anvil_en1_native_norm channel_norm (
+      |                           ^~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_subsample_point.sv:130:27: Cell has missing pin: 'arithmetic_ready'
+  130 |     anvil_en1_native_norm channel_norm (
+      |                           ^~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_subsample_point.sv:130:27: Cell has missing pin: 'arithmetic_operation'
+  130 |     anvil_en1_native_norm channel_norm (
+      |                           ^~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_subsample_point.sv:130:27: Cell has missing pin: 'arithmetic_a'
+  130 |     anvil_en1_native_norm channel_norm (
+      |                           ^~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_subsample_point.sv:130:27: Cell has missing pin: 'arithmetic_b'
+  130 |     anvil_en1_native_norm channel_norm (
+      |                           ^~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_subsample_point.sv:130:27: Cell has missing pin: 'arithmetic_result_valid'
+  130 |     anvil_en1_native_norm channel_norm (
+      |                           ^~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_subsample_point.sv:130:27: Cell has missing pin: 'arithmetic_result_ready'
+  130 |     anvil_en1_native_norm channel_norm (
+      |                           ^~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_subsample_point.sv:130:27: Cell has missing pin: 'arithmetic_result_data'
+  130 |     anvil_en1_native_norm channel_norm (
+      |                           ^~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_audio_subsample_point.sv:130:27: Cell has missing pin: 'arithmetic_result_error'
+  130 |     anvil_en1_native_norm channel_norm (
+      |                           ^~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_modality_projection.sv:96:20: Cell has missing pin: 'arithmetic_valid'
+   96 |     anvil_en1_norm norm (
+      |                    ^~~~
+%Warning-PINMISSING: rtl/anvil_en1_modality_projection.sv:96:20: Cell has missing pin: 'arithmetic_ready'
+   96 |     anvil_en1_norm norm (
+      |                    ^~~~
+%Warning-PINMISSING: rtl/anvil_en1_modality_projection.sv:96:20: Cell has missing pin: 'arithmetic_operation'
+   96 |     anvil_en1_norm norm (
+      |                    ^~~~
+%Warning-PINMISSING: rtl/anvil_en1_modality_projection.sv:96:20: Cell has missing pin: 'arithmetic_a'
+   96 |     anvil_en1_norm norm (
+      |                    ^~~~
+%Warning-PINMISSING: rtl/anvil_en1_modality_projection.sv:96:20: Cell has missing pin: 'arithmetic_b'
+   96 |     anvil_en1_norm norm (
+      |                    ^~~~
+%Warning-PINMISSING: rtl/anvil_en1_modality_projection.sv:96:20: Cell has missing pin: 'arithmetic_result_valid'
+   96 |     anvil_en1_norm norm (
+      |                    ^~~~
+%Warning-PINMISSING: rtl/anvil_en1_modality_projection.sv:96:20: Cell has missing pin: 'arithmetic_result_ready'
+   96 |     anvil_en1_norm norm (
+      |                    ^~~~
+%Warning-PINMISSING: rtl/anvil_en1_modality_projection.sv:96:20: Cell has missing pin: 'arithmetic_result_data'
+   96 |     anvil_en1_norm norm (
+      |                    ^~~~
+%Warning-PINMISSING: rtl/anvil_en1_modality_projection.sv:96:20: Cell has missing pin: 'arithmetic_result_error'
+   96 |     anvil_en1_norm norm (
+      |                    ^~~~
+%Warning-PINMISSING: rtl/anvil_en1_modality_projection.sv:131:26: Cell has missing pin: 'arithmetic_valid'
+  131 |     anvil_en1_projection projection (
+      |                          ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_modality_projection.sv:131:26: Cell has missing pin: 'arithmetic_ready'
+  131 |     anvil_en1_projection projection (
+      |                          ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_modality_projection.sv:131:26: Cell has missing pin: 'arithmetic_operation'
+  131 |     anvil_en1_projection projection (
+      |                          ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_modality_projection.sv:131:26: Cell has missing pin: 'arithmetic_a'
+  131 |     anvil_en1_projection projection (
+      |                          ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_modality_projection.sv:131:26: Cell has missing pin: 'arithmetic_b'
+  131 |     anvil_en1_projection projection (
+      |                          ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_modality_projection.sv:131:26: Cell has missing pin: 'arithmetic_result_valid'
+  131 |     anvil_en1_projection projection (
+      |                          ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_modality_projection.sv:131:26: Cell has missing pin: 'arithmetic_result_ready'
+  131 |     anvil_en1_projection projection (
+      |                          ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_modality_projection.sv:131:26: Cell has missing pin: 'arithmetic_result_data'
+  131 |     anvil_en1_projection projection (
+      |                          ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_modality_projection.sv:131:26: Cell has missing pin: 'arithmetic_result_error'
+  131 |     anvil_en1_projection projection (
+      |                          ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_native.sv:233:54: Cell has missing pin: 'padded_tokens'
+  233 |     anvil_en1_frontier_schedule #(.COMPACT(COMPACT)) schedule (
+      |                                                      ^~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_native.sv:233:54: Cell has missing pin: 'required_frontier_bytes'
+  233 |     anvil_en1_frontier_schedule #(.COMPACT(COMPACT)) schedule (
+      |                                                      ^~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_native.sv:514:7: Cell has missing pin: 'modality_valid'
+  514 |     ) frontier (
+      |       ^~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_native.sv:514:7: Cell has missing pin: 'modality_model'
+  514 |     ) frontier (
+      |       ^~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_native.sv:514:7: Cell has missing pin: 'modality_kind'
+  514 |     ) frontier (
+      |       ^~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_native.sv:514:7: Cell has missing pin: 'modality_token'
+  514 |     ) frontier (
+      |       ^~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_native.sv:514:7: Cell has missing pin: 'modality_index'
+  514 |     ) frontier (
+      |       ^~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_native.sv:514:7: Cell has missing pin: 'modality_rsp_ready'
+  514 |     ) frontier (
+      |       ^~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_native.sv:514:7: Cell has missing pin: 'backing_bound'
+  514 |     ) frontier (
+      |       ^~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_attention.sv:147:63: Cell has missing pin: 'arithmetic_valid'
+  147 |     anvil_en1_attention_head #(.COMPACT(COMPACT), .REPLAY(1)) attention (
+      |                                                               ^~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_attention.sv:147:63: Cell has missing pin: 'arithmetic_ready'
+  147 |     anvil_en1_attention_head #(.COMPACT(COMPACT), .REPLAY(1)) attention (
+      |                                                               ^~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_attention.sv:147:63: Cell has missing pin: 'arithmetic_operation'
+  147 |     anvil_en1_attention_head #(.COMPACT(COMPACT), .REPLAY(1)) attention (
+      |                                                               ^~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_attention.sv:147:63: Cell has missing pin: 'arithmetic_a'
+  147 |     anvil_en1_attention_head #(.COMPACT(COMPACT), .REPLAY(1)) attention (
+      |                                                               ^~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_attention.sv:147:63: Cell has missing pin: 'arithmetic_b'
+  147 |     anvil_en1_attention_head #(.COMPACT(COMPACT), .REPLAY(1)) attention (
+      |                                                               ^~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_attention.sv:147:63: Cell has missing pin: 'arithmetic_result_valid'
+  147 |     anvil_en1_attention_head #(.COMPACT(COMPACT), .REPLAY(1)) attention (
+      |                                                               ^~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_attention.sv:147:63: Cell has missing pin: 'arithmetic_result_ready'
+  147 |     anvil_en1_attention_head #(.COMPACT(COMPACT), .REPLAY(1)) attention (
+      |                                                               ^~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_attention.sv:147:63: Cell has missing pin: 'arithmetic_result_data'
+  147 |     anvil_en1_attention_head #(.COMPACT(COMPACT), .REPLAY(1)) attention (
+      |                                                               ^~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_attention.sv:147:63: Cell has missing pin: 'arithmetic_result_error'
+  147 |     anvil_en1_attention_head #(.COMPACT(COMPACT), .REPLAY(1)) attention (
+      |                                                               ^~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_attention_projection.sv:189:27: Cell has missing pin: 'arithmetic_valid'
+  189 |     anvil_en1_weight_read output_weight (
+      |                           ^~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_attention_projection.sv:189:27: Cell has missing pin: 'arithmetic_ready'
+  189 |     anvil_en1_weight_read output_weight (
+      |                           ^~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_attention_projection.sv:189:27: Cell has missing pin: 'arithmetic_operation'
+  189 |     anvil_en1_weight_read output_weight (
+      |                           ^~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_attention_projection.sv:189:27: Cell has missing pin: 'arithmetic_a'
+  189 |     anvil_en1_weight_read output_weight (
+      |                           ^~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_attention_projection.sv:189:27: Cell has missing pin: 'arithmetic_b'
+  189 |     anvil_en1_weight_read output_weight (
+      |                           ^~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_attention_projection.sv:189:27: Cell has missing pin: 'arithmetic_result_valid'
+  189 |     anvil_en1_weight_read output_weight (
+      |                           ^~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_attention_projection.sv:189:27: Cell has missing pin: 'arithmetic_result_ready'
+  189 |     anvil_en1_weight_read output_weight (
+      |                           ^~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_attention_projection.sv:189:27: Cell has missing pin: 'arithmetic_result_data'
+  189 |     anvil_en1_weight_read output_weight (
+      |                           ^~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_attention_projection.sv:189:27: Cell has missing pin: 'arithmetic_result_error'
+  189 |     anvil_en1_weight_read output_weight (
+      |                           ^~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_audio_layer.sv:298:27: Cell has missing pin: 'arithmetic_valid'
+  298 |     anvil_en1_native_norm norm_out (
+      |                           ^~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_audio_layer.sv:298:27: Cell has missing pin: 'arithmetic_ready'
+  298 |     anvil_en1_native_norm norm_out (
+      |                           ^~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_audio_layer.sv:298:27: Cell has missing pin: 'arithmetic_operation'
+  298 |     anvil_en1_native_norm norm_out (
+      |                           ^~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_audio_layer.sv:298:27: Cell has missing pin: 'arithmetic_a'
+  298 |     anvil_en1_native_norm norm_out (
+      |                           ^~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_audio_layer.sv:298:27: Cell has missing pin: 'arithmetic_b'
+  298 |     anvil_en1_native_norm norm_out (
+      |                           ^~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_audio_layer.sv:298:27: Cell has missing pin: 'arithmetic_result_valid'
+  298 |     anvil_en1_native_norm norm_out (
+      |                           ^~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_audio_layer.sv:298:27: Cell has missing pin: 'arithmetic_result_ready'
+  298 |     anvil_en1_native_norm norm_out (
+      |                           ^~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_audio_layer.sv:298:27: Cell has missing pin: 'arithmetic_result_data'
+  298 |     anvil_en1_native_norm norm_out (
+      |                           ^~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_audio_layer.sv:298:27: Cell has missing pin: 'arithmetic_result_error'
+  298 |     anvil_en1_native_norm norm_out (
+      |                           ^~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_binding.sv:353:7: Cell has missing pin: 'modality_valid'
+  353 |     ) replay (
+      |       ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_binding.sv:353:7: Cell has missing pin: 'modality_model'
+  353 |     ) replay (
+      |       ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_binding.sv:353:7: Cell has missing pin: 'modality_kind'
+  353 |     ) replay (
+      |       ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_binding.sv:353:7: Cell has missing pin: 'modality_token'
+  353 |     ) replay (
+      |       ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_binding.sv:353:7: Cell has missing pin: 'modality_index'
+  353 |     ) replay (
+      |       ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_binding.sv:353:7: Cell has missing pin: 'modality_rsp_ready'
+  353 |     ) replay (
+      |       ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_binding.sv:353:7: Cell has missing pin: 'scheduler_state_bytes'
+  353 |     ) replay (
+      |       ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_binding.sv:353:7: Cell has missing pin: 'dispatcher_state_bytes'
+  353 |     ) replay (
+      |       ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_binding.sv:353:7: Cell has missing pin: 'selected_worker_state_bytes'
+  353 |     ) replay (
+      |       ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_binding.sv:353:7: Cell has missing pin: 'binding_controller_bytes'
+  353 |     ) replay (
+      |       ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_binding.sv:353:7: Cell has missing pin: 'projection_controller_bytes'
+  353 |     ) replay (
+      |       ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_binding.sv:353:7: Cell has missing pin: 'executor_controller_bytes'
+  353 |     ) replay (
+      |       ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_binding.sv:353:7: Cell has missing pin: 'checkpoint_controller_bytes'
+  353 |     ) replay (
+      |       ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_binding.sv:353:7: Cell has missing pin: 'tile_controller_bytes'
+  353 |     ) replay (
+      |       ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_binding.sv:353:7: Cell has missing pin: 'vision_binding_controller_bytes'
+  353 |     ) replay (
+      |       ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_binding.sv:353:7: Cell has missing pin: 'vision_patch_controller_bytes'
+  353 |     ) replay (
+      |       ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_binding.sv:353:7: Cell has missing pin: 'vision_replay_controller_bytes'
+  353 |     ) replay (
+      |       ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_binding.sv:353:7: Cell has missing pin: 'vision_executor_controller_bytes'
+  353 |     ) replay (
+      |       ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_binding.sv:353:7: Cell has missing pin: 'vision_head_controller_bytes'
+  353 |     ) replay (
+      |       ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_binding.sv:353:7: Cell has missing pin: 'vision_tile_controller_bytes'
+  353 |     ) replay (
+      |       ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_binding.sv:353:7: Cell has missing pin: 'vision_clipped_controller_bytes'
+  353 |     ) replay (
+      |       ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_binding.sv:353:7: Cell has missing pin: 'vision_clamp_controller_bytes'
+  353 |     ) replay (
+      |       ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_binding.sv:353:7: Cell has missing pin: 'vision_output_controller_bytes'
+  353 |     ) replay (
+      |       ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_binding.sv:353:7: Cell has missing pin: 'vision_output_clamp_controller_bytes'
+  353 |     ) replay (
+      |       ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_binding.sv:353:7: Cell has missing pin: 'vision_post_controller_bytes'
+  353 |     ) replay (
+      |       ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_binding.sv:353:7: Cell has missing pin: 'vision_norm_controller_bytes'
+  353 |     ) replay (
+      |       ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_binding.sv:353:7: Cell has missing pin: 'vision_mlp_controller_bytes'
+  353 |     ) replay (
+      |       ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_binding.sv:353:7: Cell has missing pin: 'vision_down_controller_bytes'
+  353 |     ) replay (
+      |       ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_binding.sv:353:7: Cell has missing pin: 'vision_down_clamp_controller_bytes'
+  353 |     ) replay (
+      |       ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_binding.sv:353:7: Cell has missing pin: 'vision_inner_controller_bytes'
+  353 |     ) replay (
+      |       ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_binding.sv:353:7: Cell has missing pin: 'vision_inner_clamp_controller_bytes'
+  353 |     ) replay (
+      |       ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_binding.sv:353:7: Cell has missing pin: 'audio_input_controller_bytes'
+  353 |     ) replay (
+      |       ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_binding.sv:353:7: Cell has missing pin: 'audio_nested_controller_bytes'
+  353 |     ) replay (
+      |       ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_binding.sv:353:7: Cell has missing pin: 'audio_layer_controller_bytes'
+  353 |     ) replay (
+      |       ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_binding.sv:353:7: Cell has missing pin: 'audio_feature_controller_bytes'
+  353 |     ) replay (
+      |       ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_binding.sv:353:7: Cell has missing pin: 'audio_feature_nested_controller_bytes'
+  353 |     ) replay (
+      |       ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_binding.sv:353:7: Cell has missing pin: 'image_feature_controller_bytes'
+  353 |     ) replay (
+      |       ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_binding.sv:353:7: Cell has missing pin: 'image_feature_nested_controller_bytes'
+  353 |     ) replay (
+      |       ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_binding.sv:353:7: Cell has missing pin: 'native_audio_point_replay_event'
+  353 |     ) replay (
+      |       ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_binding.sv:353:7: Cell has missing pin: 'native_audio_point_replay_bytes'
+  353 |     ) replay (
+      |       ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_binding.sv:353:7: Cell has missing pin: 'native_audio_history_replay_event'
+  353 |     ) replay (
+      |       ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_binding.sv:353:7: Cell has missing pin: 'native_audio_glu_replay_event'
+  353 |     ) replay (
+      |       ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_binding.sv:353:7: Cell has missing pin: 'native_audio_history_replay_bytes'
+  353 |     ) replay (
+      |       ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_binding.sv:353:7: Cell has missing pin: 'native_audio_glu_replay_bytes'
+  353 |     ) replay (
+      |       ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_binding.sv:353:7: Cell has missing pin: 'query_projection_event'
+  353 |     ) replay (
+      |       ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_binding.sv:353:7: Cell has missing pin: 'query_projection_bytes'
+  353 |     ) replay (
+      |       ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_binding.sv:353:7: Cell has missing pin: 'source_read_event'
+  353 |     ) replay (
+      |       ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_binding.sv:353:7: Cell has missing pin: 'source_read_bytes'
+  353 |     ) replay (
+      |       ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_binding.sv:447:60: Cell has missing pin: 'drain_ready'
+  447 |     anvil_en1_memory_arbiter #(.CLIENTS(2), .READ_ONLY(1)) memory (
+      |                                                            ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_binding.sv:447:60: Cell has missing pin: 'drain_done_valid'
+  447 |     anvil_en1_memory_arbiter #(.CLIENTS(2), .READ_ONLY(1)) memory (
+      |                                                            ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_vision_layer.sv:280:34: Cell has missing pin: 'arithmetic_valid'
+  280 |     anvil_en1_clipped_projection output_projection (
+      |                                  ^~~~~~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_vision_layer.sv:280:34: Cell has missing pin: 'arithmetic_ready'
+  280 |     anvil_en1_clipped_projection output_projection (
+      |                                  ^~~~~~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_vision_layer.sv:280:34: Cell has missing pin: 'arithmetic_operation'
+  280 |     anvil_en1_clipped_projection output_projection (
+      |                                  ^~~~~~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_vision_layer.sv:280:34: Cell has missing pin: 'arithmetic_a'
+  280 |     anvil_en1_clipped_projection output_projection (
+      |                                  ^~~~~~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_vision_layer.sv:280:34: Cell has missing pin: 'arithmetic_b'
+  280 |     anvil_en1_clipped_projection output_projection (
+      |                                  ^~~~~~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_vision_layer.sv:280:34: Cell has missing pin: 'arithmetic_result_valid'
+  280 |     anvil_en1_clipped_projection output_projection (
+      |                                  ^~~~~~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_vision_layer.sv:280:34: Cell has missing pin: 'arithmetic_result_ready'
+  280 |     anvil_en1_clipped_projection output_projection (
+      |                                  ^~~~~~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_vision_layer.sv:280:34: Cell has missing pin: 'arithmetic_result_data'
+  280 |     anvil_en1_clipped_projection output_projection (
+      |                                  ^~~~~~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_replay_vision_layer.sv:280:34: Cell has missing pin: 'arithmetic_result_error'
+  280 |     anvil_en1_clipped_projection output_projection (
+      |                                  ^~~~~~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_attention_row.sv:67:34: Cell has missing pin: 'arithmetic_valid'
+   67 |     anvil_en1_clipped_projection output_projection (
+      |                                  ^~~~~~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_attention_row.sv:67:34: Cell has missing pin: 'arithmetic_ready'
+   67 |     anvil_en1_clipped_projection output_projection (
+      |                                  ^~~~~~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_attention_row.sv:67:34: Cell has missing pin: 'arithmetic_operation'
+   67 |     anvil_en1_clipped_projection output_projection (
+      |                                  ^~~~~~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_attention_row.sv:67:34: Cell has missing pin: 'arithmetic_a'
+   67 |     anvil_en1_clipped_projection output_projection (
+      |                                  ^~~~~~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_attention_row.sv:67:34: Cell has missing pin: 'arithmetic_b'
+   67 |     anvil_en1_clipped_projection output_projection (
+      |                                  ^~~~~~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_attention_row.sv:67:34: Cell has missing pin: 'arithmetic_result_valid'
+   67 |     anvil_en1_clipped_projection output_projection (
+      |                                  ^~~~~~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_attention_row.sv:67:34: Cell has missing pin: 'arithmetic_result_ready'
+   67 |     anvil_en1_clipped_projection output_projection (
+      |                                  ^~~~~~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_attention_row.sv:67:34: Cell has missing pin: 'arithmetic_result_data'
+   67 |     anvil_en1_clipped_projection output_projection (
+      |                                  ^~~~~~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_attention_row.sv:67:34: Cell has missing pin: 'arithmetic_result_error'
+   67 |     anvil_en1_clipped_projection output_projection (
+      |                                  ^~~~~~~~~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_layer.sv:74:33: Cell has missing pin: 'branch_ram_write'
+   74 |     anvil_en1_vision_post_layer post (
+      |                                 ^~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_layer.sv:74:33: Cell has missing pin: 'branch_ram_read'
+   74 |     anvil_en1_vision_post_layer post (
+      |                                 ^~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_layer.sv:74:33: Cell has missing pin: 'branch_ram_waddr'
+   74 |     anvil_en1_vision_post_layer post (
+      |                                 ^~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_layer.sv:74:33: Cell has missing pin: 'branch_ram_raddr'
+   74 |     anvil_en1_vision_post_layer post (
+      |                                 ^~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_layer.sv:74:33: Cell has missing pin: 'branch_ram_wdata'
+   74 |     anvil_en1_vision_post_layer post (
+      |                                 ^~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_layer.sv:74:33: Cell has missing pin: 'branch_ram_rdata'
+   74 |     anvil_en1_vision_post_layer post (
+      |                                 ^~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_patch.sv:114:26: Cell has missing pin: 'arithmetic_valid'
+  114 |     anvil_en1_projection projection (
+      |                          ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_patch.sv:114:26: Cell has missing pin: 'arithmetic_ready'
+  114 |     anvil_en1_projection projection (
+      |                          ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_patch.sv:114:26: Cell has missing pin: 'arithmetic_operation'
+  114 |     anvil_en1_projection projection (
+      |                          ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_patch.sv:114:26: Cell has missing pin: 'arithmetic_a'
+  114 |     anvil_en1_projection projection (
+      |                          ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_patch.sv:114:26: Cell has missing pin: 'arithmetic_b'
+  114 |     anvil_en1_projection projection (
+      |                          ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_patch.sv:114:26: Cell has missing pin: 'arithmetic_result_valid'
+  114 |     anvil_en1_projection projection (
+      |                          ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_patch.sv:114:26: Cell has missing pin: 'arithmetic_result_ready'
+  114 |     anvil_en1_projection projection (
+      |                          ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_patch.sv:114:26: Cell has missing pin: 'arithmetic_result_data'
+  114 |     anvil_en1_projection projection (
+      |                          ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_patch.sv:114:26: Cell has missing pin: 'arithmetic_result_error'
+  114 |     anvil_en1_projection projection (
+      |                          ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_patch.sv:145:27: Cell has missing pin: 'arithmetic_valid'
+  145 |     anvil_en1_weight_read positions (
+      |                           ^~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_patch.sv:145:27: Cell has missing pin: 'arithmetic_ready'
+  145 |     anvil_en1_weight_read positions (
+      |                           ^~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_patch.sv:145:27: Cell has missing pin: 'arithmetic_operation'
+  145 |     anvil_en1_weight_read positions (
+      |                           ^~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_patch.sv:145:27: Cell has missing pin: 'arithmetic_a'
+  145 |     anvil_en1_weight_read positions (
+      |                           ^~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_patch.sv:145:27: Cell has missing pin: 'arithmetic_b'
+  145 |     anvil_en1_weight_read positions (
+      |                           ^~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_patch.sv:145:27: Cell has missing pin: 'arithmetic_result_valid'
+  145 |     anvil_en1_weight_read positions (
+      |                           ^~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_patch.sv:145:27: Cell has missing pin: 'arithmetic_result_ready'
+  145 |     anvil_en1_weight_read positions (
+      |                           ^~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_patch.sv:145:27: Cell has missing pin: 'arithmetic_result_data'
+  145 |     anvil_en1_weight_read positions (
+      |                           ^~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_patch.sv:145:27: Cell has missing pin: 'arithmetic_result_error'
+  145 |     anvil_en1_weight_read positions (
+      |                           ^~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_qkv_tile.sv:114:34: Cell has missing pin: 'arithmetic_valid'
+  114 |     anvil_en1_clipped_projection projection (
+      |                                  ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_qkv_tile.sv:114:34: Cell has missing pin: 'arithmetic_ready'
+  114 |     anvil_en1_clipped_projection projection (
+      |                                  ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_qkv_tile.sv:114:34: Cell has missing pin: 'arithmetic_operation'
+  114 |     anvil_en1_clipped_projection projection (
+      |                                  ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_qkv_tile.sv:114:34: Cell has missing pin: 'arithmetic_a'
+  114 |     anvil_en1_clipped_projection projection (
+      |                                  ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_qkv_tile.sv:114:34: Cell has missing pin: 'arithmetic_b'
+  114 |     anvil_en1_clipped_projection projection (
+      |                                  ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_qkv_tile.sv:114:34: Cell has missing pin: 'arithmetic_result_valid'
+  114 |     anvil_en1_clipped_projection projection (
+      |                                  ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_qkv_tile.sv:114:34: Cell has missing pin: 'arithmetic_result_ready'
+  114 |     anvil_en1_clipped_projection projection (
+      |                                  ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_qkv_tile.sv:114:34: Cell has missing pin: 'arithmetic_result_data'
+  114 |     anvil_en1_clipped_projection projection (
+      |                                  ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_qkv_tile.sv:114:34: Cell has missing pin: 'arithmetic_result_error'
+  114 |     anvil_en1_clipped_projection projection (
+      |                                  ^~~~~~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_qkv_tile.sv:146:20: Cell has missing pin: 'arithmetic_valid'
+  146 |     anvil_en1_norm norm (
+      |                    ^~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_qkv_tile.sv:146:20: Cell has missing pin: 'arithmetic_ready'
+  146 |     anvil_en1_norm norm (
+      |                    ^~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_qkv_tile.sv:146:20: Cell has missing pin: 'arithmetic_operation'
+  146 |     anvil_en1_norm norm (
+      |                    ^~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_qkv_tile.sv:146:20: Cell has missing pin: 'arithmetic_a'
+  146 |     anvil_en1_norm norm (
+      |                    ^~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_qkv_tile.sv:146:20: Cell has missing pin: 'arithmetic_b'
+  146 |     anvil_en1_norm norm (
+      |                    ^~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_qkv_tile.sv:146:20: Cell has missing pin: 'arithmetic_result_valid'
+  146 |     anvil_en1_norm norm (
+      |                    ^~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_qkv_tile.sv:146:20: Cell has missing pin: 'arithmetic_result_ready'
+  146 |     anvil_en1_norm norm (
+      |                    ^~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_qkv_tile.sv:146:20: Cell has missing pin: 'arithmetic_result_data'
+  146 |     anvil_en1_norm norm (
+      |                    ^~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_qkv_tile.sv:146:20: Cell has missing pin: 'arithmetic_result_error'
+  146 |     anvil_en1_norm norm (
+      |                    ^~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_qkv_tile.sv:180:27: Cell has missing pin: 'arithmetic_valid'
+  180 |     anvil_en1_weight_read scales (
+      |                           ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_qkv_tile.sv:180:27: Cell has missing pin: 'arithmetic_ready'
+  180 |     anvil_en1_weight_read scales (
+      |                           ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_qkv_tile.sv:180:27: Cell has missing pin: 'arithmetic_operation'
+  180 |     anvil_en1_weight_read scales (
+      |                           ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_qkv_tile.sv:180:27: Cell has missing pin: 'arithmetic_a'
+  180 |     anvil_en1_weight_read scales (
+      |                           ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_qkv_tile.sv:180:27: Cell has missing pin: 'arithmetic_b'
+  180 |     anvil_en1_weight_read scales (
+      |                           ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_qkv_tile.sv:180:27: Cell has missing pin: 'arithmetic_result_valid'
+  180 |     anvil_en1_weight_read scales (
+      |                           ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_qkv_tile.sv:180:27: Cell has missing pin: 'arithmetic_result_ready'
+  180 |     anvil_en1_weight_read scales (
+      |                           ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_qkv_tile.sv:180:27: Cell has missing pin: 'arithmetic_result_data'
+  180 |     anvil_en1_weight_read scales (
+      |                           ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_qkv_tile.sv:180:27: Cell has missing pin: 'arithmetic_result_error'
+  180 |     anvil_en1_weight_read scales (
+      |                           ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_qkv_tile.sv:199:50: Cell has missing pin: 'arithmetic_valid'
+  199 |     anvil_en1_rotary_pair #(.SIGNED_POSITION(1)) rotary (
+      |                                                  ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_qkv_tile.sv:199:50: Cell has missing pin: 'arithmetic_ready'
+  199 |     anvil_en1_rotary_pair #(.SIGNED_POSITION(1)) rotary (
+      |                                                  ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_qkv_tile.sv:199:50: Cell has missing pin: 'arithmetic_operation'
+  199 |     anvil_en1_rotary_pair #(.SIGNED_POSITION(1)) rotary (
+      |                                                  ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_qkv_tile.sv:199:50: Cell has missing pin: 'arithmetic_a'
+  199 |     anvil_en1_rotary_pair #(.SIGNED_POSITION(1)) rotary (
+      |                                                  ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_qkv_tile.sv:199:50: Cell has missing pin: 'arithmetic_b'
+  199 |     anvil_en1_rotary_pair #(.SIGNED_POSITION(1)) rotary (
+      |                                                  ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_qkv_tile.sv:199:50: Cell has missing pin: 'arithmetic_result_valid'
+  199 |     anvil_en1_rotary_pair #(.SIGNED_POSITION(1)) rotary (
+      |                                                  ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_qkv_tile.sv:199:50: Cell has missing pin: 'arithmetic_result_ready'
+  199 |     anvil_en1_rotary_pair #(.SIGNED_POSITION(1)) rotary (
+      |                                                  ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_qkv_tile.sv:199:50: Cell has missing pin: 'arithmetic_result_data'
+  199 |     anvil_en1_rotary_pair #(.SIGNED_POSITION(1)) rotary (
+      |                                                  ^~~~~~
+%Warning-PINMISSING: rtl/anvil_en1_vision_qkv_tile.sv:199:50: Cell has missing pin: 'arithmetic_result_error'
+  199 |     anvil_en1_rotary_pair #(.SIGNED_POSITION(1)) rotary (
+      |                                                  ^~~~~~
+%Warning-WIDTHTRUNC: rtl/anvil_en1_owner_kv_tile.sv:80:44: Logical operator COND expects 1 bit on the Conditional Test, but Conditional Test's VARREF 'COMPACT' generates 32 bits.
+                                                         : ... note: In instance 'anvil_en1_owner_kv_tile'
+   80 |         localparam integer MAX_H = COMPACT ? 8 : 2560;
+      |                                            ^
+%Warning-WIDTHTRUNC: rtl/anvil_en1_owner_kv_tile.sv:81:44: Logical operator COND expects 1 bit on the Conditional Test, but Conditional Test's VARREF 'COMPACT' generates 32 bits.
+                                                         : ... note: In instance 'anvil_en1_owner_kv_tile'
+   81 |         localparam integer MAX_D = COMPACT ? 8 : 512;
+      |                                            ^
+%Warning-WIDTHTRUNC: rtl/anvil_en1_owner_kv_tile.sv:375:13: Logical operator LOGNOT expects 1 bit on the LHS, but LHS's VARREF 'EXTERNAL_INPUT_RAM' generates 32 bits.
+                                                          : ... note: In instance 'anvil_en1_owner_kv_tile'
+  375 |         if (!EXTERNAL_INPUT_RAM) begin : internal_input_ram
+      |             ^
+%Warning-WIDTHEXPAND: rtl/anvil_en1_tensor_image.sv:31:24: Operator VAR 'LEGAL' expects 32 bits on the Initial value, but Initial value's LOGOR generates 1 bits.
+                                                         : ... note: In instance 'anvil_en1_owner_kv_tile.tile.tensor_lookup'
+   31 |     localparam integer LEGAL = COMPACT == 0 || COMPACT == 1;
+      |                        ^~~~~
+%Warning-WIDTHTRUNC: rtl/anvil_en1_tensor_image.sv:32:18: Logical operator LOGNOT expects 1 bit on the LHS, but LHS's VARREF 'LEGAL' generates 32 bits.
+                                                        : ... note: In instance 'anvil_en1_owner_kv_tile.tile.tensor_lookup'
+   32 |     generate if (!LEGAL) begin : invalid_parameters
+      |                  ^
+%Warning-WIDTHEXPAND: rtl/anvil_en1_fp32.sv:37:59: Operator ADD expects 64 bits on the LHS, but LHS's VARREF 'CONTROLLER_BITS' generates 32 bits.
+                                                 : ... note: In instance 'anvil_en1_owner_kv_tile.tile.fp_unit'
+   37 |     assign controller_bytes = rst_n ? 64'((CONTROLLER_BITS+7) >> 3) : 64'd0;
+      |                                                           ^
+%Warning-WIDTHTRUNC: rtl/anvil_en1_tensor_shape.sv:41:33: Logical operator COND expects 1 bit on the Conditional Test, but Conditional Test's VARREF 'COMPACT' generates 32 bits.
+                                                        : ... note: In instance 'anvil_en1_owner_kv_tile.tile.tensor_lookup.reader.requested_shape'
+   41 |         wire [31:0] h = COMPACT ? 32'd8 : {20'd0, production_hidden};
+      |                                 ^
+%Warning-WIDTHTRUNC: rtl/anvil_en1_tensor_shape.sv:42:33: Logical operator COND expects 1 bit on the Conditional Test, but Conditional Test's VARREF 'COMPACT' generates 32 bits.
+                                                        : ... note: In instance 'anvil_en1_owner_kv_tile.tile.tensor_lookup.reader.requested_shape'
+   42 |         wire [31:0] p = COMPACT ? 32'd4 : 32'd256;
+      |                                 ^
+%Warning-WIDTHTRUNC: rtl/anvil_en1_tensor_shape.sv:43:42: Logical operator COND expects 1 bit on the Conditional Test, but Conditional Test's VARREF 'COMPACT' generates 32 bits.
+                                                        : ... note: In instance 'anvil_en1_owner_kv_tile.tile.tensor_lookup.reader.requested_shape'
+   43 |         wire [31:0] vocabulary = COMPACT ? 32'd32 : 32'd262144;
+      |                                          ^
+%Warning-WIDTHTRUNC: rtl/anvil_en1_tensor_shape.sv:44:33: Logical operator COND expects 1 bit on the Conditional Test, but Conditional Test's VARREF 'COMPACT' generates 32 bits.
+                                                        : ... note: In instance 'anvil_en1_owner_kv_tile.tile.tensor_lookup.reader.requested_shape'
+   44 |         wire [31:0] q = COMPACT ? 32'd2 : 32'd8;
+      |                                 ^
+%Warning-WIDTHTRUNC: rtl/anvil_en1_tensor_shape.sv:45:33: Logical operator LOGOR expects 1 bit on the LHS, but LHS's VARREF 'COMPACT' generates 32 bits.
+                                                        : ... note: In instance 'anvil_en1_owner_kv_tile.tile.tensor_lookup.reader.requested_shape'
+   45 |         wire [31:0] k = COMPACT || model == 1 ? 32'd1 : 32'd2;
+      |                                 ^~
+%Warning-WIDTHTRUNC: rtl/anvil_en1_tensor_shape.sv:46:33: Logical operator COND expects 1 bit on the Conditional Test, but Conditional Test's VARREF 'COMPACT' generates 32 bits.
+                                                        : ... note: In instance 'anvil_en1_owner_kv_tile.tile.tensor_lookup.reader.requested_shape'
+   46 |         wire [31:0] d = COMPACT ? (is_global ? 32'd8 : 32'd4) :
+      |                                 ^
+%Warning-WIDTHTRUNC: rtl/anvil_en1_tensor_shape.sv:48:44: Logical operator COND expects 1 bit on the Conditional Test, but Conditional Test's VARREF 'COMPACT' generates 32 bits.
+                                                        : ... note: In instance 'anvil_en1_owner_kv_tile.tile.tensor_lookup.reader.requested_shape'
+   48 |         wire [31:0] intermediate = COMPACT ?
+      |                                            ^
+%Warning-WIDTHEXPAND: rtl/anvil_en1_weight_read.sv:65:29: Operator ADD expects 64 bits on the LHS, but LHS's VARREF 'CONTROLLER_BITS' generates 32 bits.
+                                                        : ... note: In instance 'anvil_en1_owner_kv_tile.tile.scale_reader'
+   65 |         64'((CONTROLLER_BITS+7) >> 3) + fp_controller_bytes;
+      |                             ^
+%Warning-WIDTHTRUNC: rtl/anvil_en1_weight_read.sv:109:28: Operator ASSIGNW expects 8 bits on the Assign RHS, but Assign RHS's SHIFTR generates 32 bits.
+                                                        : ... note: In instance 'anvil_en1_owner_kv_tile.tile.scale_reader'
+  109 |     wire [7:0] nibble_byte = word_hold >> {lane_hold, 3'd0};
+      |                            ^
+%Warning-WIDTHEXPAND: rtl/anvil_en1_fp32_divsqrt.sv:43:59: Operator ADD expects 64 bits on the LHS, but LHS's VARREF 'CONTROLLER_BITS' generates 32 bits.
+                                                         : ... note: In instance 'anvil_en1_owner_kv_tile.tile.rotary_unit.trig_unit.coefficient_divider'
+   43 |     assign controller_bytes = rst_n ? 64'((CONTROLLER_BITS+7) >> 3) : 64'd0;
+      |                                                           ^
+%Warning-WIDTHEXPAND: rtl/anvil_en1_projection.sv:63:29: Operator ADD expects 64 bits on the LHS, but LHS's VARREF 'CONTROLLER_BITS' generates 32 bits.
+                                                       : ... note: In instance 'anvil_en1_owner_kv_tile.tile.projection_unit'
+   63 |         64'((CONTROLLER_BITS+7) >> 3) + weight_controller_bytes + fp_controller_bytes;
+      |                             ^
+%Warning-WIDTHEXPAND: rtl/anvil_en1_tensor_image.sv:145:63: Operator ADD expects 64 bits on the LHS, but LHS's VARREF 'CONTROLLER_BITS' generates 32 bits.
+                                                          : ... note: In instance 'anvil_en1_owner_kv_tile.tile.tensor_lookup'
+  145 |         assign controller_bytes = rst_n ? 64'((CONTROLLER_BITS+7) >> 3) : 64'd0;
+      |                                                               ^
+%Warning-WIDTHEXPAND: rtl/anvil_en1_uint_to_fp32.sv:20:59: Operator ADD expects 64 bits on the LHS, but LHS's VARREF 'CONTROLLER_BITS' generates 32 bits.
+                                                         : ... note: In instance 'anvil_en1_owner_kv_tile.tile.rotary_unit.trig_unit.factorial_converter'
+   20 |     assign controller_bytes = rst_n ? 64'((CONTROLLER_BITS+7) >> 3) : 64'd0;
+      |                                                           ^
+%Warning-WIDTHEXPAND: rtl/anvil_en1_sincos.sv:93:29: Operator ADD expects 64 bits on the LHS, but LHS's VARREF 'CONTROLLER_BITS' generates 32 bits.
+                                                   : ... note: In instance 'anvil_en1_owner_kv_tile.tile.rotary_unit.trig_unit'
+   93 |         64'((CONTROLLER_BITS+7) >> 3) + fp_controller_bytes +
+      |                             ^
+%Warning-WIDTHEXPAND: rtl/anvil_en1_sincos.sv:317:42: Operator SUB expects 4 bits on the RHS, but RHS's CONST '2'h2' generates 2 bits.
+                                                    : ... note: In instance 'anvil_en1_owner_kv_tile.tile.rotary_unit.trig_unit'
+  317 |                         degree <= degree - 2'd2;
+      |                                          ^
+%Warning-WIDTHEXPAND: rtl/anvil_en1_sincos.sv:348:42: Operator SUB expects 4 bits on the RHS, but RHS's CONST '2'h2' generates 2 bits.
+                                                    : ... note: In instance 'anvil_en1_owner_kv_tile.tile.rotary_unit.trig_unit'
+  348 |                         degree <= degree - 2'd2;
+      |                                          ^
+%Warning-WIDTHEXPAND: rtl/anvil_en1_norm.sv:73:29: Operator ADD expects 64 bits on the LHS, but LHS's VARREF 'CONTROLLER_BITS' generates 32 bits.
+                                                 : ... note: In instance 'anvil_en1_owner_kv_tile.tile.norm_unit'
+   73 |         64'((CONTROLLER_BITS+7) >> 3) + convert_controller_bytes +
+      |                             ^
+%Warning-WIDTHEXPAND: rtl/anvil_en1_rope_frequency.sv:39:29: Operator ADD expects 64 bits on the LHS, but LHS's VARREF 'CONTROLLER_BITS' generates 32 bits.
+                                                           : ... note: In instance 'anvil_en1_owner_kv_tile.tile.rotary_unit.frequency_unit'
+   39 |         64'((CONTROLLER_BITS+7) >> 3) + div_controller_bytes + fp_controller_bytes;
+      |                             ^
+%Warning-WIDTHEXPAND: rtl/anvil_en1_rope_frequency.sv:111:30: Operator ASSIGNDLY expects 9 bits on the Assign RHS, but Assign RHS's SEL generates 8 bits.
+                                                            : ... note: In instance 'anvil_en1_owner_kv_tile.tile.rotary_unit.frequency_unit'
+  111 |                     bit_hold <= dimension[9:2];
+      |                              ^~
+%Warning-WIDTHEXPAND: rtl/anvil_en1_rotary_pair.sv:55:29: Operator ADD expects 64 bits on the LHS, but LHS's VARREF 'CONTROLLER_BITS' generates 32 bits.
+                                                        : ... note: In instance 'anvil_en1_owner_kv_tile.tile.rotary_unit'
+   55 |         64'((CONTROLLER_BITS+7) >> 3) + frequency_controller_bytes +
+      |                             ^
+%Warning-WIDTHEXPAND: rtl/anvil_en1_owner_kv_tile.sv:137:33: Operator ADD expects 64 bits on the LHS, but LHS's VARREF 'CONTROLLER_BITS' generates 32 bits.
+                                                           : ... note: In instance 'anvil_en1_owner_kv_tile'
+  137 |             64'((CONTROLLER_BITS+7) >> 3) + lookup_controller_bytes +
+      |                                 ^
+%Warning-WIDTHTRUNC: rtl/anvil_en1_owner_kv_tile.sv:214:46: Logical operator COND expects 1 bit on the Conditional Test, but Conditional Test's VARREF 'EXTERNAL_INPUT_RAM' generates 32 bits.
+                                                          : ... note: In instance 'anvil_en1_owner_kv_tile'
+  214 |             .source_ready(EXTERNAL_INPUT_RAM ?
+      |                                              ^
+%Warning-WIDTHTRUNC: rtl/anvil_en1_owner_kv_tile.sv:218:50: Logical operator COND expects 1 bit on the Conditional Test, but Conditional Test's VARREF 'EXTERNAL_INPUT_RAM' generates 32 bits.
+                                                          : ... note: In instance 'anvil_en1_owner_kv_tile'
+  218 |             .source_rsp_valid(EXTERNAL_INPUT_RAM ?
+      |                                                  ^
+%Warning-WIDTHTRUNC: rtl/anvil_en1_owner_kv_tile.sv:222:49: Logical operator COND expects 1 bit on the Conditional Test, but Conditional Test's VARREF 'EXTERNAL_INPUT_RAM' generates 32 bits.
+                                                          : ... note: In instance 'anvil_en1_owner_kv_tile'
+  222 |             .source_rsp_data(EXTERNAL_INPUT_RAM ? source_rsp_data : src_data_hold),
+      |                                                 ^
+%Warning-WIDTHTRUNC: rtl/anvil_en1_owner_kv_tile.sv:223:50: Logical operator LOGAND expects 1 bit on the LHS, but LHS's VARREF 'EXTERNAL_INPUT_RAM' generates 32 bits.
+                                                          : ... note: In instance 'anvil_en1_owner_kv_tile'
+  223 |             .source_rsp_error(EXTERNAL_INPUT_RAM && source_rsp_error),
+      |                                                  ^~
+%Warning-WIDTHTRUNC: rtl/anvil_en1_owner_kv_tile.sv:399:55: Logical operator LOGAND expects 1 bit on the LHS, but LHS's VARREF 'EXTERNAL_INPUT_RAM' generates 32 bits.
+                                                          : ... note: In instance 'anvil_en1_owner_kv_tile'
+  399 |         wire external_projection = EXTERNAL_INPUT_RAM && state == PROJECTION_WAIT;
+      |                                                       ^~
+%Warning-WIDTHTRUNC: rtl/anvil_en1_owner_kv_tile.sv:410:55: Logical operator LOGAND expects 1 bit on the LHS, but LHS's VARREF 'EXTERNAL_INPUT_RAM' generates 32 bits.
+                                                          : ... note: In instance 'anvil_en1_owner_kv_tile'
+  410 |         assign input_store_valid = EXTERNAL_INPUT_RAM && scratch_norm_write && input_norm;
+      |                                                       ^~
+%Warning-WIDTHTRUNC: rtl/anvil_en1_owner_kv_tile.sv:411:42: Logical operator LOGAND expects 1 bit on the RHS, but RHS's VARREF 'EXTERNAL_INPUT_RAM' generates 32 bits.
+                                                          : ... note: In instance 'anvil_en1_owner_kv_tile'
+  411 |         assign input_store_index = rst_n && EXTERNAL_INPUT_RAM ? normalized_index : 32'd0;
+      |                                          ^~
+%Warning-WIDTHTRUNC: rtl/anvil_en1_owner_kv_tile.sv:412:41: Logical operator LOGAND expects 1 bit on the RHS, but RHS's VARREF 'EXTERNAL_INPUT_RAM' generates 32 bits.
+                                                          : ... note: In instance 'anvil_en1_owner_kv_tile'
+  412 |         assign input_store_data = rst_n && EXTERNAL_INPUT_RAM ? normalized_data : 16'd0;
+      |                                         ^~
+%Warning-WIDTHTRUNC: rtl/anvil_en1_owner_kv_tile.sv:443:29: Logical operator LOGNOT expects 1 bit on the LHS, but LHS's VARREF 'EXTERNAL_INPUT_RAM' generates 32 bits.
+                                                          : ... note: In instance 'anvil_en1_owner_kv_tile'
+  443 |                         if (!EXTERNAL_INPUT_RAM &&
+      |                             ^
+%Warning-WIDTHTRUNC: rtl/anvil_en1_owner_kv_tile.sv:540:50: Logical operator LOGAND expects 1 bit on the LHS, but LHS's VARREF 'ALLOW_QUERY' generates 32 bits.
+                                                          : ... note: In instance 'anvil_en1_owner_kv_tile'
+  540 |                         head_hold <= ALLOW_QUERY && is_query ? query_head : {2'd0, kv_head};
+      |                                                  ^~
+%Warning-WIDTHTRUNC: rtl/anvil_en1_owner_kv_tile.sv:546:51: Logical operator LOGAND expects 1 bit on the LHS, but LHS's VARREF 'ALLOW_QUERY' generates 32 bits.
+                                                          : ... note: In instance 'anvil_en1_owner_kv_tile'
+  546 |                         query_hold <= ALLOW_QUERY && is_query;
+      |                                                   ^~
+%Warning-WIDTHTRUNC: rtl/anvil_en1_owner_kv_tile.sv:555:48: Logical operator COND expects 1 bit on the Conditional Test, but Conditional Test's VARREF 'COMPACT' generates 32 bits.
+                                                          : ... note: In instance 'anvil_en1_owner_kv_tile'
+  555 |                         hidden_hold <= COMPACT ? 32'd8 : {20'd0, selected_hidden};
+      |                                                ^
+%Warning-WIDTHTRUNC: rtl/anvil_en1_owner_kv_tile.sv:556:51: Logical operator COND expects 1 bit on the Conditional Test, but Conditional Test's VARREF 'COMPACT' generates 32 bits.
+                                                          : ... note: In instance 'anvil_en1_owner_kv_tile'
+  556 |                         dimension_hold <= COMPACT ?
+      |                                                   ^
+%Warning-WIDTHTRUNC: rtl/anvil_en1_owner_kv_tile.sv:559:61: Logical operator COND expects 1 bit on the Conditional Test, but Conditional Test's VARREF 'COMPACT' generates 32 bits.
+                                                          : ... note: In instance 'anvil_en1_owner_kv_tile'
+  559 |                         heads_hold <= query_hold ? (COMPACT ? 32'd2 : 32'd8) :
+      |                                                             ^
+%Warning-WIDTHTRUNC: rtl/anvil_en1_owner_kv_tile.sv:560:38: Logical operator LOGOR expects 1 bit on the LHS, but LHS's VARREF 'COMPACT' generates 32 bits.
+                                                          : ... note: In instance 'anvil_en1_owner_kv_tile'
+  560 |                             (COMPACT || model_hold == 1 ? 32'd1 : 32'd2);
+      |                                      ^~
+%Warning-WIDTHTRUNC: rtl/anvil_en1_owner_kv_tile.sv:570:56: Logical operator COND expects 1 bit on the Conditional Test, but Conditional Test's VARREF 'COMPACT' generates 32 bits.
+                                                          : ... note: In instance 'anvil_en1_owner_kv_tile'
+  570 |                             component_hold >= (COMPACT ?
+      |                                                        ^
+%Warning-WIDTHTRUNC: rtl/anvil_en1_owner_kv_tile.sv:574:65: Logical operator COND expects 1 bit on the Conditional Test, but Conditional Test's VARREF 'COMPACT' generates 32 bits.
+                                                          : ... note: In instance 'anvil_en1_owner_kv_tile'
+  574 |                             head_hold >= (query_hold ? (COMPACT ? 4'd2 : 4'd8) :
+      |                                                                 ^
+%Warning-WIDTHTRUNC: rtl/anvil_en1_owner_kv_tile.sv:575:42: Logical operator LOGOR expects 1 bit on the LHS, but LHS's VARREF 'COMPACT' generates 32 bits.
+                                                          : ... note: In instance 'anvil_en1_owner_kv_tile'
+  575 |                                 (COMPACT || model_hold == 1 ? 4'd1 : 4'd2))) begin
+      |                                          ^~

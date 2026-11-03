@@ -1,0 +1,2 @@
+SUMMARY csr_icarus comparisons=9 reset_stalled_response=1
+tests/csr_tb.sv:79: $finish called at 210 (1s)

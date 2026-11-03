@@ -1,0 +1,1 @@
+{"status": "passed", "receipt": "evidence/behavior/run-20261103T140133Z-1e0dd0d1/norm-20261103T140151Z-4559acae/receipt.json", "failure": null}

@@ -1,0 +1,2 @@
+SUMMARY activation comparisons=4144 stalled=6216 cycles=1068961
+- tests/activation_tb.sv:120: Verilog $finish

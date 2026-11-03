@@ -1,0 +1,4 @@
+PROGRESS projection fixtures seed=17 cases=18
+PROGRESS projection fixtures seed=43 cases=36
+PROGRESS projection fixtures seed=89 cases=54
+{"status": "passed", "receipt": "evidence/behavior/run-20261103T140133Z-1e0dd0d1/projection-20261103T140245Z-67db0386/receipt.json", "failure": null}

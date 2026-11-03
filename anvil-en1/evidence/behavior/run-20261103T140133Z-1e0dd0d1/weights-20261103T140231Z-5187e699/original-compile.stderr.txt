@@ -1,0 +1,22 @@
+%Warning-WIDTHEXPAND: rtl/anvil_en1_fp32.sv:37:59: Operator ADD expects 64 bits on the LHS, but LHS's VARREF 'CONTROLLER_BITS' generates 32 bits.
+                                                 : ... note: In instance 'weight_read_tb.reader.internal_arithmetic.fp_unit'
+   37 |     assign controller_bytes = rst_n ? 64'((CONTROLLER_BITS+7) >> 3) : 64'd0;
+      |                                                           ^
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.020
+                      ... Use "/* verilator lint_off WIDTHEXPAND */" and lint_on around source to disable this message.
+%Warning-WIDTHEXPAND: rtl/anvil_en1_weight_read.sv:65:29: Operator ADD expects 64 bits on the LHS, but LHS's VARREF 'CONTROLLER_BITS' generates 32 bits.
+                                                        : ... note: In instance 'weight_read_tb.reader'
+   65 |         64'((CONTROLLER_BITS+7) >> 3) + fp_controller_bytes;
+      |                             ^
+%Warning-WIDTHTRUNC: rtl/anvil_en1_weight_read.sv:109:28: Operator ASSIGNW expects 8 bits on the Assign RHS, but Assign RHS's SHIFTR generates 32 bits.
+                                                        : ... note: In instance 'weight_read_tb.reader'
+  109 |     wire [7:0] nibble_byte = word_hold >> {lane_hold, 3'd0};
+      |                            ^
+%Warning-WIDTHTRUNC: tests/weight_read_tb.sv:92:13: Logical operator LOGNOT expects 1 bit on the LHS, but LHS's VARREF 'fd' generates 32 bits.
+                                                  : ... note: In instance 'weight_read_tb'
+   92 |         if (!fd)
+      |             ^
+%Warning-WIDTHTRUNC: tests/weight_read_tb.sv:145:30: Operator ASSIGNDLY expects 1 bits on the Assign RHS, but Assign RHS's ARRAYSEL generates 32 bits.
+                                                   : ... note: In instance 'weight_read_tb'
+  145 |                 result_error <= command_error[reads];
+      |                              ^~

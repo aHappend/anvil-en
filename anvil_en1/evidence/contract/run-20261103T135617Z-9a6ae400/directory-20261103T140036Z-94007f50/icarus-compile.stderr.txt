@@ -1,0 +1,2 @@
+tests/tensor_image_tb.sv:12: warning: Instantiating module anvil_en1_tensor_image with dangling input port 32 (image_immutable) floating.
+tests/tensor_image_tb.sv:12: warning: Instantiating module anvil_en1_tensor_image with dangling input port 33 (image_invalidate) floating.

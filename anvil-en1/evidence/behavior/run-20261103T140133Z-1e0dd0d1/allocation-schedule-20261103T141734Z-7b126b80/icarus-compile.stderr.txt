@@ -1,0 +1,2 @@
+rtl/anvil_en1_allocation_ledger.sv:1: warning: timescale for anvil_en1_allocation_ledger inherited from another file.
+tests/ledger_schedule_tb.sv:1: ...: The inherited timescale is here.

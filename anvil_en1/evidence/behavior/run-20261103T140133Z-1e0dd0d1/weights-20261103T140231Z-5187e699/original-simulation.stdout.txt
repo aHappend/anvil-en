@@ -1,0 +1,2 @@
+SUMMARY weight_read comparisons=1262 cycles=59171
+- tests/weight_read_tb.sv:65: Verilog $finish

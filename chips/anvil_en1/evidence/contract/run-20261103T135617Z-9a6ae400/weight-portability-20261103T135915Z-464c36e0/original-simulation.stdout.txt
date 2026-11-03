@@ -1,0 +1,2 @@
+SUMMARY weight_read comparisons=140 cycles=6300
+tests/weight_read_tb.sv:65: $finish called at 63000 (1s)

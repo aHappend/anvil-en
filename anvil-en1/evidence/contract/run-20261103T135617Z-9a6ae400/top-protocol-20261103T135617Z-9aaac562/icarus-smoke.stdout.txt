@@ -1,0 +1,2 @@
+SUMMARY top_contract rejections=17 csr_reads=2 memory_errors=1 canceled_requests=1 comparisons=63 reset_checks=10 cycles=177
+tests/top_contract_tb.sv:232: $finish called at 1770000 (1ps)

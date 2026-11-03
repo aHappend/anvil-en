@@ -1,0 +1,21 @@
+CASE ordered-m1-p0 reads=8656 responses=8656 cycles=68157 error=0
+CASE ordered-m1-p1 reads=8656 responses=8656 cycles=68157 error=0
+CASE ordered-m2-p0 reads=10656 responses=10656 cycles=83907 error=0
+CASE ordered-m2-p1 reads=10656 responses=10656 cycles=83907 error=0
+CASE unordered-directory reads=881836 responses=881836 cycles=6180408 error=0
+CASE unordered-payloads reads=881836 responses=881836 cycles=6180408 error=0
+CASE nonadjacent-duplicate-disjoint reads=70 responses=70 cycles=534 error=5
+CASE nonadjacent-overlap reads=70 responses=70 cycles=534 error=5
+CASE header-reserved reads=16 responses=16 cycles=119 error=5
+CASE entry-reserved reads=32 responses=32 cycles=241 error=5
+CASE incorrect-length reads=32 responses=32 cycles=241 error=5
+CASE directory-overlap reads=32 responses=32 cycles=241 error=5
+CASE payload-outside-image reads=32 responses=32 cycles=241 error=5
+CASE payload-overflow reads=32 responses=32 cycles=241 error=5
+CASE incorrect-shape reads=32 responses=32 cycles=241 error=5
+CASE image-base-overflow reads=0 responses=0 cycles=9 error=5
+CASE memory-error reads=21 responses=21 cycles=154 error=2
+CASE reset-phase-1 reads=8656 responses=8656 cycles=68165 error=0
+CASE reset-phase-2 reads=8656 responses=8656 cycles=68165 error=0
+CASE reset-phase-3 reads=8656 responses=8656 cycles=136310 error=0
+SUMMARY tensor_image cases=20 resets=3
