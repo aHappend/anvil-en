@@ -166,6 +166,25 @@ def instrument(source, destination, public_only=False):
             diagnostic_cycle, rsp_error);
     end
 """
+        fields = ("op", "model", "generation", "domain", "layer", "token", "length",
+                  "component", "slot", "bank", "target", "scalar_index", "data")
+        if all(re.search(r"\breq_" + field + r"\b", ports) for field in fields):
+            declarations = "\n".join(
+                f"    reg [31:0] diagnostic_request_{field} = 0;" for field in fields)
+            captures = "\n".join(
+                f"            diagnostic_request_{field} <= req_{field};" for field in fields)
+            formatting = " ".join(field + "=%0d" for field in fields)
+            arguments = ", ".join("diagnostic_request_" + field for field in fields)
+            monitor += declarations + """
+    always @(posedge clk) if (rst_n) begin
+        if (req_valid && req_ready) begin
+""" + captures + """
+        end
+        if (rsp_valid && rsp_ready && rsp_error != 0 && !diagnostic_response_seen)
+""" + (
+                '            $display("ORIGIN_REQUEST cycle=%0d path=%m ' + formatting +
+                '", diagnostic_cycle, ' + arguments + ");\n"
+            ) + "    end\n"
     if not monitor:
         return None
     monitor = """
